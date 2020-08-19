@@ -1,0 +1,4 @@
+.jekyll-cache*
+Gemfile.lock
+*.swp
+_site/*
