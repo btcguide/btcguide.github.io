@@ -36,4 +36,4 @@ There are no bailouts in Bitcoin. This guide is written for a less technical use
 You should be very familiar with the concepts behind bitcoin, but you do not need to be able to write code or use the command line (these steps are highly error prone anyway).
 
 This guide is free, and there are no refunds.
-We highly recommend you practice all of this first.
+We **highly** recommend you practice all of this first.
