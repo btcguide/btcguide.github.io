@@ -10,8 +10,8 @@ Everything in this guide should work on another operating system, but if you go 
 
 #### Minimum Equipment:
 * 1 Basic computer with a webcam - see below for more information about system requirements
-* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/)
-* 1 [Cobo Vault](https://cobo.com/hardware-wallet/cobo-vault)
+* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) - purchased directly from the manufacturer
+* 1 [Cobo Vault](https://cobo.com/hardware-wallet/cobo-vault) - purchased directly from the manufacturer
 * 1 USB stick or DVD-R (if you have a DVD drive) for installing [Ubuntu](https://ubuntu.com/) - DVD is slightly preferred (read-only, saves a USB port) if you have a choice.
 * 1 MicroSD card - must be <= 32 GB for `FAT` formatting, but no harm in it being much smaller
 * 1 pen and 3 pieces of paper

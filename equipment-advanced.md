@@ -3,10 +3,19 @@ title: Equipment (Advanced)
 ---
 
 
+## Buying Hardware Wallets
+To reduce the risk of tampering or counterfeits, buy your hardware wallets directly from the manufacturer in-person at a conference/meetup.
+If buying online, purchase directly from the manufacturer and avoid resellers.
+
+Protect your operational security by taking delivery to an alternate address instead of your home address (e.g. work address, PO box, shipping locker, etc)
+
+
 ## Dedicated Hardware
 While hardware wallets are designed to protect you from malware-infected host computers, using a dedicated machine (not your day-to-day computer) to connect to your hardware wallets adds [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)).
 For example, if your computer is malware-infected you could be running differen software then you intend which could try to trick (or in some cases even compromise) your hardware wallets.
 Having a dedicated device that is designed around security, can reduce the attack surface.
+
+It may be even safter to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targetted tampering en-route.
 
 ## Electrum Server
 If you decide to run your own Bitcoin Core full node and Electrum server, you’ll want an SSD hard drive, and it may be worth it to you to have a more powerful CPU.
