@@ -33,4 +33,4 @@ You might consider it safe to send to an address that you've previously received
 2. The fact that you were previously able to spend does indicate you have control but doesn't guarantee it.  In an extreme case, your host computer may have been malware infected and relaying the unsigned transaction to a 3rd party who actually controls the keys and they signed the transaction, in hopes of tricking you into making a large deposit (which they will steal).
 
 
-TODO: add setup instructions for eternally quarantined machine with Electrum (and/or a script).
+TODO: add setup instructions for eternally quarantined machine with extended public keys & paths only (running Electrum, Spectre, Caravan, or some other script).
