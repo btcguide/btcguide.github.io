@@ -2,7 +2,9 @@
 title: Home
 ---
 <h1>10x Security Guide</h1>
-<p>How to store bitcoin without a single point of failure</p>
+<p>
+  How to store bitcoin without a single point of failure. By <a href="https://twitter.com/mflaxman">@mflaxman</a>.
+</p>
 
 <h2>Disclaimer</h2>
 
@@ -10,10 +12,9 @@ INSERT HERE.
 
 <p>
   Multisig security is a difference in kind and not in degree.
-  We are used to the idea of something either existing or not existing, and a probablistic framework (say 2-of-3) is not something we are used to.
   The ability to make 1 (or more) catastrophic failures in the security of your bitcoin without suffering loss is extremely valuable.
   In order to do this, our multisig scheme must not contain any single point of failure.
-  By using a system that is fundamentally more secure, you can move much faster (with less caution) through any each step and still attain far higher levels of security vs a single-key system, which by design has many single points of failure.
+  By using a system that is fundamentally <strong>much</strong> more secure, you can move much faster (with less caution) through each step and still attain far higher levels of security vs any single-key system.
   This guide will show you how.
 </p>
 
@@ -21,23 +22,85 @@ INSERT HERE.
   The ultimate purpose of this guide is to make multisig accessible to a tech-savvy audience who does not write code.
   We will not require use of the command-line.
   <strong>
-    Unfortunately, right now there are some bugs/vulnerabilities that do require some command-line skills.
+    Unfortunately, right now there are some bugs/vulnerabilities that do require some command-line experience.
     For users who are not comfortable using the command-line, you are encouraged to wait for a future release.
   </strong>
-  You can track progress on known bugs/issues <a href="#">here</a>
+  You can track progress on known bugs/issues <a href="#">here</a>.
 </p>
 
-<p>
-  Let's get started in demonstrating how the most scarce commodity in human history is now also the most secureable.
-</p>
 
 <h4>Table of Contents</h4>
 
 <ol>
-  <li>Why Multisig</li>
+  <li>Why Multisig?</li>
+
   <li>Picking Your Quorum</li>
-  <li>Known Issues</li>
-  <ol>
-    <li>Issues with Electrum</li>
-  </ol>
+
+  <li>Configuring Electrum</li>
+
+  <li>Initializing Your Wallet
+    <ol>
+      <li>Paper Wallet</li>
+      <li>ColdCard</li>
+      <li>Cobo Vault</li>
+    </ol>
+  </li>
+
+  <li>Backing Up Your Wallet</li>
+
+  <li>Verifying Your Recieve Addresses
+    <ol>
+      <li>ColdCard</li>
+      <li>Cobo Vault</li>
+    </ol>
+  </li>
+
+  <li>Spending Bitcoin</li>
+</ol>
+
+<hr/>
+<p>
+  While this guide is intended to provide practical instructions, there's a lot of in-depth knowledge that went into it.
+</p>
+<ol>
+
+  <li>Known Issues
+    <ol>
+      <li>Electrum</li>
+      <li>ColdCard</li>
+      <li>Cobo Vault</li>
+      <li>SeedPicker</li>
+    </ol>
+  </li>
+
+  <li>Problems with Other Setups
+    <ol>
+
+      <li>Hosted Services
+	<ol>
+	  <li>Casa</li>
+	  <li>Unchained Capital</li>
+	</ol>
+      </li>
+
+      <li>
+	Other Software
+	<ol>
+	  <li>Spectre</li>
+	  <li>Caravan</li>
+	</ol>
+      </li>
+
+      <li>Hardware Wallets
+	<ol>
+	  <li>Trezor</li>
+	  <li>Ledger</li>
+	  <li>KeepKey</li>
+	  <li>BitBox</li>
+	</ol>
+      </li>
+
+    </ol>
+  </li>
+
 </ol>
