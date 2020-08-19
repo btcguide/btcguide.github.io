@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: /about
 - name: Disclaimer
-  link: /disclaimer.html
+  link: /disclaimer
 - name: Compensation
-  link: /compensation.html
+  link: /compensation
