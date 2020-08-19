@@ -1,4 +1,4 @@
-# 10x-security-guide.github.io
+# btcguide.github.io
 
 ```bash
 $ bundle exec jekyll serve
