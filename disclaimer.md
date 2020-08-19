@@ -1,5 +1,5 @@
 ---
-title: disclaimer
+title: Disclaimer
 ---
 
 ### 1. Information published on btcguide.github.io
