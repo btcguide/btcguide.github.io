@@ -31,7 +31,11 @@ For example, it's great to start with a 2-of-3 keys setup and eventually move to
 This could include things like malware on your computer, an exploitable software/firmware bug on your hardware wallet, a pwned hardware wallet, a lost/stolen hardware wallet / seed, a supply channel attack, a forgotten password / PIN / passphrase, an evil-maid, a rogue bank employee snooping in your safe deposit box, an unscrupulous third party (lawyer/accountant), an eager heir, etc.
 **While this setup is far more secure than a traditional single key signature, do be mindful that the wrong combination of 2+ of things like this happening could be enough to cause you to lose all of your bitcoins!**
 
-At each step, there are recommendations for how you can harden your security, and you alone will have to decide how much time and money you want to spend to be more secure. The steps described below are considered the bare minimum amount of effort needed to store bitcoin without being reckless.
+[Multisig is not as easy as we would like it to be](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c), but it is getting much better.
+It is finally at the point where the security benefits far outweigh the costs.
+
+At each step, there are recommendations for how you can harden your security, and you alone will have to decide how much time and money you want to spend to be more secure.
+The steps described below are considered the bare minimum amount of effort needed to store bitcoin without being reckless.
 There are no bailouts in Bitcoin. This guide is written for a less technical user who wants the optimal amount of security for the least amount of work.
 You should be very familiar with the concepts behind bitcoin, but you do not need to be able to write code or use the command line (these steps are highly error prone anyway).
 
