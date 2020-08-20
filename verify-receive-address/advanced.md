@@ -1,5 +1,5 @@
 ---
-title: Verify Receive Address (Advanced)
+title: Verify Receive Address - Advanced
 ---
 
 ## Save a File on Setup
