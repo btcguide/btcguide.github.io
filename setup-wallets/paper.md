@@ -7,7 +7,7 @@ TODO: requires xfp, would prefer output to `.json` format
 For now, requires CLI script to supplement, so using option B exclusively as it's one step.
 
 #### Option B - HumanRNG
-WIP: [https://github.com/mflaxman/human-rng-golang](HumanRNG)
+WIP: [https://github.com/mflaxman/human-rng-golang](https://github.com/mflaxman/human-rng-golang)
 
 
 {% include advanced_config.md %}
