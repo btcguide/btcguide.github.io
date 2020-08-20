@@ -1,5 +1,5 @@
 ---
-title: Setup Your Hardware Wallets - Overview
+title: Backup Public Keys
 ---
 
 FIXME: add content

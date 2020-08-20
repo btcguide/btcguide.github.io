@@ -9,5 +9,5 @@ For now, requires CLI script to supplement, so using option B exclusively as it'
 #### Option B - HumanRNG
 WIP: [https://github.com/mflaxman/human-rng-golang](HumanRNG)
 
-# Advanced Configuration
-For advanced instructions on paper wallet setup, see [here](/setup-wallets/paper-advanced).
+
+{% include advanced_config.md %}

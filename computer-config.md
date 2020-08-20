@@ -17,5 +17,4 @@ Remember that this alone is not sufficient to steal/lockup funds, so it may pres
 For more details, see [Paper Wallet Initialization](/initialize-paper-wallet)
 
 
-# Advanced Configuration
-For advanced topics on computer configuration, see [here](/computer-config-advanced).
+{% include advanced_config.md %}

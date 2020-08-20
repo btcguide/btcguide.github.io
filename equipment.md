@@ -41,5 +41,4 @@ For non-experts, we recommend using a product such as [Nodl](https://www.nodl.it
 If your machine is up to the task, it's fine to run your Bitcoin Core node on any day-to-day computer (if you don't mind it running in the background).
 
 
-# Advanced Equipment Selection
-For advanced topics on hardware, see [here](/equipment-advanced).
+{% include advanced_config.md %}

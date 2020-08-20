@@ -41,3 +41,5 @@ You should be very familiar with the concepts behind bitcoin, but you do not nee
 
 This guide is free, and there are no refunds.
 We **highly** recommend you practice all of this first.
+
+{% include advanced_config.md %}

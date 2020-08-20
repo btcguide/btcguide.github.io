@@ -18,4 +18,4 @@ This is actually more advanced that it seems, see [this section]() for more info
 To eliminate a single point of failure, you’ll need at least 2 hardware wallets, made by 2 different manufacturers.
 In order to avoid having to buy three hardware wallets (and because there are  third hardware wallet, we’ll generate this third key less securely on your computer (offline).
 
-For advanced topics on quorum selection, see [here](/quorum-advanced).
+{% include advanced_config.md %}

@@ -17,5 +17,4 @@ The good news is that you’re using at least two signatures (from two different
 Hardware wallets by default refuse to update their own firmware unless the manufacturer has cryptographically signed the update, meaning it should be impossible for a third party to trick you into installing their “update” instead.
 Still, it’s a good idea to exercise common sense and be a little paranoid here.
 
-# Advanced Configuration
-For advanced instructions on Coldcard setup, see [here](/setup-wallets/coldcard-advanced).
+{% include advanced_config.md %}

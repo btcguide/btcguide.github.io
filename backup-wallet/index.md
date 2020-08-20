@@ -12,5 +12,4 @@ There are two components to your wallet that you need to backup to guarantee rec
 * [Backup Seeds Instructions](/backup-wallet/seeds)
 * [Backup Extended Public Keys](/backup-wallet/public-keys)
 
-## Advanced Configuration
-For advanced backup instructions, see [here](/backup-wallet/advanced).
+{% include advanced_config.md %}
