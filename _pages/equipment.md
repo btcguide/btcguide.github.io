@@ -12,7 +12,6 @@ You will need an up-to-date Bitcoin Core Full Node, which can be running on this
 For more information about this, see the section called [Running Bitcoin](/running-bitcoin).
 Bitcoin Core's initial block download takes a few days to sync, so we recommend you take care of that while you wait for your hardware wallets to arrive.
 
-
 #### Minimum Equipment to Buy:
 * 1 Basic computer with a webcam - see below for more information about system requirements
 * 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) - purchased directly from the manufacturer
@@ -38,7 +37,7 @@ You do not need to use a laptop, any desktop computer can work. We find laptops 
 ## Bitcoin Core Node
 For non-experts, we recommend using a product such as [Nodl](https://www.nodl.it/), [MyNode](https://mynodebtc.com/), [Casa Node 2](https://keys.casa/lightning-bitcoin-node), or [LuxNode](https://luxnode.io/) as they will be easiest to configure.
 
-If your machine is up to the task, it's fine to run your Bitcoin Core node on any day-to-day computer (if you don't mind it running in the background).
-
+If your machine is up to the task, it's fine to run your Bitcoin Core node on any day-to-day computer.
+If you have enough hard drive space and don't mind the software running in the background.
 
 {% include advanced_config.md %}

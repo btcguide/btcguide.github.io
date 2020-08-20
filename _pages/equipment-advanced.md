@@ -22,7 +22,7 @@ It may be even safter to buy your computer and other equipment (USB sticks, DVDs
 ## Bitcoin Core Node
 For improved security, build your own bitcoin-core node from scratch!
 You can read more about Bitcoin Core’s requirements [here](https://bitcoin.org/en/bitcoin-core/features/requirements).
-Keep in mind that you can run a pruned full node on as little hardware as a Raspberry Pi.
+You can run a pruned full node on as little hardware as a Raspberry Pi, but keep in mind that you must (re)scan the whole blockchain **after** you setup your hardware wallets.
 Depending on your performance/reliability needs, you may want an SSD drive for your Bitcoin Core node.
 It may also be worth it to you to have a more powerful CPU.
 
