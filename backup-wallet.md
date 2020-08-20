@@ -2,14 +2,10 @@
 title: Backup Wallet
 ---
 
-#### Copies
-You need to backup your keys (bip39 seed phrase), so that you can recover if your hardware wallet fails, is lost, gets wet, etc.
-Write down your 24-word seed on a piece of paper.
-If your hardware wallet is lost or destroyed, your seeds (along with your bip32 paths) is all you need.
-
-#### Multiple Locations
-Do not store store a quorum of your seeds in one place!
-This includes backups.
+#### Seeds vs Public Keys
+There are two components to your wallet that you need to backup to guarantee recovery:
+* **Seeds** (BIP39 phrases) - these are your 12-24 phrases. You only need to have `m` (of your total `n`) seeds to recover your funds. These should be guarded very carefully as anyone who gets access to these can steal your bitcoin! Seeds should be stored in different locations.
+* **Extended Public Keys** and related configuration settings (bip32 paths, quorum settings, and master public key fingerprints) - one confusing thing about multisig is that you need *all* of your exenteded public keys (and related configuration settings) in order to be able to recover your funds. These do not need to be guarded nearly as carefully, as anyone who gets access to this can only see which bitcoin addresses belong to you (but cannot spend from them). For non-expert users, we recommend making *lots* of redundant copies of this, and storing a copy of *all* extended public keys with *each* individual seed.
 
 ## Advanced Configuration
 For advanced backup instructions, see [here](/backup-wallet-advanced).
