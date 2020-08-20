@@ -8,7 +8,7 @@ title: Pitfalls
 
     <li>Known Issues with 10x Security Guide
       <ol>
-	<li>CLI Usage Required</li>
+	<li><a href="known-issues/cli">CLI Usage Required</a></li>
 	<li><a href="known-issues/seeds-and-privacy">Seeds and Privacy</a></li>
 	<li>Spectre</li>
 	<li>ColdCard</li>
