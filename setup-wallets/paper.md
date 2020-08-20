@@ -2,9 +2,11 @@
 title: Setup Paper Wallet
 ---
 #### Option A - Seedpicker
-TODO: requires xfp, would prefer output to `.json` format
+[http://seedpicker.net/](http://seedpicker.net/)
 
-For now, requires CLI script to supplement, so using option B exclusively as it's one step.
+Since seedpicker currently requires a CLI script to supplement it, we're using option B exclusively (a CLI script that does everything in one step).
+
+See [Known Issues](known-issues/cli)
 
 #### Option B - HumanRNG
 WIP: [https://github.com/mflaxman/human-rng-golang](https://github.com/mflaxman/human-rng-golang)
