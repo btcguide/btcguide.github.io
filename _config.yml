@@ -3,3 +3,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+
+# https://github.com/jekyll/jekyll/issues/920#issuecomment-315503935
+collections:
+  pages:
+    output: true
+    permalink: /:path
