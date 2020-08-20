@@ -1,5 +1,5 @@
 ---
-title: Initialize Paper Wallet - Advanced Instructions
+title: Setup Paper Wallet - Advanced Instructions
 ---
 
 #### Tails Operating System

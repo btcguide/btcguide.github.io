@@ -1,5 +1,5 @@
 ---
-title: Intialize Paper Wallet
+title: Setup Paper Wallet
 ---
 #### Option A - Seedpicker
 
@@ -7,4 +7,4 @@ title: Intialize Paper Wallet
 [https://github.com/mflaxman/human-rng-golang](HumanRNG)
 
 # Advanced Configuration
-For advanced instructions on paper wallet setup, see [here](/initialize-paper-wallet-advanced).
+For advanced instructions on paper wallet setup, see [here](/setup-paper-wallet-advanced).
