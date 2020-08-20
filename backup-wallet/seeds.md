@@ -12,4 +12,4 @@ Do not store store a quorum of your seeds in one place!
 This includes backups.
 
 ## Advanced Configuration
-For advanced backup instructions, see [here](/backup-wallet-advanced).
+For advanced backup instructions, see [here](/backup-wallet/seeds-advanced).
