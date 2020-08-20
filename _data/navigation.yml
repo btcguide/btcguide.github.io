@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: About
-  link: /about
+- name: Contributors
+  link: /contributors
 - name: Disclaimer
   link: /disclaimer
 - name: Compensation
