@@ -18,4 +18,4 @@ Hardware wallets by default refuse to update their own firmware unless the manuf
 Still, it’s a good idea to exercise common sense and be a little paranoid here.
 
 # Advanced Configuration
-For advanced instructions on Coldcard setup, see [here](/setup-coldcard-advanced).
+For advanced instructions on Coldcard setup, see [here](/setup-wallets/coldcard-advanced).

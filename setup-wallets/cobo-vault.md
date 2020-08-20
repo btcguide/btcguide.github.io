@@ -14,4 +14,4 @@ TODO: can spectre do this over QR airgap?
 
 
 ## Advanced Configuration
-For advanced instructions on Coldcard setup, see [here](/setup-coldcard-advanced).
+For advanced instructions on Coldcard setup, see [here](/setup-wallets/cobo-vault-advanced).
