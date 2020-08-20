@@ -21,11 +21,6 @@ Bitcoin Core's initial block download takes a few days to sync, so we recommend 
 * 1 MicroSD card - must be <= 32 GB for `FAT` formatting, but no harm in it being much smaller
 * 1 pen and 3 pieces of paper to write down seeds
 
-#### Recommended Additions
-* 1 extra MicroSD card - so each hardware wallet has its own dedicated MicroSD card.
-* 3 x physical metal bitcoin seed storage devices (review of several [https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/](here)) - more durable than pen and paper
-
-
 #### Computer System Requirements
 The software you’re running on this machine has very low resource requirements, so you can likely repurpose an old existing laptop that you have laying around.
 You can read the exact Ubuntu Desktop System requirements [here](https://help.ubuntu.com/community/Installation/SystemRequirements).

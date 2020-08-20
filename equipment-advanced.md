@@ -2,6 +2,9 @@
 title: Equipment (Advanced)
 ---
 
+#### Recommended Additions
+* 1 extra MicroSD card - so each hardware wallet has its own dedicated MicroSD card.
+* 3 x physical metal bitcoin seed storage devices (review of several [https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/](here)) - more durable than pen and paper
 
 ## Buying Hardware Wallets
 To reduce the risk of tampering or counterfeits, you can buy your hardware wallets directly from the manufacturer in-person at a conference/meetup.
