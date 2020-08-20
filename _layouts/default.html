@@ -2,7 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>10x Bitcoin Security Guide | {{ page.title }}</title>
+    <title>
+      {% if page.url != "/" %}10x Bitcoin Security Guide | {% endif %}
+      {{ page.title }}
+    </title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
