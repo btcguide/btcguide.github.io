@@ -8,7 +8,7 @@ TODO: add content
 
 {% comment %}TODO: auto-gen this TOC somehow?{% endcomment %}
 ## Table of Contents
-* [Spectre Instructions](/verify-receive-address/spectre)
+* [Specter Instructions](/verify-receive-address/specter)
 * [Cobo Vault Instructions](/verify-receive-address/cobo)
 * [ColdCard Instructions](/backup-wallet/public-keys)
 

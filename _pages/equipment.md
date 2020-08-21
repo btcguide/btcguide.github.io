@@ -7,7 +7,7 @@ TODO: add diagram showing how all these pieces interact.
 This guide will assume your computer is running the free and open source [Ubuntu](https://ubuntu.com/) operating system, because it offers a good mix of security, bitcoin software compatibility, and end-user configurability.
 Advanced users should be able to get other operating systems to work, but you will be on your own to figure that out for now (pull requests welcome).
 
-The purpose of the computer will be to run [Spectre-Desktop](https://github.com/cryptoadvance/specter-desktop), which will communicate blockchain information between [Bitcon Core](https://bitcoin.org/en/full-node) and your hardware wallets for verification and signing.
+The purpose of the computer will be to run [Specter-Desktop](https://github.com/cryptoadvance/specter-desktop), which will communicate blockchain information between [Bitcon Core](https://bitcoin.org/en/full-node) and your hardware wallets for verification and signing.
 You will need an up-to-date Bitcoin Core Full Node, which can be running on this same computer or another.
 For more information about this, see the section called [Running Bitcoin](/running-bitcoin).
 Bitcoin Core's initial block download takes a few days to sync, so we recommend you take care of that while you wait for your hardware wallets to arrive.

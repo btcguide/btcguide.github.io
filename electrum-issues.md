@@ -2,8 +2,8 @@
 title: Electrum Issues
 ---
 
-In theory, it would be possible to do everything described in this guide using [Electrum](https://electrum.org/) instead of [Spectre Desktop](https://github.com/cryptoadvance/specter-desktop).
-However, there are a number of reasons we're using [Spectre Desktop](https://github.com/cryptoadvance/specter-desktop) instead.
+In theory, it would be possible to do everything described in this guide using [Electrum](https://electrum.org/) instead of [Specter Desktop](https://github.com/cryptoadvance/specter-desktop).
+However, there are a number of reasons we're using [Specter Desktop](https://github.com/cryptoadvance/specter-desktop) instead.
 
 #### Electrum Has a Very Slow Release Schedule
 This may be due to the fact that it's a large project used for many different things (lightning, coin selection, hardware wallet integration, multisig, etc), or its nonstandard use of git (it operates with a "dirty" master branch).
@@ -23,7 +23,7 @@ While it is possible to run your own Electrum Server (on top of your own Bitcoin
 
 #### Confusing UX
 Electrum's UX his full of pitfalls that will technically not cause loss of funds but can easily confuse non-expert users who may then make mistakes leading to loss of funds.
-Spectre's UX is better than Electrum and it is improving rapidly.
+Specter's UX is better than Electrum and it is improving rapidly.
 
 
 TODO: add more links

@@ -8,7 +8,7 @@ TODO: add content
 
 {% comment %}TODO: auto-gen this TOC somehow?{% endcomment %}
 ## Table of Contents
-* [Spectre Instructions](/send-bitcoin/spectre)
+* [Specter Instructions](/send-bitcoin/specter)
 * [Cobo Vault Instructions](/send-bitcoin/cobo)
 * [ColdCard Instructions](/send-bitcoin/cobo)
 * [Paper Wallet (Recovery) Instructions](/send-bitcoin/paper)

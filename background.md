@@ -10,7 +10,7 @@ title: Pitfalls
       <ol>
 	<li><a href="known-issues/cli">CLI Usage Required</a></li>
 	<li><a href="known-issues/seeds-and-privacy">Seeds and Privacy</a></li>
-	<li>Spectre</li>
+	<li>Specter</li>
 	<li>ColdCard</li>
 	<li>Cobo Vault</li>
 	<li>SeedPicker</li>

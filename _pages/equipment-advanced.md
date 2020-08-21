@@ -30,7 +30,7 @@ It may also be worth it to you to have a more powerful CPU.
 Verifying recieve addresses on a quorum of trusted devices can be cumbersome, especially if they're in separate physical locations.
 One hack people use is to setup a dedicated machine that is eternally quarantined (never connected to the internet) to assist in this process.
 This machine is setup once and never needs to be configured again, it's preferred that this machine not have internet access.
-If you choose to do this, you can use the lowest performance machine that is capable of running Spectre.
+If you choose to do this, you can use the lowest performance machine that is capable of running Specter.
 It's a great way to use an old Raspberry Pi for example.
 TODO: update with exact resource requirements for various methods.
 
