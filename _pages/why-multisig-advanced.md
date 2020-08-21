@@ -11,6 +11,7 @@ Here are some changes that have brought multisig into mainstream:
 * Multiple hardware wallets now support multisig, and their quality is increasing (better airgaps, hardware, UX, compatibility, etc)
 * Multiple software implementations now exist to coordinate multisig transactions (Electrum, specter-desktop, Caravan) as well as paid services (Casa, Unchained Capital, etc)
 * Lower fees: segwit gives a witness discount for p2wsh transactions
+* Safer airgap signing: segwit makes hardware wallet sign the input values on transactions directly, making it harder to exploit vulnerabilities in the rest of your stack
 * Open-source software like [seedpicker](http://seedpicker.net/) has been released that lets you add 1-2 keys to your multisig quorum for recovery without having to purchase aditional hardware wallets (until/unless you need to perform recovery)
 
 TODO: add list of single-key sig vulnerabilities:

@@ -12,9 +12,11 @@ Both options are good, though we find DVDs are slightly preferable as they are s
 See [these step-by-step instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop).
 
 
-\*While we recommend that no private key material ever touch this machine, that setup is slightly more involved and thus you may choose to have 1 key only touch this machine (and then wipe the machine after).
+---
+
+_\*While we recommend that no private key material ever touch this machine, that setup is slightly more involved and thus you may choose to have 1 key touch this machine briefly (and then wipe the machine after).
 Remember that this alone is not sufficient to steal/lockup funds, so it may present an acceptable tradeoff, at least for smaller HODLers.
-For more details, see [Paper Wallet Initialization](/initialize-paper-wallet)
+For more details, see [Paper Wallet Initialization](/initialize-paper-wallet), where we recommend additional steps to harden your security ._
 
 
 {% include advanced_config.md %}
