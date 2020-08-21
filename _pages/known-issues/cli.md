@@ -12,5 +12,6 @@ to add this functionality.
 
 You can see more about this step [here](/spectre-config)
 
-#### Calculating Root Fingerprint
-[SeedPicker currently doesn't display the root fingerprint](https://github.com/merland/seedpicker/issues/23), [the existing tools](setup-wallets/paper) require using the command line.
+#### Calculating Root Fingerprint on Paper Wallet Generation
+The exsiting GUI tools do not support calculating the root fingerprint needed for multisig.
+More info [here](setup-wallets/paper)
