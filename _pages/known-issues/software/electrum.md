@@ -1,5 +1,5 @@
 ---
-title: Electrum Issues
+title: Known Issues - Electrum Issues
 ---
 
 In theory, it would be possible to do everything described in this guide using [Electrum](https://electrum.org/) instead of [Specter Desktop](https://github.com/cryptoadvance/specter-desktop).
