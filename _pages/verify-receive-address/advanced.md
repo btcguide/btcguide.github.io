@@ -8,7 +8,7 @@ TODO
 
 ## Clever Attack (and mitigation)
 Let's say you have a 2-of-3 multisig, your host computer is infected with malware and your "Cobo Vault" is compromised/fake.
-Here is an attack where you could be tricked into using an address that you don't actually control to recieve funds:
+Here is an attack where you could be tricked into using an address that you don't actually control to receive funds:
 1. Host computer displays a 2-of-3 receiving address, where your Cobo Vault is not part of the multisig (or represents only 1-of-3 needed keys).
 2. You pull out your "Cobo Vault" and it (falsely) confirm the same receive address on the screen.
 3. You then deposit funds to this address, and are confused when they magically vanish.

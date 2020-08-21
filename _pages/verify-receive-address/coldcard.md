@@ -1,5 +1,5 @@
 ---
-title: Verify Recieve Address on Coldcard 
+title: Verify Receive Address on Coldcard 
 ---
 
 TODO: add content

@@ -1,5 +1,5 @@
 ---
-title: Verify Recieve Address
+title: Verify Receive Address
 ---
 
 #### Complexity of Multsig Here

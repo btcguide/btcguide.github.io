@@ -1,5 +1,5 @@
 ---
-title: Verify Recieve Address on Specter
+title: Verify Receive Address on Specter
 ---
 
 TODO: add content

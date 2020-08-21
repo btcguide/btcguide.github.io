@@ -1,5 +1,5 @@
 ---
-title: Verify Recieve Address on Cobo Vault 
+title: Verify Receive Address on Cobo Vault 
 ---
 
 TODO: add content

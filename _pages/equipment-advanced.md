@@ -27,7 +27,7 @@ Depending on your performance/reliability needs, you may want an SSD drive for y
 It may also be worth it to you to have a more powerful CPU.
 
 ## Receive Address Verification Hardware
-Verifying recieve addresses on a quorum of trusted devices can be cumbersome, especially if they're in separate physical locations.
+Verifying receive addresses on a quorum of trusted devices can be cumbersome, especially if they're in separate physical locations.
 One hack people use is to setup a dedicated machine that is eternally quarantined (never connected to the internet) to assist in this process.
 This machine is setup once and never needs to be configured again, it's preferred that this machine not have internet access.
 If you choose to do this, you can use the lowest performance machine that is capable of running Specter.
