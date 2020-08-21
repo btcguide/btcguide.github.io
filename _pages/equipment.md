@@ -19,6 +19,7 @@ Bitcoin Core's initial block download takes a few days to sync, so we recommend 
 * 1 DVD-R (if you have a DVD drive) or USB stick for installing [Ubuntu](https://ubuntu.com/)
 * 1 MicroSD card - must be <= 32 GB for `FAT` formatting, but no harm in it being much smaller
 * 1 Pen and 3 pieces of paper (or notecards) to write down seeds
+* Printer - to print out [2 pages](/assets/guide/cold_code_bip39_wordlist.pdf) of completely public information. You don't need to buy a printer if you can ask someone else to print this out for you. You will also need scissors to cut out the words.
 
 #### Computer System Requirements
 The software you’re running on this machine has very low resource requirements, so you can likely repurpose an old existing laptop that you have laying around.

@@ -19,7 +19,12 @@ It's read-only, and has less attack surface vs the whole USB stack.
 If your DVD drive is built into a laptop, then it's also nice that it doesn't require using up one of your USB ports.
 You can also use this for ferrying public information (extended public keys, fingerprints, bip32 paths, etc), see [Setup Your Hardware Wallets](/setup-wallets) for more info.
 
-## Buying Hardware Wallets
+#### Extra DVDs or USB Sticks for Backing Up Public Key Material
+The data these protect will only affect your privacy (not security), so you can secure it in many ways (store on your hard drive, print to paper, backup to cloud, etc).
+Since this is longer than a seed phrase, a digital medium (DVD or USB drive) is preferred.
+If you keep 2 copies per seed (and have 3 seeds in total), then you're going to need 6 DVD-Rs (or 6 USB pen drives).
+
+## Sourcing Hardware Wallets
 To reduce the risk of tampering or counterfeits, you can buy your hardware wallets directly from the manufacturer in-person at a conference/meetup.
 If buying online, purchase directly from the manufacturer and avoid resellers.
 
