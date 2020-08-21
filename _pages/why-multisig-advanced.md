@@ -19,3 +19,9 @@ TODO: add list of single-key sig vulnerabilities:
 * Supply chain attack
 * Software bug
 * etc
+
+#### Multisig vs Shamir's Secret Sharing Scheme
+Multisig is strictly superior to Shamir's Secret Sharing Scheme, and while it is elegant in theory it is very easy to mess up in practice.
+We prefer to call it [Shamir Secret Snakeoil](https://en.bitcoin.it/wiki/Shamir_Secret_Snakeoil).
+Shamir's Secret Sharing Scheme should only be considered **after** you've maxed out your multisig scheme (3-of-5 for most use-cases) and need additional protection.
+For that use-case, you may want to look into [SLIP-0039](https://github.com/satoshilabs/slips/blob/master/slip-0039.md) or alternatively divide 1 (or more) of the BIP39 seed passphrases using Shamir's Secert Sharing Scheme.
