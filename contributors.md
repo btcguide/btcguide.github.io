@@ -2,6 +2,9 @@
 title: Contributors
 ---
 
+[Pull requests](https://github.com/btcguide/btcguide.github.io) to improve this guide are always welcome.
+
+
 #### Project Lead
 [Michael Flaxman](https://twitter.com/mflaxman)
 
