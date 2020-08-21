@@ -2,9 +2,22 @@
 title: Equipment (Advanced)
 ---
 
-#### Recommended Additions
-* 1 extra MicroSD card - so each hardware wallet has its own dedicated MicroSD card.
-* 3 x physical metal bitcoin seed storage devices (review of several [https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/](here)) - more durable than pen and paper
+## Recommended Additions
+
+#### Extra MicroSD card
+So each hardware wallet has its own dedicated MicroSD card.
+This reduces the risk that malware on one hardware wallet could attempt to infect another.
+
+#### Physical Metal Bicoin Seed Storage
+You want one for each seed, or 3 in total.
+These are far more durable than words written on pen and paper.
+Here are [reviews of several](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/).
+
+#### DVD Drive Instead of USB Drive
+Using a DVD for installing Ubuntu is slightly preferred over a USB drive.
+It's read-only, and has less attack surface vs the whole USB stack.
+If your DVD drive is built into a laptop, then it's also nice that it doesn't require using up one of your USB ports.
+You can also use this for ferrying public information (extended public keys, fingerprints, bip32 paths, etc), see [Setup Your Hardware Wallets](/setup-wallets) for more info.
 
 ## Buying Hardware Wallets
 To reduce the risk of tampering or counterfeits, you can buy your hardware wallets directly from the manufacturer in-person at a conference/meetup.
