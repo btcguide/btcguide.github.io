@@ -10,8 +10,8 @@ Currently, Specter must be downloaded and run from the command line, but there i
 [an open pull request](https://github.com/cryptoadvance/specter-desktop/pull/273)
 to add this functionality.
 
-You can see more about this step [here](/specter-config)
+You can see more about this step [here](/specter-config).
 
 #### Calculating Root Fingerprint on Paper Wallet Generation
-The exsiting GUI tools do not support calculating the root fingerprint needed for multisig.
-More info [here](setup-wallets/paper)
+The exsiting GUI tools do not support calculating the root fingerprint which is needed for multisig.
+More info [here](../setup-wallets/paper).
