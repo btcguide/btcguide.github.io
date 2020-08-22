@@ -7,9 +7,9 @@ TODO
 
 
 ## Clever Attack (and mitigation)
-Let's say you have a 2-of-3 multisig, your host computer is infected with malware and your "Cobo Vault" is compromised/fake.
+Let's say you have a `2-of-3` multisig, your host computer is infected with malware and your "Cobo Vault" is compromised/fake.
 Here is an attack where you could be tricked into using an address that you don't actually control to receive funds:
-1. Host computer displays a 2-of-3 receiving address, where your Cobo Vault is not part of the multisig (or represents only 1-of-3 needed keys).
+1. Host computer displays a `2-of-3` receiving address, where your Cobo Vault is not part of the multisig (or represents only `1-of-3` needed keys).
 2. You pull out your "Cobo Vault" and it (falsely) confirm the same receive address on the screen.
 3. You then deposit funds to this address, and are confused when they magically vanish.
 
@@ -26,7 +26,7 @@ Factors that make it less risky to consider this approach:
 1. When the amount you're transacting is low
 2. When the computer you're using to verify this address is a dedicated machine (or even better an eternally quarantined machine).
 3. When you previously saved (preferably printed) a file with addresses and verified them on a quorum of machines, this address matches that file, and you are confident that nobody tampered with the file.
-4. When performing a 3-of-5 multisig transaction where you verified the address on 2 trusted devices in the quorum (but not the full 3).
+4. When performing a `3-of-5` multisig transaction where you verified the address on 2 trusted devices in the quorum (but not the full 3).
 
 You might consider it safe to send to an address that you've previously received funds on and been able to spend, but this has two serious issues:
 1. This is known as address reuse, and it's a bad for both privacy and security in the event of a quantum computer. TODO: add link.

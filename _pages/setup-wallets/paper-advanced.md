@@ -4,7 +4,7 @@ title: Setup Paper Wallet - Advanced Instructions
 
 ## Use a Clean Machine
 If there were malware on your machine and this seed escaped, it would **signficantly** degrade the security of your multisig scheme.
-Assuming your attacker has 1 of your 2-of-3 needed keys, then you effectively now have a 1-of-2 scheme.
+Assuming your attacker has 1 of your `2-of-3` needed keys, then you effectively now have a `1-of-2` scheme.
 
 #### Option A (Preferred): Tails Operating System
 For our one-time offline key generation, it is preferable to use a live operating system that doesn't store data on the filesystem.
