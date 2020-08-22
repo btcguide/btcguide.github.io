@@ -15,6 +15,6 @@ For this guide, we’re going with `2-of-3`, as we’ve found it’s an excellen
 Once you’ve got that down, you may want to pick larger numbers in the future.
 
 To eliminate a single point of failure, you’ll need at least 2 hardware wallets, made by 2 different manufacturers.
-In order to avoid having to buy three hardware wallets (and because there are so few good hardware wallet vendors with multisig support), we’ll generate this third key less securely on your computer (offline).
+In order to avoid having to buy three hardware wallets (and because there are so few good hardware wallet vendors with multisig support), we’ll generate this third key less securely on your computer **offline**.
 
 {% include advanced_config.md %}
