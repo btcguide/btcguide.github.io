@@ -15,6 +15,7 @@ Here are some changes that have brought multisig into mainstream:
 * Open-source software like [seedpicker](http://seedpicker.net/) has been released that lets you add 1-2 keys to your multisig quorum for recovery without having to purchase aditional hardware wallets (until/unless you need to perform recovery)
 
 TODO: add list of single-key sig vulnerabilities:
+* [Terrifying Talk on HW wallet Vulnerabilties](https://twitter.com/mflaxman/status/1149018598708568065)
 * Chosen nonce attack
 * Supply chain attack
 * Software bug
