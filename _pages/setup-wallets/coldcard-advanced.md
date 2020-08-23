@@ -1,9 +1,6 @@
 ---
-title: Setup Coldcard
+title: Setup Coldcard - Advanced
 ---
-
-#### Manually Verify the Firmware Before Installing
-TODO: add instructions
 
 #### Avoid Plugging in the Coldcard
 
