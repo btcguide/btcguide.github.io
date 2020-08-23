@@ -9,7 +9,7 @@ We'll see below that you want your m-of-n multisig threshold to be `1 < m < n`.
 #### Problems with 1-of-n
 This has similar security to a single-key signature, with many possible single keys that are capable of signing.
 A vulnerability in any one of these seeds (random number generation, the hardware wallet used, etc) could lead to loss of all your bitcoin.
-You suffer the [negatives of multisig](known-issues/multisig) without the positive.
+You suffer [the negatives of multisig](known-issues/multisig) without the positive.
 
 **Recommendation: only expert users with a unique use-case should ever consider this.**
 
