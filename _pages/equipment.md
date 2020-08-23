@@ -36,7 +36,7 @@ You do not need to use a laptop, any desktop computer can work. We find laptops 
 * Minor attributes: they have less cables for the mouse/keyboard (helpful when dealing with all the clutter of multiple hardware wallets) and they often have touchscreens (nice for simpler operations).
 
 ## Bitcoin Core Node
-For non-experts, we recommend using a product such as [MyNode](https://mynodebtc.com/), [Nodl](https://www.nodl.it/), or [RaspiBlitz](https://shop.fulmo.org/raspiblitz/) as they will be easiest to configure.
+For non-experts, we recommend using a product such as [MyNode](https://mynodebtc.com/), [Nodl](https://www.nodl.it/), [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), or [Umbrel](https://getumbrel.com/) as they will be easiest to configure.
 
 If your machine is up to the task, it's fine to run your Bitcoin Core node on any day-to-day computer.
 If you have enough hard drive space and don't mind the software running in the background.
