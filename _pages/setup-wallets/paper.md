@@ -3,7 +3,7 @@ title: Setup Paper Wallet
 ---
 
 **Warning: this step is the highest risk in our scheme.**
-Follow the instructions closely and consider hardening your security by using techniques described in [the advanced section](/paper-advanced).
+Follow the instructions closely and consider hardening your security by using techniques described in [the advanced section](/setup-wallets/paper-advanced).
 
 ## Generate Seed
 In order to eliminate the risk of a compromised random number generator, **you are going to be the random number generator**!
