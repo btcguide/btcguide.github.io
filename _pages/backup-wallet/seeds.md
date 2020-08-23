@@ -2,12 +2,16 @@
 title: Backup Seeds
 ---
 
-#### Copies
-You need to backup your 12-24 word bip39 seed phrases on a piece of paper, so that you can recover if your hardware wallet fails, is lost, gets wet, etc.
-If your hardware wallet is lost or destroyed, `m` of your seeds combined with all of your extended public key info (see [Backup Public Keys](/backup-wallet/public-keys)) will allow you to recover your funds.
+Remember that anyone who gets access to `m` of your `n` seeds (as well as your much less secure [public key information](/backup-wallet/public-keys)) can steal **all** of your bitcoin, so **do not store store a quorum of your seeds in one place!**
 
-#### Multiple Locations
-Do not store store a quorum of your seeds in one place!
-This includes backups.
+#### Redundancy
+You want to backup your 12-24 word bip39 seed phrases on a piece of paper, so that you can recover if your hardware wallet is lost, defective, or destroyed.
+Then, `m` of your seeds along with **all** of your extended public key info (see [Backup Public Keys](/backup-wallet/public-keys)) will allow you to recover your funds.
+
+#### Security
+Some good places to store seeds:
+* **Vaults at banks** - safe-deposit bxoes have the added benefit that in the event of your death they should naturally transfer over to your heirs.
+* **Safes at home/work** - you may not have the security systems/monitoring of a bank, but you also don't have to trust a third party to let you in (and not peak into your safe deposit box).
+* **Burried in a mountain** - X marks the spot!
 
 {% include advanced_config.md %}
