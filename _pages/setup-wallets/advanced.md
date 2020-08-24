@@ -2,6 +2,16 @@
 title: Setup Your Hardware Wallets - Advanced
 ---
 
+#### Use a Passphrase for Each Wallet
+While this is a way to harden your security, in practice it is quite complex as users are terrible about:
+* Generating strong random passwords, which by definiton must be long (high entropy)
+* Remembering strong passwords, especially when they're long (and sometimes not used for many months/years).
+* Implementing a secure backup/recovery system (like [Shamir's Secret Sharing Scheme](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)).
+
+We prefer instead to rely on the added security that multisig already provides.
+
+For now, **this step should only be considered for expert users**, and only after increasing their quorum (from `2-of-3` to `3-of-5`).
+
 #### Update Your Firmware
 Updating firmware is a step where things could go wrong, so we want to do this **before** putting any funds on the hardware wallet.
 

@@ -2,9 +2,16 @@
 title: Backup Public Keys - Advanced
 ---
 
-#### Protect Your Seeds
+
+#### Protect Your Public Keys
 Place each copy of your public key data (DVDs or USB pendrives) in a fireproof document bag.
 Place each copy of your public key data (DVDs or USB pendrives) in a plastic bag with a good seal (vaccuum sealed even better) so that it doesn't get destroyed in the event of water damage.
+
+#### Secure Your Public Keys
+Anyone who gets access to public key information can only see which bitcoin addresses belong to you but cannot spend from them.
+While cloud backups may good from an availability perspective, it also means that a third party could potentially see your bitcoin addresses and transaction history.
+To protect against this, you can encrypt the data with a **strong** passphrase before sending it to the cloud.
+The problem of course is that you need a system in place to protect you if you lose that passphrase (or get hit by a bus).
 
 #### Extended Public Key Info
 The info needed to backup your extended public keys also includes related configuration settings/metadata:
