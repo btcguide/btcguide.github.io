@@ -20,6 +20,8 @@ If you go this route, you'll want to place this paper into a plastic bag with a 
 You can also use fireproof document bags for ~$10-$20 USD each.
 This is a [popular brand](https://www.amazon.com/JUNDUN-Fireproof-Document-Waterproof-Resistant/dp/B07P2WB48X/) (not an endorsement, just an example).
 
+TODO: add link to EMP bags.
+
 However you secure these backups, you want one set of gear for each seed, or a minimum of 3 in total.
 
 #### DVD Drive Instead of USB Drive
