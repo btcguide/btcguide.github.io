@@ -8,10 +8,19 @@ title: Equipment (Advanced)
 So each hardware wallet has its own dedicated MicroSD card.
 This reduces the risk that malware on one hardware wallet could attempt to infect another.
 
-#### Physical Metal Bicoin Seed Storage
-You want one for each seed, or 3 in total.
-These are far more durable than words written on pen and paper.
+#### Physical Bicoin Seed Storage
+The best choice is to etch your seed words into metal.
+This is far more durable than words written on paper that can be destroyed by fire or water.
 Here are [reviews of several](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/).
+
+A cheaper alternative that is not nearly as durable is [archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) with an archival ink pen.
+These are both available online or at your local stationary store.
+If you go this route, you'll want to place this paper into a plastic bag with a good seal (vaccuum seal is even better) so that it doesn't get destroyed in the event of water damage.
+
+You can also use fireproof document bags for ~$10-$20 USD each.
+This is a [popular brand](https://www.amazon.com/JUNDUN-Fireproof-Document-Waterproof-Resistant/dp/B07P2WB48X/) (not an endorsement, just an example).
+
+However you secure these backups, you want one set of gear for each seed, or a minimum of 3 in total.
 
 #### DVD Drive Instead of USB Drive
 Using a DVD for installing Ubuntu is slightly preferred over a USB drive.

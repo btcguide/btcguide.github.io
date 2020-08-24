@@ -13,11 +13,17 @@ Each seed should be stored in different physical location.
 
 
 #### Extended Public Keys
-This included related configuration settings: bip32 paths, quorum settings, and master public key fingerprints.
-
 One confusing thing about multisig is that you need *all* of your extended public keys (and related configuration settings) in order to be able to spend *any* of your funds.
 Extended public keys  do not need to be guarded nearly as carefully as seeds; anyone who gets access to public key information can only see which bitcoin addresses belong to you (but cannot spend from them).
 For non-expert users, we recommend making *lots* of redundant copies of this, and storing a copy of *all* extended public keys with *each* individual seed as well as in other places (with your accountant, lawyer, unsecured in a filing cabinet at home/work, etc).
+
+The info needed to backup your extended public keys also includes related configuration settings:
+* BIP32 paths - instructinons for your hardware wallet to derive the specific key used for signing from the seed
+* Quorum information - `m` and `n`
+* Root Fingerprint - of your master public key
+
+You don't need to know what these are, your software will handle it automatically.
+The main thing is that you know you have to keep a copy of all this data, and unlike your 24 word seed phrase it's too large to write down by hand.
 
 {% comment %}TODO: auto-gen this TOC somehow?{% endcomment %}
 ## Table of Contents
