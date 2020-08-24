@@ -6,7 +6,7 @@ title: Setup Your Hardware Wallets - Advanced
 While this is a way to harden your security, in practice it is quite complex as users are terrible about:
 * Generating strong random passwords, which by definiton must be long (high entropy)
 * Remembering strong passwords, especially when they're long (and sometimes not used for many months/years).
-* Implementing a secure backup/recovery system (like [Shamir's Secret Sharing Scheme](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing)).
+* Implementing a secure backup/recovery system (like [Shamir's Secret Sharing Scheme](/why-multisig-advanced#shamirs-secret-sharing-scheme)).
 
 We prefer instead to rely on the added security that multisig already provides.
 
