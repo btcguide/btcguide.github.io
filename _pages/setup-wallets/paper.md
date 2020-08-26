@@ -36,12 +36,13 @@ In the end you will have 23 words that look like this (**do NOT use these words*
 #### Option A - Seedpicker GUI
 [http://seedpicker.net/](http://seedpicker.net/)
 
-Since [seedpicker currently requires a CLI script to supplement it](https://github.com/merland/seedpicker/issues/23), so we're using option B exclusively (a CLI script that does everything in one step).
+Since [seedpicker currently requires a CLI script to supplement it](https://github.com/merland/seedpicker/issues/23), so we're using option B exclusively (an electrum script that does everything in one step).
 
-#### Option B - HumanRNG CLI Script
-WIP: [https://github.com/mflaxman/human-rng-golang](https://github.com/mflaxman/human-rng-golang)
+#### Option B - HumanRNG Electrum Script
+Sketchy: <https://github.com/mflaxman/human-rng-electrum>
 
-TODO: add script instructions
+#### Future Options:
+* HumanRNG CLI Golang Script. WIP: <https://github.com/mflaxman/human-rng-golang>
 
 #### Save Extended Public Keys, Path, and Root Fingerprint to USB Drive
 TODO: explain this step
