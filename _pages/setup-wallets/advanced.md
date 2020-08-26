@@ -10,7 +10,7 @@ While this is a way to harden your security, in practice it is quite complex as 
 
 We prefer instead to rely on the added security that multisig already provides.
 
-For now, **this step should only be considered for expert users**, and only after increasing their quorum (from `2-of-3` to `3-of-5`).
+For now, **this step should only be considered for expert users**, and only after [increasing your quorum](/quorum-advanced#3-of-5-is-excellent) (from `2-of-3` to `3-of-5`).
 
 #### Update Your Firmware
 Updating firmware is a step where things could go wrong, so we want to do this **before** putting any funds on the hardware wallet.
