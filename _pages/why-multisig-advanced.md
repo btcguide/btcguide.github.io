@@ -1,5 +1,5 @@
 ---
-title: Why Multisig - Advanced
+title: Why Multisig?
 ---
 
 Multisig has always been amazing in theory, but in practice it has been too difficult for non-expert users.

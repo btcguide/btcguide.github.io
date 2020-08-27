@@ -1,5 +1,5 @@
 ---
-title: Backup Wallet - Advanced Instructions
+title: Backup Wallet
 ---
 
 #### Protect Your Privacy

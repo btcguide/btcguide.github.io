@@ -1,5 +1,5 @@
 ---
-title: Send Bitcoin - Advanced
+title: Send Bitcoin
 ---
 
 TODO: add content

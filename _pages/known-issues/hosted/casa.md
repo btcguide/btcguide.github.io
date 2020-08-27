@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Casa
+title: Casa
 ---
 
 TODO: add content

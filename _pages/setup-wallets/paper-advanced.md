@@ -1,5 +1,5 @@
 ---
-title: Setup Paper Wallet - Advanced Instructions
+title: Setup Paper Wallet
 ---
 
 ## Use a Clean Machine

@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Unchained Capital
+title: Unchained Capital
 ---
 
 TODO: add content

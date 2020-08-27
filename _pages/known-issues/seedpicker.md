@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Seedpicker
+title: Seedpicker
 ---
 
 TODO: add content

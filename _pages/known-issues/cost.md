@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Cost
+title: Cost
 ---
 
 While multisig is slightly more expensive, for securing large amounts of bitcoin it's well worth it.

@@ -1,5 +1,5 @@
 ---
-title: Known Issues - KeepKey
+title: KeepKey
 ---
 
 TODO: add content

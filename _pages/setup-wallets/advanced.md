@@ -1,5 +1,5 @@
 ---
-title: Setup Your Hardware Wallets - Advanced
+title: Setup Hardware Wallet Overview
 ---
 
 #### Use a Passphrase for Each Wallet

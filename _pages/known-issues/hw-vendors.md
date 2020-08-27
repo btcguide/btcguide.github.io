@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Hardware Wallet Vendors
+title: Hardware Wallet Vendors
 ---
 
 Unfortuantely, there are few hardware wallets with good multsig capabilities.

@@ -1,5 +1,5 @@
 ---
-title: Setup Coldcard - Advanced
+title: Setup Coldcard
 ---
 
 #### Avoid Plugging in the Coldcard

@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Ledger
+title: Ledger
 ---
 
 TODO: add content

@@ -1,5 +1,5 @@
 ---
-title: Why Multisig
+title: Why Multisig?
 ---
 
 ["Your keys, your bitcoin. Not your keys, not your bitcoin."](https://www.youtube.com/watch?v=vt-zXEsJ61U)

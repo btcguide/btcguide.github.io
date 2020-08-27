@@ -1,5 +1,5 @@
 ---
-title: Backup Public Keys - Advanced
+title: Backup Public Keys
 ---
 
 

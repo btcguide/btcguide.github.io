@@ -1,5 +1,5 @@
 ---
-title: Verify Receive Address - Advanced
+title: Verify Receive Address
 ---
 
 **It is essential to be sure you control a bitcoin address before you receive funds on it, as this is a common attack that leads to losses**.

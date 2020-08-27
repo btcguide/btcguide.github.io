@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Complexity
+title: Complexity
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Command Line Usage Required
+title: Command Line Usage Required
 ---
 
 The ultimate goal of this guide is to make multisig possible for technically-minded users, but make everything accessible via normal GUIs and not require useage of the command line.

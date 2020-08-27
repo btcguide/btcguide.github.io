@@ -1,5 +1,5 @@
 ---
-title: Send Bitcoin Using Specter - Advanced
+title: Send Bitcoin Using Specter
 ---
 
 TODO: add content

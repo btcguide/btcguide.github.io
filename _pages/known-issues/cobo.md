@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Cobo Vault
+title: Cobo Vault
 ---
 
 TODO: add content

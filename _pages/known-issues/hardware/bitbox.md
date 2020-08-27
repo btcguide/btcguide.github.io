@@ -1,5 +1,5 @@
 ---
-title: Known Issues - BitBox02
+title: BitBox02
 ---
 
 TODO: add content

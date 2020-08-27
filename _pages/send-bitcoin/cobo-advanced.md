@@ -1,5 +1,5 @@
 ---
-title: Send Bitcoin on Cobo Vault  - Advanced
+title: Send Bitcoin on Cobo Vault
 ---
 
 TODO: add content

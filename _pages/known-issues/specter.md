@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Specter DIY
+title: Specter DIY
 ---
 
 TODO: add content

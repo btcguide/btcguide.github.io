@@ -1,5 +1,5 @@
 ---
-title: Send Bitcoin on Coldcard - Advanced
+title: Send Bitcoin on Coldcard
 ---
 
 TODO: add content

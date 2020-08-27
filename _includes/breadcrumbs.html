@@ -1,0 +1,34 @@
+{% comment %}
+  Inspired by: https://jekyllcodex.org/without-plugin/breadcrumbs/
+  TODO: proper case capitalization instead of sentence case!
+  This might be helpful: https://comsystoreply.de/blog-post/automatic-breadcrumb-for-jekyll-on-github-pages
+{% endcomment %}
+
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+<a href="/">Home</a>
+{% for crumb in crumbs offset: 1 %}
+  {% if forloop.last %}
+    {% if crumb == "advanced" or crumb contains "-advanced" %}
+      &lt;&lt;
+      <a href="{% if crumb == "advanced" %}/{% else %}{{ crumb | split: "-advanced" | first }}{% endif %}">
+	{{ crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' |  | capitalize }}
+      </a>
+      &lt;&lt;
+      Advanced
+    {% else %}
+      &lt;&lt;
+      {{ page.title }}
+    {% endif %}
+  {% else %}
+    {% if page.exclude_last_breadcrumb %}
+    {% else %}
+      {% if crumb contains "known-issues" %}
+        &lt;&lt;
+	Known Issues
+      {% else %}
+        &lt;&lt;
+	<a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}

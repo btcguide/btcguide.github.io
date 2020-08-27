@@ -42,16 +42,18 @@
 
   <!-- Begin page content -->
   <main role="main" class="container">
-    {% comment %} TODO: proper breacrumb and better way to handle this? {% endcomment %}
     {% if page.url != '/' and page.url != '/contributors.html' and page.url != '/disclaimer.html' and page.url != '/compensation.html' %}
-    <p>
-      <a href="/">
-	  &lt;&lt;
-	  Table of Contents
-      </a>
-    </p>
+	<p>
+	{% include breadcrumbs.html %}
+	</p>
     {% endif %}
-    <h1>{{page.title}}</h1>
+    <h1>
+      {% if page.url contains "known-issues/" %}Known Issue:{% endif %}
+      {{page.title}}
+      {% if page.url == "advanced" or page.url contains "-advanced" %} - Advanced{% endif %}
+    </h1>
+
+
     {{ content }}
     <br /><br /> {% comment %}FIXME{% endcomment %}
 

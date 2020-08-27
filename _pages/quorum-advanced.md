@@ -1,5 +1,5 @@
 ---
-title: Advanced Quorum Choices
+title: Picking Your Quorum
 ---
 
 ## Picking Your M and N

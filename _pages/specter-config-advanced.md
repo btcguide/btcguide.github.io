@@ -1,5 +1,5 @@
 ---
-title: Specter Configuration - Advanced
+title: Specter Configuration
 ---
 
 #### Build from Source

@@ -1,5 +1,6 @@
 ---
-title: Setup Your Hardware Wallets - Overview
+title: Setup Hardware Wallet Overview
+exclude_last_breadcrumb: true
 ---
 
 #### Overview

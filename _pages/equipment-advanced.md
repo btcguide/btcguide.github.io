@@ -1,5 +1,5 @@
 ---
-title: Equipment (Advanced)
+title: Equipment
 ---
 
 ## Recommended Additions

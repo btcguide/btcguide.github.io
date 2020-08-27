@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Trezor
+title: Trezor
 ---
 
 TODO: add content

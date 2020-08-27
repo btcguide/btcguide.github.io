@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Seeds and Privacy
+title: Seeds and Privacy
 ---
 
 In the event that an unauthorized third party gains access to a single seed and knows the corresponding bip32 path used, they will be able to calculate the child public keys that it would (likely) contribute to a mulstig scheme.

@@ -1,5 +1,5 @@
 ---
-title: Node Configuration - Advanced
+title: Node Configuration
 ---
 
 ## Verify Software

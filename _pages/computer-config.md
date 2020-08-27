@@ -1,5 +1,5 @@
 ---
-title: Configuring Your Computer
+title: Computer Configuration
 ---
 
 In a perfect world, you’d carefully verify the software you’re installing.

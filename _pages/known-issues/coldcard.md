@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Coldcard
+title: Coldcard
 ---
 
 #### Verifying a Receiving Address Breaks Airgap

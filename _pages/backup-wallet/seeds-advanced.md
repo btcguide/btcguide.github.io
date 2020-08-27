@@ -1,5 +1,5 @@
 ---
-title: Backup Seeds - Advanced Instructions
+title: Backup Seeds
 ---
 
 ## Think Hard About Your Risks

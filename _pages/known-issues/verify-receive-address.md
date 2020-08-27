@@ -1,5 +1,5 @@
 ---
-title: Known Issues - Verifying a Receive Address
+title: Verifying a Receive Address
 ---
 
 ## Confirm You Control the Wallet

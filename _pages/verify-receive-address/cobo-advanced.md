@@ -1,5 +1,5 @@
 ---
-title: Verify Receive Address on Cobo Vault - Advanced
+title: Verify Receive Address on Cobo Vault
 ---
 
 TODO: add content

@@ -1,5 +1,5 @@
 ---
-title: Setup Cobo Vault - Advanced Configuration
+title: Setup Cobo Vault
 ---
 
 FIXME: add content

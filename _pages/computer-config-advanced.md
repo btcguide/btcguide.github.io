@@ -1,5 +1,5 @@
 ---
-title: Advanced Computer Configuration
+title: Computer Configuration
 ---
 
 #### Instructions to Verify Ubuntu Download
