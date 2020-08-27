@@ -43,7 +43,7 @@ Protect your operational security by taking delivery to an alternate address ins
 
 ## Dedicated Hardware
 While hardware wallets are designed to protect you from malware-infected host computers, using a dedicated machine (not your day-to-day computer) to connect to your hardware wallets adds [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)).
-For example, if your computer is malware-infected you could be running differen software then you intend which could try to trick (or in some cases even compromise) your hardware wallets.
+For example, if your computer is malware-infected you could be running different software then you intend which could try to trick (or in some cases even compromise) your hardware wallets.
 Having a dedicated device that is designed around security, can reduce the attack surface.
 
 It may be even safter to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targetted tampering en-route.
@@ -51,16 +51,33 @@ It may be even safter to buy your computer and other equipment (USB sticks, DVDs
 ## Bitcoin Core Node
 For improved security, build your own bitcoin-core node from scratch!
 You can read more about Bitcoin Core’s requirements [here](https://bitcoin.org/en/bitcoin-core/features/requirements).
-You can run a pruned full node on as little hardware as a Raspberry Pi, but keep in mind that you must (re)scan the whole blockchain **after** you setup your hardware wallets.
 Depending on your performance/reliability needs, you may want an SSD drive for your Bitcoin Core node.
 It may also be worth it to you to have a more powerful CPU.
 
-## Receive Address Verification Hardware
-Verifying receive addresses on a quorum of trusted devices can be cumbersome, especially if they're in separate physical locations.
-One hack people use is to setup a dedicated machine that is eternally quarantined (never connected to the internet) to assist in this process.
-This machine is setup once and never needs to be configured again, it's preferred that this machine not have internet access.
+#### Pruning Notes
+If you run a pruned full node, you can use very little disk space (currently ~5GB vs ~300GB) and massively lower your hardware requirements.
+Keep in mind that there are unlikely edge cases where you may need to `-rescan` the blockchain.
+This might happen during a reinstallation/recovery process, if funds are stored on the bitcoin blockchain in an address not yet added to your bitcoin core watch-only wallet.
+A pruned node must be `-reindex`ed (can take many hours/days), whereas a regular (non-pruned) node can be quickly `-rescan`-ed (currently < 1 hour).
+Expert-user users can [rescan from a specific block height](https://bitcoincore.org/en/doc/0.20.0/rpc/wallet/rescanblockchain/).
+**Non-expert users are encouraged to avoid pruning their nodes** to avoid a bug causing potential frustration.
+As this software mature, that recommendation may change.
+
+## Simplify Receive Address Verification
+Verifying receive addresses on a quorum of trusted devices [is incredibly important](/known-issues/verify-receive-address).
+Unfortunately, this can be cumbersome, especially if they're in separate geographic locations.
+One hack people use is to setup a clean machine that can generated addresses from extended public key information without being connected to the internet.
+
+**Not relying fully on your trusted hardware devices introduces new risks and should only be considered by expert users.**
+You can read more about this [here](verify-receive-address/advanced).
+
+#### Option A - Eternally Quaratined Machine
+This machine is setup once and never needs to be configured again, so it's strongly preferred that this machine not have internet access.
 If you choose to do this, you can use the lowest performance machine that is capable of running Specter.
 It's a great way to use an old Raspberry Pi for example.
-TODO: update with exact resource requirements for various methods.
+*TODO: update with exact resource requirements for various methods.*
 
-See [here](/verify-receive-advaned) for more.
+#### Optiona B - Print Out Addresses
+An eternally quarantined machine is good, but requires another electronic device to be permanently configured and available to use.
+Some users prefer to print out many hundred (or even thousands) of addresses at wallet creation and then use this paper to aid in verification.
+If you go this route, you will need a printer and paper.

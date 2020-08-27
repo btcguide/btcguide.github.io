@@ -13,13 +13,13 @@ For more information about this, see the section called [Running Bitcoin](/runni
 Bitcoin Core's initial block download takes a few days to sync, so we recommend you take care of that while you wait for your hardware wallets to arrive.
 
 #### Minimum Equipment to Buy:
-* 1 Basic computer with a webcam - see below for more information about system requirements
-* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) - purchased directly from the manufacturer
-* 1 [Cobo Vault](https://cobo.com/hardware-wallet/cobo-vault) - purchased directly from the manufacturer
-* 1 DVD-R (if you have a DVD drive) or USB stick for installing [Ubuntu](https://ubuntu.com/)
-* 1 MicroSD card - must be <= 32 GB for `FAT` formatting, but no harm in it being much smaller
-* 1 Pen and 3 pieces of paper (or notecards) to write down seeds
-* Printer - to print out [2 pages](/assets/guide/cold_code_bip39_wordlist.pdf) of completely public information. You don't need to buy a printer if you can ask someone else to print this out for you. You will also need scissors to cut out the words.
+* 1 simple computer with webcam - see below for more information about system requirements
+* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/)
+* 1 [Cobo Vault](https://cobo.com/hardware-wallet/cobo-vault)
+* 1 DVD-R (if your computer has a DVD drive) or USB stick for installing [Ubuntu](https://ubuntu.com/)
+* 1 microSD card - must be <= 32 GB for `FAT` formatting, but much smaller is fine
+* 1 pen + 3 pieces of paper (or notecards) to write down seeds
+* 1 printer + 2 pieces of paper - to print out [2 pages](setup-wallets/paper#generate-seed) of completely public information. You don't need to buy a printer if you can ask someone else to print these pages out for you. You will also need a pair of scissors to cut out the words.
 
 #### Computer System Requirements
 The software you’re running on this machine has very low resource requirements, so you can likely repurpose an old existing laptop that you have laying around.
@@ -35,10 +35,11 @@ You do not need to use a laptop, any desktop computer can work. We find laptops 
 * They usually have built-in webcams, which are needed for a high-quality airgap (via QR code) which we will be using. It’s also easy to pick up laptops to scan QR codes if needed.
 * Minor attributes: they have less cables for the mouse/keyboard (helpful when dealing with all the clutter of multiple hardware wallets) and they often have touchscreens (nice for simpler operations).
 
+Advanced users can get by on **very** cheap computers (like a Raspberry Pi), but since we're using Ubuntu we need to meet their (fairly basic) minimum requirements.
+
 ## Bitcoin Core Node
 For non-experts, we recommend using a product such as [MyNode](https://mynodebtc.com/), [Nodl](https://www.nodl.it/), [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), or [Umbrel](https://getumbrel.com/) as they will be easiest to configure.
 
-If your machine is up to the task, it's fine to run your Bitcoin Core node on any day-to-day computer.
-If you have enough hard drive space and don't mind the software running in the background.
+If you want to run your own bitcoin core node, see [Node Configuration](node-config) for more details.
 
 {% include advanced_config.md %}
