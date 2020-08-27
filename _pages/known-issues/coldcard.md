@@ -17,12 +17,14 @@ Note that USB useage is currently required for verifying receive addresses.
 #### Small Screen
 This makes it hard to manually verify addresses / public key info, and impossible to display QR codes (to avoid using the SD card as an airgap).
 
-#### UX Feels More Hacker/Prosumer than Consumer
+#### UX Feels More Hacker/Prosumer than Enterprise Grade
 The Coldcard Mark3 has come a long way and now features clicky-buttons, a faster processor, and a more RAM (for signing transactions with many inputs).
 
 However, normal users may be skeptical to trust a device to millions of dollars that looks like a child's calculator.
-Looks can be deceiving, as this is a powerful and purpose-built device.
+Looks can be deceiving, as this is a very powerful and purpose-built device.
 
-#### Don't Be Discouraged
-Security is not a binary, and no device is 100% secure.
-Coldcard is a solid purpose-built device that can massively improve your bitcoin security.
+#### Written in Python
+This is not inherently a problem (python is a good general-purpose programming language!), but several hardware wallets with varying level of multisig support are also written in python, such as; Trezor, Coldcard, and Passport.
+These hardware wallets share *a lot* of upstream code, and it's possible that if a vulnerability were discovered in one it would be present in the others.
+
+{% include encouragement.md %}

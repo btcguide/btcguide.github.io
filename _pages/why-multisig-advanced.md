@@ -4,7 +4,7 @@ title: Why Multisig?
 
 Multisig has always been amazing in theory, but in practice it has been too difficult for non-expert users.
 
-[Multisig is not as easy as we would like it to be](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c), but it is getting much better.
+Multisig is still [not as easy as we would like it to be](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c), but it is getting much better.
 It is finally at the point where the security benefits far outweigh the costs for large HODLers.
 Here are some changes that have made multisig mainstream accessible:
 * **[BIP174 (PSBT)](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) created a standard for multisig interoperability** between hardware wallets.
