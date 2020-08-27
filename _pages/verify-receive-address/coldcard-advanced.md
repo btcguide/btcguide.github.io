@@ -1,5 +1,5 @@
 ---
-title: Verify Receive Address on ColdCard - Advanced
+title: Verify Receive Address on Coldcard - Advanced
 ---
 
 TODO: add content

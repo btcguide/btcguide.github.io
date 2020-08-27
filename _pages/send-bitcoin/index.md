@@ -10,7 +10,7 @@ TODO: add content
 ## Table of Contents
 * [Specter Instructions](/send-bitcoin/specter)
 * [Cobo Vault Instructions](/send-bitcoin/cobo)
-* [ColdCard Instructions](/send-bitcoin/cobo)
+* [Coldcard Instructions](/send-bitcoin/cobo)
 * [Paper Wallet (Recovery) Instructions](/send-bitcoin/paper)
 
 {% include advanced_config.md %}
