@@ -3,7 +3,7 @@ title: Known Issues - Seeds and Privacy
 ---
 
 #### Potential Privacy Leak With Seeds
-In the event that an authorized third party gains access to a single seed and knows the corresponding bip32 path used, they will be able to calculate the child public keys that it would (likely) contribute to a mulstig scheme.
+In the event that an unauthorized third party gains access to a single seed and knows the corresponding bip32 path used, they will be able to calculate the child public keys that it would (likely) contribute to a mulstig scheme.
 This means that if this third party is savvy, they can scan the bitcoin blockchain to see all the transactions that these address *previously* controlled (meaning that their public key was part of the quorum of addresses that could spend those bitcoin).
 We say "previously" because this third party cannot know which multisig addresses (if any) that key currently participates in.
 
