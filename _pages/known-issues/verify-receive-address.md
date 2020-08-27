@@ -2,7 +2,7 @@
 title: Known Issues - Verifying a Receive Address
 ---
 
-## Making Sure You Actually Control the Wallet
+## Confirm You Control the Wallet
 Because multisig schemes require `m-of-n` signatures, you must verify a new recieve address on `m-of-n` trusted devices before receiving funds.
 Otherwise, you could fall prey to a clever attack.
 
@@ -28,6 +28,6 @@ While perhaps a little counter-intuitive, this is an excellent safety feature.
 Smart single-key signature users also must redundantly verify their receive addresses, but doing so in a single-key setup adds new issues due to the inherent single point of failure in single-key signature schemes;
 you now have your seed floating around in multiple places for verification, and suffering a breach in any one of these is enough to lose all your funds!
 
-## Making Sure You Can Retrieve the Key
+## Confirm You Can Retrieve the Key
 
 TODO: add content about bip32 paths.
