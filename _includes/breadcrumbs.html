@@ -14,7 +14,7 @@
     {% elsif crumb contains "-advanced" %}
       &lt;&lt;
       <a href="{{ crumb | split: "-advanced" | first }}">
-	{{ crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' |  | capitalize }}
+	{{ crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' | capitalize }}
       </a>
       &lt;&lt;
       Advanced
