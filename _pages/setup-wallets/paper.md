@@ -3,16 +3,17 @@ title: Setup Paper Wallet
 ---
 
 **Warning: this is the highest risk step in our multisig scheme**, but you only have to do it once.
-Follow the instructions closely, and consider hardening your security by using techniques described in [the advanced section](/setup-wallets/paper-advanced).
+Follow the instructions closely, and consider hardening your security by using techniques described in [the advanced section](paper-advanced).
 
 ## Generate Seed
 In order to eliminate the risk of a compromised random number generator, **you are going to be the random number generator**!
 
 #### Print Out Seed Words
 
-You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt). Here are two nicely formatted PDFs, pick whichever one you like (or make your own):
-* [KrytoDots](../assets/guide/kryptodots_bip39_wordlist.pdf)
-* [Cold Code](../assets/guide/cold_code_bip39_wordlist.pdf)
+You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt).
+Here are two nicely formatted PDFs, pick whichever one you like:
+* [KrytoDots](/assets/guide/kryptodots_bip39_wordlist.pdf)
+* [Cold Code](/assets/guide/cold_code_bip39_wordlist.pdf)
 
 [TODO]: find/publish PDF list with no index info (cleaner)
 
@@ -30,19 +31,21 @@ In the end you will have 23 words that look like this (**do NOT use these words*
 
 ## Calculate 24th Word and Other Seed Data
 
-**Turn off your internet access before performing this operation.**
+**Turn off (and unplug) your internet access before performing these steps.**
 **Do not save the result to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
 
+Options A and B are currently the best choices (though far from ideal).
+Advanced users will find more CLI options in [the advanced section](paper-advanced).
+
 #### Option A - Seedpicker GUI
-[http://seedpicker.net/](http://seedpicker.net/)
+[Seedpicker currently requires a CLI script to supplement it](https://github.com/merland/seedpicker/issues/23), so we're using option B exclusively (an electrum script that does everything in one step).
 
-Since [seedpicker currently requires a CLI script to supplement it](https://github.com/merland/seedpicker/issues/23), so we're using option B exclusively (an electrum script that does everything in one step).
+#### Option B - HumanRNG Electrum Console Script
+This step is unfortunately complicated, as no GUI software yet exists to make it easier.
+**Only advanced users who are comfortable with the command line should consider continuing.**
 
-#### Option B - HumanRNG Electrum Script
-Sketchy: <https://github.com/mflaxman/human-rng-electrum>
-
-#### Future Options:
-* HumanRNG CLI Golang Script. WIP: <https://github.com/mflaxman/human-rng-golang>
+To prevent users unfamiliar with the command line from making mistakes, it is not documented beyond linking to this GitHub repo:  
+<https://github.com/mflaxman/human-rng-electrum>
 
 #### Save Extended Public Key Information
 Save your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
