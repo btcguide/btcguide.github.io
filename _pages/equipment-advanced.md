@@ -4,6 +4,10 @@ title: Equipment
 
 ## Recommended Additions
 
+#### Tweezers
+It is very hard to remove the SD card from the Cobo Vault, and can ocassionally be challenging to do so from the Coldcard.
+A cheap pair of tweezers (the kind you might use to remove a splinter) will make this very easy.
+
 #### Extra MicroSD card
 So each hardware wallet has its own dedicated MicroSD card.
 This reduces the risk that malware on one hardware wallet could attempt to infect another.
