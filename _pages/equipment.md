@@ -14,12 +14,11 @@ Bitcoin Core's initial block download takes a few days to sync, so we recommend 
 
 #### Minimum Equipment to Buy:
 * 1 simple computer with webcam - see below for more information about system requirements
-* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/)
+* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) with 1 microSD card - must be <= 32 GB for `FAT` formatting, but much smaller is fine
 * 1 [Cobo Vault](https://cobo.com/hardware-wallet/cobo-vault)
 * 1 DVD-R (if your computer has a DVD drive) or USB stick for installing [Ubuntu](https://ubuntu.com/)
-* 1 microSD card - must be <= 32 GB for `FAT` formatting, but much smaller is fine
 * 1 pen + 3 pieces of paper (or notecards) to write down seeds
-* 1 printer + 2 pieces of paper - to print out [2 pages](setup-wallets/paper#generate-seed) of completely public information. You don't need to buy a printer if you can ask someone else to print these pages out for you. You will also need a pair of scissors to cut out the words.
+* 1 printer + 2 pieces of paper - to print out [2 pages](setup-wallets/paper#generate-seed) of public information. You don't need to buy a printer if you can ask someone else to print these pages out for you. You will also need a pair of scissors to cut out the words.
 
 #### Computer System Requirements
 The software you’re running on this machine has very low resource requirements, so you can likely repurpose an old existing laptop that you have laying around.

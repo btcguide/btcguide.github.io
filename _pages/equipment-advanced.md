@@ -8,10 +8,6 @@ title: Equipment
 It is very hard to remove the SD card from the Cobo Vault, and can ocassionally be challenging to do so from the Coldcard.
 A cheap pair of tweezers (the kind you might use to remove a splinter) will make this very easy.
 
-#### Extra MicroSD card
-So each hardware wallet has its own dedicated MicroSD card.
-This reduces the risk that malware on one hardware wallet could attempt to infect another.
-
 #### Physical Bicoin Seed Storage
 The best choice is to etch your seed words into metal.
 This is far more durable than words written on paper that can be destroyed by fire or water.
@@ -32,7 +28,7 @@ However you secure these backups, you want one set of gear for each seed, or a m
 Using a DVD for installing Ubuntu is slightly preferred over a USB drive.
 It's read-only, and has less attack surface vs the whole USB stack.
 If your DVD drive is built into a laptop, then it's also nice that it doesn't require using up one of your USB ports.
-You can also use this for ferrying public information (extended public keys, fingerprints, bip32 paths, etc), see [Setup Your Hardware Wallets](/setup-wallets) for more info.
+You can also use this for ferrying public information (extended public keys, fingerprints, bip32 paths, etc) between computers, see [Setup Your Hardware Wallets](/setup-wallets) for more info.
 
 #### Extra DVDs or USB Sticks for Backing Up Public Key Material
 The data these protect will only affect your privacy (not security), so you can secure it in many ways (store on your hard drive, print to paper, backup to cloud, etc).

@@ -3,20 +3,38 @@ title: Setup Cobo Vault
 ---
 
 ## Upgrade Firmware
-Cobo Vault firmware version later than `V1.3.0` (BTC-Only) supports multisig via PSBT.
+Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046064053-Upgrading-Firmware) to update your firwmare:
 
-Follow the instructions here to update your firwmare:
-[https://support.cobo.com/hc/en-us/articles/360046064053-Upgrading-Firmware](https://support.cobo.com/hc/en-us/articles/360046064053-Upgrading-Firmware)
+1. Download the latest (BTC-Only) firmware:
+[https://cobo.com/hardware-wallet/downloads](https://cobo.com/hardware-wallet/downloads?toBtc=true)  
+
+2. Copy the `update.zip` file to your microSD card and put it into your Cobo Vault.  
+![](/assets/img/setup-cobo-insert-sd.png){:height="250px"}
+
+3. Turn on your Cobo Vault.
+You will be promted to update the firmware, click the button to accept the upgrade.
+If not, can click on `Menu` > `Settings` > `Version`> `Update Now`.
+
+4. Enter your password when prompted. The update may take several minutes to complete.
+
+[TODO]: add screenshot (one on Cobo site is from v1.2.0 which is multicoin/confusing)
 
 ## Setup Wallet
-TODO: add instructions for generating seed, setting PIN, etc
+Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/articles/360045490014-Getting-started-in-5-steps) to verify your device, setup a PIN, and generate your seed.
+[TODO]: copy over to thise guide?
 
-## Export Extended Public Key to MicroSD
-1. Insert the microSD card into Cobo Vault
-2. Menu > Multisig Wallet > press the [•••] button on the top right > Show/Export Zpub
-3. Export All > Export > save the Zpub, Ypub and xpub of recovery phrase A as a `.json` file to microSD card
-TODO: add photos
-TODO: can specter do this over QR airgap?
+## Import Public Key Info to Specter via QR Code / Webcam
+1. On Cobo: `Menu` > `Multisig Wallet` > `•••` button in the top right > `Show/Export XPUB`.  
+![](/assets/img/setup-cobo-export-pubkey.jpg){:height="250px"}
 
+2. On Specter-Desktop: Click `+ Add new device` > `Scan`  
+![](/assets/img/setup-cobo-specter-scan.jpg){:height="500px"}  
+
+3. Hold the QR code on your Cobo vault up to your webcam so your computer can scan it.
+
+4. Give your device a name (i.e. `Cobo`) and hit `Continue`.  
+![](/assets/img/setup-cobo-specter-scanned.jpg){:height="500px"}
+
+_You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_
 
 {% include advanced_config.md %}
