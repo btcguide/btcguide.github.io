@@ -58,5 +58,5 @@ This is so massive that a slight reduction in the keyspace is insignificant, but
 [TODO]: add accurate calcuation of entropy without potential to repeat words.
 
 #### Add a Strong Passphrase to Your Seed
-Caution: you now have to come up with a way to protect this passphrase, and if you lose it your seed is worthless.
-Because this step is for **expert** users, we're going to ignore it for now.
+Caution: you now have to come up with a way to backup/protect this passphrase, and if you lose it your seed is worthless.
+Because this step is only for **expert** users, we're going to ignore it for now.

@@ -10,10 +10,8 @@ In order to eliminate the risk of a compromised random number generator, **you a
 
 #### Print Out Seed Words
 
-You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt).
-Here are two nicely formatted PDFs, pick whichever one you like:
-* [KrytoDots](/assets/guide/kryptodots_bip39_wordlist.pdf)
-* [Cold Code](/assets/guide/cold_code_bip39_wordlist.pdf)
+You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) so you can select your seed words randomly.
+Download [this nicely formatted PDF from Cold Code](/assets/guide/cold_code_bip39_wordlist.pdf) and print it out.
 
 [TODO]: find/publish PDF list with no index info (cleaner)
 
@@ -22,9 +20,7 @@ Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put 
 
 #### Have a Monkey Draw 23 Words Out of the Hat
 If you don't have a monkey, you can do the job yourself.
-
 As you pull each word out, write it down on a piece of paper.
-
 In the end you will have 23 words that look like this (**do NOT use these words**):
 
 `define rifle cliff summer priority ability chimney cotton tennis crash husband try trophy ring cook portion drift stool thank ceiling notice lesson foam`
