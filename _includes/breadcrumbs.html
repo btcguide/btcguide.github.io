@@ -1,6 +1,5 @@
 {% comment %}
   Inspired by: https://jekyllcodex.org/without-plugin/breadcrumbs/
-  TODO: proper case capitalization instead of sentence case!
   This might be helpful: https://comsystoreply.de/blog-post/automatic-breadcrumb-for-jekyll-on-github-pages
 {% endcomment %}
 
@@ -14,7 +13,10 @@
     {% elsif crumb contains "-advanced" %}
       &lt;&lt;
       <a href="{{ crumb | split: "-advanced" | first }}">
-	{{ crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' | capitalize }}
+	{% assign words = crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' | split: ' ' %}
+	{% for word in words %}
+	  {{ word | capitalize }}
+	{% endfor %}
       </a>
       &lt;&lt;
       Advanced
@@ -23,15 +25,17 @@
       {{ page.title }}
     {% endif %}
   {% else %}
-    {% if page.exclude_last_breadcrumb %}
+    {% if crumb contains "known-issues" %}
+      &lt;&lt;
+      Known Issues
     {% else %}
-      {% if crumb contains "known-issues" %}
-        &lt;&lt;
-	Known Issues
-      {% else %}
-        &lt;&lt;
-	<a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-      {% endif %}
+      &lt;&lt;
+      <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
+	{% assign words = crumb | replace:'-',' ' | remove:'.html' | split: ' ' %}
+	{% for word in words %}
+	  {{ word | capitalize }}
+	{% endfor %}
+      </a>
     {% endif %}
   {% endif %}
 {% endfor %}
