@@ -16,10 +16,7 @@ Follow the steps on Coldcard's website:
 ## Setup Wallet
 TODO: add instructions for generating seed, setting PIN, etc
 
-## Import Public Key Info to Specter via SD Card
-
-
-## Export Combined Extended Public Key Info to Computer via MicroSD
+## Export Public Key Info to Computer via MicroSD
 TODO: add instructions
 
 {% include advanced_config.md %}

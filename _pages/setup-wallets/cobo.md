@@ -23,7 +23,7 @@ If not, can click on `Menu` > `Settings` > `Version`> `Update Now`.
 Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/articles/360045490014-Getting-started-in-5-steps) to verify your device, setup a PIN, and generate your seed.
 [TODO]: copy over to thise guide?
 
-## Import Public Key Info to Specter via QR Code / Webcam
+## Export Public Key Info to Computer via QR Code / Webcam
 1. On Cobo: `Menu` > `Multisig Wallet` > `•••` button in the top right > `Show/Export XPUB`.  
 ![](/assets/img/setup-cobo-export-pubkey.jpg){:height="250px"}
 
