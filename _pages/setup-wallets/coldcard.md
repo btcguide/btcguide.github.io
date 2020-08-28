@@ -13,14 +13,13 @@ See Matt Odell’s Coldcard video from approx 3 mins in [here](https://www.youtu
 Follow the steps on Coldcard's website:
 [https://coldcardwallet.com/docs/upgrade](https://coldcardwallet.com/docs/upgrade).
 
-
 ## Setup Wallet
 TODO: add instructions for generating seed, setting PIN, etc
 
-## Import Extended Public Key Info from Other Wallets
-TODO: add instructions
+## Import Public Key Info to Specter via SD Card
 
-## Export Combined Extended Public Key Info from All Wallets to MicroSD
+
+## Export Combined Extended Public Key Info to Computer via MicroSD
 TODO: add instructions
 
 {% include advanced_config.md %}

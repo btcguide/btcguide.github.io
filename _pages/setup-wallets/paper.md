@@ -43,9 +43,11 @@ This step is unfortunately complicated, as no GUI software yet exists to make it
 To prevent users unfamiliar with the command line from making mistakes, it is not documented beyond linking to this GitHub repo:  
 <https://github.com/mflaxman/human-rng-electrum>
 
-#### Save Extended Public Key Information
-Save your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
-Next, we'll load this public info into our other hardware wallets (and Specter-Desktop software) to create our multisig wallet!
+## Export Public Key Info to Computer via QR Code / Webcam
+In the previous step, you saved your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
+Load this into your computer (Specter-Desktop) as follows:
+
+** TODO: continue from here **
 
 
 {% include advanced_config.md %}
