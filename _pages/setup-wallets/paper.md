@@ -44,7 +44,9 @@ Sketchy: <https://github.com/mflaxman/human-rng-electrum>
 #### Future Options:
 * HumanRNG CLI Golang Script. WIP: <https://github.com/mflaxman/human-rng-golang>
 
-#### Save Extended Public Keys, Path, and Root Fingerprint to USB Drive
-TODO: explain this step
+#### Save Extended Public Key Information
+Save your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
+Next, we'll load this public info into our other hardware wallets (and Specter-Desktop software) to create our multisig wallet!
+
 
 {% include advanced_config.md %}

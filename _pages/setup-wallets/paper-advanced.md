@@ -5,10 +5,10 @@ title: Setup Paper Wallet
 ## Use a Clean Machine
 If there were malware on your machine and this seed escaped, it would **signficantly** degrade the security of your multisig scheme.
 Assuming your attacker has 1 of your `2-of-3` needed keys, then you effectively now have a `1-of-2` scheme.
-We're now potentially suffering [the negatives of multisig](known-issues/multisig), without getting the benefits.
+Introducing the possibliity of a single point of failure would mean we're now suffering [the negatives of multisig](known-issues/multisig), without getting (most of) the benefits.
 
 #### Option A (Preferred): Tails Operating System
-For our one-time offline key generation, it is preferable to use a live operating system that doesn't store data on the filesystem.
+For our one-time offline key generation, it is preferable to use a live operating system that cannot store information on the filesystem.
 [Tails](https://tails.boum.org/) is a live OS that is designed to wipe itself completely on shutdown.
 
 Follow [these installation instructions](https://tails.boum.org/install/index.en.html) to install Tails for offline use.
@@ -27,7 +27,7 @@ TODO: add accurate calcuation of entropy without potential to repeat words.
 
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to protect this passphrase, and if you lose it your seed is worthless.
-Because this step is for **very** advanced users, we're going to ignore it for now.
+Because this step is for **expert** users, we're going to ignore it for now.
 
 ## Verify Seed Generation
 
@@ -36,5 +36,6 @@ This is important, in case the software you used was actually malware.
 
 TODO: add links to software and instructions.
 
-## Write Data to CDs/DVDs instead of USB Drives
+## Write Data to CD-Rs/DVD-Rs instead of USB Drives
 DVDs are less able to execute malware on your computer.
+They also help keep a permanent record for debugging, as they cannot be edited during/after setup.
