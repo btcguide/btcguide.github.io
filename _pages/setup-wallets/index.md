@@ -12,7 +12,7 @@ This "paper wallet" is only ever designed to be used for backup/recovery purpose
 
 The next seed will come from your Cobo Vault, and the last seed will come from your Coldcard.
 
-{% comment %}TODO: auto-gen this TOC somehow?{% endcomment %}
+[TODO]: auto-gen this TOC somehow?
 ## Table of Contents
 * [Paper Wallet](paper)
 * [Cobo Vault](cobo)

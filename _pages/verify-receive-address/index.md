@@ -13,7 +13,7 @@ This is both annoying -- two devices should be kept in different physical locati
 
 Advanced users can mitigate some of these issues by following [these steps](/verify-receive-address/advanced).
 
-{% comment %}TODO: auto-gen this TOC somehow?{% endcomment %}
+[TODO]: auto-gen this TOC somehow?
 ## Table of Contents
 * [Specter Instructions](/verify-receive-address/specter)
 * [Cobo Vault Instructions](/verify-receive-address/cobo)

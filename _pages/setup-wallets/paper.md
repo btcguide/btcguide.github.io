@@ -14,7 +14,7 @@ You are going to print out all 2048 words from [the official BIP39 wordlist](htt
 * [KrytoDots](../assets/guide/kryptodots_bip39_wordlist.pdf)
 * [Cold Code](../assets/guide/cold_code_bip39_wordlist.pdf)
 
-TODO: find/publish PDF list with no index info (cleaner).
+[TODO]: find/publish PDF list with no index info (cleaner)
 
 #### Cut Out Seed Words
 Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put them in a hat (any container will do).

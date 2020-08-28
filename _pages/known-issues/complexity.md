@@ -8,7 +8,7 @@ This is a common adage when it comes to information security, and multisig is no
 There are two *very* important mitigating factors.
 
 #### Multisig is Not that Complex
-TODO: Insert quote from Brian Bishop here.
+[TODO]: Insert quote from Brian Bishop here.
 
 It may seem that multig is quite complex, but much of the complexity is just forcing the important security steps to be done upfront before funds are deposited, which is a *much* more secure than doing it after funds are at risk.
 In single-key setups, the typical workflow is for a user to setup an insecure wallet (with several single-points-of failure) and then later figure out how to secure it (perhaps as the value of the funds grow).

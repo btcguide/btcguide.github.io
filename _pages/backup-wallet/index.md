@@ -16,7 +16,7 @@ Public keys do not need to be guarded nearly as carefully as seeds; anyone who g
 
 For non-expert users, we recommend storing a copy of *all* extended public keys with *each* individual seed as well as in many other places (with your accountant, lawyer, unsecured in a filing cabinet at home/work, etc) including cloud providers.
 
-{% comment %}TODO: auto-gen this TOC somehow?{% endcomment %}
+[TODO]: auto-gen this TOC somehow?
 ## Table of Contents
 * [Backup Seeds Instructions](/backup-wallet/seeds)
 * [Backup Public Keys](/backup-wallet/public-keys)

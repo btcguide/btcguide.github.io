@@ -10,7 +10,7 @@ Make many copies and store in many locations.
 You should keep a copy (of all public keys and related metadata) with each seed.
 
 #### Save on Your Computer
- TODO: add instructions on how to save this with Specter.
+TODO: add instructions on how to save this with Specter.
 
 #### Save Online
 Save this data to various cloud providers that you may already use (Dropbox, Mozy, Gmail, etc).

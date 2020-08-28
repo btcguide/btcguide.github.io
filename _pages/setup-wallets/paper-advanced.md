@@ -22,8 +22,8 @@ If you are truly paranoid, remove the hard drive from the machine (before bootin
 #### Put Each Word Back in the Hat Between Draws
 BIP39 allows for a word to be repeated in your seed phrase should it happen to be randomly drawn multiple times (very unlikely).
 23 words when performed correctly has 253 bits of entropy.
-THis is so massive that a slight reduction in the keyspace is insignificant, but we prefer to follow standards / best practices when possible.
-TODO: add accurate calcuation of entropy without potential to repeat words.
+This is so massive that a slight reduction in the keyspace is insignificant, but we prefer to follow standards / best practices when possible.
+[TODO]: add accurate calcuation of entropy without potential to repeat words.
 
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to protect this passphrase, and if you lose it your seed is worthless.
@@ -33,8 +33,7 @@ Because this step is for **expert** users, we're going to ignore it for now.
 
 #### Confirm Seed Matches Zpub/Root Fingerprint on Another Machine
 This is important, in case the software you used was actually malware.
-
-TODO: add links to software and instructions.
+[TODO]: add links to software and instructions.
 
 ## Write Data to CD-Rs/DVD-Rs instead of USB Drives
 DVDs are less able to execute malware on your computer.
