@@ -44,10 +44,10 @@ To prevent users unfamiliar with the command line from making mistakes, it is no
 ![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
 
 ## Export Public Key Info to Computer via QR Code / Webcam
-1. In the previous step, you saved your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
-On Specter-Desktop: Click `+ Add new device` > `Scan`  :  
+1. In the previous step, you saved your extended public key information (something like `[083AA3DB/48'/0'/0'/2']Zpub75b...bhK`) to a DVD-R or USB pen-drive.
+On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), paste in the extended public key infortation, and hit `continue`:  
 ![](/assets/img/setup-paper-specter-input.png){:width="800px"}  
-2. Key is added:  
+2. Your key is now added:  
 ![](/assets/img/setup-paper-display-pubkey.png){:width="800px"}  
 
 
