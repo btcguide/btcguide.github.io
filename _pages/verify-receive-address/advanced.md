@@ -31,9 +31,9 @@ TODO: add link/explanation.
 In an extreme case, your host computer may have been malware infected and relaying the unsigned transaction to a 3rd party who actually controls the keys and they signed the transaction, in hopes of tricking you into making a large deposit (which they will steal).
 
 
-## Setting Up Redundant Devices for Address Verification
+## Redundant Address Verification
 
-#### Setup Address Verification Machine
+#### Address Verification Machine
 TODO: add instructions for inputting extended public keys & paths only (running Electrum, Specter, Caravan, or some other script).
 
 It is *highly recommended* that you make this an eternally quarantined machine, meaning that it is never again connected to the internet and not used for any other purpose.

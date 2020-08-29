@@ -53,8 +53,4 @@ On Specter-Desktop: Click `+ Add new device` > `Scan`  :
 ![](/assets/img/setup-paper-display-pubkey.png){:width="800px"}  
 
 
-
-
-
-
 {% include advanced_config.md %}

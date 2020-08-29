@@ -3,10 +3,11 @@ title: Coldcard
 ---
 
 #### Verifying a Receiving Address Breaks Airgap
-[Coldcard doesn't currently suppot address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
-Currently, in order to verify a receive address on a coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via USB port.
+[Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
+In order to verify a receive address on a coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via USB port.
 
 We expect they'll release this feature in the future, but the recommendation for now is to use Cobo Vault as the primary device when it comes to [verifying receive addresses](/verify-receive-address/).
+Advanced users can pursue [various mitigation strategies](/verify-receive-address/coldcard-advanced).
 
 #### SD Card "Airgap"
 While better than a USB port, SD cards are not a perfect airgap.

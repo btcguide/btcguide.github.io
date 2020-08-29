@@ -17,6 +17,6 @@ Advanced users can mitigate some of these issues by following [these steps](/ver
 ## Table of Contents
 * [Specter Instructions](/verify-receive-address/specter)
 * [Cobo Vault Instructions](/verify-receive-address/cobo)
-* [Coldcard Instructions](/backup-wallet/public-keys)
+* [Coldcard Instructions](/verify-receive-address/coldcard)
 
 {% include advanced_config.md %}
