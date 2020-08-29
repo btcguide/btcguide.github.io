@@ -13,8 +13,6 @@ In order to eliminate the risk of a compromised random number generator, **you a
 You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) so you can select your seed words randomly.
 Download [this nicely formatted PDF from Cold Code](/assets/guide/cold_code_bip39_wordlist.pdf) and print it out.
 
-[TODO]: find/publish PDF list with no index info (cleaner)
-
 #### Cut Out Seed Words
 Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put them in a hat (any container will do).
 
