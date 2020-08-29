@@ -1,4 +1,4 @@
--c--
+---
 title: Verify Receive Address on Coldcard 
 ---
 

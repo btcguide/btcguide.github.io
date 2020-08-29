@@ -11,7 +11,7 @@ TODO: add instructions for generating seed, setting PIN, etc
 
 ## Export Public Key Info to Computer via MicroSD
 1. Insert a microSD into Coldcard and then select: `Settings` > `Multisig Wallets` > `Export XPUB`.  
-![](/assets/img/setup-cooldcard-export-pubkey.jpg){:width="800px"}
+![](/assets/img/setup-coldcard-export-pubkey.jpg){:width="800px"}
 
 2. Remove the microSD card from your Coldcard and put it in your computer's card reader.  
 
