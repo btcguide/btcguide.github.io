@@ -40,14 +40,21 @@ Advanced users will find more CLI options in [the advanced section](paper-advanc
 This step is unfortunately complicated, as no GUI software yet exists to make it easier.
 **Only advanced users who are comfortable with the command line should consider continuing.**
 
-To prevent users unfamiliar with the command line from making mistakes, it is not documented beyond linking to this GitHub repo:  
+To prevent users unfamiliar with the command line from making mistakes, it is not well documented beyond linking to this GitHub repo:  
 <https://github.com/mflaxman/human-rng-electrum>
 
-## Export Public Key Info to Computer via QR Code / Webcam
-In the previous step, you saved your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
-Load this into your computer (Specter-Desktop) as follows:
+![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
 
-** TODO: continue from here **
+## Export Public Key Info to Computer via QR Code / Webcam
+1. In the previous step, you saved your extended public key information (`Zpub`, path, and root fingerprint) to a DVD-R or USB pen-drive.
+On Specter-Desktop: Click `+ Add new device` > `Scan`  :  
+![](/assets/img/setup-paper-specter-input.png){:width="800px"}  
+2. Key is added:  
+![](/assets/img/setup-paper-display-pubkey.png){:width="800px"}  
+
+
+
+
 
 
 {% include advanced_config.md %}
