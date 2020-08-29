@@ -5,9 +5,9 @@ title: Backup Seeds
 ## Think Hard About Your Risks
 It is a natural human bias to be more concerned with theft vs loss.
 An easy window into our psychology is that we are all terrified of homicide but in fact suicide is more common.
-Non-expert users should question themselves when protecting solely against theft and not focusing on loss.
+Non-expert users should question themselves when taking extreme steps to protect against theft over loss.
 
-You can see below that there are many tradeoffs between security/redundancy and only you can decide what the appropriate balance is for your needs.
+There are many tradeoffs between security/redundancy below and only you can decide what the appropriate balance is for your needs.
 
 ## Multiple Locations
 
@@ -15,7 +15,7 @@ You can see below that there are many tradeoffs between security/redundancy and 
 Not only does storing all of your bitcoin information in one place make it less secure, it also makes you a target!
 You don't want a home-invader to be able to hold you at gunpoint for your life-savings.
 The downside here is that funds kept this way may be a little harder to spend as you now have to visit multiple secure locations.
-For day-to-day funds, you might choose a simpler single-key signature wallet setup that is easy to spend (but not as secure).
+_For day-to-day funds, you might choose a simpler single-key signature wallet setup that is easy to spend_ (but not as secure).
 
 #### Natural Disasters
 If you keep all `m` seeds in one location and there is a fire (or flood) you could lose everything, perhaps when you need it most.
@@ -24,7 +24,7 @@ In the unlikely event you need to evacuate, you don't also want to be carrying y
 Imagine you have a `2-of-3` scheme with 1 seed in each of 3 cities (A, B, and C).
 Should you need to evacuate city A, you can take seed A with you to city B or to city C.
 As you are only carrying 1 (of a needed 2) seeds, should you be robbed during this time your attacker will not be able to spend your bitcoin.
-Important note: in the event a seed is compromised you need to retrieve another seeds ASAP to "rotate" out the key that was stolen (this is accomplished by moving your funds to a new multisig scheme where you control *all* 3 keys again).
+Important note: in the event a seed is compromised you need to retrieve `m` seeds ASAP to "rotate" out the seed that was stolen (this is accomplished by moving your funds to a new multisig scheme where you control *all* 3 seeds again).
 
 
 ## Estate Planning
@@ -52,6 +52,8 @@ Of course, there are all kinds of tradeoffs/choices to be made:
 * If *both* your lawyer and the bank are dishonest (or compelled by a government order), they can collude to steal your bitcoin (they have access to seeds B and C)!
 * If *both* your lawyer and the bank are unlucky/negligent (perhaps they both suffer catastrophic fires in the same day!), you can be locked out of your bitcoin forever (seeds B and C are lost, as seed A A alone is not enough to meet the `2-of-3` threshold).
 * If your children want to steal their inheritance before you die and are able to can collude with (or trick) either the bank or the lawyer, they can get seed B or C and combine it with seed A (which they already have).
+* Your lawyer and your children may have some insight into your bitcoin transaction history, which could implicate how much bitcoin you have.
+Read more [here](/known-issues/seeds-and-privacy).
 
 While not perfect, this is **far superior to single-key signature schemes**.
 
@@ -64,10 +66,11 @@ You can quickly see that this scheme lends itself better to something like `3-of
 
 #### Metal
 [Metal bitcoin seed storage](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/) is the most durable, as paper can fade, burn or smudge if wet.
+Use metal instead of paper to backup your seed prhaesphraes.
 
 #### Archival Paper & Ink
 [Archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) is obviously not as durable as metal, but better than regular paper.
 Place your paper into a plastic bag with a good seal (vaccuum sealed even better) so that it doesn't get destroyed in the event of water damage.
 
 #### Fireproof Document Bag
-You can use these to protect seed material backups, and also to protect your physical hardware wallets.
+You can use these to protect seed backups, and also to protect your physical hardware wallets.
