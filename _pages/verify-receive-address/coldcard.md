@@ -13,4 +13,3 @@ See [Coldcard Advanced Address Verification](coldcard-advanced).
 TODO: add content
 
 {% include advanced_config.md %}
-
