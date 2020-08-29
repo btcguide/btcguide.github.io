@@ -2,6 +2,11 @@
 title: Setup Coldcard
 ---
 
+## Verify Coldcard Authenticity
+
+The Coldcard will come in a bag with a letter or barcode under the number (e.g. `C0008091`) - when you first start up the device, confirm that it displays this number.
+See Matt Odell’s Coldcard video from approx 3 mins in [here](https://www.youtube.com/watch?v=sM2uhyROpAQ&feature=youtu.be&t=180).
+
 ## Improve Coldcard Airgap
 
 #### Power Source
