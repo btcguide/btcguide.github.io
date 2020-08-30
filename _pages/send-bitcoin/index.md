@@ -2,14 +2,13 @@
 title: Send Bitcoin
 ---
 
-#### Complexity of Multsig Here
-TODO: add content
+In order to send bitcoin, you will need to sign on `2-of-3` of your hardware wallets:
 
 [TODO]: auto-gen this TOC somehow?
 ## Table of Contents
-* [Specter Instructions](/send-bitcoin/specter)
-* [Cobo Vault Instructions](/send-bitcoin/cobo)
-* [Coldcard Instructions](/send-bitcoin/cobo)
-* [Paper Wallet (Recovery) Instructions](/send-bitcoin/paper)
+* [Prepare Transaction - Specter](/send-bitcoin/specter)
+* [Sign Transaction - Cobo Vault](/send-bitcoin/cobo)
+* [Sign Transaction - Coldcard](/send-bitcoin/cobo)
+* [Recovery Instructions - Paper Wallet](/send-bitcoin/paper)
 
 {% include advanced_config.md %}
