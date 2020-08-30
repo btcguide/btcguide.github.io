@@ -2,6 +2,7 @@
 title: Verify Receive Address on Specter
 ---
 
-TODO: add content
+1. Your Multisig Wallet (i.e. `Redundant Multisig`) > `Receive` and then see `Address #X`:  
+![](/assets/img/verify-receive-address-specter.png){:width="800px"}  
 
 {% include advanced_config.md %}
