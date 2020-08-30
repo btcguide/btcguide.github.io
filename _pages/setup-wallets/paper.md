@@ -24,9 +24,10 @@ Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put 
 #### Have a Monkey Draw 23 Words Out of the Hat
 If you don't have a monkey, you can do the job yourself.
 As you pull each word out, write it down on a piece of paper.
-In the end you will have 23 words that look like this (**do NOT use these words**):
-
-`define rifle cliff summer priority ability chimney cotton tennis crash husband try trophy ring cook portion drift stool thank ceiling notice lesson foam`
+In the end you will have 23 words that look like this (**DON'T use this seed phrase**):
+```
+define rifle cliff summer priority ability chimney cotton tennis crash husband try trophy ring cook portion drift stool thank ceiling notice lesson foam
+```
 
 ## Calculate 24th Word and Other Seed Data
 
