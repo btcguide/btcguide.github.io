@@ -3,7 +3,7 @@ title: Setup Coldcard
 ---
 
 ## Update Your Firmware
-Follow the steps on Coldcard's website:
+Follow the steps on Coldcard's website:  
 [https://coldcardwallet.com/docs/upgrade](https://coldcardwallet.com/docs/upgrade).
 
 ## Setup Wallet
