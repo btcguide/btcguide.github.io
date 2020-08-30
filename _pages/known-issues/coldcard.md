@@ -13,8 +13,6 @@ Advanced users can pursue [various mitigation strategies](/verify-receive-addres
 While better than a USB port, SD cards are not a perfect airgap.
 [Stuxnet](https://en.wikipedia.org/wiki/Stuxnet) proved that the NSA was capable of jumping a USB-drive airgap to harm the Iranian nuclear reactor program.
 
-Note that USB useage is currently required for verifying receive addresses.
-
 #### Small Screen
 This makes it hard to manually verify addresses / public key info, and impossible to display QR codes (to avoid using the SD card as an airgap).
 
