@@ -2,8 +2,13 @@
 title: Setup Paper Wallet
 ---
 
-**Warning: this is the highest risk step in our multisig scheme**, but you only have to do it once.
-Follow the instructions closely, and consider hardening your security by using techniques described in [the advanced section](paper-advanced).
+## Command Line Warning!
+The ultimate goal of this guide is to make sovereign multisig easy for non-technical users via normal GUIs and not require useage of the command line.
+Unfortunately, the exsiting GUI tools do not support calculating the root fingerprint (needed for multisig) on Paper Wallet generation.
+
+**If you do not feel comfortable using the command line, you should not proceed!**
+
+---
 
 ## Generate Seed
 In order to eliminate the risk of a compromised random number generator, **you are going to be the random number generator**!
@@ -25,11 +30,14 @@ In the end you will have 23 words that look like this (**do NOT use these words*
 
 ## Calculate 24th Word and Other Seed Data
 
-**Turn off (and unplug) your internet access before performing these steps.**
-**Do not save the result to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
+**Warning: this is the highest risk step in our multisig scheme**, but you only have to do it once.
+Follow the instructions closely, and consider hardening your security by using techniques described in [the advanced section](paper-advanced).
 
 Options A and B are currently the best choices (though far from ideal).
 Advanced users will find more CLI options in [the advanced section](paper-advanced).
+
+**Turn off (and unplug) your internet access before performing these steps.**
+**Do not save the result to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
 
 #### Option A - Seedpicker GUI
 [Seedpicker currently requires a CLI script to supplement it](https://github.com/merland/seedpicker/issues/23), so we're using option B exclusively (an electrum script that does everything in one step).
