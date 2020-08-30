@@ -30,9 +30,9 @@ Which will generate a popup like this:
 2. Scan the QR code on your Cobo Vault:  
 ![](/assets/img/coordinate-multisig-specter-desktop-import-cobo-qr.png){:width="800px"}
 
-3. Wallet imported!  
+3. View wallet information and confirm:    
 ![](/assets/img/coordinate-multisig-specter-desktop-cobo-imported.jpeg){:width="400px"}
-
+![](/assets/img/coordinate-multisig-view-policy-onsetup-cobo.jpeg){:width="400px"}
 
 ## Setup Coldcard
 1. On Specter Desktop, select your wallet (`Redundant Multisig`) > `Settings` > `Download Coldcard File`:  
