@@ -8,3 +8,8 @@ Besides needing multiple signature, multisig also involves complexity in that yo
 Fortunately, your wallet software will abstract this away for you.
 
 TODO: add link with more details explaining this.
+
+#### Sign on Coldcard via SD Card
+SD Card is a better airgap.
+
+TOOD: add instructions
