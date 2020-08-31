@@ -57,6 +57,12 @@ BIP39 allows for a word to be repeated in your seed phrase should it happen to b
 This is so massive that a slight reduction in the keyspace is insignificant, but we prefer to follow standards / best practices when possible.
 [TODO]: add accurate calcuation of entropy without potential to repeat words.
 
+#### Use Seedpicker Cutouts
+Instead of having to cut out 2,048 words, you can get the same security by cutting out only 342 raffle tickets and using a 6-sided die instead.
+See [the Seedpicker guide for creating your own seed phrase](https://github.com/merland/seedpicker/blob/master/guide/GUIDE.md) for more info.
+This will require 3 pages to be printed out, and it's easier if you print out another 5 (can just reference them online if you prefer).
+You'll also need a fair 6-sided die.
+
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to backup/protect this passphrase, and if you lose it your seed is worthless.
 Because this step is only for **expert** users, we're going to ignore it for now.
