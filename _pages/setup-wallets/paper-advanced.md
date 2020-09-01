@@ -8,7 +8,7 @@ title: Setup Paper Wallet
 This is important in case the software you used was actually malware.
 We will confirm that the seed is valid, matches the expected `Zpub`, path and root fingerprint.
 
-This step is unfortunately complicated, as Seedpicker (see [basic section](/paper)) is the only GUI software that currently exists to make it easier.
+This step is unfortunately complicated, as Seedpicker (see [basic section](./paper)) is the only GUI software that currently exists to make it easier.
 **Only advanced users who are comfortable with the command line should consider continuing.**
 
 TODO: explain these tools:
@@ -36,7 +36,7 @@ For our one-time offline key generation, it is preferable to use a live operatin
 Conveniently, Electrum also comes pre-installed with Tails.
 
 Follow [the official Tails installation instructions](https://tails.boum.org/install/index.en.html) to install Tails.
-Then perform [the regular steps in the Setup Paper Wallet section](paper) using that machine.
+Then perform [the regular steps in the Setup Paper Wallet section](./paper) using that machine.
 Your computer will automatically wipe itself completely (including RAM) on shutdown.
 
 If you are truly paranoid, remove the hard drive from the machine (before booting up Tails) so there is no possibility that any private key material can be written to disk.
@@ -45,7 +45,7 @@ If you are truly paranoid, remove the hard drive from the machine (before bootin
 While [Tails](https://tails.boum.org/) is preferred for self-destruction, you can get a similar effect by wiping the hard drive after generating your seed.
 If you have an Ubuntu installer DVD or pen drive (see [Computer Configuration section](../computer-config)), you can use that to perform the following steps:
 1. Disconnect your computer from the internet.
-2. Perform [the regular steps in the Setup Paper Wallet section](paper).
+2. Perform [the regular steps in the Setup Paper Wallet section](./paper).
 3. Wipe your hard drive and re-install the operating system.
 4. Reconnect the computer to the internet.
 
