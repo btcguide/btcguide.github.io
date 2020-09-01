@@ -25,7 +25,7 @@ They also help keep a permanent record for debugging, as they cannot be edited d
 ## Use a Clean Machine
 If there were malware on your machine and this seed escaped, it would **signficantly** degrade the security of your multisig scheme.
 Assuming your attacker has 1 of your `2-of-3` needed keys, then you effectively now have a `1-of-2` scheme.
-Introducing the possibliity of a single point of failure would mean we're now suffering the negatives of multisig, without getting (most of) the benefits.
+Introducing the possibliity of a single point of failure would mean we're now suffering [the negatives of multisig](/known-issues/multisig), without getting (most of) the benefits.
 
 That is why it is essential that you
 **turn off (and unplug) your internet access before performing these steps.**
