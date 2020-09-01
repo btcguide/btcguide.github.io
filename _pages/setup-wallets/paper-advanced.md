@@ -8,9 +8,15 @@ title: Setup Paper Wallet
 This is important in case the software you used was actually malware.
 We will confirm that the seed is valid, matches the expected `Zpub`, path and root fingerprint.
 
+This step is unfortunately complicated, as Seedpicker (see [basic section](/paper)) is the only GUI software that currently exists to make it easier.
+**Only advanced users who are comfortable with the command line should consider continuing.**
+
 TODO: explain these tools:
-* HumanRNG CLI Golang Script (WIP [blocked by this PR](https://github.com/btcsuite/btcutil/issues/179)): <https://github.com/mflaxman/human-rng-golang>
+* [HumanRNG Electrum Script](https://github.com/mflaxman/human-rng-electrum)
+* [HumanRNG CLI Golang Script](https://github.com/mflaxman/human-rng-golang) (WIP [blocked by this PR](https://github.com/btcsuite/btcutil/issues/179))
 * HumanRNG CLI Python Script: TODO: add link
+
+![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
 
 #### Write Data to CD-Rs/DVD-Rs instead of USB Drives
 DVDs are less able to execute malware on your computer.
@@ -56,6 +62,12 @@ BIP39 allows for a word to be repeated in your seed phrase should it happen to b
 23 words when performed correctly has 253 bits of entropy.
 This is so massive that a slight reduction in the keyspace is insignificant, but we prefer to follow standards / best practices when possible.
 [TODO]: add accurate calculation of entropy without potential to repeat words.
+
+#### Use Seedpicker Cutouts
+Instead of having to cut out 2,048 words, you can get the same security by cutting out only 342 raffle tickets and using a 6-sided die instead.
+See [the Seedpicker guide for creating your own seed phrase](https://github.com/merland/seedpicker/blob/master/guide/GUIDE.md) for more info.
+This will require 3 pages to be printed out, and it's easier if you print out another 5 (can just reference them online if you prefer).
+You'll also need a fair 6-sided die.
 
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to backup/protect this passphrase, and if you lose it your seed is worthless.

@@ -2,14 +2,6 @@
 title: Setup Paper Wallet
 ---
 
-## Command Line Warning!
-The ultimate goal of this guide is to make sovereign multisig easy for non-technical users via normal GUIs and not require useage of the command line.
-Unfortunately, the exsiting GUI tools do not support calculating the root fingerprint (needed for multisig) on Paper Wallet generation.
-
-**If you do not feel comfortable using the command line, you should not proceed!**
-
----
-
 ## Generate Seed
 In order to eliminate the risk of a compromised random number generator, **you are going to be the random number generator**!
 
@@ -24,33 +16,23 @@ Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put 
 #### Have a Monkey Draw 23 Words Out of the Hat
 If you don't have a monkey, you can do the job yourself.
 As you pull each word out, write it down on a piece of paper.
-In the end you will have 23 words that look like this (**DON'T use this seed phrase**):
+In the end you will have 23 words that look like this (**do NOT use this seed phrase**):
 ```
 define rifle cliff summer priority ability chimney cotton tennis crash husband try trophy ring cook portion drift stool thank ceiling notice lesson foam
 ```
 
-## Calculate 24th Word and Other Seed Data
+## Calculate 24th Word and Other Seed Data using Seedpicker
 
 **Warning: this is the highest risk step in our multisig scheme**, but you only have to do it once.
 Follow the instructions closely, and consider hardening your security by using techniques described in [the advanced section](paper-advanced).
 
-Options A and B are currently the best choices (though far from ideal).
-Advanced users will find more CLI options in [the advanced section](paper-advanced).
-
-**Turn off (and unplug) your internet access before performing these steps.**
+#### Seedpicker GUI
+**Turn off (and unplug) your internet access before entering your seed words into your computer.**
 **Do not save the result to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
 
-#### Option A - Seedpicker GUI
-[Seedpicker currently requires a CLI script to supplement it](https://github.com/merland/seedpicker/issues/23), so we're using option B exclusively (an electrum script that does everything in one step).
+<http://seedpicker.net/>
 
-#### Option B - HumanRNG Electrum Console Script
-This step is unfortunately complicated, as no GUI software yet exists to make it easier.
-**Only advanced users who are comfortable with the command line should consider continuing.**
-
-To prevent users unfamiliar with the command line from making mistakes, it is not well documented beyond linking to this GitHub repo:  
-<https://github.com/mflaxman/human-rng-electrum>
-
-![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
+TODO: add more details
 
 ## Export Public Key Info to Computer via QR Code / Webcam
 1. In the previous step, you saved your extended public key information (something like `[083AA3DB/48'/0'/0'/2']Zpub75b...bhK`) to a DVD-R or USB pen-drive.
