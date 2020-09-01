@@ -30,7 +30,7 @@ Follow the instructions closely, and consider hardening your security by using t
 **Turn off (and unplug) your internet access before entering your seed words into your computer.**
 **Do not save the result to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
 
-<http://seedpicker.net/>
+[SeedPicker](http://seedpicker.net/calculator/last-word.html)
 
 TODO: add more details
 
