@@ -7,6 +7,10 @@ The device has been audited, but is not fully open-source for various reason.
 See more on their blog here:
 <https://medium.com/cobo-vault/on-open-source-and-transparency-7f516f80b8d>
 
+If firmware cannot be built from source reproducibly, then users are merely trusting that the binaries the software developers sign are actually derived from the correct source.
+Unless users build the firmware themselves, this is essentially the same tradeoff as just using closed source code.
+Note that developers working on the project needn't be malicious for issues to occur as their computers could be hacked.
+
 #### Built on General Purpose OS (Android)
 Some hardware wallets use streamlined operating systems to reduce their attack surface.
 Cobo did harden their Android installation.
