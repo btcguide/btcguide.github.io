@@ -22,7 +22,7 @@ If you're going to do this, you should just use multisig so you can get the bene
 See [Verifying Your Receive Addresses](verify-receive-address/).
 
 #### Multisig Recognizes Humans Are Imperfect
-It turns out that cryptoraphy in meatspace is very challenging.
+It turns out that cryptography in meatspace is very challenging.
 It is far harder to execute a single-key signature scheme *perfectly* vs executing a multi-sig scheme *decently*, and the latter is far more secure than the former (see [here](/why-multisig) for more details).
 
 ## Limited Airdrop/Fork Support
