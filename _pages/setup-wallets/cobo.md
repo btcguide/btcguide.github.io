@@ -12,8 +12,8 @@ Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046
 ![](/assets/img/setup-cobo-insert-sd.png){:height="250px"}
 
 3. Turn on your Cobo Vault.
-You will be promted to update the firmware, click the button to accept the upgrade.
-If not, can click on `Menu` > `Settings` > `Version`> `Update Now`.
+You will be prompted to update the firmware, click the button to accept the upgrade.
+If not, you can click on `Menu` > `Settings` > `Version`> `Update Now`.
 
 4. Enter your password when prompted. The update may take several minutes to complete.
 
@@ -21,7 +21,7 @@ If not, can click on `Menu` > `Settings` > `Version`> `Update Now`.
 
 ## Setup Wallet
 Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/articles/360045490014-Getting-started-in-5-steps) to verify your device, setup a PIN, and generate your seed.
-[TODO]: copy over to thise guide?
+[TODO]: copy over to this guide?
 
 ## Export Public Key Info to Computer via QR Code / Webcam
 1. On Cobo: `Menu` > `Multisig Wallet` > `•••` button in the top right > `Show/Export XPUB`.  
