@@ -6,15 +6,15 @@ title: Equipment
 
 #### Tweezers
 It is very hard to remove the SD card from the Cobo Vault, and can ocassionally be challenging to do so from the Coldcard.
-A cheap pair of tweezers (the kind you might use to remove a splinter) will make this very easy.
+Any cheap pair of tweezers (the kind you might use to remove a splinter) will make this easy.
 
 #### Physical Bicoin Seed Storage
 The best choice is to etch your seed words into metal.
 This is far more durable than words written on paper that can be destroyed by fire or water.
-Here are [reviews of several](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/).
+Here are [reviews of several metal seed storage products](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/).
 
 A cheaper alternative that is not nearly as durable is [archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) with an archival ink pen.
-These are both available online or at your local stationary store.
+These are available online or at your local stationary store.
 If you go this route, you'll want to place this paper into a plastic bag with a good seal (vaccuum seal is even better) so that it doesn't get destroyed in the event of water damage.
 
 You can also use fireproof document bags for ~$10-$20 USD each.
@@ -32,52 +32,69 @@ You can also use this for ferrying public information (extended public keys, fin
 
 #### Extra DVDs or USB Sticks for Backing Up Public Key Material
 The data these protect will only affect your privacy (not security), so you can secure it in many ways (store on your hard drive, print to paper, backup to cloud, etc).
-Since this is longer than a seed phrase, a digital medium (DVD or USB drive) is preferred.
+Since this is longer than a seed phrase, a digital medium (DVD or USB drive) is strongly preferred.
 If you keep 2 copies per seed (and have 3 seeds in total), then you're going to need 6 DVD-Rs (or 6 USB pen drives).
+Read more about backing up your public keys [here](/backup-wallet/public-keys).
 
 ## Sourcing Hardware Wallets
 To reduce the risk of tampering or counterfeits, you can buy your hardware wallets directly from the manufacturer in-person at a conference/meetup.
 If buying online, purchase directly from the manufacturer and avoid resellers.
 
-Protect your operational security by taking delivery to an alternate address instead of your home address (e.g. work address, PO box, shipping locker, etc)
+Protect your operational security by taking delivery to an alternate address instead of your home address (e.g. company address, PO box, shipping locker, etc)
 
 ## Dedicated Hardware
-While hardware wallets are designed to protect you from malware-infected host computers, using a dedicated machine (not your day-to-day computer) to connect to your hardware wallets adds [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)).
-For example, if your computer is malware-infected you could be running different software then you intend which could try to trick (or in some cases even compromise) your hardware wallets.
-Having a dedicated device that is designed around security, can reduce the attack surface.
+Hardware wallets are designed to protect you from malware-infected computers, but malware on your computer could still try to trick (or even compromise) your hardware wallets.
+Using a dedicated computer (not your day-to-day computer), can reduce the attack surface.
 
 It may be even safter to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targetted tampering en-route.
+
+Advanced users can get by on **very** cheap computers (like a Raspberry Pi), but since we're using Ubuntu we need to meet their (still lightweight) minimum requirements.
 
 ## Bitcoin Core Node
 For improved security, build your own bitcoin-core node from scratch!
 You can read more about Bitcoin Core’s requirements [here](https://bitcoin.org/en/bitcoin-core/features/requirements).
-Depending on your performance/reliability needs, you may want an SSD drive for your Bitcoin Core node.
-It may also be worth it to you to have a more powerful CPU.
+Some node operators take pride in getting by on extremely minimal hardware, others use an SSD drive and/or a more powerful CPU for extra performance.
 
-#### Pruning Notes
+Specter-Desktop can connect to a node anywhere, so your bitcoin core node does *not* need to be on the same computer.
+Some people with laptops like to run Specter-Desktop on that as their primary device and connect to a Bitcoin Core Node that they control.
+
+A node hosted on a machine you physically control (in a [colo](https://en.wikipedia.org/wiki/Colocation_centre) or more realistically your home/office) is better than one in a cloud provider.
+If your cloud provider is malicious (or government-compelled) and clever they could:
+* Snoop on your bitcoin addresses and see your transaction history.
+* Try to trick you with information about a (fake) received payment.
+The author of this guide is proud to have written [a privacy-preserving defense against this using merkle proofs](https://github.com/cryptoadvance/specter-desktop/pull/334).
+
+#### Pruning Bitcoin Core
 If you run a pruned full node, you can use very little disk space (currently ~5GB vs ~300GB) and massively lower your hardware requirements.
-Keep in mind that there are unlikely edge cases where you may need to `-rescan` the blockchain.
+However, for now pruning your node is only recommended for expert users.
+
+##### Rescan
+There are unlikely edge cases where you may need to `-rescan` the blockchain.
 This might happen during a reinstallation/recovery process, if funds are stored on the bitcoin blockchain in an address not yet added to your bitcoin core watch-only wallet.
 A pruned node must be `-reindex`ed (can take many hours/days), whereas a regular (non-pruned) node can be quickly `-rescan`-ed (currently < 1 hour).
 Expert-user users can [rescan from a specific block height](https://bitcoincore.org/en/doc/0.20.0/rpc/wallet/rescanblockchain/).
-**Non-expert users are encouraged to avoid pruning their nodes** to avoid a bug causing potential frustration.
-As this software mature, that recommendation may change.
+
+##### Merkle Proofs
+Pruned nodes [currently do not support merkle proofs](https://github.com/cryptoadvance/specter-desktop/pull/334#issuecomment-685981023).
+This may be fine for locally hosted nodes, but is inherently risky for cloud-hosted nodes.
+
 
 ## Simplify Receive Address Verification
 Verifying receive addresses on a quorum of trusted devices [is incredibly important](/known-issues/verify-receive-address).
 Unfortunately, this can be cumbersome, especially if they're in separate geographic locations.
-One hack people use is to setup a clean machine that can generated addresses from extended public key information without being connected to the internet.
+One hack people use is to setup a clean machine that can generate addresses from extended public key information without being connected to the internet.
 
 **Not relying fully on your trusted hardware devices introduces new risks and should only be considered by expert users.**
 You can read more about this [here](verify-receive-address/advanced).
 
 #### Option A - Eternally Quaratined Machine
-This machine is setup once and never needs to be configured again, so it's strongly preferred that this machine not have internet access.
-If you choose to do this, you can use the lowest performance machine that is capable of running Specter.
-It's a great way to use an old Raspberry Pi for example.
+This machine is setup once and never needs to be configured/updated again, so it is strongly recommneded to have no internet access.
+If you choose to do this, you can use a very low-end machine.
+It's a great way to use a Raspberry Pi for example.
+
 *TODO: update with exact resource requirements for various methods.*
 
 #### Optiona B - Print Out Addresses
 An eternally quarantined machine is good, but requires another electronic device to be permanently configured and available to use.
-Some users prefer to print out many hundred (or even thousands) of addresses at wallet creation and then use this paper to aid in verification.
+Some users prefer to print out many hundred (or even thousands) of receive addresses at wallet creation and then use this physical paper to aid in verification.
 If you go this route, you will need a printer and paper.
