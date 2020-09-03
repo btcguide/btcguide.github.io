@@ -2,21 +2,21 @@
 title: Computer Configuration
 ---
 
+#### A Note on Caution
 In a perfect world, you’d carefully verify the software you’re installing.
-However, since no private key material will ever touch this hot machine\* (and multiple hardware wallets will be required to sign any transactions), it may be acceptable for you to install software that seems correct (without formally verifying it using the command-line).
+However, since this machine won't store private key material\* (and multiple singatures will be required to move funds) it may be acceptable for you to install software that seems correct without properly verifying it using the command-line.
 
-You’ll want to download and install the latest long term stable (LTS) version of [Ubuntu Desktop](https://ubuntu.com/download/desktop), which is currently 20.04.1.
-You can download this installer and put it on a USB stick or burn it onto a DVD.
+_\*While we recommend that no private key material ever touch this machine, that setup is slightly more involved and thus you may choose to generate 1 seed on this machine (and then wipe it after).
+Remember that this alone is not sufficient to steal/lockup funds, so it may present an acceptable tradeoff for smaller HODLers.
+For more details, see [Paper Wallet Setup steps](/setup-wallets/paper)._
+
+## Install Ubuntu
+
+You’ll want to download and install the latest long term stable (LTS) version of [Ubuntu Desktop](https://ubuntu.com/download/desktop) (currently `20.04.1`).
+Put the installer on a USB stick or burn it onto a DVD.
 Both options are good, though we find DVDs are slightly preferable as they are slightly more secure and don’t take up a USB port.
-
 See [these step-by-step instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop).
 
-
----
-
-_\*While we recommend that no private key material ever touch this machine, that setup is slightly more involved and thus you may choose to have 1 key touch this machine briefly (and then wipe the machine after).
-Remember that this alone is not sufficient to steal/lockup funds, so it may present an acceptable tradeoff, at least for smaller HODLers.
-For more details, see [Paper Wallet Initialization](/setup-wallets/paper-advanced), where we recommend additional steps to harden your security ._
 
 
 {% include advanced_config.md %}
