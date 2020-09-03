@@ -8,7 +8,7 @@ title: Setup Paper Wallet
 This is important in case SeedPicker was actually replaced by malware trying to steal your bitcoin!
 We will confirm that the seed is valid, matches the expected `Zpub`, path and root fingerprint.
 
-This step is unfortunately complicated, as Seedpicker (see [basic section](./paper)) is the only GUI software that currently exists to make it easier.
+This step is unfortunately complicated, as SeedPicker (see [basic section](./paper)) is the only GUI software that currently exists to make it easier.
 **Only advanced users who are comfortable with the command line should consider continuing.**
 
 ##### Use HumanRNG Electrum Script
@@ -68,9 +68,9 @@ BIP39 allows for a word to be repeated in your seed phrase should it happen to b
 This is so massive that a slight reduction in the keyspace is insignificant, but we prefer to follow standards / best practices when possible.
 [TODO]: add accurate calculation of entropy without potential to repeat words.
 
-#### Use Seedpicker Cutouts
+#### Use SeedPicker Cutouts
 Instead of having to cut out 2,048 words, you can get the same security by cutting out only 342 raffle tickets and using a 6-sided die instead.
-See [the Seedpicker guide for creating your own seed phrase](https://github.com/merland/seedpicker/blob/master/guide/GUIDE.md) for more info.
+See [the SeedPicker guide for creating your own seed phrase](https://github.com/merland/seedpicker/blob/master/guide/GUIDE.md) for more info.
 This will require 3 pages to be printed out, and it's easier if you print out another 5 (can just reference them online if you prefer).
 You'll also need a fair 6-sided die.
 
