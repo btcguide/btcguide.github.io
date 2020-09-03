@@ -13,3 +13,7 @@ TODO: add link with more details explaining this.
 SD Card is a better airgap.
 
 TOOD: add instructions
+
+
+#### Inspect Signed Transactions Before Broadcasting
+TOOD: add instructions
