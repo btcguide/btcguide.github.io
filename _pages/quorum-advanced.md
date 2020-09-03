@@ -59,6 +59,6 @@ Keep in mind that on average loss is far more comman than theft.
 
 #### N > 5: Nonstandard Transactions
 Most mining pools will only mine "standard" transactions, which is defined as `m <= 5`.
-This means that confirmation times will be much slower for these transactions, as a smaller percentage of bitcoin's hashpower will try to include them in block templates.
+This means that confirmation times will be much slower for these transactions, as a smaller percentage of bitcoin's hashpower will try to include them in their block templates.
 
 **Recommendation: do not consider this unless you are an expert.**
