@@ -1,5 +1,5 @@
 ---
-title: Pick Your Quorum
+title: Pick Quorum
 ---
 
 The main theme of this guide is to create fault tolerance by **avoiding a single point of failure**.

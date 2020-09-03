@@ -1,5 +1,5 @@
 ---
-title: Configure Your Computer
+title: Configure Computer
 ---
 
 #### A Note on Caution

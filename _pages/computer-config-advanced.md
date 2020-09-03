@@ -1,5 +1,5 @@
 ---
-title: Configure Your Computer
+title: Configure Computer
 ---
 
 #### Instructions to Verify Ubuntu Download

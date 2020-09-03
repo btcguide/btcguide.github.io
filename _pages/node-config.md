@@ -1,5 +1,5 @@
 ---
-title: Configure Your Bitcoin Node
+title: Configure Bitcoin Node
 ---
 
 Keep in mind that while a malicious full node can wreak havoc, it does not have access to your private keys.

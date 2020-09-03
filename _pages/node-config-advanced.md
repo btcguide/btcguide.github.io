@@ -1,5 +1,5 @@
 ---
-title: Configure Your Bitcoin Node
+title: Configure Bitcoin Node
 ---
 
 ## Verify Software
