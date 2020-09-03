@@ -26,13 +26,14 @@ This could include things like:
 * An upstream supply channel attack
 * A forgotten PIN / passphrase
 * A lost seed
+* A compromised random-number generator
 * An [evil-maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack)
 * Malware on your computer
 * A rogue bank employee snooping in your safe deposit box
 * An eager heir
 * Etc
 
-**While this setup is far more secure than a traditional single key signature, do be mindful that the wrong combination of 2+ major mistakes could be enough to lose all of your bitcoin!**
+**While this setup is far more secure than a traditional single key signature with no fault tolerance, be mindful that the wrong combination of 2+ major mistakes could be enough to lose all of your bitcoin!**
 
 Switching to fault tolerant multisig is the most important thing you can do to improve your security.
 A lot of people stick with a bad setup -- trusted custody or single key signature -- for fear of change.
