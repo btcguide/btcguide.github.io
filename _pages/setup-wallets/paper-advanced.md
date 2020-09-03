@@ -5,18 +5,23 @@ title: Setup Paper Wallet
 ## Verify Seed Generation
 
 #### Confirm Seed Matches Zpub
-This is important in case the software you used was actually malware.
+This is important in case SeedPicker was actually replaced by malware trying to steal your bitcoin!
 We will confirm that the seed is valid, matches the expected `Zpub`, path and root fingerprint.
 
 This step is unfortunately complicated, as Seedpicker (see [basic section](./paper)) is the only GUI software that currently exists to make it easier.
 **Only advanced users who are comfortable with the command line should consider continuing.**
 
-TODO: explain these tools:
-* [HumanRNG Electrum Script](https://github.com/mflaxman/human-rng-electrum)
-* [HumanRNG CLI Golang Script](https://github.com/mflaxman/human-rng-golang) (WIP [blocked by this PR](https://github.com/btcsuite/btcutil/issues/179))
-* HumanRNG CLI Python Script: TODO: add link
+##### Use HumanRNG Electrum Script
+<https://github.com/mflaxman/human-rng-electrum>
+
+TODO: add instructions.
 
 ![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
+
+##### Use an Alternative Script
+Expert users only, currently a WIP placeholder.
+* [HumanRNG CLI Golang Script](https://github.com/mflaxman/human-rng-golang) (WIP [blocked by this PR](https://github.com/btcsuite/btcutil/issues/179))
+* HumanRNG CLI Python Script: TODO: add link
 
 #### Write Data to CD-Rs/DVD-Rs instead of USB Drives
 DVDs are less able to execute malware on your computer.
