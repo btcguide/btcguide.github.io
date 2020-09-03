@@ -2,6 +2,8 @@
 title: Backup Wallet
 ---
 
+Now that we've confirmed everything is working as expected, let's back it all up *before* receiving any funds.
+
 ## Seeds and Public Keys
 There are two components to your wallet that you need to backup to guarantee recovery, **seeds** and **public keys**.
 
