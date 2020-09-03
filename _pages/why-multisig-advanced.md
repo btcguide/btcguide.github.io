@@ -14,7 +14,7 @@ Here are some changes that have made multisig mainstream accessible:
 * **Open-source paper wallets** [like seedpicker](http://seedpicker.net/) have been released that lets you add seed(s) to your multisig quorum for recovery without having to purchase aditional hardware wallets to get started (until/unless you need to perform emergency recovery).
 * **Lower fees**: segwit gives a witness discount for `p2wsh` transactions, which has led to them being labelled "[Unfairly Cheap](https://twitter.com/lopp/status/988041430332530688)"!
 * **Running a node has never been easier** - not only do the resources required continue to be low (an engineering marvel!), but there are now many companies that will sell you a node-in-a-box as well as open source scripts/tutorials for simplifying node deployment/administration.
-* **Safer airgap signing**: [BIP1432 (segwit)](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki) allows hardware wallets to sign the input values on transactions directly, making it harder to exploit vulnerabilities in the rest of your stack.
+* **Safer airgap signing**: [BIP143 (segwit)](https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki) allows hardware wallets to sign the input values on transactions directly, making it harder to exploit vulnerabilities in the rest of your stack.
 
 There have been [so many hardware wallet vulnerabilities](https://twitter.com/mflaxman/status/1149018598708568065) and we expect new ones will continue to be discovered; multisig fundamentally doesn't change that.
 The big difference is that a proper multisig scheme allows for 1 (or more) catastrophic failures without putting funds at risk.
