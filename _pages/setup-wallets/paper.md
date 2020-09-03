@@ -84,4 +84,5 @@ On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet
 ![](/assets/img/setup-paper-display-pubkey.png){:width="800px"}  
 
 
-{% include advanced_config.md %}
+
+{% include next_steps.md %}

@@ -1,5 +1,5 @@
 ---
-title: Node Configuration
+title: Configure Your Bitcoin Node
 ---
 
 Keep in mind that while a malicious full node can wreak havoc, it does not have access to your private keys.
@@ -28,4 +28,5 @@ In some edge cases you may need to rescan your node, and a pruned node will inst
 * Set [`blockfilterindex=1`](https://bitcoin.org/en/release/v0.19.0.1).
 It takes just a few GB of storage and helps speedup blockchain `rescan`ing.
 
-{% include advanced_config.md %}
+
+{% include next_steps.md next_url="/install-specter" next_name="Install Specter-Desktop" %}

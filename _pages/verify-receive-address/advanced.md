@@ -48,3 +48,6 @@ One benefit of this is that you could get by without a dedicated machine:
 
 Now that you never need to check this computer again, you can go about using it for whatever you like and not have to worry about keeping it secure.
 Just be sure you guard the paper you printed out, as you don't want an [Evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) to swap it out for paper with their bitcoin addresses on it!
+
+
+{% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}

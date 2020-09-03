@@ -23,4 +23,5 @@ For non-expert users, we recommend storing a copy of *all* extended public keys 
 * [Backup Seeds Instructions](/backup-wallet/seeds)
 * [Backup Public Keys](/backup-wallet/public-keys)
 
-{% include advanced_config.md %}
+
+{% include next_steps.md next_url="/send-bitcoin" next_name="Send Bitcoin" %}

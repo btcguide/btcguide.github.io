@@ -22,4 +22,4 @@ TODO: add instructions for generating seed, setting PIN, etc
 ![](/assets/img/setup-coldcard-specter-scanned.jpg){:width="800px"}
 
 
-{% include advanced_config.md %}
+{% include next_steps.md %}

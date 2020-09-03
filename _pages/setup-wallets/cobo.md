@@ -37,4 +37,5 @@ Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/ar
 
 _You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_
 
-{% include advanced_config.md %}
+
+{% include next_steps.md %}

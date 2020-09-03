@@ -47,4 +47,4 @@ This guide is free, and there are no refunds.
 We **highly** recommend you practice all of this first.
 See disclaimer [here](/disclaimer).
 
-{% include advanced_config.md %}
+{% include next_steps.md next_url="/quorum" next_name="Pick Your Quorum" %}

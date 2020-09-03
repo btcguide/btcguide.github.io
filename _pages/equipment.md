@@ -37,4 +37,4 @@ For non-experts, we recommend using a product such as [MyNode](https://mynodebtc
 
 If you want to run your own bitcoin core node, see [Node Configuration](node-config) for more details.
 
-{% include advanced_config.md %}
+{% include next_steps.md next_url="/computer-config" next_name="Configure Your Computer" %}

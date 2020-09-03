@@ -1,5 +1,5 @@
 ---
-title: Node Configuration
+title: Configure Your Bitcoin Node
 ---
 
 ## Verify Software
@@ -17,3 +17,6 @@ Jameson Lopp has a good guide:
 
 ## Guide to Deploying Node on AWS:
 [https://wolfmcnally.com/115/developer-notes-setting-up-a-bitcoin-node-on-aws/](https://wolfmcnally.com/115/developer-notes-setting-up-a-bitcoin-node-on-aws/)
+
+
+{% include next_steps.md next_url="/install-specter" next_name="Install Specter-Desktop" %}

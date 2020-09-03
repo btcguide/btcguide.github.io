@@ -16,4 +16,5 @@ TODO: add instructions on how to save this with Specter.
 Save this data to various cloud providers that you may already use (Dropbox, Mozy, Gmail, etc).
 Keep in mind this now means they have the ability to see all your bitcoin transactions and balance information (if they decide to peak).
 
-{% include advanced_config.md %}
+
+{% include next_steps.md next_url="/send-bitcoin" next_name="Send Bitcoin" %}

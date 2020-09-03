@@ -18,3 +18,6 @@ More details [here](https://github.com/cryptoadvance/specter-desktop/blob/master
 
 #### Run Behind Tor
 TODO: add link
+
+
+{% include next_steps.md next_url="/setup-wallets" next_name="Setup Hardware Wallets" %}

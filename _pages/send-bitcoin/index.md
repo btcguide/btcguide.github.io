@@ -47,4 +47,4 @@ TODO: add photo
 TODO: fix outdated pictures.
 
 
-{% include advanced_config.md %}
+{% include next_steps.md %}

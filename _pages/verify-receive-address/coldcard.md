@@ -15,4 +15,4 @@ See [Coldcard Advanced Address Verification](coldcard-advanced) for mitigations.
 ![](/assets/img/verify-receive-address-coldcard.jpeg){:width="200px"}
 
 
-{% include advanced_config.md %}
+{% include next_steps.md %}

@@ -26,3 +26,7 @@ Confirm that your `Zpub...` from the [Setup Paper Wallet Step](../setup-wallets/
 #### Specter-Desktop:
 We can't trust this device (we have to assume it's malware), but it's still a useful sanity-check:  
 ![](/assets/img/coordinate-multisig-view-policy-specter.png){:width="800px"}
+
+
+
+{% include next_steps.md next_url="/verify-receive-address" next_name="Verify Receive Address" %}

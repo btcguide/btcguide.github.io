@@ -44,4 +44,5 @@ Which will generate a popup like this:
 ![](/assets/img/coordinate-multisig-coldcard-create-airgapped.png){:width="800px"}  
 (select the file and press √)
 
-{% include advanced_config.md %}
+
+{% include next_steps.md next_url="/verify-receive-address" next_name="Verify Receive Address" %}

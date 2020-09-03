@@ -62,3 +62,5 @@ Most mining pools will only mine "standard" transactions, which is defined as `m
 This means that confirmation times will be much slower for these transactions, as a smaller percentage of bitcoin's hashpower will try to include them in their block templates.
 
 **Recommendation: do not consider this unless you are an expert.**
+
+{% include next_steps.md next_url="/equipment" next_name="Equipment" %}

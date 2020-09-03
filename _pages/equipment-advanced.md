@@ -98,3 +98,6 @@ It's a great way to use a Raspberry Pi for example.
 An eternally quarantined machine is good, but requires another electronic device to be permanently configured and available to use.
 Some users prefer to print out many hundred (or even thousands) of receive addresses at wallet creation and then use this physical paper to aid in verification.
 If you go this route, you will need a printer and paper.
+
+
+{% include next_steps.md next_url="/computer-config" next_name="Configure Your Computer" %}

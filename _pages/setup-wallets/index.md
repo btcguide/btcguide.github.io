@@ -21,4 +21,4 @@ Then, your wallet can then generate (nearly) infinite addresses and sign (nearly
 * [Coordinate Multisig (Specter-Desktop)](coordinate-multisig)
 
 
-{% include advanced_config.md %}
+{% include next_steps.md next_url="/verify-receive-address" next_name="Verify Receive Address" %}

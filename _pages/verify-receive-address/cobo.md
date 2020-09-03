@@ -8,5 +8,5 @@ The large screen and true airgap improve both security and useability.
 On Cobo Vault, click `Multisig Wallet` > `Receiving` tab (default selected) and click on the address:  
 ![](/assets/img/verify-receive-address-cobo.jpeg){:width="400px"}
 
-{% include advanced_config.md %}
 
+{% include next_steps.md %}

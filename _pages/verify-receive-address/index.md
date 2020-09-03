@@ -16,4 +16,5 @@ Advanced users can mitigate some of these issues by following [these steps](/ver
 * [Cobo Vault Instructions](/verify-receive-address/cobo)
 * [Coldcard Instructions](/verify-receive-address/coldcard)
 
-{% include advanced_config.md %}
+
+{% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}

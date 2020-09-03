@@ -1,5 +1,5 @@
 ---
-title: Computer Configuration
+title: Configure Your Computer
 ---
 
 #### A Note on Caution
@@ -19,4 +19,4 @@ See [these step-by-step instructions](https://ubuntu.com/tutorials/install-ubunt
 
 
 
-{% include advanced_config.md %}
+{% include next_steps.md next_url="/node-config" next_name="Configure Your Bitcoin Node" %}

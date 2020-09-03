@@ -24,3 +24,6 @@ The main thing is that you know you have to keep a copy of all this data -- not 
 You have to do this for *all* your seeds.
 
 This is why we use USB pen-drives, DVD drives, storing it online in the cloud, etc.
+
+
+{% include next_steps.md next_url="/send-bitcoin" next_name="Send Bitcoin" %}

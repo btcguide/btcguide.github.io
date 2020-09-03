@@ -16,4 +16,5 @@ Some good places to store seeds:
 * **Burried in a mountain** - X marks the spot!
 * **With a trusted family member** (or very close friend) - remember that if you give away `m` seeds, you no longer control your bitcoin!
 
-{% include advanced_config.md %}
+
+{% include next_steps.md %}

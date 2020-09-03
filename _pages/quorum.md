@@ -13,4 +13,4 @@ In order to avoid having to buy three hardware wallets
 (and because [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors)),
 we’ll generate this third key less securely on your computer **offline**.
 
-{% include advanced_config.md %}
+{% include next_steps.md next_url="/equipment" next_name="Equipment" %}
