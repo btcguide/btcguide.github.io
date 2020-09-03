@@ -40,7 +40,7 @@ TODO: add photo
 ![](/assets/img/send-bitcoin-coldcard-device-confirmation.jpeg){:width="200px"}  
 (this warning has to do with the high transaction fee for this test transaction and is safe to ignore)
 
-1. Broadcast the signed transaction:
+1. Broadcast the signed transaction:  
 ![](/assets/img/send-bitcoin-specter-broadcast.png){:width="800px"}  
 
 
