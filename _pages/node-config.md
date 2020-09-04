@@ -14,7 +14,7 @@ Some examples:
 * TODO: find 1-click cloud deploy node?
 
 #### Required Configuration
-In order for [Specter-Desktop](/specter-config) to connect to this full node, you'll need to set `server=1` in your `bitcoin.conf` file.
+In order for [Specter-Desktop](/install-specter) to connect to this full node, you'll need to set `server=1` in your `bitcoin.conf` file.
 
 You'll also need a way to authenticate a connection to your node.
 If your node is run on the same computer as Specter, Spectre will likely be able to automatically detect authentication info from a `.cookie` file that bitcoin core created on your computer.
