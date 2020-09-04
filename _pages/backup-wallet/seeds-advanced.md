@@ -66,7 +66,7 @@ You can quickly see that this scheme lends itself better to something like `3-of
 
 #### Metal
 [Metal bitcoin seed storage](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/) is the most durable, as paper can fade, burn or smudge if wet.
-Use metal instead of paper to backup your seed prhaesphraes.
+Use metal instead of paper to backup your seed phrases.
 
 #### Archival Paper & Ink
 [Archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) is obviously not as durable as metal, but better than regular paper.
