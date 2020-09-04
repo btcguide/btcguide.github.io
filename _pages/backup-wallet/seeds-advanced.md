@@ -45,7 +45,7 @@ You might do the following:
 * Give seed C to your lawyer or other trusted-friend, to share with your children in the event of your death only. They will also share it with you if needed as part of an emergency recovery.
 
 As a result of this scheme:
-* You and your spouse always have regular access via seeds A & B, provided that you didn't lose your copy of seed A and that you can get into your safe deposit box for seed B. If you lose seed A, you an ask your spouse or children for their copy as a backup. In the event of a problem retrieving seed B from the bank, you can ask your lawyer for assistance in recovery (as they have seed C). Keep in mind that if you lose *both* seeds A and B, your your bitcoins are permanently lost.
+* You and your spouse always have regular access via seeds A & B, provided that you didn't lose your copy of seed A and that you can get into your safe deposit box for seed B. If you lose seed A, you can ask your spouse or children for their copy as a backup. In the event of a problem retrieving seed B from the bank, you can ask your lawyer for assistance in recovery (as they have seed C). Keep in mind that if you lose *both* seeds A and B, your your bitcoins are permanently lost.
 * In the event both you and your spouse die death, your children can recover. They already have seed A, they just need seed B (from the bank) or seed C (from the lawyer). They can get access to seed B by contacting the bank (assuming you designated your children as the next-of-kin for your safe deposit box) or seed C by contacting the lawyer.
 
 Of course, there are all kinds of tradeoffs/choices to be made:
@@ -66,7 +66,7 @@ You can quickly see that this scheme lends itself better to something like `3-of
 
 #### Metal
 [Metal bitcoin seed storage](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/) is the most durable, as paper can fade, burn or smudge if wet.
-Use metal instead of paper to backup your seed prhaesphraes.
+Use metal instead of paper to backup your seed phrases.
 
 #### Archival Paper & Ink
 [Archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) is obviously not as durable as metal, but better than regular paper.
