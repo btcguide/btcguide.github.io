@@ -53,7 +53,7 @@ Advanced users will be able to figure out how to adopt the steps in the guide to
 Lose two seeds and all your funds are lost.
 This is the same as `2-of-3`, but instead of having 3 seeds to protect, you now have 5.
 This tradeoff makes sense for very few people; those who are far more worried about theft vs loss.
-Keep in mind that on average loss is far more comman than theft.
+Keep in mind that on average loss is far more common than theft.
 
 **Recommendation: only expert users with a strong use-case should ever consider this.**
 
