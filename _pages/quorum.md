@@ -10,7 +10,7 @@ Once you’ve got that down, you may want to pick larger numbers in the future (
 
 You’ll need three hardware wallets, made by three different manufacturers.
 In order to avoid having to buy three hardware wallets
-(and because [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors)),
+(and because there are only [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors)),
 we’ll generate this third key less securely on your computer **offline**.
 
 {% include next_steps.md next_url="/equipment" next_name="Equipment" %}
