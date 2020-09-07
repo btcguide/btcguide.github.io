@@ -57,8 +57,8 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 
 ##### Steps
 1. Vist SeedPicker: <http://seedpicker.net/calculator/last-word.html>
-2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Caluclate!`
-3. You will see the 24th word calulation result is `buddy`:  
+2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
+3. You will see the 24th word calculation result is `buddy`:  
 ![](/assets/img/setup-paper-seedpicker-example-output.png){:width="600px"}  
 
 ##### Save the Output
