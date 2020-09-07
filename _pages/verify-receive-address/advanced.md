@@ -42,7 +42,7 @@ You are, however, at risk that an [Evil maid](https://en.wikipedia.org/wiki/Evil
 
 #### Print a File on Setup
 One benefit of this is that you could get by without a dedicated machine:
-1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify recieve addreses.
+1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify receive addresses.
 2. Export a very large amount of receive addresses (you never want to repeat this step) to a file.
 3. Print this file, consider making multiple copies.
 
