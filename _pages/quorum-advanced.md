@@ -26,7 +26,7 @@ This is a good default choice:
 * Has few moving parts
 * Minimal hardware purchasing requirements
 
-The big negative is that it only allows has tolerance for one catastrophic failure (vs zero in single-key signature schemes), and your use-case might desire greater distribution of your keys (more locations, or trusted parties). We'll see below why `3-of-5` helps address (some of) these concerns.
+The big negative is that it only has tolerance for one catastrophic failure (vs zero in single-key signature schemes), and your use-case might desire greater distribution of your keys (more locations, or trusted parties). We'll see below why `3-of-5` helps address (some of) these concerns.
 
 #### Problems with 2-of-4
 It's good that you need multiple signatures, but eliminating a single point of failure requires having 4 dfferent HW wallet vendors!
