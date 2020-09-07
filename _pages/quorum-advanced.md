@@ -35,7 +35,7 @@ If there were a serious bug with vendor C where 2 of your seeds are known to an 
 
 Note: `2-of-5` is even worse.
 
-**Recommendation: expert users can avoid this problem on recieving funds by performing their own random number generation for *multiple* paper wallets in their quorum as described [here](setup-wallets/paper).**
+**Recommendation: expert users can avoid this problem on receiving funds by performing their own random number generation for *multiple* paper wallets in their quorum as described [here](setup-wallets/paper).**
 However, keep in mind that there are currently [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors), so if you need to use those recovery keys you may be forced to use the same hardware wallet vendor for 2+ seeds.
 
 
