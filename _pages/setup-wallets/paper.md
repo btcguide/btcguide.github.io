@@ -23,7 +23,7 @@ In order to eliminate the risk of a compromised random number generator, you are
 
 You will draw the first 23 words out of a hat to create you seed phrase.
 The last word of a [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) seed phrase is actually a [checksum](https://en.wikipedia.org/wiki/Checksum), meaning you need a computer to calculate it for you.
-It will also caluclate some extended public key information that will be used to identify payments and generate transactions for your hardware wallets to sign.
+It will also calculate some extended public key information that will be used to identify payments and generate transactions for your hardware wallets to sign.
 
 #### Print Out Seed Words
 
