@@ -13,7 +13,7 @@ This is a nice-to-have feature on nodes hosted locally, and very important for n
 Unfortunately, it is currently [only possible on non-pruned nodes](https://github.com/cryptoadvance/specter-desktop/pull/334#issuecomment-685981023).
 
 #### Build from Source
-Follow [these instructions](https://github.com/cryptoadvance/specter-desktop#how-to-run) to build Specter-Dekstop from source.
+Follow [these instructions](https://github.com/cryptoadvance/specter-desktop#how-to-run) to build Specter-Desktop from source.
 More details [here](https://github.com/cryptoadvance/specter-desktop/blob/master/DEVELOPMENT.md).
 
 #### Run Behind Tor

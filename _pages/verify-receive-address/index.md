@@ -2,7 +2,7 @@
 title: Verify Receive Address
 ---
 
-It is **essential** to be sure you control a bitcoin address before you receive funds on it and [veriyfing multisig receive addresses is slightly more complicated](/known-issues/verify-receive-address).
+It is **essential** to be sure you control a bitcoin address before you receive funds on it and [verifying multisig receive addresses is slightly more complicated](/known-issues/verify-receive-address).
 
 **In order to securely receive funds, you must verify a given receive address on at least a quorum (`m` in `m-of-n`) of your trusted displays.**
 In the default case, this means you would check on **both** your Cobo Vault and your Coldcard.

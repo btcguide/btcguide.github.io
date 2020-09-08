@@ -14,7 +14,7 @@ One solution to this is to use a non-standard bip32 path as a way to hide your a
 That way if a 3rd party gains unauthorized access to a seed, they can't see how much it was ever protecting (to spend bitcoin they need access to `m` seeds).
 
 This has the added benefit that it could be combined with Shamir's Secret Sharing Scheme to make it so that someone would have to break into multiple secure locations in order to get access to private information.
-This standard is still being developed, especially since many hardware wallets currently do not support non-standard paths (see [Verifying a Recieve Address](/known-issues/verify-receive-address#confirm-you-can-retrieve-the-key)).
+This standard is still being developed, especially since many hardware wallets currently do not support non-standard paths (see [Verifying a Receive Address](/known-issues/verify-receive-address#confirm-you-can-retrieve-the-key)).
 
 #### Option B: Store Passphrases Separate from Seeds
 This solves one problem and creates another: now you have to store those passphrases securely.

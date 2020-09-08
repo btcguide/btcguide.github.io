@@ -5,17 +5,17 @@ title: Equipment
 ## Recommended Additions
 
 #### Tweezers
-It is very hard to remove the SD card from the Cobo Vault, and can ocassionally be challenging to do so from the Coldcard.
+It is very hard to remove the SD card from the Cobo Vault, and can occasionally be challenging to do so from the Coldcard.
 Any cheap pair of tweezers (the kind you might use to remove a splinter) will make this easy.
 
-#### Physical Bicoin Seed Storage
+#### Physical Bitcoin Seed Storage
 The best choice is to etch your seed words into metal.
 This is far more durable than words written on paper that can be destroyed by fire or water.
 Here are [reviews of several metal seed storage products](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/).
 
 A cheaper alternative that is not nearly as durable is [archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) with an archival ink pen.
 These are available online or at your local stationary store.
-If you go this route, you'll want to place this paper into a plastic bag with a good seal (vaccuum seal is even better) so that it doesn't get destroyed in the event of water damage.
+If you go this route, you'll want to place this paper into a plastic bag with a good seal (vacuum seal is even better) so that it doesn't get destroyed in the event of water damage.
 
 You can also use fireproof document bags for ~$10-$20 USD each.
 This is a [popular brand](https://www.amazon.com/JUNDUN-Fireproof-Document-Waterproof-Resistant/dp/B07P2WB48X/) (not an endorsement, just an example).
@@ -46,7 +46,7 @@ Protect your operational security by taking delivery to an alternate address ins
 Hardware wallets are designed to protect you from malware-infected computers, but malware on your computer could still try to trick (or even compromise) your hardware wallets.
 Using a dedicated computer (not your day-to-day computer), can reduce the attack surface.
 
-It may be even safter to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targetted tampering en-route.
+It may be even safer to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targetted tampering en-route.
 
 Advanced users can get by on **very** cheap computers (like a Raspberry Pi), but since we're using Ubuntu we need to meet their (still lightweight) minimum requirements.
 
@@ -87,14 +87,14 @@ One hack people use is to setup a clean machine that can generate addresses from
 **Not relying fully on your trusted hardware devices introduces new risks and should only be considered by expert users.**
 You can read more about this [here](verify-receive-address/advanced).
 
-#### Option A - Eternally Quaratined Machine
-This machine is setup once and never needs to be configured/updated again, so it is strongly recommneded to have no internet access.
+#### Option A - Eternally Quarantined Machine
+This machine is setup once and never needs to be configured/updated again, so it is strongly recommended to have no internet access.
 If you choose to do this, you can use a very low-end machine.
 It's a great way to use a Raspberry Pi for example.
 
 *TODO: update with exact resource requirements for various methods.*
 
-#### Optiona B - Print Out Addresses
+#### Option B - Print Out Addresses
 An eternally quarantined machine is good, but requires another electronic device to be permanently configured and available to use.
 Some users prefer to print out many hundred (or even thousands) of receive addresses at wallet creation and then use this physical paper to aid in verification.
 If you go this route, you will need a printer and paper.

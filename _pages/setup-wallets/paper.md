@@ -23,7 +23,7 @@ In order to eliminate the risk of a compromised random number generator, you are
 
 You will draw the first 23 words out of a hat to create you seed phrase.
 The last word of a [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) seed phrase is actually a [checksum](https://en.wikipedia.org/wiki/Checksum), meaning you need a computer to calculate it for you.
-It will also caluclate some extended public key information that will be used to identify payments and generate transactions for your hardware wallets to sign.
+It will also calculate some extended public key information that will be used to identify payments and generate transactions for your hardware wallets to sign.
 
 #### Print Out Seed Words
 
@@ -56,9 +56,9 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 (A proper monkey would not pull the same word out of a hat 23 times in a row!)
 
 ##### Steps
-1. Vist SeedPicker: <http://seedpicker.net/calculator/last-word.html>
-2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Caluclate!`
-3. You will see the 24th word calulation result is `buddy`:  
+1. Visit SeedPicker: <http://seedpicker.net/calculator/last-word.html>
+2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
+3. You will see the 24th word calculation result is `buddy`:  
 ![](/assets/img/setup-paper-seedpicker-example-output.png){:width="600px"}  
 
 ##### Save the Output
@@ -78,7 +78,7 @@ Now, repeat the steps above but with your real seed phrase (the 23 words you ran
 
 ## Export Public Key Info to Computer via QR Code / Webcam
 1. In the previous step, you saved your extended public key information (something like `[083AA3DB/48'/0'/0'/2']Zpub75b...bhK`) to a DVD-R or USB pen-drive.
-On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), paste in the extended public key infortation, and hit `continue`:  
+On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), paste in the extended public key information, and hit `continue`:  
 ![](/assets/img/setup-paper-specter-input.png){:width="800px"}  
 2. Your public key is now added to Specter-Desktop:  
 ![](/assets/img/setup-paper-display-pubkey.png){:width="800px"}  

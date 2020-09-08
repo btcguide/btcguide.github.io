@@ -13,7 +13,7 @@ You can verify this when [setting up your Cobo](../setup-wallets/cobo), or go to
 On your Coldcard, enter: `Settings` > `Multisig Wallets` > `Your Wallet Name` >  `View Details`:  
 ![](/assets/img/coordinate-multisig-view-policy-coldcard.jpeg){:width="200px"}
 
-Because Coldcard uses `xpub...` while Specter/Cobo use the newer `Zpub...` standard, the easiest way to do this in practice is to [verify a single recieve address on the coldcard](../verify-receive-address/coldcard).
+Because Coldcard uses `xpub...` while Specter/Cobo use the newer `Zpub...` standard, the easiest way to do this in practice is to [verify a single receive address on the coldcard](../verify-receive-address/coldcard).
 
 Expert users may be able to convert between `xpub` and `Zpub` with a tool like [Jameson Lopp's XPub Converter](https://jlopp.github.io/xpub-converter/) to verify extended public keys.
 RTFM for more info: <https://coldcardwallet.com/docs/multisig>

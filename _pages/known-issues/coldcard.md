@@ -23,7 +23,7 @@ However, normal users may be skeptical to trust a device to millions of dollars 
 Looks can be deceiving, as this is a very powerful and purpose-built device.
 
 #### Non-Reproducible Builds
-While Coldcard builds are signed by Coldard, they are not built in a way that is reproducible so they cannot be independently verified.
+While Coldcard builds are signed by Coldcard, they are not built in a way that is reproducible so they cannot be independently verified.
 That said, Coldcard firmware is fully open so users can compile it themselves if they want this guarantee.
 
 #### Written in Python

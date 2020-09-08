@@ -70,7 +70,7 @@ Use metal instead of paper to backup your seed phrases.
 
 #### Archival Paper & Ink
 [Archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) is obviously not as durable as metal, but better than regular paper.
-Place your paper into a plastic bag with a good seal (vaccuum sealed even better) so that it doesn't get destroyed in the event of water damage.
+Place your paper into a plastic bag with a good seal (vacuum sealed even better) so that it doesn't get destroyed in the event of water damage.
 
 #### Fireproof Document Bag
 You can use these to protect seed backups, and also to protect your physical hardware wallets.

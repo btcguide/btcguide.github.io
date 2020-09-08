@@ -3,7 +3,7 @@ title: Setup Cobo Vault
 ---
 
 ## Upgrade Firmware
-Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046064053-Upgrading-Firmware) to update your firwmare:
+Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046064053-Upgrading-Firmware) to update your firmware:
 
 1. Download the latest (BTC-Only) firmware:
 [https://cobo.com/hardware-wallet/downloads](https://cobo.com/hardware-wallet/downloads?toBtc=true)  

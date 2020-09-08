@@ -25,7 +25,7 @@ In order to verify a receive address on a coldcard you must significantly weaken
 For more mitigations see [Coldcard Advanced Address Verification](/verify-receive-address/coldcard-advanced).
 
 #### SD Card Interactivty
-Each time your SD card travels back and forth between your computer and coldcard introduces the possiblity of malware jumping your "airgap."
+Each time your SD card travels back and forth between your computer and coldcard introduces the possibility of malware jumping your "airgap."
 Expert users can figure out how to create a multisig wallet on their coldcard with only 1 file from their hot machine (no need to first export the public key information from the coldcard).
 TODO: file github issue on Specter-Desktop to build this into the UI and link to it here.
 

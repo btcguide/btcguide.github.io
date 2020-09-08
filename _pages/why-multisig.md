@@ -14,7 +14,7 @@ The central principle of the guide is to avoid having any single point of failur
 To accomplish this, you will setup your own multisig wallet using multiple hardware wallets from multiple different vendors.
 The goal of this guide is to achieve a basic multisig: a `2-of-3` signature scheme using (at least) two different hardware wallets made by different manufacturers.
 
-Remember that your multisig setup requires breaking multiple redundant systems, which due to [the additive power of multisig](https://twitter.com/mflaxman/status/1146813775380647937) is _incredibly challenging_.
+Remember that your multisig setup requires an attacker to break multiple redundant systems, which due to [the additive power of multisig](https://twitter.com/mflaxman/status/1146813775380647937) is _incredibly challenging_.
 On account of this, your level of caution/paranoia/effort (vs a traditional single-key signature) can be much lower and yet still achieve much higher security.
 
 **If you follow these instructions, you can suffer at least one catastrophic failure and not lose any bitcoin.**
