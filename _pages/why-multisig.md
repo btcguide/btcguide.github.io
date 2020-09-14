@@ -37,9 +37,9 @@ This could include things like:
 
 Switching to fault tolerant multisig is the most important thing you can do to improve your security.
 A lot of people stick with a bad setup -- trusted custody or single key signature -- for fear of change.
-[Perfect is the enemy of good](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good); upgrade to multisig today for a good foundation and you can still iterate in the future.
+Don't make [the perfect the enemy of good](https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good); upgrade to multisig today for a solid foundation and you can still iterate in the future!
 
-We support users being as paranoid as they want to be, but think it is unnecessary for most users.
+We support users being as paranoid as they want to be, but think that with proper multisig it is overkill for all but the largest HODLers.
 At each step, there are recommendations for how you can harden your security, and you alone will have to decide how much time/money you want to spend to sleep better at night.
 
 This guide is free, and there are no refunds.
