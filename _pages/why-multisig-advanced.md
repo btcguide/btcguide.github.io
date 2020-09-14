@@ -24,7 +24,7 @@ Multisig is strictly superior to [Shamir's Secret Sharing Scheme](https://en.wik
 SSSS also reintroduces a single point of failure; in order for a key to be generated (or used) it must be recombined in a single place.
 We prefer to call it [Shamir's Secret Snakeoil](https://en.bitcoin.it/wiki/Shamir_Secret_Snakeoil).
 SSSS should only be considered for expert users **after** you've maxed out your multisig scheme (`3-of-5` for most use-cases) and need additional protection.
-For that use-case, you may want to look into [SLIP-0039](https://github.com/satoshilabs/slips/blob/master/slip-0039.md) or alternatively divide 1 (or more) of the BIP39 seed passphrases using Shamir's Secert Sharing Scheme.
+For that use-case, you may want to look into [SLIP-0039](https://github.com/satoshilabs/slips/blob/master/slip-0039.md) or alternatively divide 1 (or more) of the BIP39 seed passphrases using Shamir's Secret Sharing Scheme.
 The open-source software available to do this is still unfortunately [somewhat lacking](https://twitter.com/mflaxman/status/1294831929972477952), but should improve over time.
 
 {% include next_steps.md next_url="/quorum" next_name="Pick Quorum" %}

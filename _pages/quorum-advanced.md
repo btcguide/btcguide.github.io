@@ -26,16 +26,16 @@ This is a good default choice:
 * Has few moving parts
 * Minimal hardware purchasing requirements
 
-The big negative is that it only allows has tolerance for one catastrophic failure (vs zero in single-key signature schemes), and your use-case might desire greater distribution of your keys (more locations, or trusted parties). We'll see below why `3-of-5` helps address (some of) these concerns.
+The big negative is that it only has tolerance for one catastrophic failure (vs zero in single-key signature schemes), and your use-case might desire greater distribution of your keys (more locations, or trusted parties). We'll see below why `3-of-5` helps address (some of) these concerns.
 
 #### Problems with 2-of-4
-It's good that you need multiple signatures, but eliminating a single point of failure requires having 4 dfferent HW wallet vendors!
+It's good that you need multiple signatures, but eliminating a single point of failure requires having 4 different HW wallet vendors!
 Imagine you have 4 seed but only 3 different hardware wallet vendors: 1 seed generated/protected by vendor A, 1 by vendor B,  and 2 by vendor C.
 If there were a serious bug with vendor C where 2 of your seeds are known to an attacker, then in the worst case they can spend all of your bitcoin!
 
 Note: `2-of-5` is even worse.
 
-**Recommendation: expert users can avoid this problem on recieving funds by performing their own random number generation for *multiple* paper wallets in their quorum as described [here](setup-wallets/paper).**
+**Recommendation: expert users can avoid this problem on receiving funds by performing their own random number generation for *multiple* paper wallets in their quorum as described [here](setup-wallets/paper).**
 However, keep in mind that there are currently [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors), so if you need to use those recovery keys you may be forced to use the same hardware wallet vendor for 2+ seeds.
 
 
@@ -53,7 +53,7 @@ Advanced users will be able to figure out how to adopt the steps in the guide to
 Lose two seeds and all your funds are lost.
 This is the same as `2-of-3`, but instead of having 3 seeds to protect, you now have 5.
 This tradeoff makes sense for very few people; those who are far more worried about theft vs loss.
-Keep in mind that on average loss is far more comman than theft.
+Keep in mind that on average loss is far more common than theft.
 
 **Recommendation: only expert users with a strong use-case should ever consider this.**
 

@@ -9,7 +9,7 @@ You can read more about this issue [here](/known-issues/verify-receive-address).
 Having to travel to multiple geographies just to verify a single receive address (not even to spend bitcoin) can be undesireable for practical reasons.
 
 One way around this is to (partially) trust the addresses your host computer displays.
-If your host computer says address X follows the rules of your quorum (`m` signatures requires from these `n` seeds your hardware wallets control), **and** your Cobo vault agrees, you might decide it's worth the risk to consider that receive address valid.
+If your host computer says address X follows the rules of your quorum (`m` signatures required from these `n` seeds your hardware wallets control), **and** your Cobo vault agrees, you might decide it's worth the risk to consider that receive address valid.
 **Don't forget that if your host computer (which may be infected with malware already) and your Cobo Vault were compromised, this could results in immediate loss of funds sent to this address.**
 
 Factors that make it less risky to consider this approach:
@@ -42,7 +42,7 @@ You are, however, at risk that an [Evil maid](https://en.wikipedia.org/wiki/Evil
 
 #### Print a File on Setup
 One benefit of this is that you could get by without a dedicated machine:
-1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify recieve addreses.
+1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify receive addresses.
 2. Export a very large amount of receive addresses (you never want to repeat this step) to a file.
 3. Print this file, consider making multiple copies.
 
