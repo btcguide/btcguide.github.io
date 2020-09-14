@@ -6,7 +6,7 @@ title: Verify Receive Address
 You can read more about this issue [here](/known-issues/verify-receive-address).
 
 #### When to Choose A Less Secure Approach
-Having to travel to multiple geographies just to verify a single receive address (not even to spend bitcoin) can be undesireable for practical reasons.
+Having to travel to multiple geographies just to verify a single receive address (not even to spend bitcoin) can be undesirable for practical reasons.
 
 One way around this is to (partially) trust the addresses your host computer displays.
 If your host computer says address X follows the rules of your quorum (`m` signatures required from these `n` seeds your hardware wallets control), **and** your Cobo vault agrees, you might decide it's worth the risk to consider that receive address valid.

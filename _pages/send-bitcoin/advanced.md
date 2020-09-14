@@ -12,8 +12,8 @@ TODO: add link with more details explaining this.
 #### Sign on Coldcard via SD Card
 SD Card is a better airgap.
 
-TOOD: add instructions
+TODO: add instructions
 
 
 #### Inspect Signed Transactions Before Broadcasting
-TOOD: add instructions
+TODO: add instructions

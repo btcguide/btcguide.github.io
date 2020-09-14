@@ -3,7 +3,7 @@ title: Verifying a Receive Address
 ---
 
 ## Confirm You Control the Wallet
-Because multisig schemes require `m-of-n` signatures, you must verify a new recieve address on `m-of-n` trusted devices before receiving funds.
+Because multisig schemes require `m-of-n` signatures, you must verify a new receive address on `m-of-n` trusted devices before receiving funds.
 Otherwise, you could fall prey to a clever attack.
 
 #### Example Attack

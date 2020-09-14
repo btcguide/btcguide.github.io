@@ -5,7 +5,7 @@ title: Send Bitcoin
 In order to send bitcoin, you will need to sign on `2-of-3` of your hardware wallets.
 
 At this point, you should've completed all the previous sections.
-Once you've [verified your recieve addresses](/verify-receive-address) and [backed up your wallet](/backup-wallet), it's safe to recieve bitcoin.
+Once you've [verified your receive addresses](/verify-receive-address) and [backed up your wallet](/backup-wallet), it's safe to receive bitcoin.
 Now we'll go over how to spend some of them.
 
 1. On Specter-Desktop: Your Multisig Wallet (i.e. `Redundant Multisig`) > `Send` > `New`. Fill out the transaction info and hit `Create unsigned transaction`:  

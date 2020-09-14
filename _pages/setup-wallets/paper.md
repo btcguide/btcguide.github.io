@@ -56,7 +56,7 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 (A proper monkey would not pull the same word out of a hat 23 times in a row!)
 
 ##### Steps
-1. Vist SeedPicker: <http://seedpicker.net/calculator/last-word.html>
+1. Visit SeedPicker: <http://seedpicker.net/calculator/last-word.html>
 2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
 3. You will see the 24th word calculation result is `buddy`:  
 ![](/assets/img/setup-paper-seedpicker-example-output.png){:width="600px"}  
