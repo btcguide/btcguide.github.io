@@ -1,8 +1,12 @@
 # btcguide.github.io
 
+For regular users, just visit <https://btcguide.github.io/> to see GitHub Pages render this content as a static website.
+
+For advanced users, you can host this locally with [jekyll](https://jekyllrb.com/).
+
 ```bash
 $ bundle exec jekyll serve
 ```
 
-Then visit this site to see the content:
+Then visit:
  http://127.0.0.1:4000
