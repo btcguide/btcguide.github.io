@@ -26,7 +26,7 @@ This is a good default choice:
 * Has few moving parts
 * Minimal hardware purchasing requirements
 
-The big negative is that it only allows has tolerance for one catastrophic failure (vs zero in single-key signature schemes), and your use-case might desire greater distribution of your keys (more locations, or trusted parties). We'll see below why `3-of-5` helps address (some of) these concerns.
+The big negative is that it only has tolerance for one catastrophic failure (vs zero in single-key signature schemes), and your use-case might desire greater distribution of your keys (more locations, or trusted parties). We'll see below why `3-of-5` helps address (some of) these concerns.
 
 #### Problems with 2-of-4
 It's good that you need multiple signatures, but eliminating a single point of failure requires having 4 different HW wallet vendors!
@@ -53,7 +53,7 @@ Advanced users will be able to figure out how to adopt the steps in the guide to
 Lose two seeds and all your funds are lost.
 This is the same as `2-of-3`, but instead of having 3 seeds to protect, you now have 5.
 This tradeoff makes sense for very few people; those who are far more worried about theft vs loss.
-Keep in mind that on average loss is far more comman than theft.
+Keep in mind that on average loss is far more common than theft.
 
 **Recommendation: only expert users with a strong use-case should ever consider this.**
 

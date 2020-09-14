@@ -12,7 +12,7 @@ See Matt Odell’s Coldcard video from approx 3 mins in [here](https://www.youtu
 #### Power Source
 Instead of connecting the Coldcard to your laptop for power:
 * Use a portable battery pack (best)
-* Use or wall outlet
+* Use a wall outlet
 * Use a [charge-only (no-data) USB cable](https://www.amazon.com/PortaPow-Specialised-3-3ft-20AWG-Charge/dp/B00RQ5AZ6Q)
 or a
 [USB condom](https://www.amazon.com/PortaPow-3rd-Gen-Data-Blocker/dp/B00QRRZ2QM) on an existing cable
@@ -24,8 +24,8 @@ In order to verify a receive address on a coldcard you must significantly weaken
 
 For more mitigations see [Coldcard Advanced Address Verification](/verify-receive-address/coldcard-advanced).
 
-#### SD Card Interactivty
-Each time your SD card travels back and forth between your computer and coldcard introduces the possibility of malware jumping your "airgap."
+#### SD Card Interactivity
+Each time your SD card travels back and forth between your computer and coldcard introduces the possiblity of malware jumping your "airgap."
 Expert users can figure out how to create a multisig wallet on their coldcard with only 1 file from their hot machine (no need to first export the public key information from the coldcard).
 TODO: file github issue on Specter-Desktop to build this into the UI and link to it here.
 
