@@ -2,6 +2,8 @@
 
 For regular users, just visit <https://btcguide.github.io/> to see GitHub Pages render this content as a static website.
 
+---
+
 For advanced users, you can host this locally with [jekyll](https://jekyllrb.com/).
 
 ```bash
