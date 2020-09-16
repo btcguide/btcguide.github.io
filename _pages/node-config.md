@@ -3,7 +3,7 @@ title: Configure Bitcoin Node
 ---
 
 Keep in mind that while a malicious full node can wreak havoc, it does not have access to your private keys.
-The main function of this service is to confirm that bitcoin's consensus rules are being followed.
+The main function of this service is to confirm that bitcoin's consensus rules are being followed, but it will also help with fee estimation, coin selection, and generating transactions.
 
 For non-experts, we recommend using a paid product as they will be easiest to setup/maintain.
 Some examples:
@@ -18,7 +18,7 @@ In order for [Specter-Desktop](/install-specter) to connect to this full node, y
 
 You'll also need a way to authenticate a connection to your node.
 If your node is run on the same computer as Specter, Specter will likely be able to automatically detect authentication info from a `.cookie` file that bitcoin core created on your computer.
-If this node is run on a a different computer, you'll need to know the `rpcuser` and `rpcpassword` that your bitcoin core node is using.
+If this node is run on a different computer (a "remote" machine), you'll need to know the `rpcuser` and `rpcpassword` that your bitcoin core node is using.
 We recommend setting `rpcuser` to `specter` (if you have control) for simplicity.
 
 #### Optional Configuration
