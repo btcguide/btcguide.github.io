@@ -21,8 +21,6 @@ You can read more about this [here](https://donjon.ledger.com/Unfixable-Key-Extr
 
 These attacks can be mitigated with a strong passphrase, and cannot be exploited remotely (must have physical access to your Trezor).
 
-#### Written in Python
-This is not inherently a problem (python is a good general-purpose programming language!), but several hardware wallets with varying level of multisig support are also written in python, such as; Trezor, Coldcard, and Passport.
-These hardware wallets share *a lot* of upstream code, and it's possible that if a vulnerability were discovered in one it would be present in the others.
+{% include hw_python.md %}
 
 {% include encouragement.md %}

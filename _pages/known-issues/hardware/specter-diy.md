@@ -24,8 +24,6 @@ For example, if you're storing seed phrases on metal plates (with no passphrase)
 To get the benefits of a secure element (enforcing PIN access to a secure element with both a limit on the number of attempts an exponentially-increasing time-delay for guesses) means that you also need to remember a PIN.
 2. A long passphrase can strongly mitigate this issue, and the iPhone-style keyboard is very good for entering passphrases.
 
-#### Written in Python
-This is not inherently a problem (python is a good general-purpose programming language!), but several hardware wallets with varying level of multisig support are also written in python, such as; Trezor, Coldcard, and Passport.
-These hardware wallets share *a lot* of upstream code, and it's possible that if a vulnerability were discovered in one it would be present in the others.
+{% include hw_python.md %}
 
 {% include encouragement.md %}
