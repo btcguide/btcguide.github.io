@@ -27,7 +27,7 @@ While Coldcard builds are signed by Coldcard, they are not built in a way that i
 That said, Coldcard firmware is fully open so users can compile it themselves if they want this guarantee.
 
 #### Written in Python
-This is not inherently a problem (python is a good general-purpose programming language!), but several hardware wallets with varying level of multisig support are also written in python, such as; Trezor, Coldcard, and Passport.
+This is not inherently a problem (python is a good general-purpose programming language!), but several hardware wallets with varying level of multisig support are also written in python including Trezor, Coldcard, and Passport.
 These hardware wallets share *a lot* of upstream code, and it's possible that if a vulnerability were discovered in one it would be present in the others.
 
 {% include encouragement.md %}
