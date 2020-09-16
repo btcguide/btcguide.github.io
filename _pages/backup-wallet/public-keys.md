@@ -7,13 +7,13 @@ For this reason, we recommend saving **many** copies (each one having *all* publ
 
 #### Save to USB Pen Drive or DVD Drive
 Make many copies and store in many locations.
-You should keep a copy (of all public keys and related metadata) with each seed.
+You should keep a copy of all public keys (and related metadata) with each seed.
 
 #### Save on Your Computer
 TODO: add instructions on how to save this with Specter.
 
 #### Save Online
-Save this data to various cloud providers that you may already use (Dropbox, Mozy, Gmail, etc).
+Save this data to various cloud providers (Dropbox, Google Drive, iCloud) or backup services (Mozy, Carbonite, Backblaze, etc) that you may already use.
 Keep in mind this now means they have the ability to see all your bitcoin transactions and balance information (if they decide to peak).
 
 
