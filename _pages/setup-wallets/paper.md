@@ -2,20 +2,11 @@
 title: Setup Paper Wallet
 ---
 
-# Expert User Caution
-There is currently a step here that requires very advanced users to figure out.
-This should be updated soon:  
-<https://github.com/merland/seedpicker/issues/26>
 
-**Only expert users should proceed!**
-
----
-
-
-By using a paper wallet generated in software, we eliminate the need to buy a third hardware wallet (you may have to buy a hardware wallet if you need to use the key for emergency recovery).
+By using a paper wallet generated in software, we eliminate the need to buy a third hardware wallet (you may later have to buy a hardware wallet if you need to use this key for emergency recovery).
 
 **Warning: this is the highest risk step in our multisig setup**.
-**Follow the instructions closely, and seriously consider hardening your security by using techniques described in [the advanced section](paper-advanced)**.
+**Follow the instructions closely, and seriously consider hardening your security** by using techniques described in [the advanced section](paper-advanced).
 
 
 ## Generate Seed
@@ -47,13 +38,12 @@ define rifle cliff summer priority ability chimney cotton tennis crash husband t
 You can read more about how the author recommends using SeedPicker [here](http://seedpicker.net/guide/GUIDE.html).
 
 #### Practice First with a Dry Run
-As this is just for testing, you don't have to worry about security at all!
-
+As the dry-run is just for testing, you don't have to worry about security at all.
 Use the following *insecure* seed phrase (the word `zoo` repeated 23 times):
 ```
 zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 ```
-(A proper monkey would not pull the same word out of a hat 23 times in a row!)
+(an unbiased monkey would not pull the same word out of a hat 23 times in a row)
 
 ##### Steps
 1. Visit SeedPicker: <http://seedpicker.net/calculator/last-word.html>
@@ -63,22 +53,25 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 
 ##### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
-Do not save this to any computer!
+Do not save this to any computer.
 2. Put the extended public key data on a DVD-R or USB drive to share with Specter-Desktop.
-TODO: add more on how to do this when xfp download file is added: <https://github.com/merland/seedpicker/issues/26>
+`Show More` > `Export results to Specter (Click to download file)` > Click on file (`seedpickerxp-foo.json`)  
+![](/assets/img/setup-paper-seedpicker-save-json.png){:width="600px"}  
 
 
 #### Do it Live
-
-**Quit all applications, remove any removable media, and turn off your internet access before getting started.**
+**Quit all applications, remove any removable media, and turn off your internet access before continuing.**
 **Do not save the seed phrase to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
+
 It is *highly recommended* that you wipe your hard drive before restoring internet access.
+See [advanced section](paper-advanced) for more info.
 
-Now, repeat the steps above but with your real seed phrase (the 23 words you randomly drew out of a hat).
 
-## Export Public Key Info to Computer via QR Code / Webcam
-1. In the previous step, you saved your extended public key information (something like `[083AA3DB/48'/0'/0'/2']Zpub75b...bhK`) to a DVD-R or USB pen-drive.
-On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), paste in the extended public key information, and hit `continue`:  
+## Export Public Key Info to Specter-Desktop
+In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB pen-drive.
+
+1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
+Your file will be automatically parsed into something like this:  
 ![](/assets/img/setup-paper-specter-input.png){:width="800px"}  
 2. Your public key is now added to Specter-Desktop:  
 ![](/assets/img/setup-paper-display-pubkey.png){:width="800px"}  

@@ -2,31 +2,6 @@
 title: Setup Paper Wallet
 ---
 
-## Verify Seed Generation
-
-#### Confirm Seed Matches Zpub
-This is important in case SeedPicker was actually replaced by malware trying to steal your bitcoin!
-We will confirm that the seed is valid, matches the expected `Zpub`, path and root fingerprint.
-
-This step is unfortunately complicated, as SeedPicker (see [basic section](./paper)) is the only GUI software that currently exists to make it easier.
-**Only advanced users who are comfortable with the command line should consider continuing.**
-
-##### Use HumanRNG Electrum Script
-<https://github.com/mflaxman/human-rng-electrum>
-
-TODO: add instructions.
-
-![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
-
-##### Use an Alternative Script
-Expert users only, currently a WIP placeholder.
-* [HumanRNG CLI Golang Script](https://github.com/mflaxman/human-rng-golang) (WIP [blocked by this PR](https://github.com/btcsuite/btcutil/issues/179))
-* HumanRNG CLI Python Script: TODO: add link
-
-#### Write Data to CD-Rs/DVD-Rs instead of USB Drives
-DVDs are less able to execute malware on your computer.
-They also help keep a permanent record for debugging, as they cannot be edited during/after setup.
-
 ## Use a Clean Machine
 If there were malware on your machine and this seed escaped, it would **significantly** degrade the security of your multisig scheme.
 Assuming your attacker has 1 of your `2-of-3` needed keys, then you effectively now have a `1-of-2` scheme.
@@ -59,6 +34,35 @@ You can further enhance this with two (optional) steps:
 * When wiping your hard drive, use [a secure erase program](https://askubuntu.com/questions/17640/how-can-i-securely-erase-a-hard-drive) to make sure that nothing survives.
 Note that these do not work perfectly on Flash memory (SSD drives), so the previous technique is preferred.
 You can read more about this [here](https://wiki.archlinux.org/index.php/Securely_wipe_disk) and [here](https://www.howtogeek.com/234683/why-you-cant-securely-delete-a-file-and-what-to-do-instead/).
+
+## Verify Seed Generation
+
+#### Confirm Seed Matches Zpub
+This is important in case SeedPicker was actually replaced by malware trying to steal your bitcoin!
+We will confirm that the seed is valid, matches the expected `root fingerprint` and `Zpub` (for that `path`).
+
+This step is unfortunately complicated, as SeedPicker (see [basic section](./paper)) is the only GUI software that currently exists to make it easier.
+**Only advanced users who are comfortable with the command line should continue.**
+
+##### Use HumanRNG Electrum Script
+<https://github.com/mflaxman/human-rng-electrum>
+
+TODO: add instructions.
+
+![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
+
+##### Use a Pure Command Line Interface (CLI) Script
+Expert users only: <https://github.com/mflaxman/human-rng-golang>
+
+#### Improve Airgap
+
+##### Option A: Write Data to CD/DVD instead of USB Drive
+DVDs are less able to execute malware on your computer.
+
+##### Option B: Use a QR-Code Airgap
+This is not currently documented.
+Pull requests with clarification are welcome.
+Specter-Desktop can recieve this info via QR-code airgap.
 
 ## Improve Seed Generation
 
