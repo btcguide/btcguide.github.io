@@ -5,10 +5,11 @@ title: Setup Cobo Vault
 ## Upgrade Firmware
 Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046064053-Upgrading-Firmware) to update your firmware:
 
-1. Download the latest (BTC-Only) firmware:
+1. Download the latest BTC-Only firmware from Cobo:  
 [https://cobo.com/hardware-wallet/downloads](https://cobo.com/hardware-wallet/downloads?toBtc=true)  
+![](/assets/img/setup-cobo-download-firmware.png){:width="600px"}
 
-2. Copy the `update.zip` file to your microSD card and put it into your Cobo Vault.  
+2. Copy the downloaded `.zip` file to your microSD card and insert it into your Cobo Vault.  
 ![](/assets/img/setup-cobo-insert-sd.png){:height="250px"}
 
 3. Turn on your Cobo Vault.
@@ -21,6 +22,7 @@ If not, you can click on `Menu` > `Settings` > `Version`> `Update Now`.
 
 ## Setup Wallet
 Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/articles/360045490014-Getting-started-in-5-steps) to verify your device, setup a PIN, and generate your seed.
+
 [TODO]: copy over to this guide?
 
 ## Export Public Key Info to Computer via QR Code / Webcam
