@@ -16,4 +16,7 @@ To spell check:
 $ pyspelling -c .spellcheck.yml 
 Spelling check passed :)
 ```
-(see `.wordlist.txt` for all the exception words)
+
+Notes:
+* See `.wordlist.txt` for all the exception words.
+* `$ brew install aspell && pip install pyspelling` are needed.
