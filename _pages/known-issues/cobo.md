@@ -32,4 +32,4 @@ A simple pair of tweezers solves the problem.
 More importantly, the strong QR-code airgap means you only have to use SD card to update the firmware.
 
 
-{% include encouragement.md %}
+{% include hw/encouragement.md %}

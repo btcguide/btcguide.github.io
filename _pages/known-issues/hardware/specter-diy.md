@@ -2,10 +2,9 @@
 title: Specter DIY
 ---
 
-{% include hw_experts.md %}
-
-
 TODO: add more content
+
+{% include hw/experts.md %}
 
 #### Cannot Buy Assembled Version
 While the DIY version is great for expert users (and no longer requires soldiering!), the overwhelming majority of users prefer a product they can purchase.
@@ -24,6 +23,6 @@ For example, if you're storing seed phrases on metal plates (with no passphrase)
 To get the benefits of a secure element (enforcing PIN access to a secure element with both a limit on the number of attempts an exponentially-increasing time-delay for guesses) means that you also need to remember a PIN.
 2. A long passphrase can strongly mitigate this issue, and the iPhone-style keyboard is very good for entering passphrases.
 
-{% include hw_python.md %}
+{% include hw/python.md %}
 
-{% include encouragement.md %}
+{% include hw/encouragement.md %}

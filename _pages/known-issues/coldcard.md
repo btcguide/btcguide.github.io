@@ -26,6 +26,10 @@ Looks can be deceiving, as this is a very powerful and purpose-built device.
 While Coldcard builds are signed by Coldcard, they are not built in a way that is reproducible so they cannot be independently verified.
 That said, Coldcard firmware is fully open so users can compile it themselves if they want this guarantee.
 
-{% include hw_python.md %}
+#### Fork of Trezor
+This hardware wallet was launched by forking some of Trezor's open-source code.
+That said, it is very actively maintained and has many new features since then (some that Trezor has not been updated to support).
 
-{% include encouragement.md %}
+{% include hw/python.md %}
+
+{% include hw/encouragement.md %}
