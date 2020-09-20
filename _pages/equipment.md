@@ -2,6 +2,8 @@
 title: Equipment
 ---
 
+Intentionallyyyyyyy mispelleddddd
+
 TODO: add diagram showing how all these pieces interact.
 
 This guide will assume your computer is running the free and open source [Ubuntu](https://ubuntu.com/) operating system, because it offers a good mix of security, bitcoin software compatibility, and end-user configurability.
