@@ -20,5 +20,7 @@ Hopefully, Ledger will join the multisig party in the future so their devices ca
 
 {% include hw/closed_source.md %}
 
+{% include hw/shitcoins.md %}
+
 {% include hw/u2f.md %}
 You can read more about this on [Ledger's Website](https://support.ledger.com/hc/en-us/articles/115005198545-FIDO-U2F).

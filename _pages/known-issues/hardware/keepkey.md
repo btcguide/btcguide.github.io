@@ -16,4 +16,6 @@ They do have some clever UX options for you to do this on your host computer [us
 
 {% include hw/stateless.md %}
 
+{% include hw/shitcoins.md %}
+
 {% include hw/u2f.md %}

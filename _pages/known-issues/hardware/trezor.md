@@ -26,6 +26,9 @@ You can read more about this [here](https://donjon.ledger.com/Unfixable-Key-Extr
 
 These attacks can be mitigated with a strong passphrase, and cannot be exploited remotely (must have physical access to your Trezor).
 
+{% include hw/shitcoins.md %}
+Trezor does have [a bitcoin-only firmware](https://shop.trezor.io/btc-only/), though [this is not a perfect solution (TODO: better link)](https://www.reddit.com/r/TREZOR/comments/dccdxq/bitcoinonly_firmware_available/).
+
 {% include hw/python.md %}
 
 {% include hw/u2f.md %}
