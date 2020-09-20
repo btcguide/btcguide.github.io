@@ -8,7 +8,7 @@ While this is certainly true, managing your own keys is **really** hard.
 The math behind the bitcoin protocol is bulletproof, but being your own bank requires you to be near perfect in your execution.
 When it comes to cryptography, you are only as strong as your weakest link.
 For traditional single-key signature schemes, the only thing between your bitcoin and an attacker is a single mistake!
-Learn more about some of these risks by listening to [Michael Flaxman's August 2019 SLP Interview](https://stephanlivera.com/episode/97/). 
+Learn more about some of these risks by listening to [SLP Episode 97 with Michael Flaxman](https://stephanlivera.com/episode/97/). 
 
 The central principle of the guide is to avoid having any single point of failure.
 To accomplish this, you will setup your own multisig wallet using multiple hardware wallets from multiple different vendors.

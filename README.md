@@ -10,3 +10,10 @@ $ bundle exec jekyll serve
 ```
 
 Then visit: <http://127.0.0.1:4000>
+
+To spell check:
+```bash
+$ pyspelling -c .spellcheck.yml 
+Spelling check passed :)
+```
+(see `.wordlist.txt` for all the exception words)

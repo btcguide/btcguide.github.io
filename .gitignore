@@ -1,5 +1,6 @@
-.DS_Store
-.jekyll-cache*
-Gemfile.lock
-*.swp
 _site/*
+.jekyll-cache*
+dictionary.dic
+Gemfile.lock
+.DS_Store
+*.swp

@@ -4,6 +4,8 @@ defaults:
     values:
       layout: "default"
 
+exclude: 
+  - dictionary.dic
 
 # https://github.com/jekyll/jekyll/issues/920#issuecomment-315503935
 collections:

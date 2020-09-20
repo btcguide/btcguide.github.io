@@ -46,7 +46,7 @@ Protect your operational security by taking delivery to an alternate address ins
 Hardware wallets are designed to protect you from malware-infected computers, but malware on your computer could still try to trick (or even compromise) your hardware wallets.
 Using a dedicated computer (not your day-to-day computer), can reduce the attack surface.
 
-It may be even safer to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targetted tampering en-route.
+It may be even safer to buy your computer and other equipment (USB sticks, DVDs, microSD cards, etc) offline at a physical store to reduce the risk of targeted tampering en-route.
 
 Advanced users can get by on **very** cheap computers (like a Raspberry Pi), but since we're using Ubuntu we need to meet their (still lightweight) minimum requirements.
 
