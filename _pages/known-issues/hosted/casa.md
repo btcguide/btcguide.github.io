@@ -8,8 +8,8 @@ Casa is unique in that they will allow you to signup without giving them any gov
 {% include hosted/spof.md %}
 
 #### No Cobo Vault Support
-This will hopefully change.
-This also means that (for now) **properly verifying a receive address is only possible for advanced users**.
+This means that **properly verifying a receive address is only possible for advanced users** (for now).
+This will hopefully change soon.
 
 #### Some Keys Kept on Phone Hot Wallet
 Given the nature of multisig (and the size of your quorum) this may be a bad thing (software hot wallets are inherently far less secure) or a good thing (better UX and one less device to buy/configure/update).

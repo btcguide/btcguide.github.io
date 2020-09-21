@@ -6,8 +6,8 @@ title: Unchained Capital
 {% include hosted/utxo_privacy.md %}
 
 #### Limited Hardware Wallet Support
-No Coldcard nor Cobo Vault support, although Unchained has [publicly committed](https://unchained-capital.com/blog/gearing-up-the-caravan/) to adding Coldcard in the future.
-This means that (for now) **properly verifying a receive address is only possible for expert users**.
+Unchained doesn't support Coldcard nor Cobo Vault, although they have [plans](https://unchained-capital.com/blog/gearing-up-the-caravan/) to add Coldcard in the future.
+This means that **properly verifying a receive address is only possible for expert users** (for now).
 
 {% include hosted/2of3.md %}
 It would be great if Unchained would offer `3-of-5` signature schemes in the future.
