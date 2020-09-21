@@ -5,4 +5,4 @@ For example, if a `2-of-3` service holds one of your keys and mails you a (malic
 
 More realistically, were a multisig service provider to be hacked it might be able to exploit the trust users have for it.
 We've seen [similar attacks](https://cointelegraph.com/news/electrum-bitcoin-wallet-still-plagued-by-known-crypto-phishing-attack) on the popular Electrum Client for many years.
-This might might take the form of an invalid recieve address (if using a stateless hardware wallet with limited defenses) or an invalid change address (if using a hardware wallet that can't detect it).
+This might might take the form of an invalid receive address (if using a stateless hardware wallet with limited defenses) or an invalid change address (if using a hardware wallet that can't detect it).

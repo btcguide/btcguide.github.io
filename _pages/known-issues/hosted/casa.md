@@ -27,7 +27,7 @@ Casa does offer `3-of-5`, which is extra important because:
 
 {% include hosted/benefits.md %}
 
-Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritence, but the details are sparse.
+Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, but the details are sparse.
 Opting into this would likely be incompatible with using their service anonymously.
 
 Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is also useful for promoting best practices.

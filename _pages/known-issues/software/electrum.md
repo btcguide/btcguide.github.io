@@ -18,7 +18,7 @@ This is confusing behavior for hardware wallet users (almost all of whom use BIP
 #### Default Government Spying
 Using Electrum in the standard way is convenient, but risks revealing which addresses are yours to anonymous/volunteer SPV servers on the internet.
 These volunteer servers are likely to be run by blockchain surveillance companies like [chainalysis](https://www.chainalysis.com/).
-Dishonest SPV servers can also attempt to trick SPV clients into following a version fo the blockchain that is invalid if it has more Proof of Work.
+Dishonest SPV servers can also attempt to trick SPV clients into following a version of the blockchain that is invalid if it has more Proof of Work.
 While it is possible to run your own Electrum Server (on top of your own Bitcoin Core node), it is easier to just run your own Bitcoin Node only.
 
 #### Confusing UX

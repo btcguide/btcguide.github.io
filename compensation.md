@@ -2,7 +2,7 @@
 title: Compensation
 ---
 
-While I do not accept any compensation from bitcoin companies in connection with this project, the following companies have sent me their harware devices for free to play with:
+While I do not accept any compensation from bitcoin companies in connection with this project, the following companies have sent me their hardware devices for free to play with:
 
 * Trezor
 * Coldcard

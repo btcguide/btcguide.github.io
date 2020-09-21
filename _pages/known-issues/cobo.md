@@ -20,7 +20,7 @@ Cobo does have [a bitcoin-only firmware](https://cobo.com/hardware-wallet), thou
 
 #### Mild Annoyances
 These are all things that are annoying but not show-stoppers:
-* **Slow bootup time**.
+* **Slow boot time**.
 The fingerprint reader does help makeup for this!
 * **Long PIN can be annoying to enter on keyboard**.
 However, this only matters when the fingerprint reader fails.

@@ -13,6 +13,5 @@ matrix:
       - code
       - pre
   sources:
-  - '_pages/*.md'
-  - '_includes/*.md'
+  - '**/*.md'
   default_encoding: utf-8

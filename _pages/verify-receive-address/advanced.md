@@ -35,7 +35,7 @@ Your Specter-Desktop software is connected to the internet, or at least connecte
 We can improve this by using an offline/dedicated machine, where we install only the most minimal software.
 
 While this will help protect you against malware on your computer, you are still at risk from an [Evil maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack) with physical access to your computer (or paper printout).
-They could tamper with this software/prinout to instead show bitcoin addresses that they control, and trick you into receiving a deposit on their address.
+They could tamper with this software/printout to instead show bitcoin addresses that they control, and trick you into receiving a deposit on their address.
 
 #### Option A: Dedicated Machine
 TODO: add instructions for inputting extended public keys & paths (no private keys/seeds) running Electrum, Sparrow, Caravan, or some CLI script.

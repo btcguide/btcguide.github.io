@@ -11,7 +11,7 @@ That is why it is essential that you
 **turn off (and unplug) your internet access before performing these steps.**
 
 #### Option A (preferred): Tails Operating System
-For our one-time offline key generation, it is preferable to use a live operating system that cannot store information on the filesystem.
+For our one-time offline key generation, it is preferable to use a live operating system that cannot store information on the file system.
 [Tails](https://tails.boum.org/) is a live OS that is designed to wipe itself completely on shutdown.
 Conveniently, Electrum also comes pre-installed with Tails.
 
@@ -62,7 +62,7 @@ DVDs are less able to execute malware on your computer.
 ##### Option B: Use a QR-Code Airgap
 This is not currently documented.
 Pull requests with clarification are welcome.
-Specter-Desktop can recieve this info via QR-code airgap.
+Specter-Desktop can receive this info via QR-code airgap.
 
 ## Improve Seed Generation
 
