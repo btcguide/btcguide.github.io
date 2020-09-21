@@ -29,6 +29,10 @@ These attacks can be mitigated with a strong passphrase, and cannot be exploited
 {% include hw/shitcoins.md %}
 Trezor does have [a bitcoin-only firmware](https://shop.trezor.io/btc-only/), though [this is not a perfect solution (TODO: better link)](https://www.reddit.com/r/TREZOR/comments/dccdxq/bitcoinonly_firmware_available/).
 
+#### Slow To Sign Multisig Transactions
+It is unclear why this is the case:  
+<https://twitter.com/lopp/status/1308082310038732801>
+
 {% include hw/python.md %}
 
 {% include hw/u2f.md %}
