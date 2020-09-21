@@ -23,3 +23,7 @@ Casa does offer `3-of-5`, which is extra important if using their service becaus
 * They use both hardware and software wallets (1 of your keys is generated on your phone).
 
 {% include hosted/benefits.md %}
+
+Casa Does offer [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan), but the details are sparse.
+Opting into this would also likely break any chance at using their service anonymously.
+
