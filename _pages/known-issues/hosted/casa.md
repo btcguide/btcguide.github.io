@@ -14,7 +14,7 @@ This also means that (for now) **properly verifying a receive address is only po
 #### Some Keys Kept on Phone Hot Wallet
 Given the nature of multisig (and the size of your quorum) this may be a bad thing (software hot wallets are inherently far less secure) or a good thing (better UX and one less device to buy/configure/update).
 
-#### Sovereign Recovery Not Well Documented
+#### Sovereign Recovery Is Very Hard
 While you can leave their service (or recover your coins if they go out of business), [the process](https://walletsrecovery.org/recovery-docs/casa-recovery.html) is likely only possible for expert users.
 
 {% include hosted/2of3.md %}
