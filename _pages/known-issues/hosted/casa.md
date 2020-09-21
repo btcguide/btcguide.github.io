@@ -3,29 +3,31 @@ title: Casa
 ---
 
 {% include hosted/utxo_privacy.md %}
-Casa is unique in that they will allow you to signup without giving them any government documents, and in extreme cases potentially even sharing your name.
+Casa is unique in that they do not perform traditional KYC, and it is even possible to signup without sharing your name.
+Customers can pay anonymous with bitcoin or prepaid cards.
+[Their privacy policy](https://blog.keys.casa/casa-privacy-and-data-protection-policy/) is intentionally very customer-friendly.
 
 {% include hosted/spof.md %}
 
 #### No Cobo Vault Support
-This means that **properly verifying a receive address is only possible for advanced users** (for now).
+This means that **properly verifying a receive address is only possible for advanced users** (for now, instructions [here](https://blog.keys.casa/watch-only-wallet-guide/)).
 This will hopefully change soon.
 
-#### Some Keys Kept on Phone Hot Wallet
-Given the nature of multisig (and the size of your quorum) this may be a bad thing (software hot wallets are inherently far less secure) or a good thing (better UX and one less device to buy/configure/update).
+#### 1 Key Kept on Phone Hot Wallet
+This may be a bad thing (software hot wallets are inherently less secure) or a good thing (better UX and one less device to buy/configure/update).
+It is possible to export your mobile key from the app for sovereign recovery purposes (instructions [here](https://walletsrecovery.org/recovery-docs/casa-recovery)).
 
 #### Sovereign Recovery Is Very Hard
-While you can leave their service (or recover your coins if they go out of business), [the process](https://walletsrecovery.org/recovery-docs/casa-recovery.html) is likely only possible for expert users.
+While you can leave their service (or recover your coins if they go out of business), [the process](https://walletsrecovery.org/recovery-docs/casa-recovery) is likely only possible for expert users.
 
 {% include hosted/2of3.md %}
-Casa does offer `3-of-5`, which is extra important if using their service because:
+Casa does offer `3-of-5`, which is extra important because:
 * Their offering is by default [seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning there is no backups of your seeds.
-* They use both hardware and software wallets (1 of your keys is generated on your phone).
+* They use both hardware and software wallets (see above).
 
----
-## Not Bad
 {% include hosted/benefits.md %}
 
-Casa Does offer [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan), but the details are sparse.
-Opting into this would also likely break any chance at using their service anonymously.
+Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritence, but the details are sparse.
+Opting into this would likely be incompatible with using their service anonymously.
 
+Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is also useful for promoting best practices.

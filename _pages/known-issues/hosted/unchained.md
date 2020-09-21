@@ -20,6 +20,4 @@ Unchained has gone to great legnths to streamline it by releasing an open-source
 Unchained's use of non-standard BIP32 paths has the potential to cause issues, though good software should (mostly) abstract this away.
 TODO: add link.
 
----
-## Not Terrible
 {% include hosted/benefits.md %}
