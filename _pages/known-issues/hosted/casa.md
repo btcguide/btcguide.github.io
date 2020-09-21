@@ -3,7 +3,7 @@ title: Casa
 ---
 
 {% include hosted/utxo_privacy.md %}
-Casa is neat in that they will allow you to signup without showing any government documents, and in extreme cases potentially even your name.
+Casa is unique in that they will allow you to signup without giving them any government documents, and in extreme cases potentially even sharing your name.
 
 {% include hosted/spof.md %}
 
@@ -22,6 +22,8 @@ Casa does offer `3-of-5`, which is extra important if using their service becaus
 * Their offering is by default [seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning there is no backups of your seeds.
 * They use both hardware and software wallets (1 of your keys is generated on your phone).
 
+---
+## Not Bad
 {% include hosted/benefits.md %}
 
 Casa Does offer [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan), but the details are sparse.

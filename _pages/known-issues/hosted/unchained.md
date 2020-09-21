@@ -22,4 +22,6 @@ Unchained has gone to great legnths to streamline it by releasing an open-source
 Good software should (mostly) abstract this away, but it has the potential to cause issues.
 TODO: add link.
 
+---
+## Not Terrible
 {% include hosted/benefits.md %}

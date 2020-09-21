@@ -1,6 +1,3 @@
----
-
-## Not Terrible
 Security is not a binary, and no setup is 100% secure.
 Hosed multisig providers make multisig more accessible/easier for less technically savvy HODLers.
 While it is no guarantee, hosted providers have an incentive to push best practices onto their users, and will likely improve substantially over time.
