@@ -22,12 +22,11 @@ While you can leave their service (or recover your coins if they go out of busin
 
 {% include hosted/2of3.md %}
 Casa does offer `3-of-5`, which is extra important because:
-* Their offering is by default [seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning there is no backups of your seeds.
+* Their offering is by default [seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning there are no backups of your seeds!
 * They use both hardware and software wallets (see above).
 
 {% include hosted/benefits.md %}
-
-Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, but the details are sparse.
+Some noteworthy benefits of using their service:
+* Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, though the public details are sparse.
 Opting into this would likely be incompatible with using their service anonymously.
-
-Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is also useful for promoting best practices.
+* Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is useful for promoting best practices.
