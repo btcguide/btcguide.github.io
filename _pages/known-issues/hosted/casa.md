@@ -4,7 +4,7 @@ title: Casa
 
 TODO: add more content
 
-{% include hosted_utxo_privacy.md %}
+{% include hosted/utxo_privacy.md %}
 Casa is neat in that they will allow you to signup without showing any government documents or even giving your name.
 
 #### No Cobo Vault Support
@@ -17,4 +17,4 @@ Given the nature of multisig (and the size of your quorum) this may be a bad thi
 #### Sovereign Recovery Not Well Documented
 While you can leave their service (or recover your coins if they go out of business), the process is [not straightforward](https://walletsrecovery.org/recovery-docs/casa-recovery.html).
 
-{% include hosted_2of3.md %}
+{% include hosted/2of3.md %}
