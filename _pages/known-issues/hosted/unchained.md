@@ -7,17 +7,19 @@ title: Unchained Capital
 
 #### Limited Hardware Wallet Support
 Unchained doesn't support Coldcard nor Cobo Vault, although they have [plans](https://unchained-capital.com/blog/gearing-up-the-caravan/) to add Coldcard in the future.
-This means that **properly verifying a receive address is only possible for expert users** (for now).
+This means that **properly verifying a receive address is only possible for advanced users**.
 
-{% include hosted/2of3.md %}
-It would be great if Unchained would offer `3-of-5` signature schemes in the future.
+Unchained [recently added functionality to Trezor to confirm a device is part of a multisig address](https://unchained-capital.com/blog/trezor-and-unchained-make-multisignature-safer/), however this doesn't fundamentally fix the limitations of Trezor's stateless design (see [Trezor's known issues](/known-issues/hardware/trezor)). 
+These steps will only confirm that `1` of your keys is part of the quorum, not that `m` of your keys are part of the `m-of-n` quorum, so to be safe you must perform this step on *at least* `m` of your devices (more [here](/known-issues/verify-receive-address)).
+
 
 {% include hosted/spof.md %}
 
-#### Sovereign Recovery is Complicated
-While you can leave their service (or recover your coins if they go out of business), [the process](https://unchained-capital.com/blog/external-spend-workflow/) is inherently complicated.
-Unchained has gone to great legnths to streamline it by releasing an open-source product called [Caravan](https://unchained-capital.github.io/caravan/) that abstracts this away from end-users.
-Unchained's use of non-standard BIP32 paths has the potential to cause issues, though good software should (mostly) abstract this away.
-TODO: add link.
+#### Only Option is 2-of-3
+ [`3-of-5` would be better](/quorum-advanced), especially when using a hosted service that abstracts away a lot of multisig's complexity.
 
 {% include hosted/benefits.md %}
+Some noteworthy benefits of using Unchained:
+* Unchained has gone to great lengths to [streamline their sovereign recovery process](https://unchained-capital.com/blog/external-spend-workflow/) by releasing an open-source product called [Caravan](https://unchained-capital.github.io/caravan/) that abstracts all the steps away from end-users.
+* Their [key checks](https://twitter.com/unchainedcap/status/1217882977717440515) feature is useful for promoting best practices.
+* Current estate-planning offerings are not disclosed anywhere, but they are in a position to be extremely helpful to your heirs/estate should something happen to you.
