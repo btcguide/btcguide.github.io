@@ -17,16 +17,19 @@ This will hopefully change soon.
 This may be a bad thing (software hot wallets are inherently less secure) or a good thing (better UX and one less device to buy/configure/update).
 It is possible to export your mobile key from the app for sovereign recovery purposes (instructions [here](https://walletsrecovery.org/recovery-docs/casa-recovery)).
 
+#### Seedless
+Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/) by default, meaning that there are no backups of your seeds!
+This has some positives but increases the risk of losses.
+*It is recommneded to use this only with a `3-of-5` setup.*
+
 #### Sovereign Recovery Is Very Hard
 While you can leave their service (or recover your coins if they go out of business), [the process](https://walletsrecovery.org/recovery-docs/casa-recovery) is likely only possible for expert users.
 
-{% include hosted/2of3.md %}
-Casa does offer `3-of-5`, which is extra important because:
-* Their offering is by default [seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning there are no backups of your seeds!
-* They use both hardware and software wallets (see above).
-
 {% include hosted/benefits.md %}
-Some noteworthy benefits of using their service:
+Some noteworthy benefits of using Casa:
 * Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, though the public details are sparse.
 Opting into this would likely be incompatible with using their service anonymously.
 * Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is useful for promoting best practices.
+* They support `3-of-5` which [is an excellent setup](/quorum-advanced).
+This is an especially good fit when using a hosted service that abstracts away a lot of multisig's complexity and controls 1+ keys.
+Casa users should *strongly* consider this option as Casa is seedless and uses 1 software wallet (see above).
