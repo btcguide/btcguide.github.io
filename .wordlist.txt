@@ -126,6 +126,7 @@ colo
 conf
 config
 configurability
+contrib
 crypto
 cryptoadvance
 cryptographic
@@ -236,6 +237,7 @@ segwit
 sha
 shamirs
 shasum
+shapeshift
 shiftcrypto
 shitcoins
 sig
@@ -256,6 +258,7 @@ trezor
 trustlessly
 txt
 ubuntu
+udev
 uhyROpAQ
 uhyROpAQt
 ul

@@ -16,7 +16,7 @@ This has severe privacy implications and some [potential security implications](
 You can track Trezor's progress on this issue [here](https://github.com/trezor/trezor-firmware/issues/49).
 
 {% include hw/wired_airgap.md %}
-Trezor's Model T does not use [the built-in SD card for transacting](https://www.hardware-wallets.net/faq/what-is-the-sd-card-slot-on-the-trezor-model-t-for/).
+Trezor's Model T [does not use the built-in SD card for transacting](https://www.hardware-wallets.net/faq/what-is-the-sd-card-slot-on-the-trezor-model-t-for/).
 
 #### No Keyboard
 With only 2 buttons, it's very hard to enter a 24-word seed or strong passphrase.
@@ -34,13 +34,15 @@ These attacks can be mitigated with a strong passphrase, and cannot be exploited
 Trezor does have [a bitcoin-only firmware](https://shop.trezor.io/btc-only/), though [this is not a perfect solution](https://www.reddit.com/r/TREZOR/comments/dccdxq/bitcoinonly_firmware_available/).
 TODO: find better explainer link.
 
+{% include hw/udev.md %}Less-advanced users can use the Trezor Bridge installer [here](https://wiki.trezor.io/Trezor_Bridge) (see Trezor Bridge warning above).
+
 #### Slow To Sign Multisig Transactions
 It is unclear why this is the case:  
 <https://twitter.com/lopp/status/1308082310038732801>
 
 #### Have Made Breaking Changes in the Past
 In June 2020, [BTCPay users found they were no longer able to access their funds](https://twitter.com/BtcpayServer/status/1268544252247715849).
-Recovery is possible, as expert users can load in their own firmware, or refuse to upgrade their firmware (and forego potentially valuable security updates) in the first place.
+Recovery is possible; savvy users can refuse to upgrade their firmware (and forego potentially valuable security updates) in the first place and expert users can load in their own firmware.
 
 {% include hw/python.md %}
 
