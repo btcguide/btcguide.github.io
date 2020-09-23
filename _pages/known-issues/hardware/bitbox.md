@@ -2,6 +2,7 @@
 title: BitBox02
 ---
 
-# TODO: add content
+#### Not Currently Supported by Specter-Desktop
+TODO: add link
 
-{% include hw/experts.md %}
+TODO: add rest of content
