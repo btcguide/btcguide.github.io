@@ -20,7 +20,6 @@ You can export your mobile key from the app for sovereign recovery purposes (ins
 #### Seedless
 Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning that by default there are no seed backups from your hardware wallets (the mobile and casa keys are backed up automatically).
 This has some UX benefits that may improve security, but can also increases the risk of loss.
-*It is recommended to use this only with a `3-of-5` setup.*
 
 #### Sovereign Recovery Is Very Hard
 While you can leave their service (or recover your coins if they go out of business), [the process](https://walletsrecovery.org/recovery-docs/casa-recovery) is likely only possible for expert users.
