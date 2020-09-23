@@ -13,4 +13,4 @@ $ shasum -a 256 V1.4.0-BTC_Only.zip
 
 ## Not Perfect
 No device is perfect and this one is no exception.
-Read more about known issues with Cobo Vault [here](/known-issues/cobo).
+Read more about known issues with Cobo Vault [here](/known-issues/hardware/cobo).

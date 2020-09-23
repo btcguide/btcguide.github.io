@@ -34,4 +34,4 @@ Add additional entropy during new wallet creation using a casino die by pressing
 
 ## Not Perfect
 No device is perfect and this one is no exception.
-Read more about known issues with Coldcard [here](/known-issues/coldcard).
+Read more about known issues with Coldcard [here](/known-issues/hardware/coldcard).

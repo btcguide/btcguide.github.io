@@ -84,4 +84,4 @@ Because this step is only for **expert** users, we're going to ignore it for now
 
 ## Not Perfect
 No setup is perfect and this one is no exception.
-Read more about known issues with SeedPicker [here](/known-issues/seedpicker).
+Read more about known issues with SeedPicker [here](/known-issues/software/seedpicker).
