@@ -14,12 +14,12 @@ This means that **properly verifying a receive address is only possible for adva
 This will hopefully change soon.
 
 #### 1 Key Kept on Phone Hot Wallet
-This may be a bad thing (software hot wallets are inherently less secure) or a good thing (better UX and one less device to buy/configure/update).
-It is possible to export your mobile key from the app for sovereign recovery purposes (instructions [here](https://walletsrecovery.org/recovery-docs/casa-recovery)).
+Software hot wallets are inherently less secure but they have a better UX and offer one less device to buy/configure/update.
+You can export your mobile key from the app for sovereign recovery purposes (instructions [here](https://walletsrecovery.org/recovery-docs/casa-recovery)).
 
 #### Seedless
-Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/) by default, meaning that there are no backups of your seeds!
-This has some positives but increases the risk of losses.
+Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning that by default there are no seed backups from your hardware wallets (the mobile and casa keys are backed up automatically).
+This has some UX benefits that may improve security, but can also increases the risk of loss.
 *It is recommended to use this only with a `3-of-5` setup.*
 
 #### Sovereign Recovery Is Very Hard
