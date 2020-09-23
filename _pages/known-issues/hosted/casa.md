@@ -21,6 +21,11 @@ You can export your mobile key from the app for sovereign recovery purposes (ins
 Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning that by default there are no seed backups from your hardware wallets (the mobile and casa keys are backed up automatically).
 This has some UX benefits that may improve security, but can also increases the risk of loss.
 
+#### Outdated Firmware
+Casa [recommends users don't update their firmware](https://support.keys.casa/hc/en-us/articles/360045411571-Hardware-Wallet-Firmware-Upgrades).
+This is likely to prevent hardware wallet vendors from being able to make breaking changes like [this one](https://github.com/trezor/trezor-firmware/issues/1044).
+This will hopefully be resolved naturally in the future as hardware wallet vendors have strong incentives not to jeopardize access to user funds.
+
 #### Sovereign Recovery Is Very Hard
 While you can leave their service (or recover your coins if they go out of business), [the process](https://walletsrecovery.org/recovery-docs/casa-recovery) is likely only possible for expert users.
 

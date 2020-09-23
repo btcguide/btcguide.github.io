@@ -43,6 +43,7 @@ It is unclear why this is the case:
 #### Have Made Breaking Changes in the Past
 In June 2020, [BTCPay users found they were no longer able to access their funds](https://twitter.com/BtcpayServer/status/1268544252247715849).
 Recovery is possible; savvy users can refuse to upgrade their firmware (and forego potentially valuable security updates) in the first place and expert users can load in their own firmware.
+You can read more about this [here](https://github.com/trezor/trezor-firmware/issues/1044).
 
 {% include hw/python.md %}
 
