@@ -148,6 +148,7 @@ fo
 fulmo
 getumbrel
 github
+glacierprotocol
 hashpower
 hc
 howtogeek
@@ -239,6 +240,7 @@ spesmilo
 spof
 src
 stackoverflow
+stateful
 stephanlivera
 testnet
 th
