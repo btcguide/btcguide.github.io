@@ -9,9 +9,10 @@ title: Unchained Capital
 Unchained doesn't support Coldcard nor Cobo Vault, although they have [plans](https://unchained-capital.com/blog/gearing-up-the-caravan/) to add Coldcard in the future.
 This means that **properly verifying a receive address is only possible for advanced users**.
 
-Unchained [recently added functionality to Trezor to confirm a device is part of a multisig address](https://unchained-capital.com/blog/trezor-and-unchained-make-multisignature-safer/), however this doesn't fundamentally fix the limitations of Trezor's stateless design (see [Trezor's known issues](/known-issues/hardware/trezor)). 
-These steps will only confirm that `1` of your keys is part of the quorum, not that `m` of your keys are part of the `m-of-n` quorum, so to be safe you must perform this step on *at least* `m` of your devices (more [here](/known-issues/verify-receive-address)).
-
+Unchained [recently added some address verification functionality to Trezor](https://unchained-capital.com/blog/trezor-and-unchained-make-multisignature-safer/).
+However, this improvement doesn't fundamentally fix [Trezor's many known issues](/known-issues/hardware/trezor).
+As Trezor is stateless, these steps will only confirm that `1` of your keys is part of the quorum (not `m` of your keys are part of your `m-of-n`).
+You must repeat these steps on [*at least* `m` of your devices](/known-issues/verify-receive-address).
 
 {% include hosted/spof.md %}
 
