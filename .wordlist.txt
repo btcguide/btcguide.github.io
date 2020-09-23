@@ -1,9 +1,10 @@
-
 AML
 AWG
 Altcoin
 BIP
 BTC
+BTCPay
+BtcpayServer
 Backblaze
 BitBox
 BitcoinLixin
@@ -117,6 +118,7 @@ clicky
 cobo
 codebase
 cointelegraph
+coldbit
 coldcard
 coldcard's
 coldcardwallet
@@ -128,6 +130,7 @@ crypto
 cryptoadvance
 cryptographic
 cryptographically
+csles
 da
 dccdxq
 dochex
@@ -141,6 +144,7 @@ endunless
 english
 explainer
 faf
+faq
 fd
 fe
 filestystem
