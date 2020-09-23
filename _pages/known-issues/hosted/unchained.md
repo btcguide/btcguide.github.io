@@ -25,4 +25,4 @@ You must repeat these steps on [*at least* `m` of your devices](/known-issues/ve
 Some noteworthy benefits of using Unchained:
 * Unchained has gone to great lengths to [streamline their sovereign recovery process](https://unchained-capital.com/blog/external-spend-workflow/) by releasing an open-source product called [Caravan](https://unchained-capital.github.io/caravan/) that abstracts all the steps away from end-users.
 * Their [key checks](https://twitter.com/unchainedcap/status/1217882977717440515) feature is useful for promoting best practices.
-* Current estate-planning offerings are [barely disclosed](https://unchained-capital.com/privacy/), but they are in a position to be extremely helpful to your heirs/estate should something happen to you.
+* Current estate-planning offerings are [barely disclosed](https://twitter.com/mflaxman/status/1308834924452106243), but they are in a position to be extremely helpful to your heirs/estate should something happen to you.
