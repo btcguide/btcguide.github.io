@@ -30,6 +30,6 @@ Some noteworthy benefits of using Casa:
 * Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, though the public details are sparse.
 Opting into this would likely be incompatible with using their service anonymously.
 * Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is useful for promoting best practices.
-* They support `3-of-5` which [is an excellent setup](/quorum-advanced).
+* They support `3-of-5` which [is an excellent setup](/quorum-advanced), and make it easy by providing `2` of the keys.
 This is an especially good fit when using a hosted service that abstracts away a lot of multisig's complexity.
 Casa users should *strongly* consider this option as Casa is seedless and uses 1 software wallet (see above).
