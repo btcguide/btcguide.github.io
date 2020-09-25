@@ -42,6 +42,7 @@ Livera
 Lixin
 Lopp
 Lopp's
+MacOS
 Merkle
 Mozy
 Multisig
@@ -69,6 +70,7 @@ SeedPicker
 Shamir
 Shamir's
 Snakeoil
+SpecterDesktop
 Stuxnet
 SystemRequirements
 TOC
@@ -135,6 +137,7 @@ cryptographically
 csles
 da
 dccdxq
+dmg
 dochex
 donjon
 dp
@@ -144,6 +147,7 @@ endcomment
 endif
 endunless
 english
+exe
 explainer
 faf
 faq

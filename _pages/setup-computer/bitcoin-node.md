@@ -6,13 +6,11 @@ Keep in mind that while a malicious full node can try to deceive you, it does no
 The main function of this service is to confirm that bitcoin's consensus rules are being followed so that when you receive a payment you can validate that you are getting real bitcoins.
 It will also help with fee estimation, coin selection, and generating transactions.
 
-For non-advanced users, we recommend using a [MyNode](https://mynodebtc.com/) as it will be easiest to setup/maintain and [comes with Specter-Desktop already pre-installed](https://twitter.com/BitcoinQ_A/status/1280802711399796736)!
-
-More advanced users can use a bitcoin node product like
+While [MyNode](https://mynodebtc.com/) is recommended for non-advanced users because it ([comes with Specter-Desktop already pre-installed](https://twitter.com/BitcoinQ_A/status/1280802711399796736)), other bitcoin node product likes
 [Nodl](https://www.nodl.it/),
 [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), or
-[Umbrel](https://getumbrel.com/)
-and then install Specter-Desktop on their own.
+[Umbrel](https://getumbrel.com/),
+can work as well.
 
 [TODO]: find 1-click cloud deploy node?
 
@@ -32,4 +30,4 @@ In some edge cases you may need to rescan your node, and a pruned node will inst
 It takes just a few GB of storage and helps speedup blockchain `rescan`ing.
 
 
-{% include next_steps.md next_url="/install-specter" next_name="Install Specter-Desktop" %}
+{% include next_steps.md next_url="/setup-computer/specter" next_name="Install Specter-Desktop" %}

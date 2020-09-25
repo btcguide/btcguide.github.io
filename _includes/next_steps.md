@@ -1,4 +1,4 @@
-{% unless page.url contains "advanced" %}
+{% unless page.url contains "advanced" or page.no_advanced_link == true %}
 ## Advanced Configuration
 Click
 [here]({% if page.url contains "index" %}advanced{% else %}{{ page.url | split: '.' | first  }}-advanced{% endif %})

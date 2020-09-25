@@ -19,4 +19,4 @@ See [these step-by-step instructions](https://ubuntu.com/tutorials/install-ubunt
 
 
 
-{% include next_steps.md next_url="/node-config" next_name="Configure Your Bitcoin Node" %}
+{% include next_steps.md next_url="/setup-computer/bitcoin-node" next_name="Configure Your Bitcoin Node" %}
