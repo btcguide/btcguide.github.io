@@ -2,15 +2,13 @@
 title: Configure Bitcoin Node
 ---
 
-Keep in mind that while a malicious full node can try to deceive you, it does not have access to your private keys.
-The main function of this service is to confirm that bitcoin's consensus rules are being followed so that when you receive a payment you can validate that you are getting real bitcoins.
-It will also help with fee estimation, coin selection, and generating transactions.
+Think of your bitcoin node as a fake bitcoin detector, it will confirm that bitcoin's consensus rules are being followed so that when you receive a payment you can validate that you are getting real bitcoins. It will also help with fee estimation, coin selection, and generating transactions.
 
-While [MyNode](https://mynodebtc.com/) is recommended for non-advanced users because it ([comes with Specter-Desktop already pre-installed](https://twitter.com/BitcoinQ_A/status/1280802711399796736)), other bitcoin node product likes
-[Nodl](https://www.nodl.it/),
-[RaspiBlitz](https://shop.fulmo.org/raspiblitz/), or
-[Umbrel](https://getumbrel.com/),
-can work as well.
+Keep in mind that while a malicious full node can try to deceive you, it does not have access to your private keys.
+
+Recommended options for setting up your Bitcoin Node are [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), and myNode Premium edition[MyNode](https://mynodebtc.com/). They all have Specter packaged. Note RaspiBlitz is free, Nodl and myNode Premium are paid products. 
+
+Alternatively you can install Specter on your desktop or laptop PC alongside Bitcoin Core. 
 
 [TODO]: find 1-click cloud deploy node?
 
@@ -21,6 +19,9 @@ You'll also need a way to authenticate a connection to your node.
 If your node is run on the same computer as Specter, Specter will likely be able to automatically detect authentication info from a `.cookie` file that bitcoin core created on your computer.
 If this node is run on a different computer (a "remote" machine), you'll need to know the `rpcuser` and `rpcpassword` that your bitcoin core node is using.
 We recommend setting `rpcuser` to `specter` (if you can) for simplicity.
+
+#### HWI Bridge
+Note that for physically connecting hardware wallets using your laptop/desktop with Specter packaged on another device e.g. myNode, RaspiBlitz or nodl, you may need to set up [HWI Bridge](https://github.com/cryptoadvance/specter-desktop/blob/master/docs/hwibridge.md). 
 
 #### Optional Configuration
 If you can tweak your settings, we recommend the following (optional):
