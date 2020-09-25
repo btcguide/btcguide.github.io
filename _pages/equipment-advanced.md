@@ -62,7 +62,7 @@ A node hosted on a machine you physically control (in a [colo](https://en.wikipe
 If your cloud provider is malicious (or government-compelled) and clever they could:
 * Snoop on your bitcoin addresses and see your transaction history.
 * Try to trick you with information about a (fake) received payment.
-The author of this guide is proud to have written [a privacy-preserving defense against this using merkle proofs](https://github.com/cryptoadvance/specter-desktop/pull/334).
+The author of this guide is proud to have written [a privacy-preserving defense against this using merkle proofs](https://github.com/cryptoadvance/specter-desktop/pull/334) (currently only for advanced users).
 
 #### Pruning Bitcoin Core
 If you run a pruned full node, you can use very little disk space (currently ~5GB vs ~300GB) and massively lower your hardware requirements.
