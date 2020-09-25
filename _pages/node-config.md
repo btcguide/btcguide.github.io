@@ -6,7 +6,7 @@ Keep in mind that while a malicious full node can try to deceive you, it does no
 The main function of this service is to confirm that bitcoin's consensus rules are being followed so that when you receive a payment you can validate that you are getting real bitcoins.
 It will also help with fee estimation, coin selection, and generating transactions.
 
-For non-experts, we recommend using a [MyNode](https://mynodebtc.com/) as it will be easiest to setup/maintain and [comes with Specter-Desktop already pre-installed](https://twitter.com/BitcoinQ_A/status/1280802711399796736)!
+For non-advanced users, we recommend using a [MyNode](https://mynodebtc.com/) as it will be easiest to setup/maintain and [comes with Specter-Desktop already pre-installed](https://twitter.com/BitcoinQ_A/status/1280802711399796736)!
 
 More advanced users can use a bitcoin node product like
 [Nodl](https://www.nodl.it/),
