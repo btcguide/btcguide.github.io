@@ -170,6 +170,7 @@ html
 http
 https
 hw
+hwibridge
 iCloud
 img
 inactions
