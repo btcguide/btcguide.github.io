@@ -29,6 +29,8 @@ Guillemet
 HODLer
 HODLers
 HW
+HWI
+HWIBridge
 Howto
 HumanRNG
 JUNDUN
@@ -48,6 +50,7 @@ Mozy
 Multisig
 Multisignature
 MyNode
+myNode
 NDA
 Nodl
 Novak
