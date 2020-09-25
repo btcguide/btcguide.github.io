@@ -6,7 +6,8 @@ Think of your bitcoin node as a fake bitcoin detector, it will confirm that bitc
 
 Keep in mind that while a malicious full node can try to deceive you, it does not have access to your private keys.
 
-Recommended options for setting up your Bitcoin Node are [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), and myNode Premium edition[MyNode](https://mynodebtc.com/). They all have Specter packaged. Note RaspiBlitz is free, Nodl and myNode Premium are paid products. 
+Recommended options for setting up your Bitcoin Node are [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), and [MyNode](https://mynodebtc.com/) (Premium edition).
+They all have Specter packaged. Note RaspiBlitz is free, Nodl and myNode Premium are paid products. 
 
 Alternatively you can install Specter on your desktop or laptop PC alongside Bitcoin Core. 
 
