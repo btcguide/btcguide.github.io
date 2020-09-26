@@ -33,7 +33,12 @@ You do not need to use a laptop, any desktop computer can work. We find laptops 
 * They have less cables for the mouse/keyboard, which is helpful when dealing with the clutter of multiple hardware wallets.
 
 ## Bitcoin Core Node
-For regular users, we recommend using [MyNode](https://mynodebtc.com/) (more [here](/setup-computer/)).
+For regular users, we recommend using
+[RaspiBlitz](https://shop.fulmo.org/raspiblitz/),
+[MyNode](https://mynodebtc.com/), or
+[Nodl](https://www.nodl.it/)
+(more [here](/setup-computer/)).
+
 For advanced users, you can [run your own bitcoin core node](setup-computer/bitcoin-node) for more details.
 
 {% include next_steps.md next_url="/computer-config" next_name="Configure Your Computer" %}
