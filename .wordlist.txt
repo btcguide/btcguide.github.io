@@ -234,6 +234,7 @@ reproducibly
 repurpose
 rescan
 rescanblockchain
+rootzoll
 rpc
 rpcpassword
 rpcuser
