@@ -14,7 +14,7 @@ Your computer will run two important pieces of software:
 For regular users, we recommend using a pre-built bitcoin core node which includes Specter-Desktop:
 * [RaspiBlitz](https://github.com/rootzoll/raspiblitz) - free to make or can be bought as a pre-made device
 * [myNode](https://www.mynodebtc.com) - can be bought outright, or built and [Specter-Desktop is included in myNode premium](https://twitter.com/BitcoinQ_A/status/1280802711399796736)
-* [nodl](https://www.nodl.it) - can be bought outright
+* [Nodl](https://www.nodl.it) - can be bought outright
 
 
 Advanced users who have an extra focus on security and/or enjoy customization may prefer to setup their own computer, bitcoin core node, and specter-desktop following these instructions:

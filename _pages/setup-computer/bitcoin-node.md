@@ -22,7 +22,7 @@ If this node is run on a different computer (a "remote" machine), you'll need to
 We recommend setting `rpcuser` to `specter` (if you can) for simplicity.
 
 #### HWI Bridge
-Note that for physically connecting hardware wallets using your laptop/desktop with Specter packaged on another device e.g. myNode, RaspiBlitz or nodl, you may need to set up [HWI Bridge](https://github.com/cryptoadvance/specter-desktop/blob/master/docs/hwibridge.md). 
+Note that for physically connecting hardware wallets using your laptop/desktop with Specter packaged on another device e.g. myNode, RaspiBlitz or Nodl, you may need to set up [HWI Bridge](https://github.com/cryptoadvance/specter-desktop/blob/master/docs/hwibridge.md). 
 
 #### Optional Configuration
 If you can tweak your settings, we recommend the following (optional):

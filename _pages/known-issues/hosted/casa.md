@@ -18,7 +18,7 @@ Software hot wallets are inherently less secure but they have a better UX and of
 You can export your mobile key from the app for sovereign recovery purposes (instructions [here](https://walletsrecovery.org/recovery-docs/casa-recovery)).
 
 #### Seedless
-Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning that by default there are no seed backups from your hardware wallets (the mobile and casa keys are backed up automatically).
+Casa is [Seedless](https://blog.keys.casa/casa-seedless-security-model/), meaning that by default there are no seed backups from your hardware wallets (the mobile and Casa keys are backed up automatically).
 This has some UX benefits that may improve security, but can also increases the risk of loss.
 
 #### Outdated Firmware
