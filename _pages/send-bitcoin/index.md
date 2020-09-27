@@ -47,4 +47,4 @@ TODO: add photo
 TODO: fix outdated pictures.
 
 
-{% include next_steps.md %}
+{% include next_steps.md next_url="/emergency-recovery" next_name="Emergency Recovery" %}

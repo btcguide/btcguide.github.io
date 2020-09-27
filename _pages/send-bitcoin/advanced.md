@@ -17,3 +17,5 @@ TODO: add instructions
 
 #### Inspect Signed Transactions Before Broadcasting
 TODO: add instructions
+
+{% include next_steps.md next_url="/emergency-recovery" next_name="Emergency Recovery" %}
