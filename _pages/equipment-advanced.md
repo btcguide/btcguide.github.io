@@ -100,4 +100,4 @@ Some users prefer to print out many hundred (or even thousands) of receive addre
 If you go this route, you will need a printer and paper.
 
 
-{% include next_steps.md next_url="/computer-config" next_name="Configure Your Computer" %}
+{% include next_steps.md next_url="/setup-computer" next_name="Configure Your Computer" %}
