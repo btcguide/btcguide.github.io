@@ -26,13 +26,13 @@ You should be aware that this is a little more complicated than hardware wallets
 TODO: add explanation/screenshots.
 
 #### Option B - Electrum
-Electrum is an open-source sofware wallet that is free and readily availble, but difficult to use with multisig.
+Electrum is an open-source software wallet that is free and readily available, but difficult to use with multisig.
 **As it will be touching private key material, we strongly recommend you run this on an airgapped machine** (see [advanced section](advanced)).
 
 TODO: add screenshots.
 
 1. Download and install Electrum from [electrum.org/](https://electrum.org/).
-2. Create a new multisignature wallet using the wizard, and select 2 of 3  as your quroum.
+2. Create a new multisignature wallet using the wizard, and select 2 of 3  as your quorum.
 3. Using your Specter wallet backup file, identify your `zpub`s from the JSON file
 4. For the first two keys (Coldcard and Cobo), import the `zpub` master public keys into the Electrum multi signature wizard as keys in the multi signature quorum, ensuring the pathway matches the one Specter wallet used e.g. `m/48'/0'/0'/2'`.
 Electrum will display these as `xpub` master keys.
