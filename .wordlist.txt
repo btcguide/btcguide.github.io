@@ -131,6 +131,7 @@ cryptographic
 cryptographically
 da
 dmg
+dropdown
 electrum
 elsif
 endcomment
@@ -249,3 +250,4 @@ www
 xpub
 yml
 youtube
+zpub
