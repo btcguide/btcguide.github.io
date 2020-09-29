@@ -2,12 +2,12 @@
 title: Setup Paper Wallet
 ---
 
+For a video demo, check out [this example on Bitcoin Magazine](https://www.pscp.tv/BitcoinMagazine/1lDxLygXdvmKm?t=24m05s).
 
 By using a paper wallet generated in software, we eliminate the need to buy a third hardware wallet (you may later have to buy a hardware wallet if you need to use this key for emergency recovery).
 
 **Warning: this is the highest risk step in our multisig setup**.
 **Follow the instructions closely, and seriously consider hardening your security** by using techniques described in [the advanced section](paper-advanced).
-
 
 ## Generate Seed
 In order to eliminate the risk of a compromised random number generator, you are going to be the random number generator!
@@ -46,20 +46,18 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 ```
 (an unbiased monkey would not pull the same word out of a hat 23 times in a row)
 
-##### Calculate the 24th Word
+#### Calculate the 24th Word
 1. Visit [SeedPicker](<http://seedpicker.net/calculator/last-word.html>). 
 2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
 3. You will see that the 24th word calculation result is `buddy`:  
-
 ![](/assets/img/setup-paper-seedpicker-example-output.png){:class="thin_border_image"}  
 
-##### Save the Output
+#### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
 Do not save this to any computer.
 2. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
 This will download a `json` file to your computer, containing the extended public key info.  
-Save the file to a DVD-R or USB drive to later share with Specter-Desktop.
- 
+Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
 ![](/assets/img/setup-paper-seedpicker-save-json.png){:class="thin_border_image"}  
 
 
@@ -75,14 +73,9 @@ See [advanced section](paper-advanced) for more info.
 In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB pen-drive.
 
 1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
-Your file will be automatically parsed into something like this: 
- 
+Your file will be automatically parsed into something like this:  
 ![](/assets/img/setup-paper-specter-input.png){:class="thin_border_image"}  
-
-2. Your public key is now added to Specter-Desktop:  
-
+1. Your public key is now added to Specter-Desktop:  
 ![](/assets/img/setup-paper-display-pubkey.png){:class="thin_border_image"}  
-
-
 
 {% include next_steps.md next_url="cobo" next_name="Setup Cobo Vault" %}
