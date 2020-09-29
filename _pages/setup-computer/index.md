@@ -20,9 +20,9 @@ For regular users, we recommend using a pre-built bitcoin core node which includ
 Advanced users who have an extra focus on security and/or enjoy customization may prefer to setup their own computer, bitcoin core node, and specter-desktop following these instructions:
 
 [TODO]: auto-gen this TOC somehow?
-* [Setup Computer](computer)
-* [Run Bitcoin Core Node](bitcoin-node)
-* [Install Specter-Desktop](specter)
+1. [Setup Computer](computer)
+1. [Run Bitcoin Core Node](bitcoin-node)
+1. [Install Specter-Desktop](specter)
 
 
 {% include next_steps.md next_url="/setup-wallets" next_name="Setup Hardware Wallets" %}

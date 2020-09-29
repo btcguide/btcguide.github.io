@@ -25,8 +25,8 @@ For non-expert users, we recommend storing a copy of *all* extended public keys 
 
 [TODO]: auto-gen this TOC somehow?
 ## Table of Contents
-* [Backup Seeds Instructions](/backup-wallet/seeds)
-* [Backup Public Keys](/backup-wallet/public-keys)
+1. [Backup Seeds Instructions](/backup-wallet/seeds)
+1. [Backup Public Keys](/backup-wallet/public-keys)
 
 
 {% include next_steps.md next_url="/send-bitcoin" next_name="Send Bitcoin" %}

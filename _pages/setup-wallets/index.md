@@ -15,10 +15,10 @@ Then, your wallet can then generate (nearly) infinite addresses and sign (nearly
 
 [TODO]: auto-gen this TOC somehow?
 ## Table of Contents
-* [Paper Wallet](paper)
-* [Cobo Vault](cobo)
-* [Coldcard](coldcard)
-* [Coordinate Multisig (Specter-Desktop)](coordinate-multisig)
+1. [Paper Wallet](paper)
+1. [Cobo Vault](cobo)
+1. [Coldcard](coldcard)
+1. [Coordinate Multisig (Specter-Desktop)](coordinate-multisig)
 
 
 {% include next_steps.md next_url="/verify-receive-address" next_name="Verify Receive Address" %}

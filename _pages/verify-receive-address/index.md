@@ -13,10 +13,8 @@ Advanced users can mitigate some of these issues by following [these steps](/ver
 
 [TODO]: auto-gen this TOC somehow?
 ## Table of Contents
-* [Specter Instructions](/verify-receive-address/specter)
-* [Cobo Vault Instructions](/verify-receive-address/cobo)
-* [Coldcard Instructions](/verify-receive-address/coldcard)
-
-
+1. [Specter Instructions](/verify-receive-address/specter)
+1. [Cobo Vault Instructions](/verify-receive-address/cobo)
+1. [Coldcard Instructions](/verify-receive-address/coldcard)
 
 {% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}

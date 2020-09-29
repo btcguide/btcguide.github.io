@@ -21,5 +21,4 @@ TODO: add instructions for generating seed, setting PIN, etc
 4. Give your device a name (i.e. `Coldcard`) and hit `Continue`.  
 ![](/assets/img/setup-coldcard-specter-scanned.jpg){:width="800px"}
 
-
-{% include next_steps.md %}
+{% include next_steps.md next_url="coordinate-multisig" next_name="Coordinate Multisig" %}

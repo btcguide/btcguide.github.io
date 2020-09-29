@@ -40,4 +40,4 @@ Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/ar
 _You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_
 
 
-{% include next_steps.md %}
+{% include next_steps.md next_url="coldcard" next_name="Setup Coldcard" %}

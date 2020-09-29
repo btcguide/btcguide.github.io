@@ -85,4 +85,4 @@ Your file will be automatically parsed into something like this:
 
 
 
-{% include next_steps.md %}
+{% include next_steps.md next_url="cobo" next_name="Setup Cobo Vault" %}

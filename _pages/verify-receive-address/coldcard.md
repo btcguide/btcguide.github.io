@@ -15,5 +15,4 @@ See [advanced section](coldcard-advanced) for mitigations.
 2. Verify address on your Coldcard:  
 ![](/assets/img/verify-receive-address-coldcard.jpeg){:width="200px"}
 
-
-{% include next_steps.md %}
+{% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}
