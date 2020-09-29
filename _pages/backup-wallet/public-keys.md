@@ -14,7 +14,7 @@ TODO: add instructions on how to save this with Specter.
 
 #### Save Online
 Save this data to various cloud providers (Dropbox, Google Drive, iCloud) or backup services (Mozy, Carbonite, Backblaze, etc) that you may already use.
-Keep in mind this now means they have the ability to see all your bitcoin transactions and balance information (if they decide to peak).
+Keep in mind this now means they have the ability to see all your bitcoin transactions and balance information (if they decide to peek).
 
 
 {% include next_steps.md next_url="/send-bitcoin" next_name="Send Bitcoin" %}
