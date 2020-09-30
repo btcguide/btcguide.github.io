@@ -4,10 +4,13 @@ title: Setup Coldcard
 
 ## Update Your Firmware
 Follow the steps on Coldcard's website:  
-[https://coldcardwallet.com/docs/upgrade](https://coldcardwallet.com/docs/upgrade).
+<https://coldcardwallet.com/docs/upgrade>
 
 ## Setup Wallet
-TODO: add instructions for generating seed, setting PIN, etc
+Follow the steps on Coldcard's website:  
+<https://coldcardwallet.com/docs/quick>
+
+TODO: add more instructions for generating seed, setting PIN, etc
 
 ## Export Public Key Info to Computer via MicroSD
 1. Insert a microSD into Coldcard and then select: `Settings` > `Multisig Wallets` > `Export XPUB`.  
