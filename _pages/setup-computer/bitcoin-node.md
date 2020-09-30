@@ -2,27 +2,31 @@
 title: Configure Bitcoin Node
 ---
 
-Think of your bitcoin node as a fake bitcoin detector, it will confirm that bitcoin's consensus rules are being followed so that when you receive a payment you can validate that you are getting real bitcoins. It will also help with fee estimation, coin selection, and generating transactions.
+Think of your bitcoin node as a fake bitcoin detector, it will confirm that bitcoin's consensus rules are being followed so that when you receive a payment you can validate that you are getting real bitcoins.
+It will also help with fee estimation, coin selection, and generating transactions.
 
 Keep in mind that while a malicious full node can try to deceive you, it does not have access to your private keys.
 
-You can install Specter Desktop on your laptop or desktop PC alongside Bitcoin Core. 
-
-Other users may prefer using a package for setting up their Bitcoin Node, such as [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), and [MyNode](https://mynodebtc.com/) (Premium edition). They all have Specter packaged. Note RaspiBlitz is free, Nodl and myNode Premium are paid products. 
+You can install Specter-Desktop on your home computer alongside Bitcoin Core. 
+Alternatively, you can use a product to setup your Bitcoin Core Node, such as [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), and [MyNode](https://mynodebtc.com/) (Premium edition).
+They all come with Specter-Desktop packaged, but only RaspiBlitz is free (Nodl and myNode Premium are paid products).
 
 [TODO]: find 1-click cloud deploy node?
 
 #### Required Configuration
-In order for [Specter-Desktop](/install-specter) to connect to this full node, you'll need to configure some settings in your `bitcoin.conf` file. You can do this by going to the directory where Bitcoin is installed, and opening the bitcoin.conf file in a text editor (e.g. Notepad). Insert the following lines:
+In order for [Specter-Desktop](/install-specter) to connect to this full node, you'll need to configure some settings in your `bitcoin.conf` file.
+You can do this by going to the directory where Bitcoin is installed, and opening the bitcoin.conf file in a text editor (e.g. Notepad).
+Insert the following 2 lines:
 
-`server=1`
-
+`server=1`  
 `blockfilterindex=1`
 
-Then save, close, and reopen Bitcoin Core for the changes to apply. If your node is run on the same computer as Specter, Specter will likely be able to automatically detect authentication info from a `.cookie` file that bitcoin core created on your computer. Specter may require you to configure the location of your blockchain data (which may be on an external HDD or SSD if you've used one), configure this in Specter settings. 
+Then save, close, and reopen Bitcoin Core for the changes to apply.
 
 #### Remote nodes
-You'll also need a way to authenticate a connection to your node. If this node is run on a different computer (a "remote" machine), you'll need to know the `rpcuser` and `rpcpassword` that your bitcoin core node is using. We recommend setting `rpcuser` to `specter` (if you can) for simplicity.
+You'll also need a way to authenticate a connection to your node.
+If this node is run on a different computer (a "remote" machine), you'll need to know the `rpcuser` and `rpcpassword` that your bitcoin core node is using.
+We recommend setting `rpcuser` to `specter` (if you can) for simplicity.
 
 #### HWI Bridge
 Note that for physically connecting hardware wallets using your laptop/desktop with Specter packaged on another device e.g. myNode, RaspiBlitz or Nodl, you may need to set up [HWI Bridge](https://github.com/cryptoadvance/specter-desktop/blob/master/docs/hwibridge.md). 
