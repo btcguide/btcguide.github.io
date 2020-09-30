@@ -11,7 +11,9 @@ Your computer will run two important pieces of software:
 * [Bitcoin Core full node](https://bitcoin.org/en/bitcoin-core/) - to interact with (and validate!) the bitcoin blockchain
 * [Specter-Desktop](https://github.com/cryptoadvance/specter-desktop) - to interact with your hardware wallets when verifying receive addresses and signing transactions
 
-For Windows and MacOS users, it often makes sense to simply use your existing laptop or desktop for ease of setup. Bitcoin Core and Specter Desktop have executable 'double click' install versions available. You may need to buy an extra 1TB hard drive (or SSD) to store bitcoin blockchain data. More detailed instructions are linked below. 
+For Windows and MacOS users, it often makes sense to simply use your existing laptop or desktop for ease of setup.
+Bitcoin Core and Specter Desktop have executable 'double click' install versions available.
+You may need to buy an extra ~1TB hard drive to store bitcoin blockchain data (see detailed instructions linked below).
 
 Other users may prefer using a pre-built bitcoin node package which includes Bitcoin Core and Specter-Desktop:
 * [RaspiBlitz](https://github.com/rootzoll/raspiblitz) - free to make or can be bought as a pre-made device
