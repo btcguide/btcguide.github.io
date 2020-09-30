@@ -13,6 +13,10 @@ Customers can pay anonymous with bitcoin or prepaid cards.
 This means that **properly verifying a receive address is only possible for advanced users** (instructions [here](https://blog.keys.casa/watch-only-wallet-guide/)).
 This will hopefully change soon.
 
+#### Coldcard Implementation Doesn't Verify Cosigner Wallets
+[Casa recommends you trust PSBTs of your cosigner wallets](https://support.keys.casa/hc/en-us/articles/360044798911-Coldcard-Setup) (meaning don't verify them).
+This leaves you at risk of loss in the event Casa were compromised.
+
 #### 1 Key Kept on Phone Hot Wallet
 Software hot wallets are inherently less secure but they have a better UX and offer one less device to buy/configure/update.
 You can export your mobile key from the app for sovereign recovery purposes (instructions [here](https://walletsrecovery.org/recovery-docs/casa-recovery)).

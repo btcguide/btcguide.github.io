@@ -58,6 +58,7 @@ Nodl
 Novak
 PINs
 PSBT
+PSBTs
 Pavol
 Prosumer
 Pubkeys
