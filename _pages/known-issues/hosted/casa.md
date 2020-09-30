@@ -10,7 +10,7 @@ Customers can pay anonymous with bitcoin or prepaid cards.
 {% include hosted/spof.md %}
 
 #### No Cobo Vault Support
-This means that **properly verifying a receive address is only possible for advanced users** (instructions [here](https://blog.keys.casa/watch-only-wallet-guide/)).
+This means that **properly verifying a receive address is only possible for advanced users** (instructions [here](https://blog.keys.casa/watch-only-wallet-guide/) or [here](https://support.keys.casa/hc/en-us/articles/360045032452-Creating-Watch-Only-Wallets)).
 This will hopefully change soon.
 
 #### Coldcard Implementation Doesn't Verify Cosigner Wallets
