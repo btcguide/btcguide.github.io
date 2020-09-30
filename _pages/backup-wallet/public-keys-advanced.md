@@ -4,8 +4,9 @@ title: Backup Public Keys
 
 
 #### Protect Your Public Keys
-Place each copy of your public key data (DVDs or USB pendrives) in a fireproof document bag.
-Place each copy of your public key data (DVDs or USB pendrives) in a plastic bag with a good seal (vacuum sealed even better) so that it doesn't get destroyed in the event of water damage.
+Put your public key data (DVD or USB pendrive) in a plastic Ziploc-style bag to protect it from water damage.
+A vacuum-sealed bag is even better.
+For fire protection, place that inside a fireproof document bag.
 
 #### Secure Your Public Keys
 Anyone who gets access to public key information can see which bitcoin addresses belong to you but cannot spend from them.

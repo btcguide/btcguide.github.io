@@ -188,7 +188,7 @@ notecards
 ol
 onsetup
 pdf
-pendrives
+pendrive
 php
 png
 pre

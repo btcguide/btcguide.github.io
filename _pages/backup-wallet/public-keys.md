@@ -7,7 +7,7 @@ For this reason, we recommend saving **many** copies (each one having *all* publ
 
 #### Save to USB Pen Drive or DVD Drive
 Make many copies and store in many locations.
-You should keep a copy of all public keys (and related metadata) with each seed.
+We recommend you keep a copy of *all* public keys (and related metadata) with *each* seed.
 
 #### Save on Your Computer
 TODO: add instructions on how to save this with Specter.
