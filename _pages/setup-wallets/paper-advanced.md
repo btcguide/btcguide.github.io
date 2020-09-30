@@ -49,7 +49,7 @@ This step is unfortunately complicated, as SeedPicker (see [basic section](./pap
 
 TODO: add instructions.
 
-![](/assets/img/setup-paper-calculate-seed.png){:width="800px"}
+![](/assets/img/setup-paper-calculate-seed.png){:width="70%" class="border_image"}
 
 ##### Use a Pure Command Line Interface (CLI) Script
 Expert users only: <https://github.com/mflaxman/human-rng-golang>
