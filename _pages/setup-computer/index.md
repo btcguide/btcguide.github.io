@@ -16,7 +16,7 @@ Bitcoin Core and Specter Desktop have executable 'double click' install versions
 You may need to buy an extra ~1TB hard drive to store bitcoin blockchain data (see detailed instructions linked below).
 
 Other users may prefer using a pre-built bitcoin node package which includes Bitcoin Core and Specter-Desktop:
-* [RaspiBlitz](https://github.com/rootzoll/raspiblitz) - free to make or can be bought as a pre-made device
+* [RaspiBlitz](https://github.com/rootzoll/raspiblitz) - free to make or can be bought as a pre-made device. Access it as demonstrated [here](https://twitter.com/openoms/status/1311760772935151618)
 * [myNode](https://www.mynodebtc.com) - can be bought outright, or built and [Specter-Desktop is included in myNode premium](https://twitter.com/BitcoinQ_A/status/1280802711399796736)
 * [Nodl](https://www.nodl.it) - can be bought outright
 
