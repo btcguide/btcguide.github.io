@@ -81,6 +81,7 @@ You'll also need a fair 6-sided die.
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to backup/protect this passphrase, and if you lose it your seed is worthless.
 Because this step is only for **expert** users, we're going to ignore it for now.
+Be sure to use a hardware wallet where you can enter the passphrase directly on the device to avoid [potential issues](https://benma.github.io/2020/09/02/trezor-keepkey-passphrase.html).
 
 ## Not Perfect
 No setup is perfect and this one is no exception.
