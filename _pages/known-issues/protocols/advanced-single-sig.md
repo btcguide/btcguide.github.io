@@ -29,6 +29,8 @@ In practice, the best way to do this is to load the firmware onto the device you
 Since it only takes one mistake to lose bitcoin, closed-source software is reckless for storing bitcoin (note that this is not true for multisig where the security model is additive).
 This leaves only the Coldcard.
 
+If you really want to be safe, you should order the hardware yourself and build the device on your own.
+
 #### Bad Random Number Generator
 Users are [notoriously bad at generating strong passwords](https://www.youtube.com/watch?v=_JNGI1dI-e8), but let's assume your passphrase has enough entropy that it is truly impossible to crack, even for an attacker with access to your seed phrase.
 You no longer you need to worry about a compromised random number generator on address generation, nor rolling dice for entropy (and verifying this output is being used correctly).
