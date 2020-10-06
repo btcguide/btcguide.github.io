@@ -112,6 +112,7 @@ blockquote
 br
 btc
 btcguide
+casa
 checkboxes
 clicky
 cobo
