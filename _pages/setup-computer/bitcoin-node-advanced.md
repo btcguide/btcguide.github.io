@@ -19,4 +19,4 @@ Jameson Lopp has a good guide:
 [https://wolfmcnally.com/115/developer-notes-setting-up-a-bitcoin-node-on-aws/](https://wolfmcnally.com/115/developer-notes-setting-up-a-bitcoin-node-on-aws/)
 
 
-{% include next_steps.md next_url="/install-specter" next_name="Install Specter-Desktop" %}
+{% include next_steps.md next_url="/setup-computer/specter" next_name="Install Specter-Desktop" %}
