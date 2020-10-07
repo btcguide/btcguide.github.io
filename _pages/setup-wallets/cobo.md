@@ -9,14 +9,14 @@ Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046
 [https://cobo.com/hardware-wallet/downloads](https://cobo.com/hardware-wallet/downloads?toBtc=true)  
 ![](/assets/img/setup-cobo-download-firmware.png){:width="70%" class="border_image"}
 
-2. Copy the downloaded `.zip` file to your microSD card and insert it into your Cobo Vault.  
+1. Copy the downloaded `.zip` file to your microSD card and insert it into your Cobo Vault.  
 ![](/assets/img/setup-cobo-insert-sd.png){:width="20%" class="border_image"}
 
-3. Turn on your Cobo Vault.
+1. Turn on your Cobo Vault.
 You will be prompted to update the firmware, click the button to accept the upgrade.
 If not, you can click on `Menu` > `Settings` > `Version`> `Update Now`.
 
-4. Enter your password when prompted. The update may take several minutes to complete.
+1. Enter your password when prompted. The update may take several minutes to complete.
 
 [TODO]: add screenshot (one on Cobo site is from v1.2.0 which is multicoin/confusing)
 
@@ -29,12 +29,12 @@ Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/ar
 1. On Cobo: `Menu` > `Multisig Wallet` > `•••` button in the top right > `Show/Export XPUB`.  
 ![](/assets/img/setup-cobo-export-pubkey.jpg){:width="70%" class="border_image"}
 
-2. On Specter-Desktop: Click `+ Add new device` > `Scan`  
+1. On Specter-Desktop: Click `+ Add new device` > `Scan`  
 ![](/assets/img/setup-cobo-specter-scan.jpg){:width="70%" class="border_image"}
 
-3. Hold the QR code on your Cobo vault up to your webcam so your computer can scan it.
+1. Hold the QR code on your Cobo vault up to your webcam so your computer can scan it.
 
-4. Give your device a name (i.e. `Cobo`) and hit `Continue`.  
+1. Give your device a name (i.e. `Cobo`) and hit `Continue`.  
 ![](/assets/img/setup-cobo-specter-scanned.jpg){:width="70%" class="border_image"}
 
 _You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_

@@ -48,14 +48,14 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 
 #### Calculate the 24th Word
 1. Visit [seedpicker.net](https://seedpicker.net)
-2. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
-3. You will see that the 24th word calculation result is `buddy`:  
+1. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
+1. You will see that the 24th word calculation result is `buddy`:  
 ![](/assets/img/setup-paper-seedpicker-example-output.png){:class="border_image"}  
 
 #### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
 Do not save this to any computer.
-2. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
+1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
 This will download a `json` file to your computer, containing the extended public key info.  
 Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
 ![](/assets/img/setup-paper-seedpicker-save-json.png){:class="border_image"}  

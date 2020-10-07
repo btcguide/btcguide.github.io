@@ -15,19 +15,19 @@ If your host computer says address X follows the rules of your quorum (`m` signa
 Factors that make it less risky to consider this approach:
 1. **When the amount you're receiving is low**.
 Bitcoin price appreciation could increase the $ value of the bitcoin in this address.
-2. **When the computer you're using to verify this address is a dedicated machine** -
+1. **When the computer you're using to verify this address is a dedicated machine** -
 an eternally quarantined machine is _much_ better.
-3. **When you previously saved (preferably printed) a file of addresses that you verified on a quorum of trusted devices**,
+1. **When you previously saved (preferably printed) a file of addresses that you verified on a quorum of trusted devices**,
 this address matches that file, and you are confident that nobody tampered with the file.
-4. **When performing a `3-of-5` multisig transaction where you verified the address on 2 trusted devices in the quorum**
+1. **When performing a `3-of-5` multisig transaction where you verified the address on 2 trusted devices in the quorum**
 but not the full 3 required.
-5. **When your hardware wallets you use to verify the address previously saved/registered the public keys info from the rest of your seeds**,
+1. **When your hardware wallets you use to verify the address previously saved/registered the public keys info from the rest of your seeds**,
 so that tampering with any seed would be caught by this wallet. TODO: add more on this.
 
 You might consider it safe to send to an address that you've previously received funds on and been able to spend, but this has two serious issues:
 1. This is known as address reuse, and it's a bad for both privacy as well security (in the event of a quantum computer).
 TODO: add link/explanation.
-2. The fact that you were previously able to spend does indicate you have control but doesn't guarantee it.
+1. The fact that you were previously able to spend does indicate you have control but doesn't guarantee it.
 In an extreme case, your host computer may be malware-infected yet still relaying/signing your small transactions in hopes of tricking you into making a large deposit (you can think of this as a long-con).
 
 ## Offline Address Verification
@@ -50,9 +50,9 @@ The main downside is that if you have a ton of bitcoin addresses (perhaps for a 
 
 Steps:
 1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify receive addresses.
-2. Export a very large amount of receive addresses to a file.
+1. Export a very large amount of receive addresses to a file.
 You never want to have to repeat this setup and paper is cheap, so consider a very large number (say 10,000 addresses).
-3. Print this file, and consider making multiple copies.
+1. Print this file, and consider making multiple copies.
 
 Now that you never need to check this computer again, you can go about using it for whatever you like and not have to worry about keeping it secure.
 Ideally, you would wipe the computer, but since it is only touching _public_ key information the only risk is a privacy leak.

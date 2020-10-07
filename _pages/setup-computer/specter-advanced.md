@@ -5,7 +5,7 @@ title: Install Specter-Desktop
 #### Enable Merkle Proofs
 That way, if your node is compromised it will have a hard time tricking you into believing you've received a fake payment (while still preserving your privacy):
 1. Visit Bitcoin Core settings page and click on `General` tab ([this link](http://localhost:25441/settings/general) should work if you have Specter-Desktop running).
-2. Toggle `Validate Merkle Proofs` button and hit `Save`.
+1. Toggle `Validate Merkle Proofs` button and hit `Save`.
 
 TODO: add screenshot
 
