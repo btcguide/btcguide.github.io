@@ -14,7 +14,7 @@ They all come with Specter-Desktop packaged, but only RaspiBlitz is free (Nodl a
 [TODO]: find 1-click cloud deploy node?
 
 #### Required Configuration
-In order for [Specter-Desktop](/install-specter) to connect to this full node, you'll need to configure some settings in your `bitcoin.conf` file.
+In order for [Specter-Desktop](/setup-computer/specter) to connect to this full node, you'll need to configure some settings in your `bitcoin.conf` file.
 You can do this by going to the directory where Bitcoin is installed, and opening the bitcoin.conf file in a text editor (e.g. Notepad).
 Insert the following 2 lines:
 
