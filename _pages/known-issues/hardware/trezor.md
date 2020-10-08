@@ -8,6 +8,8 @@ title: Trezor
 Default usage leaks your xpub to Trezor's servers (and whoever they share records with).
 This is [estimated at 99% of their users](https://coldbit.com/how-to-use-a-trezor-without-leaking-your-balance-and-transaction-history-to-third-parties/).
 This has severe privacy implications and some [potential security implications](https://www.reddit.com/r/Bitcoin/comments/5csles/what_are_the_security_risks_of_sharing_xpub/).
+A simple solution is to initialize your Trezor with the Trezor Manager app (android) & use it with Specter/Core.
+The CLI solution, linked above, enables more options. 
 
 {% include hw/stateless.md %}
 
