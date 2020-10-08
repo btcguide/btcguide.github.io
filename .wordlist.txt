@@ -134,6 +134,7 @@ cryptoadvance
 cryptographic
 cryptographically
 da
+disablewallet
 dmg
 dropdown
 electrum

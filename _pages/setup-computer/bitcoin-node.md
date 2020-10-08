@@ -16,10 +16,11 @@ They all come with Specter-Desktop packaged, but only RaspiBlitz is free (Nodl a
 #### Required Configuration
 In order for [Specter-Desktop](/setup-computer/specter) to connect to this full node, you'll need to configure some settings in your `bitcoin.conf` file.
 You can do this by going to the directory where Bitcoin is installed, and opening the bitcoin.conf file in a text editor (e.g. Notepad).
-Insert the following 2 lines:
+Insert the following 3 lines:
 
 `server=1`  
 `blockfilterindex=1`
+`disablewallet=0` (you don't need private keys in Bitcoin Core, but you need wallets to be enabled)
 
 Then save, close, and reopen Bitcoin Core for the changes to apply.
 
