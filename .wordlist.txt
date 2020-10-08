@@ -64,12 +64,14 @@ Prosumer
 Pubkeys
 RaspiBlitz
 Rescan
+RNG
 Rusnak
 SLP
 SPV
 SSD
 SSSS
 SeedPicker
+SeedPicker's
 Shamir
 Shamir's
 Snakeoil
