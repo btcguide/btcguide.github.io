@@ -25,8 +25,7 @@ Smart hardware wallets implement a defense against this where they register all 
 The bullet-proof solution is to verify your receive addresses on a quorum of trusted displays.
 Not only does this eliminate the risk, but it serves as a redundant check when making a deposit.
 While perhaps a little counter-intuitive, this is an excellent safety feature.
-Smart single-key signature users also must redundantly verify their receive addresses, but doing so in a single-key setup adds new issues due to the inherent single point of failure in single-key signature schemes;
-you now have your seed floating around in multiple places for verification, and suffering a breach in any one of these is enough to lose all your funds!
+Smart single-key signature users also must redundantly verify their receive addresses, but doing so in a single-key setup adds a new privacy issue do to sharing xpubs in a watch-only wallet. 
 
 ## Confirm You Can Retrieve the Key
 
