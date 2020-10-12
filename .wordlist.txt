@@ -216,7 +216,6 @@ rpcuser
 sM
 satoshilabs
 sd
-se
 seedpicker
 seedpickerxp
 segwit
