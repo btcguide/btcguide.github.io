@@ -79,9 +79,7 @@ This will require 3 pages to be printed out, and it's easier if you print out an
 You'll also need a fair 6-sided die.
 
 #### Use Dice
-Using dice and a lookup table you can speed up the seed generation and avoid all paper cutting. See the
-article [Create your own wallet seed using regular dice](https://en.bitcoin.se/articles/create-your-own-wallet-seed-using-regular-dice)
-on [bitcoin.se](https://www.bitcoin.se) for detailed instructions.
+You can avoid all the paper cutting by [using dice and a lookup table instead](https://en.bitcoin.se/articles/create-your-own-wallet-seed-using-regular-dice).
 
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to backup/protect this passphrase, and if you lose it your seed is worthless.
