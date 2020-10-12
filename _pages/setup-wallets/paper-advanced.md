@@ -78,6 +78,11 @@ See [the SeedPicker guide for creating your own seed phrase](https://github.com/
 This will require 3 pages to be printed out, and it's easier if you print out another 5 (can just reference them online if you prefer).
 You'll also need a fair 6-sided die.
 
+#### Use Dice
+Using dice and a lookup table you can speed up the seed generation and avoid all the paper cutting. See the
+article [Create your own wallet seed using regular dice](https://en.bitcoin.se/articles/create-your-own-wallet-seed-using-regular-dice)
+on [bitcoin.se](https://www.bitcoin.se) for detailed instructions.
+
 #### Add a Strong Passphrase to Your Seed
 Caution: you now have to come up with a way to backup/protect this passphrase, and if you lose it your seed is worthless.
 Because this step is only for **expert** users, we're going to ignore it for now.
