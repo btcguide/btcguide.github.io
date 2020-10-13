@@ -33,7 +33,7 @@ If you really want to be safe, you should order the hardware yourself and build 
 
 #### Bad Random Number Generator
 Users are [notoriously bad at generating strong passwords](https://www.youtube.com/watch?v=_JNGI1dI-e8), but let's assume your passphrase has enough entropy that it is truly impossible to crack, even for an attacker with access to your seed phrase.
-You no longer you need to worry about a compromised random number generator on address generation, nor rolling dice for entropy (and verifying this output is being used correctly).
+You no longer need to worry about a compromised random number generator on address generation, nor rolling dice for entropy (and verifying this output is being used correctly).
 As this long passphrase is by definition challenging to remember, you're going to need to back this up.
 
 Again, with multisig you don't need fancy passphrases (by default) as breaking a multisig scheme would require a quorum of devices' seed phrases to be compromised (in a way that your attacker could exploit).
@@ -45,11 +45,11 @@ You should have a second device (preferably made by a second manufacturer) to co
 
 If this sounds a lot like a convoluted version of multisig, it's because it is.
 Single-sig products typically don't build that much verification into their workflows.
-You also now need to be worried that all the information need to steal your bitcoin now exists in multiple places.
+You also now need to be worried that all the information needed to steal your bitcoin now exists in multiple places.
 
 #### Chosen Nonce Attacks
-If your nonce is not truly random, the private key used can be easily calculated [easily calculated](https://twitter.com/mflaxman/status/1082045755991486464).
-If your extended public key is known to your attacker, they can trivially derive the rest of your child private keys!
+If your nonce is not truly random, the private key used can be [easily calculated](https://twitter.com/mflaxman/status/1082045755991486464).
+If your extended public key is known to your attackers, they can trivially derive the rest of your child private keys!
 
 Advanced users can sign the same transaction multiple times and prove that their k-value is deterministic, but this is still no guarantee of randomness (expert users can write their own code to verify [RFC6979](https://tools.ietf.org/html/rfc6979) implementation).
 
@@ -57,7 +57,7 @@ Note multisig *massively* reduces the risk of chosen nonce attacks, as your atta
 
 #### Multiple Pieces
 You now have a scheme with multiple parts (seed words and passphrase) which both need to be combined in order to recover your bitcoin.
-We can think of this like a 2-of-2 scheme, because if you lose either part you lose *all* of your bitcoins.
+We can think of this like a 2-of-2 scheme, because if you lose either part you lose *all* of your bitcoin.
 A better scheme would be something like a 2-of-3 multisig, where you can lose a part and not lose all of your bitcoin.
 
 And if you're saying you'll use Shamir's Secret Sharing Scheme, read [this note](/why-multisig-advanced#shamirs-secret-sharing-scheme) first.
