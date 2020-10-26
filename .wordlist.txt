@@ -23,6 +23,7 @@ CryptoLocker
 DIY
 DropBox
 EMP
+EMPs
 Electrum
 Electrum's
 FIXME
@@ -64,6 +65,7 @@ Prosumer
 Pubkeys
 RaspiBlitz
 Rescan
+RFID
 RNG
 Rusnak
 SLP
