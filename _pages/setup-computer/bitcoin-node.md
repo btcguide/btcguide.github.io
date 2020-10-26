@@ -8,7 +8,7 @@ It will also help with fee estimation, coin selection, and generating transactio
 Keep in mind that while a malicious full node can try to deceive you, it does not have access to your private keys.
 
 You can install Specter-Desktop on your home computer alongside Bitcoin Core. 
-Alternatively, you can use a product to setup your Bitcoin Core Node, such as [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), and [MyNode](https://mynodebtc.com/) (Premium edition).
+Alternatively, you can use a product to setup your Bitcoin Core Node, such as [RaspiBlitz](https://shop.fulmo.org/raspiblitz/), [Nodl](https://www.nodl.it/), [Umbrel](https://getumbrel.com/) and [MyNode](https://mynodebtc.com/) (Premium edition).
 They all come with Specter-Desktop packaged, but only RaspiBlitz is free (Nodl and myNode Premium are paid products).
 
 [TODO]: find 1-click cloud deploy node?
