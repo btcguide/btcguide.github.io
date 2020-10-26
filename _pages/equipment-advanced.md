@@ -23,11 +23,11 @@ This is a [popular brand](https://www.amazon.com/JUNDUN-Fireproof-Document-Water
 However you secure these backups, you want one set of gear for each seed, or a minimum of 3 in total.
 
 #### Hardware wallet storage bags
-Electromagnetic pulse (EMP) bags, also known as a Faraday cage or bag, should be used to store your hardware wallets. EMP bags may protect your hardware wallets from damage by electromagnetic radiation such as cellular, GPS, Bluetooth, Wifi, RFID, NFC radio waves etc. which may damage your devices.
+Electromagnetic pulse (EMP) bags, also known as a Faraday cage or bag, should be used to store your hardware wallets. EMP bags may protect your hardware wallets from damage by electromagnetic radiation such as cellular, GPS, Bluetooth, WiFi, RFID, NFC radio waves etc. which may damage your devices.
 
-A more extreme, but unlikely, attack vector that an EMP bag may protect you from is an EMP. EMPS are strong waves of electromagnetic energy that can damage electronic devices like hardware wallets. EMPs are usually associated with nuclear weapons or solar weather events like a coronal mass ejection, but minor EMPs can also occur from lightning strikes or even power lines surges.
+A more extreme, but unlikely, attack vector that an EMP bag may protect you from is an EMP. EMPs are strong waves of electromagnetic energy that can damage electronic devices like hardware wallets. EMPs are usually associated with nuclear weapons or solar weather events like a coronal mass ejection, but minor EMPs can also occur from lightning strikes or even power lines surges.
 
-Various faraday cage / EMP bag products exist on the market but a cheap but effective option is to vaccum seal your hardware wallets in mylar which can be found cheaply on [Amazon](https://www.amazon.com/s?k=mylar&ref=nb_sb_noss). [Silenct Pocket](https://silent-pocket.com/) is one of many companies that offer a range of Farday cage products (not an endorsement, just an example). 
+Various Faraday cage / EMP bag products exist on the market but a cheap but effective option is to vacuum seal your hardware wallets in Mylar which can be found cheaply on [Amazon](https://www.amazon.com/s?k=mylar&ref=nb_sb_noss). [Silenct Pocket](https://silent-pocket.com/) is one of many companies that offer a range of Faraday cage products (not an endorsement, just an example).
 
 #### DVD Drive Instead of USB Drive
 Using a DVD for installing Ubuntu is slightly preferred over a USB drive.
