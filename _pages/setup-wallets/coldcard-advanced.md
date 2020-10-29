@@ -30,7 +30,10 @@ Expert users can figure out how to create a multisig wallet on their coldcard wi
 TODO: file github issue on Specter-Desktop to build this into the UI and link to it here.
 
 ## Additional Entropy
-Add additional entropy during new wallet creation using a casino die by pressing ‘4’ as demonstrated [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=681) by Matt Odell. 
+Add additional entropy during new wallet creation using a casino die by pressing ‘4’ as demonstrated [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=681) by Matt Odell.
+You can do the full 256 bits of entropy with 99 rolls, or you can do 50 rolls, so that’s like half, or you can do just a few rolls and add some entropy at least to trust-minimize your seed generation. 
+
+Alternatively, if you don't trust ColdCard's seed generation at all, you can create your own seed with dice from scratch, as demonstrated [here](https://www.youtube.com/watch?v=Rc29d9m92xg). 
 
 ## Not Perfect
 No device is perfect and this one is no exception.
