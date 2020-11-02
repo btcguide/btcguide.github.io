@@ -19,7 +19,7 @@ It will also calculate some extended public key information that will be used to
 #### Print Out Seed Words
 
 You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) so you can select your seed words randomly.
-Download [this nicely formatted PDF from Cold Code](/assets/guide/cold_code_bip39_wordlist.pdf) and print out both pages (single-sided).
+Download [this nicely formatted PDF](/assets/guide/bip39_wordlist.pdf) and print out both pages (single-sided).
 There is no private information in this PDF, having it only reveals that you're interested in bitcoin.
 You don't need your own printer; you could safely ask a friend to print it out for you, print it out at work, go to a Kinko's location, etc.
 
