@@ -137,6 +137,7 @@ cryptographic
 cryptographically
 da
 disablewallet
+diy
 dmg
 dropdown
 electrum
