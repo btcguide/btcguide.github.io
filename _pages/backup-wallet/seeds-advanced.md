@@ -74,3 +74,32 @@ Place your paper into a plastic bag with a good seal (vacuum sealed even better)
 
 #### Fireproof Document Bag
 You can use these to protect seed backups, and also to protect your physical hardware wallets.
+
+## Example Backup Configuration
+
+| Wallet | 2 of 3                        | 3 of 5                        |
+|--------|-------------------------------|-------------------------------|
+| #1     | Safe at home                  | Safe at home                  |
+| #2     | Bank or trusted friend/family | Safe at home                  |
+| #3     | Bank or trusted friend/family | Bank or trusted friend/family |
+| #4     | -                             | Bank or trusted friend/family |
+| #5     | -                             | Bank or trusted friend/family |
+
+### Items to include with each wallet
+- With each wallet, include the following:
+  - the wallet's seed, on paper or metal
+  - all the wallets' master public keys[^1] (xpub), on paper
+  - in a storage medium (i.e. SD card, thumb drive):
+    - current version of bitcoin core (all platforms)
+    - current version of Specter Desktop (all platforms)
+    - in a plain text document (.txt or .md), all the wallet's master public keys again, for easier access
+    - plain text document including spending instructions
+- Place everything in a fireproof document bag
+
+#### Checklist
+- If storing in a bank, choose different banks, definitely different branches
+- If wallets 4 & 5 are with trusted friends/family, in the event you want your heirs to access your bitcoin, ensure that they will be able to get a hold of the wallet in a safety deposit box or at home.
+- Every year or two, check your devices and seeds to ensure they are still intact. Put this on your and any trusted key holders' calendars so you do not forget. There can be floods, paper can corrode, devices can break, or bank can lose your things.
+- Look years ahead. If the amount of bitcoin you have calls for it, you may want to have the seeds in safety deposit boxes or with friends/family in other cities, or possibly even other countries. Though this will make checking on them much harder, there's a certain amount of money where this becomes worth the trouble.
+
+[^1]: There's a privacy tradeoff here. See [this](backup-wallet/index.md#public-keys).
