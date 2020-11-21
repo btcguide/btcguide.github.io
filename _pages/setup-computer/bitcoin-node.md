@@ -19,8 +19,9 @@ You can do this by going to the directory where Bitcoin is installed, and openin
 Insert the following 3 lines:
 
 `server=1`  
-`blockfilterindex=1` 
-`disablewallet=0` (you don't need private keys in Bitcoin Core, but you need wallets to be enabled) 
+`blockfilterindex=1`  
+`disablewallet=0`  
+(you don't want to store private keys in Bitcoin Core, but you need wallet functionality enabled for building unsigned transactions) 
 
 Then save, close, and reopen Bitcoin Core for the changes to apply.
 
