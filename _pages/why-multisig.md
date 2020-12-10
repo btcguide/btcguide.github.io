@@ -1,6 +1,4 @@
----
-title: Why Multisig?
----
+# Why Multisig?
 
 ["Your keys, your bitcoin. Not your keys, not your bitcoin."](https://www.youtube.com/watch?v=vt-zXEsJ61U)
 
@@ -19,6 +17,7 @@ On account of this, your level of caution/paranoia/effort (vs a traditional sing
 
 **If you follow these instructions, you can suffer at least one catastrophic failure and not lose any bitcoin.**
 This could include things like:
+
 * An exploitable software/firmware bug on your hardware wallet
 * A pwned (or fake) hardware wallet
 * An unscrupulous trusted third party (lawyer/accountant/custodian/etc) with access to a key for recovery
@@ -45,6 +44,5 @@ At each step, there are recommendations for how you can harden your security, an
 This guide is free, and there are no refunds.
 [There are no bailouts in Bitcoin](https://twitter.com/stephanlivera/status/1207802135791845376).
 We **highly** recommend you practice all of this first.
-See disclaimer [here](/disclaimer).
+See disclaimer [here](#disclaimer).
 
-{% include next_steps.md next_url="/quorum" next_name="Pick Quorum" %}

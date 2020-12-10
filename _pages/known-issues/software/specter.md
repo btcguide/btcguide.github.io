@@ -1,5 +1,3 @@
----
-title: Specter DIY
----
+## Specter DIY
 
 TODO: add content

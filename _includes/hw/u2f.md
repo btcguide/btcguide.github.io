@@ -1,6 +1,6 @@
 ---
 
-#### Alternate Use: U2F Key
+### Alternate Use: U2F Key
 This wallet can be converted to a [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor) key for logging into trusted third parties like Twitter, Google, Facebook, LinkedIn, DropBox, etc.
 While this won't have any direct impact on the security of bitcoin private keys that are under your physical control, it does significantly impair hackers' ability to wreak havoc on your digital life.
 

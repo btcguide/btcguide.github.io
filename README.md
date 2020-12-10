@@ -4,19 +4,20 @@ For regular users, just visit <https://btcguide.github.io/> to see GitHub Pages 
 
 ---
 
-For advanced users, you can host this locally with [jekyll](https://jekyllrb.com/) (setup instructions [here](https://jekyllrb.com/docs/installation/ubuntu/)):
-```bash
-$ bundle exec jekyll serve
+This branch is used to crate a pdf and epub file from the markdown sources.
+
+## Create pdf on windows
+* Install miktex portable: https://miktex.org/howto/portable-edition
+* Install pandoc and pandoc-crossref:
+
 ```
-
-Then visit: <http://127.0.0.1:4000>
-
-To spell check (takes ~3s):
-```bash
-$ pyspelling -c .spellcheck.yml 
-Spelling check passed :)
+	choco install pandoc
+	choco install pandoc-crossref
 ```
+* Open the miktex terminal and go into the base directory. The documents can be build with
 
-Notes:
-* See `.wordlist.txt` for all the exception words.
-* `$ brew install aspell && pip install pyspelling` are needed.
+```
+create_pdf.bat
+craete_ebook.bat
+```
+* The mobi file can be created from the epub file using kindle previewer: https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1003018611

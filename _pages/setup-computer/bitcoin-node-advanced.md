@@ -1,13 +1,9 @@
----
-title: Configure Bitcoin Node
----
-
 ## Verify Software
 
-#### Simple: Verify Signature
+### Simple: Verify Signature
 TODO: add link
 
-#### Complicated: Build from Source
+### Complicated: Build from Source
 TODO: add link
 
 ## Run Node Over Tor
@@ -18,5 +14,3 @@ Jameson Lopp has a good guide:
 ## Guide to Deploying Node on AWS:
 [https://wolfmcnally.com/115/developer-notes-setting-up-a-bitcoin-node-on-aws/](https://wolfmcnally.com/115/developer-notes-setting-up-a-bitcoin-node-on-aws/)
 
-
-{% include next_steps.md next_url="/setup-computer/specter" next_name="Install Specter-Desktop" %}

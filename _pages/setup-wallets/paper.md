@@ -1,6 +1,4 @@
----
-title: Setup Paper Wallet
----
+## Setup Paper Wallet
 
 For a video demo, check out [this example on Bitcoin Magazine](https://www.pscp.tv/BitcoinMagazine/1lDxLygXdvmKm?t=24m05s).
 
@@ -9,7 +7,7 @@ By using a paper wallet generated in software, we eliminate the need to buy a th
 **Warning: this is the highest risk step in our multisig setup**.
 **Follow the instructions closely, and seriously consider hardening your security** by using techniques described in [the advanced section](paper-advanced).
 
-## Generate Seed
+### Generate Seed
 In order to eliminate the risk of a compromised random number generator, you are going to be the random number generator!
 
 You will draw the first 23 words out of a hat to create you seed phrase.
@@ -19,7 +17,7 @@ It will also calculate some extended public key information that will be used to
 #### Print Out Seed Words
 
 You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) so you can select your seed words randomly.
-Download [this nicely formatted PDF](/assets/guide/bip39_wordlist.pdf) and print out both pages (single-sided).
+Download [this nicely formatted PDF](./assets/guide/bip39_wordlist.pdf) and print out both pages (single-sided).
 There is no private information in this PDF, having it only reveals that you're interested in bitcoin.
 You don't need your own printer; you could safely ask a friend to print it out for you, print it out at work, go to a Kinko's location, etc.
 
@@ -34,7 +32,7 @@ In the end you will have 23 words that look like this (**do NOT use this seed ph
 define rifle cliff summer priority ability chimney cotton tennis crash husband try trophy ring cook portion drift stool thank ceiling notice lesson foam
 ```
 
-## Calculate the 24th Word and Other Seed Data using SeedPicker
+### Calculate the 24th Word and Other Seed Data using SeedPicker
 The 24th word cannot be calculated on paper or in your head, so you will need a secure computer
 for this step. This guide recommends the open source tool SeedPicker, which was designed for this purpose.    
 
@@ -50,7 +48,7 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 1. Visit [seedpicker.net](https://seedpicker.net)
 1. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
 1. You will see that the 24th word calculation result is `buddy`:  
-![](/assets/img/setup-paper-seedpicker-example-output.png){:class="border_image"}  
+![](./assets/img/setup-paper-seedpicker-example-output.png)
 
 #### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
@@ -58,7 +56,7 @@ Do not save this to any computer.
 1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
 This will download a `json` file to your computer, containing the extended public key info.  
 Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
-![](/assets/img/setup-paper-seedpicker-save-json.png){:class="border_image"}  
+![](./assets/img/setup-paper-seedpicker-save-json.png)
 
 
 #### Do it Live
@@ -66,16 +64,14 @@ Save the file to a DVD-R or USB drive to later share with Specter-Desktop.
 **Do not save the seed phrase to your hard drive (write it down on paper only), and restart your computer before restoring internet access.**
 
 It is *highly recommended* that you wipe your hard drive before restoring internet access.
-See [advanced section](paper-advanced) for more info.
+See [advanced section](#paper-advanced) for more info.
 
 
-## Export Public Key Info to Specter-Desktop
+### Export Public Key Info to Specter-Desktop
 In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB pen-drive.
 
 1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
 Your file will be automatically parsed into something like this:  
-![](/assets/img/setup-paper-specter-input.png){:class="border_image"}  
+![](./assets/img/setup-paper-specter-input.png) 
 1. Your public key is now added to Specter-Desktop:  
-![](/assets/img/setup-paper-display-pubkey.png){:class="border_image"}  
-
-{% include next_steps.md next_url="cobo" next_name="Setup Cobo Vault" %}
+![](./assets/img/setup-paper-display-pubkey.png)

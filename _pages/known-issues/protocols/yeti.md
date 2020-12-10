@@ -1,6 +1,4 @@
----
-title: Yeti
----
+## Yeti
 
 TODO: add content
 
