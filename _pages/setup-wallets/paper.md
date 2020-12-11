@@ -48,15 +48,15 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 1. Visit [seedpicker.net](https://seedpicker.net)
 1. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
 1. You will see that the 24th word calculation result is `buddy`:  
-![](./assets/img/setup-paper-seedpicker-example-output.png)
+	![](./assets/img/setup-paper-seedpicker-example-output.png)
 
 #### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
-Do not save this to any computer.
+	Do not save this to any computer.
 1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
-This will download a `json` file to your computer, containing the extended public key info.  
-Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
-![](./assets/img/setup-paper-seedpicker-save-json.png)
+	This will download a `json` file to your computer, containing the extended public key info.  
+	Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
+	![](./assets/img/setup-paper-seedpicker-save-json.png)
 
 
 #### Do it Live
@@ -71,7 +71,7 @@ See [advanced section](#paper-advanced) for more info.
 In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB pen-drive.
 
 1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
-Your file will be automatically parsed into something like this:  
-![](./assets/img/setup-paper-specter-input.png) 
+	Your file will be automatically parsed into something like this:  
+	![](./assets/img/setup-paper-specter-input.png) 
 1. Your public key is now added to Specter-Desktop:  
-![](./assets/img/setup-paper-display-pubkey.png)
+	![](./assets/img/setup-paper-display-pubkey.png)

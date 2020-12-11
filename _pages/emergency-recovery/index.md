@@ -18,12 +18,12 @@ BIP39 is the gold standard supported by all major hardware wallets, so we expect
 
 As there are gotchas in both of these setups, we recommend you read [the advanced section](#emergency-recovery-advanced) for tips to improve your setup.
 
-### Option A - Trezor
+## Option A - Trezor
 You should be aware that this is a little more complicated than hardware wallets you setup previously, and there are some pitfalls to avoid (see [known issues](#trezor)).
 
 TODO: add explanation/screenshots.
 
-### Option B - Electrum
+## Option B - Electrum
 Electrum is an open-source software wallet that is free and readily available, but difficult to use with multisig.
 **As it will be touching private key material, we strongly recommend you run this on an airgapped machine** (see [advanced section](#emergency-recovery-advanced)).
 
@@ -33,10 +33,10 @@ TODO: add screenshots.
 1. Create a new multisignature wallet using the wizard, and select 2 of 3  as your quorum.
 1. Using your Specter wallet backup file, identify your `zpub`s from the JSON file
 1. For the first two keys (Coldcard and Cobo), import the `zpub` master public keys into the Electrum multi signature wizard as keys in the multi signature quorum, ensuring the pathway matches the one Specter wallet used e.g. `m/48'/0'/0'/2'`.
-Electrum will display these as `xpub` master keys.
+	Electrum will display these as `xpub` master keys.
 1. For the seedpicker paper wallet, select private keys, and Electrum will present a box to type in your seedpicker seed.
-Ensure you use the drop-down menu to select that this is a BIP39 seed or otherwise Electrum will not correctly recognise and recover this seed.
-Notice from this point, you should now consider this private key as 'hot' assuming your Electrum machine is online.
+	Ensure you use the drop-down menu to select that this is a BIP39 seed or otherwise Electrum will not correctly recognise and recover this seed.
+	Notice from this point, you should now consider this private key as 'hot' assuming your Electrum machine is online.
 1. You can generate a PSBT partially signed bitcoin transaction from Specter, sign it with one of your keys (e.g. the Coldcard or Cobo), and then load that PSBT into your Electrum under the `Tools` > `Load from file` function.
-If correctly imported, Electrum will then detect that this transaction has been signed by 1 of 2 required signatures, and present you the opportunity to sign it with the seedpicker paper wallet key. 
+	If correctly imported, Electrum will then detect that this transaction has been signed by 1 of 2 required signatures, and present you the opportunity to sign it with the seedpicker paper wallet key. 
 1. You can then Save this PSBT file and broadcast it from your Specter Wallet to broadcast the transaction. 

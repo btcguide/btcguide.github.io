@@ -12,11 +12,12 @@ In single-key setups, the typical workflow is for a user to setup an insecure wa
 Some users discover to their horror that it is already too late.
 
 A common example of this workflow might be to use a paper wallet (or paper seed) to receive funds, which has two major issues that a proper multisig scheme is designed to mitigate:
+
 1. **It is typically not possible to independently verify the source of randomness** used to generate private key material.
-This leaves all funds subject to theft, even if the funds were generated on an airgapped/eternally quarantined machine.
+	This leaves all funds subject to theft, even if the funds were generated on an airgapped/eternally quarantined machine.
 1. **Verifying the backed-up seed matches the addresses generated requires testing this on a secondary device**.
-If you're going to do this, you should just use multisig so you can get the benefits of real fault tolerance!
-See [Verifying Your Receive Addresses](#verify-receive-address).
+	If you're going to do this, you should just use multisig so you can get the benefits of real fault tolerance!
+	See [Verifying Your Receive Addresses](#verify-receive-address).
 
 #### Multisig Recognizes Humans Are Imperfect
 It turns out that cryptography in meatspace is very challenging.
