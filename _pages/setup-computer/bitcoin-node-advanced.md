@@ -13,7 +13,7 @@ Luke Dashjr has a good guide on "ensuring your install of Bitcoin is secure and 
 TODO: add link
 
 ## Run Node Over Tor
-Jameson Lopp has a good guide:
+Jameson Lopp has a good guide on increasing the privacy of your node (as well as the Bitcoin network in general) by running your node over Tor:
 
 [https://blog.lopp.net/how-to-run-bitcoin-as-a-tor-hidden-service-on-ubuntu/](https://blog.lopp.net/how-to-run-bitcoin-as-a-tor-hidden-service-on-ubuntu/)
 
