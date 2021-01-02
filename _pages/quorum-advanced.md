@@ -57,10 +57,13 @@ Keep in mind that on average loss is far more common than theft.
 
 **Recommendation: only expert users with a strong use-case should ever consider this.**
 
-#### N > 5: Nonstandard Transactions
-Most mining pools will only mine "standard" transactions, which is defined as `m <= 5`.
-This means that confirmation times will be much slower for these transactions, as a smaller percentage of bitcoin's hashpower will try to include them in their block templates.
+#### N > 5 is Costly and Risky
+N > 5 is technically possible (see e.g. [this demonstration of `15-of-15`](https://twitter.com/thebitcoinrabbi/status/1300097349230956544)).
 
-**Recommendation: do not consider this unless you are an expert.**
+But unless you know exactly what you're doing and why, you should avoid N > 5. At that point, the cost and complexity likely exceeds any additional security benefits.
+
+Furthermore, N > 5 can be dangerous. Due to size limits ([legacy](https://bitcoin.stackexchange.com/questions/23893/what-are-the-limits-of-m-and-n-in-m-of-n-multisig-addresses), [segwit](https://bitcoin.stackexchange.com/questions/51509/will-segwit-allow-for-m-of-n-multisig-with-very-large-n-and-m)), using M and N values that are too large carries the additional risk of creating "nonstandard" transactions (unlikely to be propagated and mined) or even invalid transactions, which could result in _permanent loss of funds_!
+
+**Recommendation: only expert users with a strong use-case should ever consider this.**
 
 {% include next_steps.md next_url="/equipment" next_name="Equipment" %}
