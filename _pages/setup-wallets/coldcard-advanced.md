@@ -32,7 +32,7 @@ TODO: file github issue on Specter-Desktop to build this into the UI and link to
 ## Additional Entropy
 Add additional entropy during new wallet creation using a casino die by pressing ‘4’ as demonstrated [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=681) by Matt Odell. 
 
-Or derive your own seed, xpub, and addresses altogether to avoid trusting ColdCard to do that for you: [link](https://agent-scruples.medium.com/avoiding-coldcard-supply-chain-attacks-129777b3197)
+Or derive your own seed, xpub, and addresses altogether to avoid trusting Coldcard to do that for you: [link](https://agent-scruples.medium.com/avoiding-coldcard-supply-chain-attacks-129777b3197)
 
 ## Not Perfect
 No device is perfect and this one is no exception.
