@@ -4,11 +4,11 @@ Even if you have the correct `m-of-n` (`2-of-3`), you need to be sure that the p
 
 #### Cobo
 You can verify this when [setting up your Cobo](../setup-wallets/cobo), or go to `Multisig Wallet` > `Wallet Name` > `Wallet Info` anytime:  
-![](./assets/img/coordinate-multisig-view-policy-cobo.jpeg){width="45%"}
+![](/assets/img/coordinate-multisig-view-policy-cobo.jpeg){width="45%"}
 
 #### Coldcard
 On your Coldcard, enter: `Settings` > `Multisig Wallets` > `Your Wallet Name` >  `View Details`:  
-![](./assets/img/coordinate-multisig-view-policy-coldcard.jpeg){width="35%"}
+![](/assets/img/coordinate-multisig-view-policy-coldcard.jpeg){width="35%"}
 
 Because Coldcard uses `xpub...` while Specter/Cobo use the newer `Zpub...` standard, the easiest way to do this in practice is to [verify a single receive address on the coldcard](../verify-receive-address/coldcard).
 
@@ -22,4 +22,4 @@ Confirm that your `Zpub...` from the [Setup Paper Wallet Step](#setup-paper-wall
 
 #### Specter-Desktop:
 We can't trust this device (we have to assume it's malware), but it's still a useful sanity-check:  
-![](./assets/img/coordinate-multisig-view-policy-specter.png){width="90%"}
+![](/assets/img/coordinate-multisig-view-policy-specter.png){width="90%"}

@@ -2,4 +2,4 @@
 While verifying the address is a good start, ideally you also want to reconfirm the `m-of-n` quorum info each time you transact.
 
 Go to `Multisig Wallet` > `Your Wallet Name` > `Wallet Info`:  
-![](./assets/img/coordinate-multisig-view-policy-cobo.jpeg){width="45%"}
+![](/assets/img/coordinate-multisig-view-policy-cobo.jpeg){width="45%"}

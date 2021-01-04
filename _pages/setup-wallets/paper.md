@@ -17,7 +17,7 @@ It will also calculate some extended public key information that will be used to
 #### Print Out Seed Words
 
 You are going to print out all 2048 words from [the official BIP39 wordlist](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) so you can select your seed words randomly.
-Download [this nicely formatted PDF](./assets/guide/bip39_wordlist.pdf) and print out both pages (single-sided).
+Download [this nicely formatted PDF](/assets/guide/bip39_wordlist.pdf) and print out both pages (single-sided).
 There is no private information in this PDF, having it only reveals that you're interested in bitcoin.
 You don't need your own printer; you could safely ask a friend to print it out for you, print it out at work, go to a Kinko's location, etc.
 
@@ -48,7 +48,7 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 1. Visit [seedpicker.net](https://seedpicker.net)
 1. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
 1. You will see that the 24th word calculation result is `buddy`:  
-![](./assets/img/setup-paper-seedpicker-example-output.png)
+![](/assets/img/setup-paper-seedpicker-example-output.png)
 
 #### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
@@ -56,7 +56,7 @@ Do not save this to any computer.
 1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
 This will download a `json` file to your computer, containing the extended public key info.  
 Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
-![](./assets/img/setup-paper-seedpicker-save-json.png)
+![](/assets/img/setup-paper-seedpicker-save-json.png)
 
 
 #### Do it Live
@@ -72,6 +72,6 @@ In the previous step, you saved your extended public key information (`seedpicke
 
 1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
 Your file will be automatically parsed into something like this:  
-![](./assets/img/setup-paper-specter-input.png) 
+![](/assets/img/setup-paper-specter-input.png) 
 1. Your public key is now added to Specter-Desktop:  
-![](./assets/img/setup-paper-display-pubkey.png)
+![](/assets/img/setup-paper-display-pubkey.png)
