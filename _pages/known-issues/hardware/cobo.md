@@ -1,6 +1,6 @@
-## Cobo Vault
+### Cobo Vault
 
-### Not Fully Open-Source
+#### Not Fully Open-Source
 The device has been audited, but is not fully open-source for various reason.
 See more details on [their blog](https://medium.com/cobo-vault/on-open-source-and-transparency-7f516f80b8d).
 
@@ -8,11 +8,11 @@ If firmware cannot be built from source reproducibly, then users are merely trus
 Unless users build the firmware themselves, this is essentially the same tradeoff as just using closed source code.
 Note that developers working on the project needn't be malicious for issues to occur as their computers could be hacked.
 
-### Built on General Purpose OS (Android)
+#### Built on General Purpose OS (Android)
 Most hardware wallets use special purpose operating systems to reduce their attack surface (and improve performance).
 Cobo did harden their Android installation, but the attack surface is still much larger.
 
-### Altcoin-Focused
+#### Altcoin-Focused
 In theory, supporting altcoins does not fundamentally weaken bitcoin security.
 In practice, the more complex a codebase is the more likely a security bug will be introduced (or go undetected).
 These wallets are liable to be slow to upgrade their security, and [bit rot](https://en.wikipedia.org/wiki/Software_rot) is more likely to set in.
@@ -20,7 +20,7 @@ These wallets are liable to be slow to upgrade their security, and [bit rot](htt
 Cobo does have [a bitcoin-only firmware](https://cobo.com/hardware-wallet), though this is not a perfect solution (TODO: add link).
 
 
-### Mild Annoyances
+#### Mild Annoyances
 These are all things that are annoying but not show-stoppers:
 
 * **Slow boot time**.
@@ -33,7 +33,7 @@ These are all things that are annoying but not show-stoppers:
 
 ---
 
-### Don't Be Discouraged
+#### Don't Be Discouraged
 Security is not a binary, and no device is 100% secure.
 Remember that [multisig security is additive](#why-multisig), and using this device as part of a proper multisig setup can *substantially* improve your bitcoin security.
 

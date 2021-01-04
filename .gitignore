@@ -4,3 +4,4 @@ dictionary.dic
 Gemfile.lock
 .DS_Store
 *.swp
+tex2pdf*/*

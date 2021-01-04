@@ -9,6 +9,6 @@ See [advanced section](#verify-receive-address-on-coldcard-advanced) for mitigat
 
 ### Verify via USB
 1. On Specter-Desktop: `Your Wallet` > `Receive` > `Display address on device`:  
-	![](./assets/img/verify-receive-address-specter-desktop-coldcard.png){width="90%"} 
+![](./assets/img/verify-receive-address-specter-desktop-coldcard.png){width="90%"} 
 1. Verify address on your Coldcard:  
-	![](./assets/img/verify-receive-address-coldcard.jpeg){width="35%"} 
+![](./assets/img/verify-receive-address-coldcard.jpeg){width="35%"} 

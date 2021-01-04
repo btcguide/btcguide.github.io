@@ -1,6 +1,6 @@
-## SeedPicker
+### SeedPicker
 
-### Software Wallets Are Dangerous
+#### Software Wallets Are Dangerous
 It's harder to secure a general purpose operating system than to secure a purpose-built hardware product.
 SeedPicker pushes more security responsibility onto end users.
 
@@ -9,6 +9,6 @@ Regular users are more likely to shoot themselves in the foot and are probably b
 
 ---
 
-### Don't Be Discouraged
+#### Don't Be Discouraged
 Security is not a binary, and no device is 100% secure.
 Remember that [multisig security is additive](#why-multisig), and using this device as part of a proper multisig setup can *substantially* improve your bitcoin security.

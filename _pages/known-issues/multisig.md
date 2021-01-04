@@ -1,5 +1,3 @@
-# Known Issues & Benefits
-
 ## Multisig
 
 While multisig offers **unparalleled security** (see more in the [Why Multisig](#why-multisig) section), the benefits do not come for free.

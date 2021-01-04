@@ -1,4 +1,4 @@
-## Hardware Wallet Vendors
+### Hardware Wallet Vendors
 
 Unfortunately, there are few hardware wallets with good multisig capabilities.
 

@@ -1,3 +1,5 @@
+# Preface
+
 ## Purpose
 Multisig security is a difference in kind and not in degree. It affords you the ability to avoid loss while making 1 (or more) catastrophic failures in securing your bitcoin. By using a security system that is fault-tolerant, you can move much faster (with less caution) through each step and still attain far higher levels of security vs any single-key system. This guide will show you how.
 

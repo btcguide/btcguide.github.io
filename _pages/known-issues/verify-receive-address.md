@@ -1,6 +1,6 @@
-## Verifying a Receive Address
+### Verifying a Receive Address
 
-### Confirm You Control the Wallet
+#### Confirm You Control the Wallet
 Because multisig schemes require `m-of-n` signatures, you must verify a new receive address on `m-of-n` trusted devices before receiving funds.
 Otherwise, you could fall prey to a clever attack.
 
@@ -30,6 +30,6 @@ you now have your seed floating around in multiple places for verification, and 
 #### Potential Mitigation
 This guide spells out a [less secure approach](#verify-receive-address) that is available for users who choose to sacrifice some convenience for security.
 
-### Confirm You Can Retrieve the Key
+#### Confirm You Can Retrieve the Key
 
 TODO: add content about bip32 paths.

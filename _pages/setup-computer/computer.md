@@ -8,7 +8,7 @@ _\*While we recommend that no private key material ever touch this machine, that
 Remember that this alone is not sufficient to steal/lockup funds, so it may present an acceptable tradeoff for smaller HODLers.
 For more details, see [Paper Wallet Setup steps](#setup-paper-wallet)._
 
-## Install Ubuntu
+### Install Ubuntu
 
 You’ll want to download and install the latest long term stable (LTS) version of [Ubuntu Desktop](https://ubuntu.com/download/desktop) (currently `20.04.1`).
 Put the installer on a USB stick or burn it onto a DVD.

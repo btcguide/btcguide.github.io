@@ -1,6 +1,5 @@
 ## Emergency Recovery Advanced
 
-
 ### Option A - Trezor Hardware Wallet
 
 #### Update Your Firmware

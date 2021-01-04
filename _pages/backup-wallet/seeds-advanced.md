@@ -1,4 +1,4 @@
-## Think Hard About Your Risks
+### Think Hard About Your Risks
 
 It is a natural human bias to be more concerned with theft vs loss.
 An easy window into our psychology is that we are all terrified of homicide but in fact suicide is more common.
@@ -6,15 +6,15 @@ Non-expert users should question themselves when taking extreme steps to protect
 
 There are many tradeoffs between security/redundancy below and only you can decide what the appropriate balance is for your needs.
 
-## Multiple Locations
+### Multiple Locations
 
-### Physical Security
+#### Physical Security
 Not only does storing all of your bitcoin information in one place make it less secure, it also makes you a target!
 You don't want a home-invader to be able to hold you at gunpoint for your life-savings.
 The downside here is that funds kept this way may be a little harder to spend as you now have to visit multiple secure locations.
 _For day-to-day funds, you might choose a simpler single-key signature wallet setup that is easy to spend_ (but not as secure).
 
-### Natural Disasters
+#### Natural Disasters
 If you keep all `m` seeds in one location and there is a fire (or flood) you could lose everything, perhaps when you need it most.
 In the unlikely event you need to evacuate, you don't also want to be carrying your life-savings on you (see previous section on physical security).
 
@@ -24,12 +24,12 @@ As you are only carrying 1 (of a needed 2) seeds, should you be robbed during th
 Important note: in the event a seed is compromised you need to retrieve `m` seeds ASAP to "rotate" out the seed that was stolen (this is accomplished by moving your funds to a new multisig scheme where you control *all* 3 seeds again).
 
 
-## Estate Planning
+### Estate Planning
 The hardest bitcoin security question for most bitcoiners to answer is "what happens to your bitcoin if you get hit by a bus?"
 Unfortunately, ensuring your bitcoin is recoverable by your loved ones **and nobody else** is a very challenging task.
 Multisig is the best tool we have to aid in this process.
 
-### Give One (or More) Seeds to Someone You Trust
+#### Give One (or More) Seeds to Someone You Trust
 If someone has a quorum of seeds, they can potentially steal your bitcoins!
 Depending on your personal situation, this may be a good thing (perhaps a spouse who you want to have complete access) or a bad thing (perhaps a financial manager who might be tempted to steal).
 
@@ -62,15 +62,15 @@ However, each of those choices will introduce new risks.
 
 You can quickly see that this scheme lends itself better to something like `3-of-5`, so you can have more entities/redundancy, and clearer organizational lines (less copies of keys floating around, so you can know for sure *who* signed each transaction).
 
-## Protect Your Backups
+### Protect Your Backups
 
-### Metal
+#### Metal
 [Metal bitcoin seed storage](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/) is the most durable, as paper can fade, burn or smudge if wet.
 Use metal instead of paper to backup your seed phrases.
 
-### Archival Paper & Ink
+#### Archival Paper & Ink
 [Archival paper](https://en.wikipedia.org/wiki/Acid-free_paper#Archival_paper) is obviously not as durable as metal, but better than regular paper.
 Place your paper into a plastic bag with a good seal (vacuum sealed even better) so that it doesn't get destroyed in the event of water damage.
 
-### Fireproof Document Bag
+#### Fireproof Document Bag
 You can use these to protect seed backups, and also to protect your physical hardware wallets.
