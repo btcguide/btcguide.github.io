@@ -10,6 +10,7 @@ Backblaze
 BitBox
 BitcoinLixin
 BitcoinQ
+CertUtil
 Chainalysis
 CLI
 Carbonite
@@ -118,6 +119,7 @@ br
 btc
 btcguide
 casa
+certutil
 checkboxes
 clicky
 cobo
@@ -157,6 +159,7 @@ forloop
 github
 gtag
 hashpower
+hashfile
 hc
 howtogeek
 href
@@ -220,6 +223,7 @@ rpcuser
 sM
 satoshilabs
 sd
+seedphrase
 seedpicker
 seedpickerxp
 segwit
