@@ -1,4 +1,7 @@
-## Contributors
+---
+title: Contributors
+---
+
 
 ### Project Lead
 [Michael Flaxman](https://twitter.com/mflaxman)

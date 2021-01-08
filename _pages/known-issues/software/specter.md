@@ -1,7 +1,5 @@
-# Known Issues & Benefits
-
-## 10x Security Guide
-
-### Specter DIY
+---
+title: Specter DIY
+---
 
 TODO: add content

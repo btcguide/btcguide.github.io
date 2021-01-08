@@ -1,4 +1,6 @@
-### Setup Computer Overview Advanced
+---
+title: Configure Computer
+---
 
 #### Instructions to Verify Ubuntu Download
 <https://ubuntu.com/tutorials/how-to-verify-ubuntu>
@@ -8,3 +10,5 @@ Use a long passphrase, so that anyone who gets physical access to your computer 
 
 <https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019>
 
+
+{% include next_steps.md next_url="/setup-computer/bitcoin-node" next_name="Configure Your Bitcoin Node" %}

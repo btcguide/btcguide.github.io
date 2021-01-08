@@ -1,10 +1,13 @@
-# Emergency Recovery
+---
+title: Emergency Recovery
+---
 
 By default, you sign your `2-of-3` transactions on your `2` hardware wallets (Cobo Vault and Coldcard) that [you previously configured](/setup-wallets/).
-If either device is damaged/destroyed, you should replace it with a new one and load the same seed phrase that [you previously backed up](#backup-seeds) onto the replacement device.
+If either device is damaged/destroyed, you should replace it with a new one and load the same seed phrase that [you previously backed up](/backup-wallet/seeds) onto the replacement device.
 This means that if seed phrase A was on your Cobo Vault and your Cobo Vault was destroyed in a fire, you would do the following:
+
 1. Buy a new Cobo Vault.
-1. Find the backup of seed phrase A that [you previously made](#backup-seeds).
+1. Find the backup of seed phrase A that [you previously made](/backup-wallet/seeds).
 1. Load seed phrase A onto your new (replacement) Cobo Vault.
 1. Follow [the previous hardware wallet setup steps](/setup-wallets/) to add the new device into your multisig.
 
@@ -16,16 +19,16 @@ For this, we have two recommendations: Trezor (hardware wallet) and Electrum (so
 Both have tradeoffs, and we hope that there will be better options in the future.
 BIP39 is the gold standard supported by all major hardware wallets, so we expect it will be continue to be compatible with new hardware wallets as they come online in the future.
 
-As there are gotchas in both of these setups, we recommend you read [the advanced section](#emergency-recovery-advanced) for tips to improve your setup.
+As there are gotchas in both of these setups, we recommend you read [the advanced section](advanced) for tips to improve your setup.
 
-## Option A - Trezor
-You should be aware that this is a little more complicated than hardware wallets you setup previously, and there are some pitfalls to avoid (see [known issues](#trezor)).
+#### Option A - Trezor
+You should be aware that this is a little more complicated than hardware wallets you setup previously, and there are some pitfalls to avoid (see [known issues](/known-issues/hardware/trezor)).
 
 TODO: add explanation/screenshots.
 
-## Option B - Electrum
+#### Option B - Electrum
 Electrum is an open-source software wallet that is free and readily available, but difficult to use with multisig.
-**As it will be touching private key material, we strongly recommend you run this on an airgapped machine** (see [advanced section](#emergency-recovery-advanced)).
+**As it will be touching private key material, we strongly recommend you run this on an airgapped machine** (see [advanced section](advanced)).
 
 TODO: add screenshots.
 
@@ -40,3 +43,5 @@ Notice from this point, you should now consider this private key as 'hot' assumi
 1. You can generate a PSBT partially signed bitcoin transaction from Specter, sign it with one of your keys (e.g. the Coldcard or Cobo), and then load that PSBT into your Electrum under the `Tools` > `Load from file` function.
 If correctly imported, Electrum will then detect that this transaction has been signed by 1 of 2 required signatures, and present you the opportunity to sign it with the seedpicker paper wallet key. 
 1. You can then Save this PSBT file and broadcast it from your Specter Wallet to broadcast the transaction. 
+
+{% include next_steps.md %}

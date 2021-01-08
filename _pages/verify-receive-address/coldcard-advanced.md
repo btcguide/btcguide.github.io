@@ -1,11 +1,13 @@
-## Verify Receive Address on Coldcard Advanced
+---
+title: Verify Receive Address on Coldcard
+---
 
-### Warning
+## Warning
 [Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
 In order to verify a receive address on a coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via USB port.
 
 #### Option A: Offline Address Verification
-See [receive address verification advanced section](#redundant_address_verification).
+See [receive address verification advanced section](advanced#redundant_address_verification).
 This step doesn't actually use your coldcard to derive the address, it just uses the extended public key information from your coldcard.
 
 

@@ -1,4 +1,6 @@
-### BitBox02
+---
+title: BitBox02
+---
 
 #### Not Currently Supported by Specter-Desktop
 TODO: add link

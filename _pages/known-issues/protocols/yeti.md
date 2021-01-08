@@ -1,4 +1,6 @@
-### Yeti
+---
+title: Yeti
+---
 
 TODO: add content
 

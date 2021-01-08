@@ -1,9 +1,11 @@
-## Verify Receive Address Advanced
+---
+title: Verify Receive Address
+---
 
 **It is essential to be sure you control a bitcoin address before you receive funds on it, as this is a common attack that leads to losses**.
-You can read more about this issue [here](#verify-receive-address).
+You can read more about this issue [here](/known-issues/verify-receive-address).
 
-### When to Choose A Less Secure Approach
+#### When to Choose A Less Secure Approach
 Having to travel to multiple geographies just to verify a single receive address (not even to spend bitcoin) can be undesirable for practical reasons.
 
 One way around this is to (partially) trust the addresses your host computer displays.
@@ -30,7 +32,7 @@ TODO: add link/explanation.
 1. The fact that you were previously able to spend does indicate you have control but doesn't guarantee it.
 In an extreme case, your host computer may be malware-infected yet still relaying/signing your small transactions in hopes of tricking you into making a large deposit (you can think of this as a long-con).
 
-### Offline Address Verification
+## Offline Address Verification
 Your Specter-Desktop software is connected to the internet, or at least connected to your bitcoin node which is connected to the internet.
 We can improve this by using an offline/dedicated machine, where we install only the most minimal software.
 
@@ -49,6 +51,7 @@ One benefit of this is that you could get by without a dedicated machine, and th
 The main downside is that if you have a ton of bitcoin addresses (perhaps for a bitcoin business that receives many payments daily), paper can be a little harder to keep track of.
 
 Steps:
+
 1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify receive addresses.
 1. Export a very large amount of receive addresses to a file.
 You never want to have to repeat this setup and paper is cheap, so consider a very large number (say 10,000 addresses).
@@ -56,3 +59,5 @@ You never want to have to repeat this setup and paper is cheap, so consider a ve
 
 Now that you never need to check this computer again, you can go about using it for whatever you like and not have to worry about keeping it secure.
 Ideally, you would wipe the computer, but since it is only touching _public_ key information the only risk is a privacy leak.
+
+{% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}

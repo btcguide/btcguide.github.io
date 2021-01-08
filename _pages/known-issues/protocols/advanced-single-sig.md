@@ -1,6 +1,6 @@
-## Other Protocols
-
-### Advanced Single Sig
+---
+title: Advanced Single Sig
+---
 
 A common response to multisig is: *"but what if I do single-sig with a passphrase, is that secure?"*
 
@@ -61,7 +61,7 @@ You now have a scheme with multiple parts (seed words and passphrase) which both
 We can think of this like a 2-of-2 scheme, because if you lose either part you lose *all* of your bitcoin.
 A better scheme would be something like a 2-of-3 multisig, where you can lose a part and not lose all of your bitcoin.
 
-And if you're saying you'll use Shamir's Secret Sharing Scheme, read [this note](#shamirs-secret-sharing-scheme) first.
+And if you're saying you'll use Shamir's Secret Sharing Scheme, read [this note](/why-multisig-advanced#shamirs-secret-sharing-scheme) first.
 
 #### Inheritance
 What happens if you get hit by a bus?
@@ -72,4 +72,4 @@ The boundaries are well-defined and the recovery process uses common standards.
 Let's assume you are the rare expert who can take all of these precautions and execute this setup flawlessly.
 You're now guarding multiple pieces of information, and verifying each step on multiple devices.
 Wouldn't you be better off to combine that with a standard that enforces multiple signatures and explicitly allows for 1 or more mistakes?
-See [Why Multisig](#why-multisig) section for more details.
+See [Why Multisig](/why-multisig) section for more details.

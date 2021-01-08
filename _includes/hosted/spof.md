@@ -1,5 +1,5 @@
-### Could Reintroduce Single Points of Failure
-Proper multisig allows you to have no single points of failure (see section title [Why Multisig](#why-multisig)), but it still requires you take some control of your financial sovereignty.
+#### Could Reintroduce Single Points of Failure
+Proper multisig allows you to have no single points of failure (see section title [Why Multisig](/why-multisig)), but it still requires you take some control of your financial sovereignty.
 Users who rely on third-party services may accidentally reintroduce a single points of failure.
 For example, if a `2-of-3` service holds 1 of your keys and mails you 1 (malicious) hardware wallet they are in a trusted position as they could control a majority of your keys!
 

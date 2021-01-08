@@ -1,5 +1,5 @@
 ---
-### Evaluate {{ page.title }} in Totality
+## Evaluate {{ page.title }} in Totality
 
 This page is about known issues, not positive attributes.
 No setup is 100% secure.

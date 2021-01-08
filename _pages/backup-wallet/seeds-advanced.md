@@ -1,12 +1,15 @@
-### Think Hard About Your Risks
+---
+title: Backup Seeds
+---
 
+## Think Hard About Your Risks
 It is a natural human bias to be more concerned with theft vs loss.
 An easy window into our psychology is that we are all terrified of homicide but in fact suicide is more common.
 Non-expert users should question themselves when taking extreme steps to protect against theft over loss.
 
 There are many tradeoffs between security/redundancy below and only you can decide what the appropriate balance is for your needs.
 
-### Multiple Locations
+## Multiple Locations
 
 #### Physical Security
 Not only does storing all of your bitcoin information in one place make it less secure, it also makes you a target!
@@ -24,7 +27,7 @@ As you are only carrying 1 (of a needed 2) seeds, should you be robbed during th
 Important note: in the event a seed is compromised you need to retrieve `m` seeds ASAP to "rotate" out the seed that was stolen (this is accomplished by moving your funds to a new multisig scheme where you control *all* 3 seeds again).
 
 
-### Estate Planning
+## Estate Planning
 The hardest bitcoin security question for most bitcoiners to answer is "what happens to your bitcoin if you get hit by a bus?"
 Unfortunately, ensuring your bitcoin is recoverable by your loved ones **and nobody else** is a very challenging task.
 Multisig is the best tool we have to aid in this process.
@@ -53,7 +56,8 @@ Of course, there are all kinds of tradeoffs/choices to be made:
 * If *both* your lawyer and the bank are unlucky/negligent (perhaps they both suffer catastrophic fires in the same day!), you can be locked out of your bitcoin forever (seeds B and C are lost, as seed A A alone is not enough to meet the `2-of-3` threshold).
 * If your children want to steal their inheritance before you die and are able to can collude with (or trick) either the bank or the lawyer, they can get seed B or C and combine it with seed A (which they already have).
 * Your lawyer and your children may have some insight into your bitcoin transaction history, which could implicate how much bitcoin you have.
-	Read more [here](#seeds-and-privacy).
+
+Read more [here](/known-issues/seeds-and-privacy).
 
 While not perfect, this is **far superior to single-key signature schemes**.
 
@@ -62,7 +66,7 @@ However, each of those choices will introduce new risks.
 
 You can quickly see that this scheme lends itself better to something like `3-of-5`, so you can have more entities/redundancy, and clearer organizational lines (less copies of keys floating around, so you can know for sure *who* signed each transaction).
 
-### Protect Your Backups
+## Protect Your Backups
 
 #### Metal
 [Metal bitcoin seed storage](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/) is the most durable, as paper can fade, burn or smudge if wet.

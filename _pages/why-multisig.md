@@ -1,4 +1,6 @@
-# Why Multisig?
+---
+title: Why Multisig?
+---
 
 ["Your keys, your bitcoin. Not your keys, not your bitcoin."](https://www.youtube.com/watch?v=vt-zXEsJ61U)
 
@@ -44,5 +46,6 @@ At each step, there are recommendations for how you can harden your security, an
 This guide is free, and there are no refunds.
 [There are no bailouts in Bitcoin](https://twitter.com/stephanlivera/status/1207802135791845376).
 We **highly** recommend you practice all of this first.
-See disclaimer [here](#disclaimer).
+See disclaimer [here](/disclaimer).
 
+{% include next_steps.md next_url="/quorum" next_name="Pick Quorum" %}

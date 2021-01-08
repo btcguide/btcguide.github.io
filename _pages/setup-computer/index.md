@@ -1,4 +1,7 @@
-# Setup Computer Overview
+---
+title: Setup Computer Overview
+no_advanced_link: true
+---
 
 We will sometimes refer to this computer as "watch-only" because it can only see transactions/balances, and cannot spend.
 If your computer is infected by malware it can try to deceive you, but unlike your hardware wallets, it does not have access to your private keys.
@@ -22,5 +25,10 @@ Other users may prefer using a pre-built bitcoin node package which includes Bit
 
 Advanced users who have an extra focus on security and/or enjoy customization may prefer to setup their own computer, bitcoin core node, and specter-desktop following these instructions:
 
+[TODO]: auto-gen this TOC somehow?
+1. [Setup Computer](computer)
+1. [Run Bitcoin Core Node](bitcoin-node)
+1. [Install Specter-Desktop](specter)
 
 
+{% include next_steps.md next_url="/setup-wallets" next_name="Setup Hardware Wallets" %}

@@ -1,4 +1,6 @@
-## Why Multisig Advanced?
+---
+title: Why Multisig?
+---
 
 Multisig has always been amazing in theory, but in practice it has been too difficult for non-expert users.
 
@@ -18,10 +20,12 @@ Here are some changes that have made multisig mainstream accessible:
 There have been [so many hardware wallet vulnerabilities](https://twitter.com/mflaxman/status/1149018598708568065) and we expect new ones will continue to be discovered; multisig fundamentally doesn't change that.
 The big difference is that a proper multisig scheme allows for 1 (or more) catastrophic failures without putting funds at risk.
 
-### Shamir's Secret Sharing Scheme
+#### Shamir's Secret Sharing Scheme
 Multisig is strictly superior to [Shamir's Secret Sharing Scheme](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) (SSSS), and while SSSS is elegant in theory it is very easy to mess up in practice.
 SSSS also reintroduces a single point of failure; in order for a key to be generated (or used) it must be recombined in a single place.
 We prefer to call it [Shamir's Secret Snakeoil](https://en.bitcoin.it/wiki/Shamir_Secret_Snakeoil).
 SSSS should only be considered for expert users **after** you've maxed out your multisig scheme (`3-of-5` for most use-cases) and need additional protection.
 For that use-case, you may want to look into [SLIP-0039](https://github.com/satoshilabs/slips/blob/master/slip-0039.md) or alternatively divide 1 (or more) of the BIP39 seed passphrases using Shamir's Secret Sharing Scheme.
 The open-source software available to do this is still unfortunately [somewhat lacking](https://twitter.com/mflaxman/status/1294831929972477952), but should improve over time.
+
+{% include next_steps.md next_url="/quorum" next_name="Pick Quorum" %}

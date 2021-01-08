@@ -1,6 +1,6 @@
-## Other Coordination Software
-
-### Electrum
+---
+title: Electrum
+---
 
 In theory, it would be possible to do everything described in this guide using [Electrum](https://electrum.org/) instead of [Specter Desktop](https://github.com/cryptoadvance/specter-desktop).
 However, there are a number of reasons we're using [Specter Desktop](https://github.com/cryptoadvance/specter-desktop) instead.

@@ -1,13 +1,15 @@
-## Pick Quorum Advanced
+---
+title: Pick Quorum
+---
 
-### Picking Your M and N
+## Picking Your M and N
 It might seem easy, but this choice is actually complex, especially since we want no hardware wallet vendor to be used for a quorum of seeds.
 We'll see below that you want your m-of-n multisig threshold to be `1 < m < n`.
 
 #### Problems with 1-of-n
 This has similar security to a single-key signature, with many possible single keys that are capable of signing.
 A vulnerability in any one of these seeds (random number generation, the hardware wallet used, etc) could lead to loss of all your bitcoin.
-You suffer [the negatives of multisig](#multisig) without the positive.
+You suffer [the negatives of multisig](/known-issues/multisig) without the positive.
 
 **Recommendation: only expert users with a unique use-case should ever consider this.**
 
@@ -35,14 +37,14 @@ If there were a serious bug with vendor C where 2 of your seeds are known to an 
 Note: `2-of-5` is even worse.
 
 **Recommendation: expert users can avoid this problem on receiving funds by performing their own random number generation for *multiple* paper wallets in their quorum as described [here](setup-wallets/paper).**
-However, keep in mind that there are currently [very few high-quality hardware wallets with good multisig support](#hardware-wallet-vendors), so if you need to use those recovery keys you may be forced to use the same hardware wallet vendor for 2+ seeds.
+However, keep in mind that there are currently [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors), so if you need to use those recovery keys you may be forced to use the same hardware wallet vendor for 2+ seeds.
 
 
 #### 3-of-5 is Excellent
 Like `2-of-3`, `3-of-5` is a great choice.
 It offers more redundancy vs `2-of-3` (you can suffer **two** serious issues and not lose funds).
 The obvious negative is that you now need to buy and keep track of **five** hardware wallets (instead of 3).
-Since there are currently [very few high-quality hardware wallets with good multisig support](#hardware-wallet-vendors), your keys will almost certainly not be guarded by 5 wallets from 5 different vendors.
+Since there are currently [very few high-quality hardware wallets with good multisig support](/known-issues/hw-vendors), your keys will almost certainly not be guarded by 5 wallets from 5 different vendors.
 
 **Recommendation: this is a good quorum to use.**
 For simplicity, this guide is focused on `2-of-3` but a future version may include explicit instructions for `3-of-5`.
@@ -65,3 +67,4 @@ Furthermore, N > 5 can be dangerous. Due to size limits ([legacy](https://bitcoi
 
 **Recommendation: only expert users with a strong use-case should ever consider this.**
 
+{% include next_steps.md next_url="/equipment" next_name="Equipment" %}

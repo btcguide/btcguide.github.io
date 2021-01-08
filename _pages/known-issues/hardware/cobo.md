@@ -1,4 +1,6 @@
-### Cobo Vault
+---
+title: Cobo Vault
+---
 
 #### Not Fully Open-Source
 The device has been audited, but is not fully open-source for various reason.
@@ -12,11 +14,7 @@ Note that developers working on the project needn't be malicious for issues to o
 Most hardware wallets use special purpose operating systems to reduce their attack surface (and improve performance).
 Cobo did harden their Android installation, but the attack surface is still much larger.
 
-#### Altcoin-Focused
-In theory, supporting altcoins does not fundamentally weaken bitcoin security.
-In practice, the more complex a codebase is the more likely a security bug will be introduced (or go undetected).
-These wallets are liable to be slow to upgrade their security, and [bit rot](https://en.wikipedia.org/wiki/Software_rot) is more likely to set in.
-
+{% include hw/shitcoins.md %}
 Cobo does have [a bitcoin-only firmware](https://cobo.com/hardware-wallet), though this is not a perfect solution (TODO: add link).
 
 
@@ -31,9 +29,5 @@ These are all things that are annoying but not show-stoppers:
 	A simple pair of tweezers solves the problem.
 	More importantly, the strong QR-code airgap means you only have to use SD card to update the firmware.
 
----
 
-#### Don't Be Discouraged
-Security is not a binary, and no device is 100% secure.
-Remember that [multisig security is additive](#why-multisig), and using this device as part of a proper multisig setup can *substantially* improve your bitcoin security.
-
+{% include hw/encouragement.md %}

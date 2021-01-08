@@ -1,6 +1,8 @@
-## Emergency Recovery Advanced
+---
+title: Emergency Recovery
+---
 
-### Option A - Trezor Hardware Wallet
+## Option A - Trezor Hardware Wallet
 
 #### Update Your Firmware
 TODO: add content
@@ -8,7 +10,7 @@ TODO: add content
 #### Do Not Disclose Your Addresses
 TODO: add content
 
-### Option B - Electrum Software Wallet
+## Option B - Electrum Software Wallet
 
 #### Use an Airgap Machine
 Tails strongly recommended.
