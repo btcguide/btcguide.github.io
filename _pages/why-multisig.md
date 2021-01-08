@@ -19,6 +19,7 @@ On account of this, your level of caution/paranoia/effort (vs a traditional sing
 
 **If you follow these instructions, you can suffer at least one catastrophic failure and not lose any bitcoin.**
 This could include things like:
+
 * An exploitable software/firmware bug on your hardware wallet
 * A pwned (or fake) hardware wallet
 * An unscrupulous trusted third party (lawyer/accountant/custodian/etc) with access to a key for recovery

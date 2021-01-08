@@ -16,6 +16,7 @@ In the unlikely even that one of your hardware wallets is compromised and is att
 
 #### Use a Passphrase for Each Wallet
 While this is a way to harden your security, in practice it is quite complex as users are terrible about:
+
 * Generating strong random passwords, which by definition must be long (high entropy)
 * Remembering strong passwords, especially when they're long (and sometimes not used for many months/years).
 * Implementing a secure backup/recovery system (like [Shamir's Secret Sharing Scheme](/why-multisig-advanced#shamirs-secret-sharing-scheme)).

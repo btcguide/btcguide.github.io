@@ -69,8 +69,10 @@ Some people with laptops like to run Specter-Desktop on that as their primary de
 
 A node hosted on a machine you physically control (in a [colo](https://en.wikipedia.org/wiki/Colocation_centre) or more realistically your home/office) is better than one in a cloud provider.
 If your cloud provider is malicious (or government-compelled) and clever they could:
+
 * Snoop on your bitcoin addresses and see your transaction history.
 * Try to trick you with information about a (fake) received payment.
+
 The author of this guide is proud to have written [a privacy-preserving defense against this using merkle proofs](https://github.com/cryptoadvance/specter-desktop/pull/334) (currently only for advanced users).
 
 #### Pruning Bitcoin Core

@@ -8,6 +8,7 @@ If your computer is infected by malware it can try to deceive you, but unlike yo
 For this reason, it may be reasonable for you to skimp on many of the advanced security/validation steps.
 
 Your computer will run two important pieces of software:
+
 * [Bitcoin Core full node](https://bitcoin.org/en/bitcoin-core/) - to interact with (and validate!) the bitcoin blockchain
 * [Specter-Desktop](https://github.com/cryptoadvance/specter-desktop) - to interact with your hardware wallets when verifying receive addresses and signing transactions
 
@@ -16,6 +17,7 @@ Bitcoin Core and Specter Desktop have executable 'double click' install versions
 You may need to buy an extra ~1TB hard drive to store bitcoin blockchain data (see detailed instructions linked below).
 
 Other users may prefer using a pre-built bitcoin node package which includes Bitcoin Core and Specter-Desktop:
+
 * [RaspiBlitz](https://github.com/rootzoll/raspiblitz) - free to make or can be bought as a pre-made device ([example](https://twitter.com/openoms/status/1311760772935151618)).
 * [myNode](https://www.mynodebtc.com) - can be bought outright, or built and [Specter-Desktop is included in myNode premium](https://twitter.com/BitcoinQ_A/status/1280802711399796736)
 * [Nodl](https://www.nodl.it) - can be bought outright

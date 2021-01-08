@@ -35,8 +35,9 @@ Note that for physically connecting hardware wallets using your laptop/desktop w
 
 #### Optional Configuration
 If you can tweak your settings, we recommend the following (optional):
+
 * Do **not** run your node in [pruning mode](https://bitcoin.org/en/full-node#reduce-storage) as this disables `rescan` functionality.
-In some edge cases you may need to rescan your node, and a pruned node will instead have to (automatically) `reindex` the whole blockchain (can take many hours to many days).
+	In some edge cases you may need to rescan your node, and a pruned node will instead have to (automatically) `reindex` the whole blockchain (can take many hours to many days).
 * If you have set [`blockfilterindex=1`](https://bitcoin.org/en/release/v0.19.0.1), as suggested above, it takes just a few GB of storage and helps speedup blockchain `rescan`ing.
 
 

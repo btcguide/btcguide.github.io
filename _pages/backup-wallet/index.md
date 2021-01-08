@@ -19,6 +19,7 @@ One confusing thing about multisig is that you need *all* of your public keys ([
 Public keys do not need to be guarded nearly as carefully as seeds; anyone who gets access to `public key information can only see which bitcoin addresses belong to you but cannot spend from them.
 
 For non-expert users, we recommend storing a copy of *all* extended public keys with *each* individual seed as well as redundant backups in many other places that may include:
+
 * Unsecured in a filing cabinet at home and/or work
 * With your heirs, who may one day have to figure this out without your help
 * In a safe-deposit box

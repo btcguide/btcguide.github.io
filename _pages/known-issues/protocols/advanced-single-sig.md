@@ -18,6 +18,7 @@ If your hardware wallet is plugged into your computer (meaning no airgap), then 
 
 This immediately eliminates Trezor, Ledger, and Keepkey.
 You must now be using either:
+
 * Your own software wallet (like Electrum) which is quite dangerous for non-expert users.
 * A hardware wallet like Coldcard or Cobo Vault that has an airgap. Note that these devices are not perfect, see known issues [for Coldcard](/known-issues/hardware/coldcard) and [for Cobo](/known-issues/hardware/cobo).
 

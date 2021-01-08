@@ -7,6 +7,7 @@ Multisig has always been amazing in theory, but in practice it has been too diff
 Multisig is still [not as easy as we would like it to be](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c), but it is getting better every day.
 It is finally at the point where the security benefits far outweigh the costs for large HODLers.
 Here are some changes that have made multisig mainstream accessible:
+
 * **[BIP174 (PSBT)](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) created a standard for multisig interoperability** between hardware wallets.
 * **Multiple hardware wallets now support multisig**, and their quality is increasing (better airgaps, hardware, UX, compatibility, etc).
 * **Multiple software implementations now exist** to coordinate multisig transactions (Electrum, specter-desktop, Caravan) as well as paid services (Casa, Unchained Capital, etc).

@@ -11,12 +11,13 @@ See Matt Odell’s Coldcard video from approx 3 mins in [here](https://www.youtu
 
 #### Power Source
 Instead of connecting the Coldcard to your laptop for power:
+
 * Use a portable battery pack (best)
 * Use a wall outlet
 * Use a [charge-only (no-data) USB cable](https://www.amazon.com/PortaPow-Specialised-3-3ft-20AWG-Charge/dp/B00RQ5AZ6Q)
-or a
-[USB condom](https://www.amazon.com/PortaPow-3rd-Gen-Data-Blocker/dp/B00QRRZ2QM) on an existing cable
-on a regular micro-USB cable.
+	or a 
+	[USB condom](https://www.amazon.com/PortaPow-3rd-Gen-Data-Blocker/dp/B00QRRZ2QM) on an existing cable
+	on a regular micro-USB cable.
 
 #### Use A Dedicated Device for Address Exploration
 [Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
