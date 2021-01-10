@@ -24,7 +24,9 @@ There is no private information in this PDF, having it only reveals that you're 
 You don't need your own printer; you could safely ask a friend to print it out for you, print it out at work, go to a Kinko's location, etc.
 
 #### Cut Out Seed Words
-Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put them in a hat (any container will do).
+Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put them in a "hat". Any container will do, but a Ziploc bag is a good choice because it lets you shake up the pieces without sending them flying everywhere.
+
+This step will likely take a few hours with scissors (or a bit faster with a good paper cutter), so it might be a good opportunity to catch up on the [Stephan Livera Podcast](https://stephanlivera.com/) while you cut.
 
 #### Have a Monkey Draw 23 Words Out of the Hat
 If you don't have a monkey, you can do it yourself.
