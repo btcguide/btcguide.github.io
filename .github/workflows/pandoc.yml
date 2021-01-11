@@ -25,7 +25,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
@@ -35,7 +35,7 @@ jobs:
         id: upload-release-asset-pdf
         uses: actions/upload-release-asset@v1.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./assets/btcguide.pdf
@@ -45,7 +45,7 @@ jobs:
         id: upload-release-asset-epub
         uses: actions/upload-release-asset@v1.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./assets/btcguide.epub
