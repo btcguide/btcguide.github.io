@@ -1,7 +1,0 @@
-pdf:
-  image: thomasweise/texlive
-  script:
-    - create_pdf.sh
-  artifacts:
-    paths:
-    - assets/btcguide.pdf
