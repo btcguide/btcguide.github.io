@@ -12,7 +12,7 @@ For more details, see [Paper Wallet Setup steps](/setup-wallets/paper)._
 
 ## Install Ubuntu
 
-You'll want to download and install the latest long term stable (LTS) version of [Ubuntu Desktop](https://ubuntu.com/download/desktop) (currently `20.04.1`).
+You'll want to download and install the latest Long-Term Support (LTS) version of [Ubuntu Desktop](https://ubuntu.com/download/desktop) (currently `20.04.1`).
 Put the installer on a USB stick or burn it onto a DVD.
 Both options are good, though we find DVDs are slightly preferable as they are slightly more secure and don't take up a USB port.
 See [these step-by-step instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop).
