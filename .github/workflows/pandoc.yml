@@ -32,7 +32,7 @@ jobs:
           draft: false
           prerelease: false
       - name: Upload Release Asset pdf
-        id: upload-release-asset
+        id: upload-release-asset-pdf
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +42,7 @@ jobs:
           asset_name: btcguide.pdf
           asset_content_type: application/pdf
       - name: Upload Release Asset epub
-        id: upload-release-asset
+        id: upload-release-asset-epub
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
