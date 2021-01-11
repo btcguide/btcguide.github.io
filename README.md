@@ -8,11 +8,10 @@ This branch is used to crate a pdf and epub file from the markdown sources.
 
 ## Create pdf on windows
 * Install miktex portable: https://miktex.org/howto/portable-edition
-* Install pandoc and pandoc-crossref:
+* Install pandoc:
 
 ```
 	choco install pandoc
-	choco install pandoc-crossref
 ```
 * Open the miktex terminal and go into the base directory. The documents can be build with
 
