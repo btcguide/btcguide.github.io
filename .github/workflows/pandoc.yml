@@ -26,8 +26,11 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Pandoc Document Converter
+      - name: Pandoc Document Converter pdf
         uses: Ender-events/pandoc@master
         with:
           args: '--pdf-engine=xelatex  --template=templates/eisvogel.latex  --highlight-style zenburn --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.pdf  index.md'
-
+      - name: Pandoc Document Converter -epub
+        uses: Ender-events/pandoc@master
+        with:
+          args: '--css .\templates\epub.css --toc -N --toc-depth=1 --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.epub  index.md'
