@@ -10,6 +10,7 @@ Backblaze
 BitBox
 BitcoinLixin
 BitcoinQ
+CertUtil
 Chainalysis
 CLI
 Carbonite
@@ -20,6 +21,7 @@ Coldcard
 Coldcard's
 Colocation
 CryptoLocker
+Dashjr
 DIY
 DropBox
 EMP
@@ -117,6 +119,7 @@ br
 btc
 btcguide
 casa
+certutil
 checkboxes
 clicky
 cobo
@@ -137,6 +140,7 @@ cryptographic
 cryptographically
 da
 disablewallet
+diy
 dmg
 dropdown
 electrum
@@ -155,6 +159,7 @@ forloop
 github
 gtag
 hashpower
+hashfile
 hc
 howtogeek
 href
@@ -218,6 +223,7 @@ rpcuser
 sM
 satoshilabs
 sd
+seedphrase
 seedpicker
 seedpickerxp
 segwit

@@ -11,7 +11,7 @@ $ bundle exec jekyll serve
 
 Then visit: <http://127.0.0.1:4000>
 
-To spell check:
+To spell check (takes ~3s):
 ```bash
 $ pyspelling -c .spellcheck.yml 
 Spelling check passed :)

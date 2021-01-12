@@ -23,7 +23,7 @@ If you are truly paranoid, remove the hard drive from the machine (before bootin
 
 #### Option B (less secure): Wipe Your Machine
 While [Tails](https://tails.boum.org/) is preferred for self-destruction, you can get a similar effect by wiping the hard drive after generating your seed.
-If you have an Ubuntu installer DVD or pen drive (see [Computer Configuration section](../setup-computer/computer)), you can use that to perform the following steps:
+If you have an Ubuntu installer DVD or USB drive (see [Computer Configuration section](../setup-computer/computer)), you can use that to perform the following steps:
 1. Disconnect your computer from the internet.
 1. Perform [the regular steps in the Setup Paper Wallet section](./paper).
 1. Wipe your hard drive and re-install the operating system.
@@ -68,9 +68,28 @@ Specter-Desktop can receive this info via QR-code airgap.
 
 #### Put Each Word Back in the Hat Between Draws
 BIP39 allows for a word to be repeated in your seed phrase should it happen to be randomly drawn multiple times (very unlikely).
-23 words when performed correctly has 253 bits of entropy.
-This is so massive that a slight reduction in the keyspace is insignificant, but we prefer to follow standards / best practices when possible.
-[TODO]: add accurate calculation of entropy without potential to repeat words.
+
+Randomly drawing 23 words *with* replacement, when performed correctly, has 253 bits of entropy.
+
+    >>> from math import log2
+    >>> log2(2048**23)
+    253.0
+
+Randomly drawing 23 words *without* replacement, when performed correctly, has "only" 252.82 bits of entropy.
+
+    >>> from math import factorial
+    >>> def perm(n, k):
+    ...     return factorial(n) / factorial(n - k)
+    ...
+    >>> log2(perm(2048, 23))
+    252.8211201612868
+
+With so many words to choose from (2048), the vast majority (over 88%) of possible seed phrases do not contain repeated words.
+
+    >>> perm(2048, 23) / 2048**23
+    0.8833886253765292
+
+The slight reduction to such a massive keyspace is insignificant. Nonetheless, we prefer to follow standards / best practices when possible.
 
 #### Use SeedPicker Cutouts
 Instead of having to cut out 2,048 words, you can get the same security by cutting out only 342 raffle tickets and using a 6-sided die instead.

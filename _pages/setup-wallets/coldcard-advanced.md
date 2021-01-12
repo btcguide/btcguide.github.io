@@ -5,16 +5,16 @@ title: Setup Coldcard
 ## Verify Coldcard Authenticity
 
 The Coldcard will come in a bag with a letter or barcode under the number (e.g. `C0008091`) - when you first start up the device, confirm that it displays this number.
-See Matt Odell’s Coldcard video from approx 3 mins in [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=180).
+See Matt Odell's Coldcard video from approx 3 mins in [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=180).
 
 ## Additional Entropy on Seed Generation
 
-#### Minimize Trust
+#### Easy: Minimize Trust
 You can add additional entropy during new wallet creation using a casino die by pressing ‘4’ as demonstrated [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=681) by Matt Odell.
 You can do the full 256 bits of entropy with 99 rolls, or you can do just a few rolls and add some entropy at least to trust-minimize your seed generation.
 This step is very good at protecting you from a compromised random number generator implementation in your Coldcard, but if your Coldcard was compromised in the first place this step may not protect you.
 
-#### Don't Trust, Verify
+#### Hard: Don't Trust, Verify
 If you don't trust ColdCard's seed generation at all, you can create your own seed with dice from scratch by following [the instructions on the Coldcard website](https://coldcardwallet.com/docs/verifying-dice-roll-math).
 You can see a demo video [here](https://www.youtube.com/watch?v=Rc29d9m92xg).
 Note that the whole benefit of this option (vs the previous one) is that you actually have to **verify** that your seed rolls are being used to create this seed, which is not trivial (see demo video [here](https://www.youtube.com/watch?v=GxdUCoELUu0)). 

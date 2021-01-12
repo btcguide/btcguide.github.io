@@ -46,7 +46,7 @@ You might do the following:
 
 As a result of this scheme:
 * You and your spouse always have regular access via seeds A & B, provided that you didn't lose your copy of seed A and that you can get into your safe deposit box for seed B. If you lose seed A, you can ask your spouse or children for their copy as a backup. In the event of a problem retrieving seed B from the bank, you can ask your lawyer for assistance in recovery (as they have seed C). Keep in mind that if you lose *both* seeds A and B, your bitcoins are permanently lost.
-* In the event both you and your spouse die death, your children can recover. They already have seed A, they just need seed B (from the bank) or seed C (from the lawyer). They can get access to seed B by contacting the bank (assuming you designated your children as the next-of-kin for your safe deposit box) or seed C by contacting the lawyer.
+* In the event both you and your spouse die, your children can recover. They already have seed A, they just need seed B (from the bank) or seed C (from the lawyer). They can get access to seed B by contacting the bank (assuming you designated your children as the next-of-kin for your safe deposit box) or seed C by contacting the lawyer.
 
 Of course, there are all kinds of tradeoffs/choices to be made:
 * If *both* your lawyer and the bank are dishonest (or compelled by a government order), they can collude to steal your bitcoin (they have access to seeds B and C)!
