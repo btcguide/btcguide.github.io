@@ -10,9 +10,9 @@ By using a paper wallet generated in software, we eliminate the need to buy a th
 **Follow the instructions closely, and seriously consider hardening your security** by using techniques described in [the advanced section](paper-advanced).
 
 ## Generate Seed
-In order to eliminate the risk of a compromised random number generator, you are going to be the random number generator!
+In order to eliminate the risk of a compromised random-number generator, _you_ will be the random-number generator!
 
-You will draw the first 23 words out of a hat to create you seed phrase.
+You will draw the first 23 words out of a "hat" to create your seed phrase ("hat", or any other container, like a ziploc bag, which is a good choice because it enables you to shake/shuffle the words easily without playing "2048-Card Pickup"!).
 The last word of a [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) seed phrase is actually a [checksum](https://en.wikipedia.org/wiki/Checksum), meaning you need a computer to calculate it for you.
 It will also calculate some extended public key information that will be used to identify payments and generate transactions for your hardware wallets to sign.
 
@@ -24,7 +24,9 @@ There is no private information in this PDF, having it only reveals that you're 
 You don't need your own printer; you could safely ask a friend to print it out for you, print it out at work, go to a Kinko's location, etc.
 
 #### Cut Out Seed Words
-Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put them in a hat (any container will do).
+Cut the paper up into 2048 evenly-sized pieces (each with 1 word on it) and put them in a "hat".
+
+This step will likely take a few hours with scissors (a good paper cutter may reduce the time), so it might be a good opportunity to catch up on the [Stephan Livera Podcast](https://stephanlivera.com/) while you cut.
 
 #### Have a Monkey Draw 23 Words Out of the Hat
 If you don't have a monkey, you can do it yourself.
@@ -36,7 +38,7 @@ define rifle cliff summer priority ability chimney cotton tennis crash husband t
 
 ## Calculate the 24th Word and Other Seed Data using SeedPicker
 The 24th word cannot be calculated on paper or in your head, so you will need a secure computer
-for this step. This guide recommends the open source tool SeedPicker, which was designed for this purpose.    
+for this step. This guide recommends the open source tool `SeedPicker`, which was designed for this purpose.    
 
 #### Practice First with a Dry Run
 Let's start with a dry run. As this is just for testing, you don't have to worry about security at all.
@@ -54,9 +56,9 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 
 #### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
-Do not save this to any computer.
+**Do not save this to any computer.**
 1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
-This will download a `json` file to your computer, containing the extended public key info.  
+This will download a `json` file to your computer, containing the extended public key info.
 Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
 ![](/assets/img/setup-paper-seedpicker-save-json.png){:class="border_image"}  
 
@@ -70,7 +72,7 @@ See [advanced section](paper-advanced) for more info.
 
 
 ## Export Public Key Info to Specter-Desktop
-In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB pen-drive.
+In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB drive.
 
 1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
 Your file will be automatically parsed into something like this:  
