@@ -5,7 +5,7 @@ title: Setup Coldcard
 ## Verify Coldcard Authenticity
 
 The Coldcard will come in a bag with a letter or barcode under the number (e.g. `C0008091`) - when you first start up the device, confirm that it displays this number.
-See Matt Odell’s Coldcard video from approx 3 mins in [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=180).
+See Matt Odell's Coldcard video from approx 3 mins in [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=180).
 
 ## Improve Coldcard Airgap
 
@@ -30,7 +30,7 @@ Expert users can figure out how to create a multisig wallet on their coldcard wi
 TODO: file github issue on Specter-Desktop to build this into the UI and link to it here.
 
 ## Additional Entropy
-Add additional entropy during new wallet creation using a casino die by pressing ‘4’ as demonstrated [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=681) by Matt Odell. 
+Add additional entropy during new wallet creation using a casino die by pressing `4` as demonstrated [here](https://www.youtube.com/watch?v=sM2uhyROpAQt=681) by Matt Odell. 
 
 ## Not Perfect
 No device is perfect and this one is no exception.

@@ -5,9 +5,7 @@ title: Configure Bitcoin Node
 ## Verify Software
 
 #### Simple: Verify Signature
-Luke Dashjr has a good guide on "ensuring your install of Bitcoin is secure and free of malware":
-
-[https://medium.com/@lukedashjr/how-to-securely-install-bitcoin-9bfeca7d3b2a](https://medium.com/@lukedashjr/how-to-securely-install-bitcoin-9bfeca7d3b2a)
+Bitcoin Core developer Luke Dashjr has a good guide titled [How to securely install Bitcoin](https://medium.com/@lukedashjr/how-to-securely-install-bitcoin-9bfeca7d3b2a). It explains and steps through the process of ensuring your install of Bitcoin is secure and free of malware.
 
 #### Complicated: Build from Source
 TODO: add link
