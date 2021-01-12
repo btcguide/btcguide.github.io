@@ -15,7 +15,7 @@ You can do the full 256 bits of entropy with 99 rolls, or you can do just a few 
 This step is very good at protecting you from a compromised random number generator implementation in your Coldcard, but if your Coldcard was compromised in the first place this step may not protect you.
 
 #### Hard: Don't Trust, Verify
-If you don't trust ColdCard's seed generation at all, you can create your own seed with dice from scratch by following [the instructions on the Coldcard website](https://coldcardwallet.com/docs/verifying-dice-roll-math).
+If you don't trust Coldcard to generate your seed at all, you can create your own seed with dice from scratch by following [the instructions on the Coldcard website](https://coldcardwallet.com/docs/verifying-dice-roll-math).
 You can see a demo video [here](https://www.youtube.com/watch?v=Rc29d9m92xg).
 Note that the whole benefit of this option (vs the previous one) is that you actually have to **verify** that your seed rolls are being used to create this seed, which is not trivial (see demo video [here](https://www.youtube.com/watch?v=GxdUCoELUu0)). 
 
