@@ -49,7 +49,6 @@ Livera
 Lixin
 Lopp
 Lopp's
-MacOS
 Merkle
 Mozy
 Multisig
@@ -182,6 +181,7 @@ keyspace
 li
 localhost
 lt
+macOS
 mainnet
 md
 meatspace
@@ -263,4 +263,5 @@ www
 xpub
 yml
 youtube
+ziploc
 zpub
