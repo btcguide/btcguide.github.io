@@ -8,14 +8,14 @@ We'll see below that you want your m-of-n multisig threshold to be `1 < m < n`.
 
 #### Problems with 1-of-n
 This has similar security to a single-key signature, with many possible single keys that are capable of signing.
-A vulnerability in any one of these seeds (random number generation, the hardware wallet used, etc) could lead to loss of all your bitcoin.
+A vulnerability in any one of these seeds (random-number generation, the hardware wallet used, etc) could lead to loss of all your bitcoin.
 You suffer [the negatives of multisig](/known-issues/multisig) without the positive.
 
 **Recommendation: only expert users with a unique use-case should ever consider this.**
 
 #### Problems with 2-of-2
 A common fallacy is to take your `1-of-1` and convert it to a `2-of-2`, as multisig's security model is additive.
-However, **a `2-of-2` multisig introduces a new single point of failure**; should you have an issue with either wallet, you could be locked out of your funds.
+However, **a `2-of-2` multisig introduces a new single point of failure**: should you have an issue with either wallet, you could be locked out of your funds.
 The most likely scenario would be key loss, but even with excellent backups something as simple as a software bug in one of your hardware wallets could harm you.
 For example, if one hardware wallet were displaying an extended public key for which it didn't have the associated private key, you could be locked out of your funds.
 In some clever attacks involving bip32 derivation paths, an attacker could even try to ransom your funds back to you (kind of like [CryptoLocker](https://en.wikipedia.org/wiki/CryptoLocker)).
@@ -31,7 +31,7 @@ The big negative is that it only has tolerance for one catastrophic failure (vs 
 
 #### Problems with 2-of-4
 It's good that you need multiple signatures, but eliminating a single point of failure requires having 4 different HW wallet vendors!
-Imagine you have 4 seed but only 3 different hardware wallet vendors: 1 seed generated/protected by vendor A, 1 by vendor B,  and 2 by vendor C.
+Imagine that you have 4 seeds but only 3 different hardware-wallet vendors: 1 seed generated/protected by vendor A, 1 by vendor B, and 2 by vendor C.
 If there were a serious bug with vendor C where 2 of your seeds are known to an attacker, then in the worst case they can spend all of your bitcoin!
 
 Note: `2-of-5` is even worse.
