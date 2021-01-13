@@ -23,7 +23,7 @@ If you are truly paranoid, remove the hard drive from the machine (before bootin
 
 #### Option B (less secure): Wipe Your Machine
 While [Tails](https://tails.boum.org/) is preferred for self-destruction, you can get a similar effect by wiping the hard drive after generating your seed.
-If you have an Ubuntu installer DVD or pen drive (see [Computer Configuration section](../setup-computer/computer)), you can use that to perform the following steps:
+If you have an Ubuntu installer DVD or USB drive (see [Computer Configuration section](../setup-computer/computer)), you can use that to perform the following steps:
 
 1. Disconnect your computer from the internet.
 1. Perform [the regular steps in the Setup Paper Wallet section](./paper).

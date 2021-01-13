@@ -35,8 +35,7 @@ This has some UX benefits that may improve security, but can also increases the 
 {% include hosted/benefits.md %}
 Some noteworthy benefits of using Casa:
 
-* Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, though the public details are sparse.
-	Opting into this would likely be incompatible with using their service anonymously.
+* Casa offers [Casa Covenant](https://keys.casa/bitcoin-inheritance-plan) for inheritance, though the public details are sparse. Opting into this would likely be incompatible with using their service anonymously.
 * Their [health check](https://support.keys.casa/hc/en-us/articles/360045442511-Health-Checks) feature is useful for promoting best practices.
 * They support `3-of-5` which [is an excellent setup](/quorum-advanced), and make it easy by providing `2` of the keys.
 
