@@ -30,6 +30,7 @@ Electrum
 Electrum's
 FIXME
 Flaxman
+GBP
 Guillemet
 HODLer
 HODLers
@@ -120,6 +121,7 @@ btcguide
 casa
 certutil
 checkboxes
+cleartext
 clicky
 cobo
 codebase
