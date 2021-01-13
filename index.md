@@ -20,7 +20,7 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 
 ![compensation file](/compensation.md){.markdown2}
 
-![contributors file](/contributors.md){.markdown2}
+![contributors file](/contributors.md){.markdown2_43}
 
 ![disclaimer file](/disclaimer.md){.markdown2}
 

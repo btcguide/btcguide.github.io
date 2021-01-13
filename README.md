@@ -22,19 +22,21 @@ Notes:
 * `$ brew install aspell && pip install pyspelling` are needed.
 
 
-## Create pdf/epub/mobi on windows
-1. Install miktex portable: https://miktex.org/howto/portable-edition
-1. Install pandoc:
+## Create pdf/epub/mobi
+1. Install [latex](https://www.latex-project.org/get/)
+1. Install [pandoc](https://pandoc.org/installing.html)
 
-```
-	choco install pandoc
-```
 
-1. Open the miktex terminal and go into the base directory. The pdf/epub documents can be build with
+1. Build the documents with
 
 ```
 create_pdf.bat
 create_ebook.bat
 ```
-1. The mobi file can be created from the epub file using kindle previewer: https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1003018611
+or
+```
+create_pdf.sh
+create_ebook.sh
+```
+1. The mobi file can be created from the epub file using [kindle previewer](https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1003018611)
 

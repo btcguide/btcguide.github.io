@@ -230,6 +230,11 @@ function Para(elem)
 		content = filter_content(content)
 		content = string.gsub(content, '\n## ', '\n#### ')
 		return process_content(content, 2)
+	  elseif img.classes:find('markdown2_43',1) then
+	  	local content =read_markdown(img.src)
+		content = filter_content(content)
+		content = string.gsub(content, '\n#### ', '\n### ')
+		return process_content(content, 2)
 	  elseif img.classes:find('markdown3',1) then
         local content =read_markdown(img.src)
 		content = filter_content(content)

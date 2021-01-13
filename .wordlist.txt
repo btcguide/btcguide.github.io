@@ -33,6 +33,7 @@ Flaxman
 Guillemet
 HODLer
 HODLers
+Holger
 HW
 HWI
 HWIBridge
@@ -55,6 +56,7 @@ Multisig
 Multisignature
 MyNode
 myNode
+Nahrstaedt
 NDA
 Nodl
 Novak
@@ -108,6 +110,7 @@ barcode
 bb
 bip
 bips
+bitbox
 bitcoincore
 bitcoiners
 bitcoinonly
@@ -129,6 +132,7 @@ coldcard
 coldcard's
 coldcardwallet
 colo
+colorlinks
 conf
 config
 configurability
@@ -178,11 +182,13 @@ js
 json
 keepkey
 keyspace
+lang
 li
 localhost
 lt
 macOS
 mainnet
+markdownskip
 md
 meatspace
 merkle
@@ -241,6 +247,7 @@ stackoverflow
 stateful
 testnet
 th
+titlepage
 tpub
 tradeoff
 tradeoffs
@@ -252,6 +259,7 @@ udev
 ul
 unencrypted
 url
+urlcolor
 usb
 useability
 utxo

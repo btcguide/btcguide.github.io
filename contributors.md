@@ -3,14 +3,14 @@ title: Contributors
 ---
 
 
-### Project Lead
+#### Project Lead
 [Michael Flaxman](https://twitter.com/mflaxman)
 
-### Contributors
+#### Contributors
 * [Stephan Livera](https://twitter.com/stephanlivera)
-* PDF and Ebook: [Holger Nahrstaedt](https://github.com/holgern)
+* [Holger Nahrstaedt](https://github.com/holgern)
 
-### Reviewers
+#### Reviewers
 * TODO: add
 
 #### Wallet Manufacturers
