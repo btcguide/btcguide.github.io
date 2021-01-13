@@ -44,7 +44,7 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 
 ![setup-computer2 file](/_pages/setup-computer/computer.md){.markdown2}
 
-### Setup Computer Overview Advanced
+### Configure Computer Advanced
 
 ![setup-computer3 file](/_pages/setup-computer/computer-advanced.md){.markdownskip}
 
@@ -64,17 +64,17 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 
 ## Setup Paper Wallet Advanced
 
-![setup-wallets4 file](/_pages/setup-wallets/paper-advanced.md){.markdownskip_23}
+![setup-wallets4 file](/_pages/setup-wallets/paper-advanced.md){.markdownskip_24}
 
 ![setup-wallets5 file](/_pages/setup-wallets/cobo.md){.markdown2_23}
 
-![setup-wallets6 file](/_pages/setup-wallets/cobo-advanced.md){.markdownskip_23}
+![setup-wallets6 file](/_pages/setup-wallets/cobo-advanced.md){.markdownskip_24}
 
-![setup-wallets7 file](/_pages/setup-wallets/coldcard.md){.markdown2_23}
+![setup-wallets7 file](/_pages/setup-wallets/coldcard.md){.markdown2_24}
 
-![setup-wallets8 file](/_pages/setup-wallets/coldcard-advanced.md){.markdownskip_23}
+![setup-wallets8 file](/_pages/setup-wallets/coldcard-advanced.md){.markdownskip_24}
 
-![setup-wallets9 file](/_pages/setup-wallets/coordinate-multisig.md){.markdown2_23}
+![setup-wallets9 file](/_pages/setup-wallets/coordinate-multisig.md){.markdown2_24}
 
 ![setup-wallets10 file](/_pages/setup-wallets/coordinate-multisig-advanced.md){.markdownskip_23}
 
@@ -94,7 +94,9 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 
 ![verify-receive-address7 file](/_pages/verify-receive-address/coldcard.md){.markdown2_23}
 
-![verify-receive-address8 file](/_pages/verify-receive-address/coldcard-advanced.md){.markdownskip_23}
+## Verify Receive Address on Coldcard Advanced
+
+![verify-receive-address8 file](/_pages/verify-receive-address/coldcard-advanced.md){.markdownskip_24}
 
 ![backup-wallet1 file](/_pages/backup-wallet/index.md){.markdown}
 
@@ -113,6 +115,8 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 ![send-bitcoin2 file](/_pages/send-bitcoin/advanced.md){.markdownskip_42}
 
 ![emergency-recovery1 file](/_pages/emergency-recovery/index.md){.markdown}
+
+## Emergency Recovery Advanced
  
 ![emergency-recovery2 file](/_pages/emergency-recovery/advanced.md){.markdownskip}
 
