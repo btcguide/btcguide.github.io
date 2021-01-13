@@ -12,7 +12,7 @@ For fire protection, place that inside a fireproof document bag.
 Anyone who gets access to public key information can see which bitcoin addresses belong to you but cannot spend from them.
 While cloud backups may be good from an availability perspective, it also means that a third party could potentially see your bitcoin addresses and transaction history.
 To protect against this, encrypt the data with a **strong** passphrase before sending it to the cloud.
-The problem, of course, is that you need access to another copy in case you lose that encyption passphrase (or your heirs do if you get hit by a bus).
+The problem, of course, is that you need access to another copy in case you lose that encryption passphrase (or your heirs do if you get hit by a bus).
 This is one reason why keeping an unencrypted copy of all public keys with each of your bitcoin seeds (which should already be stored in secure locations) is often an ideal tradeoff.
 
 #### Extended Public Key Info
