@@ -173,6 +173,7 @@ img
 inactions
 ing
 io
+janoside
 jekyll
 jpeg
 jpg
