@@ -1,9 +1,0 @@
----
-title: 10x Security Bitcoin Guide
-subtitle: How to store bitcoin without any single point of failure.
-author: Michael Flaxman
-lang: "en"
-titlepage: true
-urlcolor: blue
-colorlinks: true
-...
