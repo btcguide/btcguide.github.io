@@ -75,3 +75,7 @@ Place your paper into a plastic bag with a good seal (vacuum sealed even better)
 
 #### Fireproof Document Bag
 You can use these to protect seed backups, and also to protect your physical hardware wallets.
+
+
+{% include next_steps.md next_url="/backup-wallet/public-keys" next_name="Backup Public Keys" %}
+

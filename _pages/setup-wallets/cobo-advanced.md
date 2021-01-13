@@ -31,3 +31,6 @@ https://support.cobo.com/hc/en-us/articles/360050478133-How-to-Use-Dice-to-Gener
 ## Not Perfect
 No device is perfect and this one is no exception.
 Read more about known issues with Cobo Vault [here](/known-issues/hardware/cobo).
+
+
+{% include next_steps.md next_url="coldcard" next_name="Setup Coldcard" %}

@@ -14,3 +14,6 @@ This step doesn't actually use your Coldcard to derive the address, it just uses
 #### Option B: Eternally Quarantine A Dedicated Computer
 Similar to the previous step, you can setup an eternally quarantined watch-only machine, but use it to connect to your Coldcard to verify the receive addresses on your Coldcard's display.
 Eternally quarantining the machine reduces the risk that it becomes malware infected, to reduce the risk of plugging it into your Coldcard.
+
+
+{% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}

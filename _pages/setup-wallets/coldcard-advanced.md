@@ -43,3 +43,6 @@ Expert users can figure out how to create a multisig wallet on their Coldcard wi
 ## Not Perfect
 No device is perfect and this one is no exception.
 Read more about known issues with Coldcard [here](/known-issues/hardware/coldcard).
+
+
+{% include next_steps.md next_url="coordinate-multisig" next_name="Coordinate Multisig" %}
