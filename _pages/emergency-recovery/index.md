@@ -5,6 +5,7 @@ title: Emergency Recovery
 By default, you sign your `2-of-3` transactions on your `2` hardware wallets (Cobo Vault and Coldcard) that [you previously configured](/setup-wallets/).
 If either device is damaged/destroyed, you should replace it with a new one and load the same seed phrase that [you previously backed up](/backup-wallet/seeds) onto the replacement device.
 This means that if seed phrase A was on your Cobo Vault and your Cobo Vault was destroyed in a fire, you would do the following:
+
 1. Buy a new Cobo Vault.
 1. Find the backup of seed phrase A that [you previously made](/backup-wallet/seeds).
 1. Load seed phrase A onto your new (replacement) Cobo Vault.

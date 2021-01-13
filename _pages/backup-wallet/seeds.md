@@ -11,6 +11,7 @@ Then, `m` of your seeds along with **all** `n` of your extended public key info 
 
 #### Security
 Some good places to store a seed:
+
 * **Vaults at banks** - safe-deposit boxes have the added benefit that in the event of your death they should naturally transfer over to your heirs.
 * **Safes at home/work** - you may not have the security systems/monitoring of a bank, but you also don't have to trust a third party to let you in (nor peak).
 * **Buried in a mountain** - X marks the spot!

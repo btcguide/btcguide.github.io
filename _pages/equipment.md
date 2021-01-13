@@ -13,9 +13,9 @@ For more information about this, see the section called [Running Bitcoin](/runni
 Bitcoin Core's initial block download takes a few days to sync, so we recommend you get started on that while you wait for your hardware wallets to arrive.
 
 #### Minimum Equipment to Buy:
+
 * 1 low-end computer with webcam - see below for more information about system requirements
-* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) with 1 microSD card - must be <= 32 GB for `FAT` formatting, but *much* smaller is fine.
-(The previous Mark2 version may work, but since this is a security product it is always recommended to buy the latest version.)
+* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) with 1 microSD card - must be <= 32 GB for `FAT` formatting, but *much* smaller is fine. (The previous Mark2 version may work, but since this is a security product it is always recommended to buy the latest version.)
 * 1 [Cobo Vault](https://cobo.com/hardware-wallet/cobo-vault) - Essential or Pro model
 * 1 DVD-R (if your computer has a DVD drive) or USB stick for installing [Ubuntu](https://ubuntu.com/)
 * 1 pen + 3 pieces of paper (or notecards) to write down your BIP39 seed phrases
@@ -29,6 +29,7 @@ Most notably, you'll want the machine to be 64-bit, have at least 4GB RAM, and a
 While the optimal laptop would not be used for anything else, it is acceptable for this to be a multi-purpose machine that you use day-to-day; by design this laptop will not see bitcoin private key material and we will always treat it as-if it is infected by malware.
 
 You do not need to use a laptop, any desktop computer can work. We find laptops ideal because:
+
 * They are portable and have batteries, meaning they can easily be taken into secure rooms (like bank vaults) that may not have a power source.
 * They usually have built-in webcams, which are needed for a high-quality [airgap](https://en.wikipedia.org/wiki/Air_gap_(networking) (via QR code) that we will be using. It's also easy to physically pick up laptops to scan QR codes if needed.
 * They have less cables for the mouse/keyboard, which is helpful when dealing with the clutter of multiple hardware wallets.

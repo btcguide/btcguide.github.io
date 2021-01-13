@@ -15,6 +15,7 @@ In single-key setups, the typical workflow is for a user to setup an insecure wa
 Some users discover to their horror that it is already too late.
 
 A common example of this workflow might be to use a paper wallet (or paper seed) to receive funds, which has two major issues that a proper multisig scheme is designed to mitigate:
+
 1. **It is typically not possible to independently verify the source of randomness** used to generate private key material.
 This leaves all funds subject to theft, even if the funds were generated on an airgapped/eternally quarantined machine.
 1. **Verifying the backed-up seed matches the addresses generated requires testing this on a secondary device**.

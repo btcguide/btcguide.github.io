@@ -17,9 +17,12 @@ This is one reason why keeping an unencrypted copy of all public keys with each 
 
 #### Extended Public Key Info
 The info needed to backup your extended public keys also includes related configuration settings/metadata:
+
 * **The Extended Public Key**: this will either start with `Zpub` for mainnet / `Vpub` for testnet if using [SLIP132 encoding](https://github.com/satoshilabs/slips/blob/master/slip-0132.md) or `xpub` for mainnet / `tpub` for testnet.
 * **BIP32 Paths**: Instructions for your hardware wallet to derive the specific key used for signing from the seed. 
+
 This can be represented in many ways but might look like `m/48'/0'/0'/2'`.
+
 * **Quorum Information**: Your `m` and `n` in `m-of-n`.
 * **Root Fingerprint**: An ID for your master public key. This is 4 bytes of data, stored in hexadecimal format (i.e. `5e66c49b`)
 

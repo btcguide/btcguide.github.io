@@ -22,6 +22,7 @@ In some clever attacks involving bip32 derivation paths, an attacker could even 
 
 #### 2-of-3 is Good
 This is a good default choice:
+
 * It is _relatively_ easy to implement
 * Has few moving parts
 * Minimal hardware purchasing requirements
