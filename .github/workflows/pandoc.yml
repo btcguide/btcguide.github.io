@@ -22,8 +22,9 @@ jobs:
         uses: Ender-events/pandoc@master
         with:
           args: '--css templates/epub.css --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.epub  index.md'
+      - name: Install calibre
+        run: sudo apt-get install calibre
       - name: Convert epub to mobi
-        run: apt install calibre
         run: ebook-convert "assets/btcguide.epub" "assets/btcguide.mobi"
       - name: Get current date
         id: date
