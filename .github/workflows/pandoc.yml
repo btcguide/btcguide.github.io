@@ -17,11 +17,11 @@ jobs:
       - name: Pandoc Document Converter pdf
         uses: Ender-events/pandoc@master
         with:
-          args: '--pdf-engine=xelatex  --template=templates/eisvogel.latex  --highlight-style zenburn --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.pdf  index.md'
+          args: '--pdf-engine=xelatex  --template=templates/eisvogel.latex  --highlight-style zenburn --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.pdf  index_pandoc.md'
       - name: Pandoc Document Converter epub
         uses: Ender-events/pandoc@master
         with:
-          args: '--css templates/epub.css --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.epub  index.md'
+          args: '--css templates/epub.css --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.epub  index_pandoc.md'
       - name: Install calibre
         run: sudo apt-get update && sudo apt-get install calibre
       - name: Convert epub to mobi

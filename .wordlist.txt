@@ -146,6 +146,7 @@ disablewallet
 diy
 dmg
 dropdown
+ebook
 electrum
 elsif
 endcomment
@@ -153,6 +154,7 @@ endfor
 endif
 endunless
 english
+epub
 exe
 explainer
 faf
@@ -196,6 +198,7 @@ mflaxman
 microSD
 mins
 mitigations
+mobi
 multicoin
 multisig
 multisig's
@@ -204,6 +207,7 @@ nd
 notecards
 ol
 onsetup
+pandoc
 pdf
 pendrive
 php
