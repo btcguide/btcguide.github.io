@@ -24,14 +24,17 @@ If you are truly paranoid, remove the hard drive from the machine (before bootin
 #### Option B (less secure): Wipe Your Machine
 While [Tails](https://tails.boum.org/) is preferred for self-destruction, you can get a similar effect by wiping the hard drive after generating your seed.
 If you have an Ubuntu installer DVD or USB drive (see [Computer Configuration section](../setup-computer/computer)), you can use that to perform the following steps:
+
 1. Disconnect your computer from the internet.
 1. Perform [the regular steps in the Setup Paper Wallet section](./paper).
 1. Wipe your hard drive and re-install the operating system.
 1. Reconnect the computer to the internet.
 
 You can further enhance this with two (optional) steps:
+
 * Before getting started, setup full disk encryption (see [Advanced Computer Configuration section](../setup-computer/computer-advanced)) with a **very** long passphrase so that any data that may have persisted on your hard drive after step 3 (above) can never be recovered.
 * When wiping your hard drive, use [a secure erase program](https://askubuntu.com/questions/17640/how-can-i-securely-erase-a-hard-drive) to make sure that nothing survives.
+
 Note that these do not work perfectly on Flash memory (SSD drives), so the previous technique is preferred.
 You can read more about this [here](https://wiki.archlinux.org/index.php/Securely_wipe_disk) and [here](https://www.howtogeek.com/234683/why-you-cant-securely-delete-a-file-and-what-to-do-instead/).
 

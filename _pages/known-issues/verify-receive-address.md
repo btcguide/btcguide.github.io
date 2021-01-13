@@ -11,7 +11,8 @@ Otherwise, you could fall prey to a clever attack.
 Let's say you have a `2-of-3` multisig (with seeds A, B, and C), and your host computer is infected with malware (we always assume this to be true and it's the reason for using hardware wallets in the first place).
 Unfortunately for you, one of your hardware wallets is compromised/fake.
 Here is how you could be tricked into using an address you don't actually control to receive funds:
-1. Specter-Desktop on your (malware infected) host computer displays a `2-of-3` receiving address, where *none* of your hardware wallets are actually part of the multisig scheme.
+
+1. Specter-Desktop on your host computer (assumed to be malware infected) displays a `2-of-3` receiving address, where *none* of your hardware wallets are actually part of the multisig scheme.
 1. You pull out hardware wallet A (also malware infected!) and it (falsely) confirms the same receive address on its trusted display.
 1. You then deposit funds to this address, and are confused when they magically vanish :(
 

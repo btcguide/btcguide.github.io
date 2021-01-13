@@ -20,13 +20,10 @@ Cobo does have [a bitcoin-only firmware](https://cobo.com/hardware-wallet), thou
 
 #### Mild Annoyances
 These are all things that are annoying but not show-stoppers:
-* **Slow boot time**.
-The fingerprint reader does help makeup for this!
-* **Long PIN can be annoying to enter on keyboard**.
-However, this only matters when the fingerprint reader fails.
-* **The microSD card is hard to remove**.
-A simple pair of tweezers solves the problem.
-More importantly, the strong QR-code airgap means you only have to use SD card to update the firmware.
+
+* **Slow boot time**. The fingerprint reader does help makeup for this!
+* **Long PIN can be annoying to enter on keyboard**. However, this only matters when the fingerprint reader fails.
+* **The microSD card is hard to remove**. A simple pair of tweezers solves the problem. More importantly, the strong QR-code airgap means you only have to use SD card to update the firmware.
 
 
 {% include hw/encouragement.md %}

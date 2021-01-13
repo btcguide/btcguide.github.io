@@ -13,6 +13,7 @@ If your host computer says address X follows the rules of your quorum (`m` signa
 **If your host computer (which may be infected with malware) and your Cobo Vault were compromised, this could results in immediate loss of funds sent to this address.**
 
 Factors that make it less risky to consider this approach:
+
 1. **When the amount you're receiving is low**.
 (But remember, BTC price appreciation could increase the USD/EUR/GBP/etc. value of the bitcoin in this address, so consider this as well.)
 1. **When the computer you're using to verify this address is a dedicated machine**. An eternally quarantined machine _significantly_ reduces risk.
@@ -24,6 +25,7 @@ but not the full 3 required.
 so that tampering with any seed would be caught by this wallet. TODO: add more on this.
 
 You might consider it safe to send to an address that you've previously received funds on and been able to spend, but this has two serious issues:
+
 1. This is known as "address reuse", and it's bad for both privacy and security (in the event that serious quantum computers become available/viable).
 TODO: add link/explanation.
 1. The fact that you were previously able to spend does indicate you have control, but doesn't guarantee it.
@@ -48,6 +50,7 @@ One benefit of this is that you could get by without a dedicated machine, and th
 This option becomes less feasible as the number of bitcoin addresses you need rises. Consider, for example, a bitcoin business that receives many payments each day; a paper-based solution will be very difficult to manage in that situation.
 
 Steps:
+
 1. Follow the instructions in the previous step and setup a clean (freshly wiped) machine to verify receive addresses.
 1. Export a very large amount of receive addresses to a file.
 You never want to have to repeat this setup and paper is cheap, so consider a very large number (say 10,000 addresses).
