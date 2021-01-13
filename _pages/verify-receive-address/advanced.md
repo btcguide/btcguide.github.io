@@ -56,4 +56,5 @@ You never want to have to repeat this setup and paper is cheap, so consider a ve
 Now that you never need to check this computer again, you can go about using it for whatever you like and not have to worry about keeping it secure.
 Ideally, you would wipe the computer, but since it is only touching _public_ key information the only risk is a privacy leak.
 
+
 {% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}

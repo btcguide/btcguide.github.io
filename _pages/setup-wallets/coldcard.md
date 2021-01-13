@@ -24,4 +24,5 @@ Follow the steps on Coldcard's website:
 1. Give your device a name (e.g. `Coldcard`) and click `Continue`.  
 ![](/assets/img/setup-coldcard-specter-scanned.jpg){:width="70%" class="border_image"}
 
+
 {% include next_steps.md next_url="coordinate-multisig" next_name="Coordinate Multisig" %}

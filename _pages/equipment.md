@@ -42,4 +42,5 @@ For regular users, we recommend using
 
 For advanced users, you can [run your own Bitcoin Core node](setup-computer/bitcoin-node) for more details.
 
+
 {% include next_steps.md next_url="/setup-computer" next_name="Configure Your Computer" %}

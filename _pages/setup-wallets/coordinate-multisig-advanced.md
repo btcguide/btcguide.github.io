@@ -30,5 +30,4 @@ For safety we assume that the computer running Specter-Desktop is infected with 
 [TODO]: More explanation of what's being checked here (question from @janoside)
 
 
-
 {% include next_steps.md next_url="/verify-receive-address" next_name="Verify Receive Address" %}
