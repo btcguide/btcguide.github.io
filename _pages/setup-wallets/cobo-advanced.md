@@ -18,7 +18,7 @@ SHA256 hash of V1.4.0-BTC_Only.zip:
 CertUtil: -hashfile command completed successfully.
 ```
 
-(This is accurate for `v.1.4.0` but will become stale for future releases. Calculate the hash digest of the new file and confirm that it matches what's published by the company.)
+(The above hashes are accurate for `v1.4.0` but will become stale for future releases. Calculate the hash digest of the new file and confirm that it matches what's published by the company.)
 
 #### Generate your own seedphrase
 

@@ -8,7 +8,7 @@ You can see more about recent multisig improvements [here](/why-multisig-advance
 ## More Hardware
 Buying multiple hardware wallets is more expensive than buying one.
 
-Fortunately, open-source paper wallet software [like SeedPicker](http://seedpicker.net/) has been released that lets you add seed(s) to your multisig quorum for recovery without having to purchase additional hardware wallets to get started (until/unless you need to perform emergency recovery).
+Fortunately, open-source paper wallet software, like [SeedPicker](http://seedpicker.net/), is now available to enable you to add seed(s) to your multisig quorum for recovery without having to purchase additional hardware wallets to get started (until/unless you need to perform emergency recovery).
 
 
 ## Higher Transaction Fees
