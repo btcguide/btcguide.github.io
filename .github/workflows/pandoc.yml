@@ -18,10 +18,13 @@ jobs:
         uses: Ender-events/pandoc@master
         with:
           args: '--pdf-engine=xelatex  --template=templates/eisvogel.latex  --highlight-style zenburn --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.pdf  index.md'
-      - name: Pandoc Document Converter -epub
+      - name: Pandoc Document Converter epub
         uses: Ender-events/pandoc@master
         with:
           args: '--css templates/epub.css --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.epub  index.md'
+      - name: Convert epub to mobi
+        run: apt install calibre
+        run: ebook-convert "assets/btcguide.epub" "assets/btcguide.mobi"
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M')"
@@ -66,3 +69,13 @@ jobs:
           asset_path: ./assets/btcguide.epub
           asset_name: btcguide.epub
           asset_content_type: application/epub
+      - name: Upload Release Asset mobi
+        id: upload-release-asset-mobi
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./assets/btcguide.mobi
+          asset_name: btcguide.mobi
+          asset_content_type: application/mobi
