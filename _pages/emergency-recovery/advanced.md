@@ -18,5 +18,3 @@ Tails strongly recommended.
 #### Verify Validity of Electrum Software
 You can read instructions on how to do this [here](https://www.reddit.com/r/Bitcoin/comments/aa3l6n/how_to_check_if_your_electrum_wallet_is_legit/).
 
-
-{% include next_steps.md %}
