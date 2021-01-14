@@ -61,12 +61,16 @@
     <h1>
       {% if page.url contains "known-issues/" %}Known Issues:{% endif %}
       {{page.title}}
-      {% if page.url == "advanced" or page.url contains "-advanced" %} - Advanced{% endif %}
+      {% if page.url == "advanced" or page.url contains "-advanced" %} &raquo; Advanced Considerations{% endif %}
     </h1>
 
+    <hr />
 
-    {{ content }}
-    <br /><br /> {% comment %}FIXME{% endcomment %}
+    <div class="mb-5">
+      {{ content }}
+    </div>
+    
+    <br /><br /><br /> {% comment %}FIXME{% endcomment %}
 
   </main>
 
