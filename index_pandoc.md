@@ -124,9 +124,13 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 
 ## 10x Security Guide
 
-![known-issues1 file](/_pages/known-issues/software/specter.md){.markdown3}
+### Specter DIY {#specter-diy2}
 
-![known-issues2 file](/_pages/known-issues/hardware/coldcard.md){.markdown3}
+![known-issues1 file](/_pages/known-issues/software/specter.md){.markdownskip}
+
+### Coldcard {#coldcard2}
+
+![known-issues2 file](/_pages/known-issues/hardware/coldcard.md){.markdownskip}
 
 ![known-issues3 file](/_pages/known-issues/hardware/cobo.md){.markdown3}
 
