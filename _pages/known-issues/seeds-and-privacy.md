@@ -3,11 +3,11 @@ title: Seeds and Privacy
 ---
 
 In the event that an unauthorized third party gains access to a single seed and knows the corresponding bip32 path used, they will be able to calculate the child public keys that it would (likely) contribute to a multisig scheme.
-This means that if this third party is savvy, they can scan the bitcoin blockchain to see all the transactions that these address *previously* controlled (meaning that their public key was part of the quorum of addresses that could spend those bitcoin).
+This means that if this third party is savvy, they can scan the bitcoin blockchain to see all the transactions that these addresses *previously* controlled (meaning that their public key was part of the quorum of addresses that could spend those bitcoin).
 We say "previously" because this third party cannot know which multisig addresses (if any) that key currently participates in.
 
-Keep in mind that this issue already exists with single-key signatures and is much worse: an unauthorized third party who gains access to your seed can not only see your previously used addresses, they can also see your current ones and more importantly *steal* all your funds.
-So, while this is a negative of bitcoin multisig it is still strictly superior to single-key signatures.
+Keep in mind that this issue already exists with single-key signatures and is much worse: an unauthorized third party who gains access to your seed can not only see your previously used addresses, they can also see your current ones and, more importantly, *steal* all your funds.
+So, while this is a negative of bitcoin multisig it is still strictly superior to single-key schemes.
 
 #### Option A: Nonstandard BIP32 Path
 One solution to this is to use a non-standard bip32 path as a way to hide your activity on the blockchain from anyone who gains unauthorized access to a seed.

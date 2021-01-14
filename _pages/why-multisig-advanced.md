@@ -28,4 +28,5 @@ SSSS should only be considered for expert users **after** you've maxed out your 
 For that use-case, you may want to look into [SLIP-0039](https://github.com/satoshilabs/slips/blob/master/slip-0039.md) or alternatively divide 1 (or more) of the BIP39 seed passphrases using Shamir's Secret Sharing Scheme.
 The open-source software available to do this is still unfortunately [somewhat lacking](https://twitter.com/mflaxman/status/1294831929972477952), but should improve over time.
 
+
 {% include next_steps.md next_url="/quorum" next_name="Pick Quorum" %}

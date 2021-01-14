@@ -6,13 +6,14 @@ In order to send bitcoin, you will need to sign on `2-of-3` of your hardware wal
 
 At this point, you should've completed all the previous sections.
 Once you've [verified your receive addresses](/verify-receive-address) and [backed up your wallet](/backup-wallet), it's safe to receive bitcoin.
+
 Now we'll go over how to spend some of them.
 
-1. On Specter-Desktop: Your Multisig Wallet (i.e. `Redundant Multisig`) > `Send` > `New`. Fill out the transaction info and hit `Create unsigned transaction`:  
+1. On Specter-Desktop: Your Multisig Wallet (e.g. `Redundant Multisig`) > `Send` > `New`. Fill out the transaction info and hit `Create unsigned transaction`:  
 ![](/assets/img/send-bitcoin-specter-create-skeleton.png){:width="70%" class="border_image"} 
 
 1. The transaction will now exist in an unsigned state.
-Click `Open` so you can sign it with your hardware wallets (Cobo and Coldcard):  
+Click `Open` so you can sign it with your hardware wallets (Cobo Vault and Coldcard):  
 ![](/assets/img/send-bitcoin-specter-unsigned-skeleton.png){:width="70%" class="border_image"}
 
 1. Select Cobo to sign with first (order doesn't strictly matter):  
@@ -24,7 +25,7 @@ Click `Open` so you can sign it with your hardware wallets (Cobo and Coldcard):
 1. On Cobo Vault: `Menu` > `Multisig Wallet` > scanner icon (in the top right) and scan the QR code that Specter-Desktop is displaying.  
 ![](/assets/img/send-bitcoin-cobo-scan-icon.jpg){:width="35%" class="border_image"}
 
-1. On Cobo: sign the transaction.  
+1. On Cobo Vault: sign the transaction.  
 TODO: add photo  
 
 1. On Specter-Desktop: `Scan signed transaction` and hold up Cobo Vault to your computer's QR code scanner:  
@@ -46,7 +47,7 @@ TODO: add photo
 ![](/assets/img/send-bitcoin-specter-broadcast.png){:width="70%" class="border_image"}
 
 
-TODO: fix outdated pictures.
+[TODO]: fix outdated pictures.
 
 
 {% include next_steps.md next_url="/emergency-recovery" next_name="Emergency Recovery" %}

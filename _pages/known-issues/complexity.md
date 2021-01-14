@@ -10,8 +10,8 @@ There are two *very* important mitigating factors.
 #### Multisig is Not that Complex
 [TODO]: Insert quote from Brian Bishop here.
 
-It may seem that multisig is quite complex, but much of the complexity is just forcing the important security steps to be done upfront before funds are deposited, which is a *much* more secure than doing it after funds are at risk.
-In single-key setups, the typical workflow is for a user to setup an insecure wallet (with several single-points-of failure) and then later attempt to secure it (perhaps as the value of the funds grow).
+It may seem that multisig is quite complex, but much of the complexity is just forcing the important security steps to be done upfront before funds are deposited, which is *much* more secure than doing it after funds are at risk.
+In single-key setups, the typical workflow is for a user to setup an insecure wallet (with several single-points-of-failure) and then later attempt to secure it (perhaps as the value of the funds grow).
 Some users discover to their horror that it is already too late.
 
 A common example of this workflow might be to use a paper wallet (or paper seed) to receive funds, which has two major issues that a proper multisig scheme is designed to mitigate:
@@ -24,10 +24,10 @@ See [Verifying Your Receive Addresses](verify-receive-address/).
 
 #### Multisig Recognizes Humans Are Imperfect
 It turns out that cryptography in meatspace is very challenging.
-It is far harder to execute a single-key signature scheme *perfectly* vs executing a multi-sig scheme *decently*, and the latter is far more secure than the former (see [here](/why-multisig) for more details).
+It is far harder to execute a single-key signature scheme *perfectly* than it is to execute a multisig scheme *decently*, and the latter is far more secure than the former (see [here](/why-multisig) for more details).
 
 ## Limited Airdrop/Fork Support
-Because multisig transactions are more complicated, some altcoin airdrops that gave people coins for having bitcoin only did so when those bitcoins were secured by a single-key address.
+Because multisig transactions are more complicated, some altcoin airdrops that distributed new coins to bitcoin holders only did so when those bitcoins were secured by a single-key address.
 Even if those chains did give coins to bitcoin multisig holders, the new coins sometimes had very weak multisig support (effectively trapping those airdropped coins for all but expert users).
 
 Airdrops have become quite rare since 2018 and seem unlikely to make a resurgence, so this issue may have resolved itself.

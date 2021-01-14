@@ -18,7 +18,7 @@ SHA256 hash of V1.4.0-BTC_Only.zip:
 CertUtil: -hashfile command completed successfully.
 ```
 
-(This is accurate for `v.1.4.0` but will become stale for future releases. Calculate the hash digest of the new file and confirm that it matches what's published by the company.)
+(The above hashes are accurate for `v1.4.0` but will become stale for future releases. Calculate the hash digest of the new file and confirm that it matches what's published by the company.)
 
 #### Generate your own seedphrase
 
@@ -31,3 +31,6 @@ https://support.cobo.com/hc/en-us/articles/360050478133-How-to-Use-Dice-to-Gener
 ## Not Perfect
 No device is perfect and this one is no exception.
 Read more about known issues with Cobo Vault [here](/known-issues/hardware/cobo).
+
+
+{% include next_steps.md next_url="coldcard" next_name="Setup Coldcard" %}
