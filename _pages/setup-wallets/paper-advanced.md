@@ -111,3 +111,6 @@ Be sure to use a hardware wallet where you can enter the passphrase directly on 
 ## Not Perfect
 No setup is perfect and this one is no exception.
 Read more about known issues with SeedPicker [here](/known-issues/software/seedpicker).
+
+
+{% include next_steps.md next_url="cobo" next_name="Setup Cobo Vault" %}

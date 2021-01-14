@@ -25,7 +25,7 @@ While you can leave their service (or recover your coins if they go out of busin
 
 {% include hosted/utxo_privacy.md %}
 Casa is unique in that they do not perform traditional KYC, and it is even possible to signup without sharing your name.
-Customers can pay anonymous with bitcoin or prepaid cards.
+Customers can pay anonymously with bitcoin or prepaid cards.
 [Their privacy policy](https://blog.keys.casa/casa-privacy-and-data-protection-policy/) is intentionally very customer-friendly.
 
 #### Seedless

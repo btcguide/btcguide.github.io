@@ -4,7 +4,7 @@ title: Backup Public Keys
 
 
 #### Protect Your Public Keys
-Put your public key data (DVD or USB pendrive) in a plastic Ziploc-style bag to protect it from water damage.
+Put your public key data (DVD or USB drive) in a plastic ziploc-style bag to protect it from water damage.
 A vacuum-sealed bag is even better.
 For fire protection, place that inside a fireproof document bag.
 
@@ -12,8 +12,8 @@ For fire protection, place that inside a fireproof document bag.
 Anyone who gets access to public key information can see which bitcoin addresses belong to you but cannot spend from them.
 While cloud backups may be good from an availability perspective, it also means that a third party could potentially see your bitcoin addresses and transaction history.
 To protect against this, encrypt the data with a **strong** passphrase before sending it to the cloud.
-The problem of course is that you need a system in place to protect you if you lose that passphrase (or get hit by a bus).
-This is one reason why keeping an unencrypted copy of all public keys with each of your bitcoin seeds (that should already be stored in secure locations) is often an ideal tradeoff.
+The problem, of course, is that you need access to another copy in case you lose that encryption passphrase (or your heirs do if you get hit by a bus).
+This is one reason why keeping an unencrypted copy of all public keys with each of your bitcoin seeds (which should already be stored in secure locations) is often an ideal tradeoff.
 
 #### Extended Public Key Info
 The info needed to backup your extended public keys also includes related configuration settings/metadata:
@@ -24,12 +24,12 @@ The info needed to backup your extended public keys also includes related config
 This can be represented in many ways but might look like `m/48'/0'/0'/2'`.
 
 * **Quorum Information**: Your `m` and `n` in `m-of-n`.
-* **Root Fingerprint**: An ID for your master public key. This is 4 bytes of data, stored in hexadecimal format (i.e. `5e66c49b`)
+* **Root Fingerprint**: An ID for your master public key. This is 4 bytes of data, stored in hexadecimal format (e.g. `5e66c49b`).
 
-You don't need to know what these are, your software will handle it automatically.
-The main thing is that you have to keep a copy of all this public key info for all of your seeds, and unlike your 24 word seed phrase it's too long/unwieldy to write down by hand.
+You don't need to know what these are, your software will handle them automatically.
+The main thing to understand is that you must keep a copy of all this public key info for all of your seeds, and, unlike your 24-word seed phrase, it's too long/unwieldy to write down by hand.
 
-This is why we use USB pen-drives, DVD drives, store it on our computer, in the cloud, etc.
+This is why we use USB drives, DVDs, store it on our computer, in the cloud, etc.
 
 
 {% include next_steps.md next_url="/send-bitcoin" next_name="Send Bitcoin" %}

@@ -31,7 +31,7 @@ While the optimal laptop would not be used for anything else, it is acceptable f
 You do not need to use a laptop, any desktop computer can work. We find laptops ideal because:
 
 * They are portable and have batteries, meaning they can easily be taken into secure rooms (like bank vaults) that may not have a power source.
-* They usually have built-in webcams, which are needed for a high-quality [airgap](https://en.wikipedia.org/wiki/Air_gap_(networking) (via QR code) that we will be using. It's also easy to physically pick up laptops to scan QR codes if needed.
+* They usually have built-in webcams, which are needed for a high-quality [airgap](https://en.wikipedia.org/wiki/Air_gap_(networking)) (using QR codes) that we will be using. It's also easy to physically pick up laptops to scan QR codes if needed.
 * They have less cables for the mouse/keyboard, which is helpful when dealing with the clutter of multiple hardware wallets.
 
 ## Bitcoin Core Node
@@ -42,5 +42,6 @@ For regular users, we recommend using
 (more [here](/setup-computer/)).
 
 For advanced users, you can [run your own Bitcoin Core node](setup-computer/bitcoin-node) for more details.
+
 
 {% include next_steps.md next_url="/setup-computer" next_name="Configure Your Computer" %}

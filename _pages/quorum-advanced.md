@@ -67,4 +67,5 @@ Furthermore, N > 5 can be dangerous. Due to size limits ([legacy](https://bitcoi
 
 **Recommendation: only expert users with a strong use-case should ever consider this.**
 
+
 {% include next_steps.md next_url="/equipment" next_name="Equipment" %}

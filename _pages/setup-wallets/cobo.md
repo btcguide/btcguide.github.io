@@ -14,7 +14,7 @@ Follow the instructions [here](https://support.cobo.com/hc/en-us/articles/360046
 
 1. Turn on your Cobo Vault.
 You will be prompted to update the firmware, click the button to accept the upgrade.
-If not, you can click on `Menu` > `Settings` > `Version`> `Update Now`.
+If you are not prompted to update the firmware, you can click on `Menu` > `Settings` > `Version` > `Update Now`.
 
 1. Enter your password when prompted. The update may take several minutes to complete.
 
@@ -32,9 +32,9 @@ Follow [the instructions on Cobo's website](https://support.cobo.com/hc/en-us/ar
 1. On Specter-Desktop: Click `+ Add new device` > `Scan`  
 ![](/assets/img/setup-cobo-specter-scan.jpg){:width="70%" class="border_image"}
 
-1. Hold the QR code on your Cobo vault up to your webcam so your computer can scan it.
+1. Hold the QR code on your Cobo Vault up to your webcam so your computer can scan it.
 
-1. Give your device a name (i.e. `Cobo`) and hit `Continue`.  
+1. Give your device a name (i.e. `Cobo`) and hit `Continue`.
 ![](/assets/img/setup-cobo-specter-scanned.jpg){:width="70%" class="border_image"}
 
 _You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_
