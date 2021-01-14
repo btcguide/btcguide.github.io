@@ -16,7 +16,7 @@ As Trezor is stateless, these steps will only confirm that `1` of your keys is p
  [`3-of-5` would be better](/quorum-advanced), especially when using a hosted service that already:
 
 * Abstracts away a lot of multisig's complexity
-* Holds 1 (or more) of your seeds
+* Holds `1` (or more) of your seeds
 
 {% include hosted/benefits.md %}
 Some noteworthy benefits of using Unchained:
