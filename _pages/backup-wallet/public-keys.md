@@ -12,7 +12,7 @@ Make many copies and store in many locations.
 We recommend you keep a copy of *all* public keys (and related metadata) with *each* seed.
 
 #### Save on Your Computer
-TODO: add instructions on how to save this with Specter-Desktop.
+On Specter-Desktop, select your multisig wallet (e.g. `Redundant Multisig`) > `Settings` > `Export` > `Save Backup PDF`
 
 #### Save Online
 Save this data to various cloud providers (Dropbox, Google Drive, iCloud) or backup services (Mozy, Carbonite, Backblaze, etc.) that you may already use.
