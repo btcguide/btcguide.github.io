@@ -3,11 +3,11 @@ title: Why Multisig?
 ---
 
 
-#### Your keys, your bitcoin. Not your keys, not your bitcoin.
+> "Your keys, your bitcoin. Not your keys, not your bitcoin."
 -- [Andreas Antonopolous](https://www.youtube.com/watch?v=vt-zXEsJ61U)
 
 
-While the above quote is true and important, it's also true that managing your own keys is **really** hard.
+This is true, but managing your own keys is **really** hard.
 The math behind the bitcoin protocol is bulletproof, but being your own bank requires you to be near perfect in your execution.
 When it comes to cryptography, you are only as strong as your weakest link.
 For traditional single-key signature schemes, the only thing between your bitcoin and an attacker is a single mistake!
