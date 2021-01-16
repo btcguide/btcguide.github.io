@@ -55,7 +55,7 @@ zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 ![](/assets/img/setup-paper-seedpicker-example-output.png){:class="border_image"}  
 
 #### Save the Output
-1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
+1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only. Also write down the Extended public key in Zpub format, and optionally click "Show more" and write down the key in xpub format as well.
 **Do not save this to any computer.**
 1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
 This will download a `json` file to your computer, containing the extended public key info.
