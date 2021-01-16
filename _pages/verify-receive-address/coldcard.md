@@ -1,18 +1,17 @@
 ---
-title: Verify Receive Address on Coldcard 
+title: Verify Receive Address on Coldcard
 ---
 
-## Warning
-[Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
-In order to verify a receive address on a Coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via a USB port.
-We hope that Coldcard will add functionality similar to Cobo Vault soon.
-See [advanced section](coldcard-advanced) for mitigations.
+As of [Firmware Version 3.2.2](https://coldcardwallet.com/docs/upgrade) (January 14th, 2021) Coldcard's Address Explorer supports multisig, so you can verify (partially redacted) receive addresses while maintaining an airgap!
 
-## Verify via USB
-1. On Specter-Desktop: `Your Wallet` > `Receive` > `Display address on device`:  
-![](/assets/img/verify-receive-address-specter-desktop-coldcard.png){:width="70%" class="border_image"} 
+1. From the main screen, select `Address Explorer`
+![](/assets/img/verify-receive-address-coldcard-1.jpg){:width="35%" class="border_image"}
 
-1. Verify address on your Coldcard:  
-![](/assets/img/verify-receive-address-coldcard.jpeg){:width="35%" class="border_image"} 
+1. Scroll to the bottom of the warning message, then press the indicated number to continue
+
+1. Scroll to the bottom of the options and select the name of your multisig wallet (`btcguide.github.io` in the example):
+![](/assets/img/verify-receive-address-coldcard-2.jpg){:width="35%" class="border_image"}
+
+1. Scroll down to verify the (partially redacted) receive address(es)
 
 {% include next_steps.md next_url="/backup-wallet" next_name="Backup Wallet" %}
