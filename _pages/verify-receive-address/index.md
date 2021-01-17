@@ -6,7 +6,7 @@ It is **essential** to be sure you control a bitcoin address before you use it t
 
 **In order to securely receive funds, you must verify a given receive address on at least a quorum (`m` in `m-of-n`) of your trusted displays.**
 In the default case, this means you would check on **both** your Cobo Vault **and** your Coldcard.
-This is both annoying -- the two devices should be kept in different physical locations -- and, in the case of Coldcard, mildly frustrating as [they don't currently support address exploration with an airgap](/known-issues/hardware/coldcard#verifying-a-receiving-address-breaks-airgap).
+Unfortunately, this step can be inconvenient, as the two devices should be kept in different physical locations.
 
 Once you have verified your address on a quorum of devices, it is safe to give that address out to a payee.
 Advanced users can mitigate some of these issues by following [these steps](/verify-receive-address/advanced).

@@ -2,18 +2,9 @@
 title: Coldcard
 ---
 
-#### Verifying a Receiving Address Breaks Airgap
-[Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
-In order to verify a receive address on a coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via USB port!
-
-We expect they'll release this feature in the future, but the recommendation for now is to use Cobo Vault as the primary device when it comes to [verifying receive addresses](/verify-receive-address/).
-Advanced users can pursue [various mitigation strategies](/verify-receive-address/coldcard-advanced).
-
 #### SD Card "Airgap"
 While better than a USB port, SD cards are not a perfect airgap.
 [Stuxnet](https://en.wikipedia.org/wiki/Stuxnet) proved that the NSA was capable of jumping a USB-drive airgap to harm the Iranian nuclear reactor program.
-
-{% include hw/wired_airgap.md %}Coldcard requires a USB connection only to perform address verification (see above for related issues).
 
 #### Small Screen
 This makes it hard to manually verify addresses / public key info, and impossible to display QR codes (to minimize using the SD card).
@@ -31,9 +22,6 @@ That said, Coldcard firmware is fully open so users can compile it themselves if
 #### Fork of Trezor
 This hardware wallet was launched by forking some of Trezor's open-source code.
 That said, it is very actively maintained and has many new features since then (some that Trezor has not been updated to support).
-
-{% include hw/udev.md %}
-Fixing the airgap on receive address verification would eliminate this issue altogether.
 
 {% include hw/python.md %}
 
