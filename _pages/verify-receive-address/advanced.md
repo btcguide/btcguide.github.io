@@ -65,7 +65,7 @@ Alternatively, you can use Tails, which you might already have used when [settin
 4. Turn off WiFi
 5. Click "WALLET"
 6. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
-6. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpubs [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
+6. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpub keys [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
 7. Allow Caravan some time to generate the wallet, and then use the Addresses tab to verify
 
 #### Option B: Print the Addresses to Paper
