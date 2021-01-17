@@ -45,7 +45,7 @@ It is recommended to use an eternally quarantined machine, meaning that it is ne
 
 Alternatively, you can use Tails, which you might already have used when [setting up your Paper Wallet](https://btcguide.github.io/setup-wallets/paper-advanced).
 
-1. [Verify](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) that all the Zpubs/xpubs match on both the Cobo and the Coldcard
+1. [Verify](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) that all the Zpub/xpub keys match on both the Cobo and the Coldcard
 2. Reboot and run Tails
 
 ##### Electrum
@@ -61,8 +61,8 @@ Alternatively, you can use Tails, which you might already have used when [settin
 
 ##### Caravan
 
-3. Turn on Wi-Fi inside Tails, and visit:  https://unchained-capital.github.io/caravan/
-4. Turn off Wi-Fi
+3. Turn on WiFi inside Tails, and visit:  https://unchained-capital.github.io/caravan/
+4. Turn off WiFi
 5. Click "WALLET"
 6. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
 6. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpubs [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
