@@ -38,11 +38,35 @@ We can improve this by using an offline/dedicated machine, where we install only
 While this will help protect you against malware on your computer, you are still at risk from an [Evil maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack) with physical access to your computer (or paper printout).
 Such an "evil maid" could tamper with this software/printout to instead show bitcoin addresses that they control, and trick you into receiving a deposit on their address.
 
-#### Option A: Dedicated Machine
-TODO: add instructions for inputting extended public keys & paths (no private keys/seeds) running Electrum, Sparrow, Caravan, or some CLI script.
+#### Option A: Offline/Dedicated Machine
+You will set up the multisig in the software wallet of your choice  by importing the extended public keys for all N seeds from your quorum.
 
-It is recommended to use an eternally quarantined machine, meaning that it is never again connected to the internet and not used for any other purpose.
-That way, the attack surface is reduced and you are not at risk of malware on an ongoing basis.
+It is recommended to use an eternally quarantined machine, meaning that it is never again connected to the internet and not used for any other purpose. That way, the attack surface is reduced and you are not at risk of malware on an ongoing basis. 
+
+Alternatively, you can use Tails, which you might already have used when [setting up your Paper Wallet](https://btcguide.github.io/setup-wallets/paper-advanced).
+
+1. [Verify](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) that all the Zpubs/xpubs match on both the Cobo and the Coldcard
+2. Reboot and run Tails
+
+##### Electrum
+
+3. Open Electrum, create a new Multi-signature wallet
+4. Move the sliders to use "From 3 cosigners", "Require 2 signatures"
+5. Add cosigner 1, by Entering cosigner "key". Do not enter any "seed"
+6. Type in the first Zpub that is [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard. Click Next
+7. Repeat for cosigners 2 and 3
+8. You can skip setting a password, since this wallet will be deleted when Tails shuts down anyway
+9. The wallet is now created. Go to the Addresses tab to verify the addresses. If you cannot see the Addresses tab, use the menu item for View -> Show Addresses
+
+
+##### Caravan
+
+3. Turn on Wi-Fi inside Tails, and visit:  https://unchained-capital.github.io/caravan/
+4. Turn off Wi-Fi
+5. Click "WALLET"
+6. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
+6. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpubs [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
+7. Allow Caravan some time to generate the wallet, and then use the Addresses tab to verify
 
 #### Option B: Print the Addresses to Paper
 One benefit of this is that you could get by without a dedicated machine, and the other is that paper is easier for most people to secure vs a computer.
