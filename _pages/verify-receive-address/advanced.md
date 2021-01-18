@@ -49,22 +49,22 @@ Alternatively, you can use Tails, which you might already have used when [settin
 
 ##### Electrum
 
-2. In Specter, click on your `Wallet Name -> Settings -> Export -> Export to Wallet software -> Download Electrum (watch-only) File`
-3. Save this file to USB stick or SD card. Something that you can access from Tails.
-4. Reboot and run Tails
-5. Open Electrum, on the first window, click "Choose" and find the wallet file that you exported above in step 2
-6. The wallet should open. Go to the Addresses tab to verify the addresses match the addresses shown on the hardware wallets. If you cannot see the Addresses tab, use the menu item for View -> Show Addresses
+1. In Specter, click on your `Wallet Name -> Settings -> Export -> Export to Wallet software -> Download Electrum (watch-only) File`
+1. Save this file to USB stick or SD card. Something that you can access from Tails.
+1. Reboot and run Tails
+1. Open Electrum, on the first window, click "Choose" and find the wallet file that you exported above in step 2
+1. The wallet should open. Go to the Addresses tab to verify the addresses match the addresses shown on the hardware wallets. If you cannot see the Addresses tab, use the menu item for View -> Show Addresses
 
 
 ##### Caravan
 
-2. Reboot and run Tails
-3. Turn on WiFi inside Tails, and visit:  https://unchained-capital.github.io/caravan/
-4. Turn off WiFi
-5. Click "WALLET"
-6. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
-6. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpub keys [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
-7. Allow Caravan some time to generate the wallet, and then use the Addresses tab to verify the addresses match the addresses shown on the hardware wallets
+1. Reboot and run Tails
+1. Turn on WiFi inside Tails, and visit:  <https://unchained-capital.github.io/caravan/>
+1. Turn off WiFi
+1. Click "WALLET"
+1. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
+1. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpub keys [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
+1. Allow Caravan some time to generate the wallet, and then use the Addresses tab to verify the addresses match the addresses shown on the hardware wallets
 
 #### Option B: Print the Addresses to Paper
 One benefit of this is that you could get by without a dedicated machine, and the other is that paper is easier for most people to secure vs a computer.
