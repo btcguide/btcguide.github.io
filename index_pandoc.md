@@ -30,13 +30,15 @@ This guide is currently a work in progress. While the ultimate goal is for the p
 
 ![why-multisig-advanced file](/_pages/why-multisig-advanced.md){.markdownskip_34}
 
-![quorum file](/_pages/quorum.md){.markdown2}
+![quorum file](/_pages/quorum.md){.markdown}
 
 ## Pick Quorum Advanced
 
-![quorum-advanced file](/_pages/quorum-advanced.md){.markdownskip_23}
+![quorum-advanced file](/_pages/quorum-advanced.md){.markdownskip_34}
 
-![equipment file](/_pages/equipment.md){.markdown2_23}
+![equipment file](/_pages/equipment.md){.markdown}
+
+## Equipment Advanced
 
 ![equipment-advanced file](/_pages/equipment-advanced.md){.markdownskip_23}
 
