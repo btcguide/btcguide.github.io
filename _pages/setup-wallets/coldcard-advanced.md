@@ -22,18 +22,7 @@ Note that the whole benefit of this option (vs the previous one) is that you act
 ## Improve Coldcard Airgap
 
 #### Power Source
-Instead of connecting the Coldcard to your laptop for power:
-
-* Use a portable battery pack (best)
-* Use a wall outlet
-* Use a [charge-only (no-data) USB cable](https://www.amazon.com/PortaPow-Specialised-3-3ft-20AWG-Charge/dp/B00RQ5AZ6Q)
-* Use a [USB condom](https://www.amazon.com/PortaPow-3rd-Gen-Data-Blocker/dp/B00QRRZ2QM) on a regular USB cable
-
-#### Use A Dedicated Device for Address Exploration
-[Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
-In order to verify a receive address on a coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via USB port.
-
-For more mitigations see [Coldcard Advanced Address Verification](/verify-receive-address/coldcard-advanced).
+If the only available power source is a computer or a [possibly compromised charging port](https://en.wikipedia.org/wiki/Juice_jacking), using a [charge-only (no-data) USB cable](https://www.amazon.com/PortaPow-Specialised-3-3ft-20AWG-Charge/dp/B00RQ5AZ6Q) or a [USB condom](https://www.amazon.com/PortaPow-3rd-Gen-Data-Blocker/dp/B00QRRZ2QM) on a regular USB cable can help mitigate the risk of weakening the airgap.
 
 #### SD Card Interactivity
 Each time an SD card is taken from your computer to your Coldcard it can theoretically introduce malware onto the Coldcard (a failure where the malware is said to have "jumped your airgap").
