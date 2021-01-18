@@ -38,11 +38,33 @@ We can improve this by using an offline/dedicated machine, where we install only
 While this will help protect you against malware on your computer, you are still at risk from an [Evil maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack) with physical access to your computer (or paper printout).
 Such an "evil maid" could tamper with this software/printout to instead show bitcoin addresses that they control, and trick you into receiving a deposit on their address.
 
-#### Option A: Dedicated Machine
-TODO: add instructions for inputting extended public keys & paths (no private keys/seeds) running Electrum, Sparrow, Caravan, or some CLI script.
+#### Option A: Offline/Dedicated Machine
+You will set up the multisig in the software wallet of your choice  by importing the extended public keys for all N seeds from your quorum.
 
-It is recommended to use an eternally quarantined machine, meaning that it is never again connected to the internet and not used for any other purpose.
-That way, the attack surface is reduced and you are not at risk of malware on an ongoing basis.
+It is recommended to use an eternally quarantined machine, meaning that it is never again connected to the internet and not used for any other purpose. That way, the attack surface is reduced and you are not at risk of malware on an ongoing basis. 
+
+Alternatively, you can use Tails, which you might already have used when [setting up your Paper Wallet](https://btcguide.github.io/setup-wallets/paper-advanced).
+
+1. [Verify](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) that all the Zpub/xpub keys match on both the Cobo and the Coldcard
+
+##### Electrum
+
+2. In Specter, click on your `Wallet Name -> Settings -> Export -> Export to Wallet software -> Download Electrum (watch-only) File`
+3. Save this file to USB stick or SD card. Something that you can access from Tails.
+4. Reboot and run Tails
+5. Open Electrum, on the first window, click "Choose" and find the wallet file that you exported above in step 2
+6. The wallet should open. Go to the Addresses tab to verify the addresses match the addresses shown on the hardware wallets. If you cannot see the Addresses tab, use the menu item for View -> Show Addresses
+
+
+##### Caravan
+
+2. Reboot and run Tails
+3. Turn on WiFi inside Tails, and visit:  https://unchained-capital.github.io/caravan/
+4. Turn off WiFi
+5. Click "WALLET"
+6. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
+6. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpub keys [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
+7. Allow Caravan some time to generate the wallet, and then use the Addresses tab to verify the addresses match the addresses shown on the hardware wallets
 
 #### Option B: Print the Addresses to Paper
 One benefit of this is that you could get by without a dedicated machine, and the other is that paper is easier for most people to secure vs a computer.
