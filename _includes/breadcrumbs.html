@@ -4,45 +4,48 @@
 {% endcomment %}
 
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-<a href="/">Home</a>
-{% for crumb in crumbs offset: 1 %}
-  {% if forloop.last %}
-    {% if crumb == "advanced" %}
-      &lt;&lt;
-      Advanced
-    {% elsif crumb contains "-advanced" %}
-      &lt;&lt;
-      <a href="{{ crumb | split: "-advanced" | first }}">
-	{% assign words = crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' | split: ' ' %}
-	{% for word in words %}
-	  {{ word | capitalize }}
-	{% endfor %}
-      </a>
-      &lt;&lt;
-      Advanced
-    {% else %}
-      &lt;&lt;
-      {{ page.title }}
-    {% endif %}
-  {% else %}
-    &lt;&lt;
-    {% if crumb == "known-issues" %}
-      Known Issues
-    {% elsif crumb == "hosted" %}
-      Hosted
-    {% elsif crumb == "hardware" %}
-      Hardware
-    {% elsif crumb == "software" %}
-      Software
-    {% elsif crumb == "protocols" %}
-      Protocols
-    {% else %}
-      <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
-	{% assign words = crumb | replace:'-',' ' | remove:'.html' | split: ' ' %}
-	{% for word in words %}
-	  {{ word | capitalize }}
-	{% endfor %}
-      </a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    {% for crumb in crumbs offset: 1 %}
+      {% if forloop.last %}
+        {% if crumb == "advanced" %}
+          <li class="breadcrumb-item active" aria-current="page">Advanced Considerations</li>
+        {% elsif crumb contains "-advanced" %}
+          <li class="breadcrumb-item">
+            <a href="{{ crumb | split: "-advanced" | first }}">
+              {% assign words = crumb | split: "-advanced" | first | replace:'-',' ' | remove:'.html' | split: ' ' %}
+              {% for word in words %}
+                {{ word | capitalize }}
+              {% endfor %}
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Advanced Considerations</li>
+        {% else %}
+          <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        {% endif %}
+      {% else %}
+        {% if crumb == "known-issues" %}
+          <li class="breadcrumb-item active" aria-current="page">Known Issues</li>
+        {% elsif crumb == "hosted" %}
+          <li class="breadcrumb-item active" aria-current="page">Hosted</li>
+        {% elsif crumb == "hardware" %}
+          <li class="breadcrumb-item active" aria-current="page">Hardware</li>
+        {% elsif crumb == "software" %}
+          <li class="breadcrumb-item active" aria-current="page">Software</li>
+        {% elsif crumb == "protocols" %}
+          <li class="breadcrumb-item active" aria-current="page">Protocols</li>
+        {% else %}
+          <li class="breadcrumb-item">
+            <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
+              {% assign words = crumb | replace:'-',' ' | remove:'.html' | split: ' ' %}
+              {% for word in words %}
+                {{ word | capitalize }}
+              {% endfor %}
+            </a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ol>
+</nav>

@@ -1,5 +1,7 @@
 AML
 Analytics
+Andreas
+Antonopolous
 AWG
 Altcoin
 BIP
