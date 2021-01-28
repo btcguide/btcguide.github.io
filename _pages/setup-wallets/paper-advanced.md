@@ -53,7 +53,7 @@ You can read more about this [here](https://wiki.archlinux.org/index.php/Securel
 - shutdown the Raspberry Pi
 - disconnect any prevailing physical ethernet-cable 
 
-then restart the Raspberry Pi with **the other** prepared Rasperry Pi OS system
+then restart the Raspberry Pi with **the other** prepared Raspberry Pi OS system
 - don't connect to WiFi!
 - disable network-adapters:
     - add two lines to the file /boot/config.txt (terminal: sudo nano /boot/config.txt):
