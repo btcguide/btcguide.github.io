@@ -38,6 +38,45 @@ You can further enhance this with two (optional) steps:
 Note that these do not work perfectly on Flash memory (SSD drives), so the previous technique is preferred.
 You can read more about this [here](https://wiki.archlinux.org/index.php/Securely_wipe_disk) and [here](https://www.howtogeek.com/234683/why-you-cant-securely-delete-a-file-and-what-to-do-instead/).
 
+##### Using a Raspberry Pi without internet connection and the "human-rng-golang"-tool
+- prepare two SD-cards (minimum 8 GByte) with Raspberry Pi OS (https://www.raspberrypi.org/software/)
+- boot from one, connect to the internet
+- install the Go language from https://golang.org/dl/ for the ARM architecture:
+    - download the latest version for 32-Bit-ARM architecture (**not 64-Bit!**)
+        - i.e. go1.15.7.linux-armv6l.tar.gz
+    - don't install it with `$ sudo apt install golang`; this version is too old
+    - follow the installation instructions: https://golang.org/doc/install
+- build the human-rng-golang-tool from source with the terminal as described here: https://github.com/mflaxman/human-rng-golang
+    - building the tool on Intel architecture for the Raspi OS does **not** work!
+- copy the resulting "main" file to an USB stick
+- visit https://seedpicker.net/ and save the entire website to the USB stick
+- shutdown the Raspberry Pi
+- disconnect any prevailing physical ethernet-cable 
+
+then restart the Raspberry Pi with **the other** prepared Rasperry Pi OS system
+- don't connect to WiFi!
+- disable network-adapters:
+    - add two lines to the file /boot/config.txt (terminal: sudo nano /boot/config.txt):
+        - `dtoverlay=disable-wifi`
+        - `dtoverlay=disable-bt`
+- reboot
+- load the seedpicker website from your USB stick
+- do the dry-run with 23 x "zoo"
+- copy "main" from the USB stick to the user pi's home directory
+- make it executable: `$ sudo chmod +x main`
+- do the dry-run with the tool as described here: https://github.com/mflaxman/human-rng-golang
+- go "live": hack in your seed and calculate the 24th checksum word with 
+    1. the loaded seedpicker page in the browser, and
+    1. with the human-rng-golang tool (the "main" executable)
+- compare the 24th word and the zpub
+- write down the 24th word on your backup piece of paper
+- don't forget to export the .json-file for Specter Desktop to your USB stick
+- delete browsing data in the browser's preferences
+- delete the hidden file .bash-history in the user pi's home directory
+- shutdown the Pi
+- use a tool like "shred" (command line) to fully erase the micro SD card - or destroy it physically 
+
+
 ## Verify Seed Generation
 
 #### Confirm Seed Matches Zpub
