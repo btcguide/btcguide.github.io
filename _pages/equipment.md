@@ -37,8 +37,10 @@ You do not need to use a laptop, any desktop computer can work. We find laptops 
 ## Bitcoin Core Node
 For regular users, we recommend using
 [RaspiBlitz](https://shop.fulmo.org/raspiblitz/),
-[MyNode](https://mynodebtc.com/), or
-[Nodl](https://www.nodl.it/)
+[MyNode](https://mynodebtc.com/), 
+[Nodl](https://www.nodl.it/), or
+[Umbrel](https://www.umbrel.io/)
+
 (more [here](/setup-computer/)).
 
 For advanced users, you can [run your own Bitcoin Core node](setup-computer/bitcoin-node) for more details.
