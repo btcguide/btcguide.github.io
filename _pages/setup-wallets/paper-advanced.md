@@ -60,12 +60,7 @@ Expert users only: <https://github.com/mflaxman/human-rng-golang>
 #### Improve Airgap
 
 ##### Option A: Write Data to CD/DVD instead of USB Drive
-DVDs are less able to execute malware on your computer.
-
-##### Option B: Use a QR-Code Airgap
-This is not currently documented.
-Pull requests with clarification are welcome.
-Specter-Desktop can receive this info via QR-code airgap.
+DVDs are less able to execute malware on your computer
 
 ## Improve Seed Generation
 
