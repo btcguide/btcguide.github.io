@@ -78,6 +78,15 @@ Steps:
 You never want to have to repeat this setup and paper is cheap, so consider a very large number (say 10,000 addresses).
 1. Print this file, and consider making multiple copies.
 
+To export 10,000 addresses using Electrum, run this in the console:
+
+```py
+with open("/home/amnesia/addresses.txt", "w+") as f: f.writelines("\n".join(listaddresses() + [wallet.create_new_address(False) for i in range(10000 - len(listaddresses()))]))
+```
+
+A file named `addressess.txt` will be written to the (amnesiac) home directory. This should be transferred or printed before you shut down Tails,
+as it will be deleted automatically.
+
 Now that you never need to check this computer again, you can go about using it for whatever you like and not have to worry about keeping it secure.
 Ideally, you would wipe the computer, but since it is only touching _public_ key information the only risk is a privacy leak.
 
