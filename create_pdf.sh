@@ -1,0 +1,2 @@
+#!/bin/bash
+pandoc --pdf-engine=xelatex  --template=assets/templates/eisvogel.latex  --highlight-style zenburn --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.pdf  index_pandoc.md

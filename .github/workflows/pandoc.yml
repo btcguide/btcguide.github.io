@@ -1,0 +1,82 @@
+name: Pandoc Action
+on: [push,pull_request,workflow_dispatch]
+
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Pandoc Document Converter pdf
+        uses: Ender-events/pandoc@master
+        with:
+          args: '--pdf-engine=xelatex  --template=assets/templates/eisvogel.latex  --highlight-style zenburn --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.pdf  index_pandoc.md'
+      - name: Pandoc Document Converter epub
+        uses: Ender-events/pandoc@master
+        with:
+          args: '--css assets/templates/epub.css --toc -N --lua-filter _pandoc_filter/image_link.lua  --lua-filter _pandoc_filter/add_title.lua  -o assets/btcguide.epub  index_pandoc.md'
+      - name: Install calibre
+        run: sudo apt-get update && sudo apt-get install calibre
+      - name: Convert epub to mobi
+        run: ebook-convert "assets/btcguide.epub" "assets/btcguide.mobi" --mobi-file-type new --pretty-print --mobi-keep-original-images 
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M')"
+      - name: Create tag
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            github.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/${{ steps.date.outputs.date }}",
+              sha: context.sha
+            })
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.date.outputs.date }}
+          release_name: Release ${{ steps.date.outputs.date }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset pdf
+        id: upload-release-asset-pdf
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./assets/btcguide.pdf
+          asset_name: btcguide.pdf
+          asset_content_type: application/pdf
+      - name: Upload Release Asset epub
+        id: upload-release-asset-epub
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./assets/btcguide.epub
+          asset_name: btcguide.epub
+          asset_content_type: application/epub
+      - name: Upload Release Asset mobi
+        id: upload-release-asset-mobi
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./assets/btcguide.mobi
+          asset_name: btcguide.mobi
+          asset_content_type: application/mobi

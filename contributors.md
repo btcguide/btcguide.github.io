@@ -8,12 +8,14 @@ title: Contributors
 
 #### Contributors
 * [Stephan Livera](https://twitter.com/stephanlivera)
+* [Holger Nahrstaedt](https://github.com/holgern)
 
 #### Reviewers
 * TODO: add
 
 #### Wallet Manufacturers
 Thank you to all the hardware wallet developers who have sent me sample units, fixed bug reports and responded to feature requests. In particular:
+
 * Coldcard: [Rodolfo Novak](https://twitter.com/nvk) & [Peter Gray](https://twitter.com/dochex)
 * Cobo Vault: [Lixin Liu](https://twitter.com/BitcoinLixin) & [Aaron Chen](https://github.com/aaronisme)
 * Trezor: [Pavol Rusnak](https://twitter.com/pavolrusnak)
