@@ -13,9 +13,9 @@ matrix:
      attributes:
      - title
      - alt
-    ignores:
-    - code
-    - pre
+     ignores:
+     - code
+     - pre
   - pyspelling.filters.markdown:
       markdown_extensions:
       - markdown.extensions.fenced_code:
