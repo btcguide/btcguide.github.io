@@ -19,7 +19,6 @@ Follow [these instructions](https://github.com/cryptoadvance/specter-desktop#how
 More details [here](https://github.com/cryptoadvance/specter-desktop/blob/master/DEVELOPMENT.md).
 
 #### Run Behind Tor
-TODO: add link
-
+Follow the [official instructions](https://github.com/cryptoadvance/specter-desktop/blob/master/docs/tor.md) to run Specter-Desktop over a Tor hidden service.
 
 {% include next_steps.md next_url="/setup-wallets" next_name="Setup Hardware Wallets" %}

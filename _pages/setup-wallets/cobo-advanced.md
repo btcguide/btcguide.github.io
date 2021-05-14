@@ -23,10 +23,10 @@ CertUtil: -hashfile command completed successfully.
 #### Generate your own seedphrase
 
 Using seedpicker:  
-https://support.cobo.com/hc/en-us/articles/360060645233-Construct-Your-Own-Recovery-Phrase
+<https://support.cobo.com/hc/en-us/articles/360060645233-Construct-Your-Own-Recovery-Phrase>
 
 Using dice:  
-https://support.cobo.com/hc/en-us/articles/360050478133-How-to-Use-Dice-to-Generate-Your-Recovery-Phrase
+<https://support.cobo.com/hc/en-us/articles/360050478133-How-to-Use-Dice-to-Generate-Your-Recovery-Phrase>
 
 ## Not Perfect
 No device is perfect and this one is no exception.
