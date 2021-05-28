@@ -11,7 +11,7 @@ Unless users build the firmware themselves, this is essentially the same tradeof
 Note that developers working on the project needn't be malicious for issues to occur as their computers could be hacked.
 
 #### Supply Chain Interference
-The [company][1], team, and likely the manufacturing and assembly are conducted in China. Even with the team and a co-founder's wealth of engineering experience from Google, Facebook, and IBM, the supply chain could be a point of risk.
+The [company][1], team, and likely the manufacturing and assembly are based in China. Even with the team and a co-founder's wealth of engineering experience from Google, Facebook, and IBM, the supply chain could be a point of risk.
 
 As discovered by Amazon in a [Bloomberg report][2] in 2015, there have been companies with unknown microchips added to their products alleged to be from the Chinese government. Another risk is backdoors such as [Huawei's routers][3] between 2009 - 2011, BLU Android phones [reported by Ars Technica][4] in 2016, or with [Huawei phones][5] in 2020.
 
