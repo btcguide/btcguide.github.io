@@ -9,8 +9,8 @@ You can read more about this issue [here](/known-issues/verify-receive-address).
 Having to travel to multiple geographies just to verify a single receive address (not even to spend bitcoin) can be undesirable for practical reasons.
 
 One way around this is to (partially) trust the addresses your host computer displays.
-If your host computer says address X follows the rules of your quorum (`m` signatures required from these `n` seeds your hardware wallets control), **and** your Cobo Vault agrees, you might decide it's worth the risk to consider that receive address valid.
-**If your host computer (which may be infected with malware) and your Cobo Vault were compromised, this could results in immediate loss of funds sent to this address.**
+If your host computer says address X follows the rules of your quorum (`m` signatures required from these `n` seeds your hardware wallets control), **and** your Keystone agrees, you might decide it's worth the risk to consider that receive address valid.
+**If your host computer (which may be infected with malware) and your Keystone were compromised, this could results in immediate loss of funds sent to this address.**
 
 Factors that make it less risky to consider this approach:
 
@@ -45,7 +45,7 @@ It is recommended to use an eternally quarantined machine, meaning that it is ne
 
 Alternatively, you can use Tails, which you might already have used when [setting up your Paper Wallet](https://btcguide.github.io/setup-wallets/paper-advanced).
 
-1. [Verify](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) that all the Zpub/xpub keys match on both the Cobo and the Coldcard
+1. [Verify](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) that all the Zpub/xpub keys match on both the Keystone and the Coldcard
 
 ##### Electrum
 
@@ -63,7 +63,7 @@ Alternatively, you can use Tails, which you might already have used when [settin
 1. Turn off WiFi
 1. Click "WALLET"
 1. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
-1. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpub keys [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Cobo or Coldcard
+1. On the left side of the page, select the dropdown to "Enter as text", and type in all 3 of your Zpub keys [shown](https://btcguide.github.io/setup-wallets/coordinate-multisig-advanced) on either your Keystone or Coldcard
 1. Allow Caravan some time to generate the wallet, and then use the Addresses tab to verify the addresses match the addresses shown on the hardware wallets
 
 #### Option B: Print the Addresses to Paper

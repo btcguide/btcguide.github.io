@@ -13,24 +13,22 @@ Now we'll go over how to spend some of them.
 ![](/assets/img/send-bitcoin-specter-create-skeleton.png){:width="70%" class="border_image"} 
 
 1. The transaction will now exist in an unsigned state.
-Click `Open` so you can sign it with your hardware wallets (Cobo Vault and Coldcard):  
+Click `Open` so you can sign it with your hardware wallets (Keystone and Coldcard):  
 ![](/assets/img/send-bitcoin-specter-unsigned-skeleton.png){:width="70%" class="border_image"}
 
-1. Select Cobo to sign with first (order doesn't strictly matter):  
-![](/assets/img/send-bitcoin-specter-open-skeleton-cobo.png){:width="70%" class="border_image"} 
+1. Select Keystone to sign with first (order doesn't strictly matter):  
+
 
 1. Sign via QR code (best airgap & UX):  
-![](/assets/img/send-bitcoin-specter-sign-cobo.png){:width="35%" class="border_image"}  
 
-1. On Cobo Vault: `Menu` > `Multisig Wallet` > scanner icon (in the top right) and scan the QR code that Specter-Desktop is displaying.  
-![](/assets/img/send-bitcoin-cobo-scan-icon.jpg){:width="35%" class="border_image"}
 
-1. On Cobo Vault: sign the transaction.  
-TODO: add photo  
+1. On Keystone: `Menu` > `Multisig Wallet` > scanner icon (in the top right) and scan the QR code that Specter-Desktop is displaying.  
 
-1. On Specter-Desktop: `Scan signed transaction` and hold up Cobo Vault to your computer's QR code scanner:  
-![](/assets/img/send-bitcoin-specter-cobo-scan.jpg){:width="35%" class="border_image"}
-![](/assets/img/send-bitcoin-specter-cobo-qr.jpeg){:width="35%" class="border_image"}
+1. On Keystone: sign the transaction.  
+ 
+
+1. On Specter-Desktop: `Scan signed transaction` and hold up Keystone to your computer's QR code scanner:  
+
 
 1. Select Coldcard to sign with second (order doesn't strictly matter):  
 ![](/assets/img/send-bitcoin-specter-open-skeleton-coldcard.png){:width="70%" class="border_image"}
@@ -46,8 +44,6 @@ TODO: add photo
 1. Broadcast the signed transaction:  
 ![](/assets/img/send-bitcoin-specter-broadcast.png){:width="70%" class="border_image"}
 
-
-[TODO]: fix outdated pictures.
 
 
 {% include next_steps.md next_url="/emergency-recovery" next_name="Emergency Recovery" %}

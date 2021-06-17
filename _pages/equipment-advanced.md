@@ -5,7 +5,7 @@ title: Equipment
 ## Recommended Additions
 
 #### Tweezers
-Occasionally, it can be kind of challenging to remove the SD card from the Keystone and the Coldcard. Thus, a pair of tweezers can help you. Any cheap pair of tweezers (the kind you might use to remove a splinter) will make this easy.
+Occasionally, it can be kind of challenging to remove the MicroSD card from the Keystone and the Coldcard. Thus, a pair of tweezers can help you. Any cheap pair of tweezers (the kind you might use to remove a splinter) will make this easy.
 
 #### Physical Bitcoin Seed Storage
 The best choice is to etch your seed words into metal.

@@ -8,4 +8,4 @@ Click on your multisig wallet (e.g. `Redundant Multisig`) and then the `Receive`
 ![](/assets/img/verify-receive-address-specter.png){:width="70%" class="border_image"}  
 
 
-{% include next_steps.md next_url="cobo" next_name="Verify Receive Address on Cobo" %}
+{% include next_steps.md next_url="keystone" next_name="Verify Receive Address on Keystone" %}
