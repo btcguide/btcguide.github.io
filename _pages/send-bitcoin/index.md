@@ -13,7 +13,7 @@ Now we'll go over how to spend some of them.
 ![](/assets/img/send-bitcoin-specter-create-skeleton.png){:width="70%" class="border_image"} 
 
 1. The transaction will now exist in an unsigned state.
-Click `Open` so you can sign it with your hardware wallets (Keystone and Coldcard):  
+Click `Open` so you can sign it with your hardware wallets (Keystone (formerly Cobo Vault) and Coldcard):  
 ![](/assets/img/send-bitcoin-specter-unsigned-skeleton.png){:width="70%" class="border_image"}
 
 1. Select Keystone to sign with first (order doesn't strictly matter):  

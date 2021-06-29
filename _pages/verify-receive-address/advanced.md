@@ -9,7 +9,7 @@ You can read more about this issue [here](/known-issues/verify-receive-address).
 Having to travel to multiple geographies just to verify a single receive address (not even to spend bitcoin) can be undesirable for practical reasons.
 
 One way around this is to (partially) trust the addresses your host computer displays.
-If your host computer says address X follows the rules of your quorum (`m` signatures required from these `n` seeds your hardware wallets control), **and** your Keystone agrees, you might decide it's worth the risk to consider that receive address valid.
+If your host computer says address X follows the rules of your quorum (`m` signatures required from these `n` seeds your hardware wallets control), **and** your Keystone (formerly Cobo Vault) agrees, you might decide it's worth the risk to consider that receive address valid.
 **If your host computer (which may be infected with malware) and your Keystone were compromised, this could results in immediate loss of funds sent to this address.**
 
 Factors that make it less risky to consider this approach:

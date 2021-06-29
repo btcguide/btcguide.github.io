@@ -5,7 +5,7 @@ title: Coordinate Multisig
 ## Verify M, N, and Pubkeys
 Even if you have the correct `m-of-n` (e.g. `2-of-3`), you need to be sure that the public keys used correspond to the private keys you actually control!
 
-#### Keystone
+#### Keystone (formerly Cobo Vault)
 You can verify this when [setting up your Keystone](../setup-wallets/keystone), or go to `Multisig Wallet` > `Wallet Name` > `Wallet Info` anytime:  
 ![](/assets/img/coordinate-multisig-view-policy-keystone.jpeg){:width="35%" class="border_image"}
 

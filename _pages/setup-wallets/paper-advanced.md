@@ -113,4 +113,4 @@ No setup is perfect and this one is no exception.
 Read more about known issues with SeedPicker [here](/known-issues/software/seedpicker).
 
 
-{% include next_steps.md next_url="keystone" next_name="Setup Keystone Vault" %}
+{% include next_steps.md next_url="keystone" next_name="Setup Keystone" %}

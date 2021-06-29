@@ -80,4 +80,4 @@ Your file will be automatically parsed into something like this:
 1. Your public key is now added to Specter-Desktop:  
 ![](/assets/img/setup-paper-display-pubkey.png){:class="border_image"}  
 
-{% include next_steps.md next_url="keystone" next_name="Setup Keystone Vault" %}
+{% include next_steps.md next_url="keystone" next_name="Setup Keystone" %}

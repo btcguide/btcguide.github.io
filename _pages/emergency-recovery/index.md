@@ -2,7 +2,7 @@
 title: Emergency Recovery
 ---
 
-By default, you sign your `2-of-3` transactions on your `2` hardware wallets (Keystone and Coldcard) that [you previously configured](/setup-wallets/).
+By default, you sign your `2-of-3` transactions on your `2` hardware wallets (Keystone (formerly Cobo Vault) and Coldcard) that [you previously configured](/setup-wallets/).
 If either device is damaged/destroyed, you should replace it with a new one and load the replacement device with the same seed phrase that [you previously backed up](/backup-wallet/seeds).
 This means that if seed phrase A was on your Keystone and your Keystone was destroyed in a fire, you would do the following:
 

@@ -20,7 +20,7 @@ This immediately eliminates Trezor, Ledger, and Keepkey.
 You must now be using either:
 
 * Your own software wallet (like Electrum) which is quite dangerous for non-expert users.
-* A hardware wallet like Coldcard or Keystone that has an airgap. Note that these devices are not perfect, see known issues [for Coldcard](/known-issues/hardware/coldcard) and [for Keystone](/known-issues/hardware/keystone).
+* A hardware wallet like Coldcard or Keystone (formerly Cobo Vault) that has an airgap. Note that these devices are not perfect, see known issues [for Coldcard](/known-issues/hardware/coldcard) and [for Keystone](/known-issues/hardware/keystone).
 
 For the rest of this page we'll assume you're using a hardware wallet, as few non-experts run software wallets these days.
 
