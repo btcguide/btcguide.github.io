@@ -17,19 +17,21 @@ Click `Open` so you can sign it with your hardware wallets (Keystone (formerly C
 ![](/assets/img/send-bitcoin-specter-unsigned-skeleton.png){:width="70%" class="border_image"}
 
 1. Select Keystone to sign with first (order doesn't strictly matter):  
-
-
-1. Sign via QR code (best airgap & UX):  
-
+![](/assets/img/send-bitcoin-specter-open-skeleton-keystone.png){:width="70%" class="border_image"}
+   
+1. Sign via QR code (best airgap & UX):
+![](/assets/img/send-bitcoin-specter-sign-keystone.png){:width="35%" class="border_image"}
 
 1. On Keystone: `Menu` > `Multisig Wallet` > scanner icon (in the top right) and scan the QR code that Specter-Desktop is displaying.  
+![](/assets/img/send-bitcoin-keystone-scan-icon.jpg){:width="35%" class="border_image"}
 
 1. On Keystone: sign the transaction.  
- 
-
-1. On Specter-Desktop: `Scan signed transaction` and hold up Keystone to your computer's QR code scanner:  
-
-
+![](/assets/img/send-bitcoin-keystone-scan-transaction.png){:width="35%" class="border_image"}
+   
+1. On Specter-Desktop: `Scan signed transaction` and hold up Keystone to your computer's QR code scanner:
+![](/assets/img/send-bitcoin-specter-keystone-scan.png){:width="35%" class="border_image"}
+![](/assets/img/send-bitcoin-specter-keystone-qr.png){:width="35%" class="border_image"}
+   
 1. Select Coldcard to sign with second (order doesn't strictly matter):  
 ![](/assets/img/send-bitcoin-specter-open-skeleton-coldcard.png){:width="70%" class="border_image"}
 
@@ -38,7 +40,7 @@ Click `Open` so you can sign it with your hardware wallets (Keystone (formerly C
 ![](/assets/img/send-bitcoin-coldcard-sign-usb.png){:width="35%" class="border_image"}
 
 1. On Coldcard: confirm transaction:  
-![](/assets/img/send-bitcoin-coldcard-device-confirmation.jpeg){:width="35%" class="border_image"}
+![](/assets/img/send-bitcoin-coldcard-device-confirmation.jpg){:width="35%" class="border_image"}
 (this warning has to do with the high transaction fee for this test transaction and is safe to ignore)
 
 1. Broadcast the signed transaction:  
