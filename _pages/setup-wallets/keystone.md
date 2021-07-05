@@ -1,5 +1,5 @@
 ---
-title: Setup Keystone
+title: Setup Keystone (Formerly Cobo Vault)
 ---
 
 ## Upgrade Firmware
@@ -10,7 +10,7 @@ Follow the instructions [here](https://support.keyst.one/basic-features/firmware
 ![](/assets/img/setup-keystone-download-firmware.png){:width="70%" class="border_image"}
 
 1. Copy the downloaded `.zip` file to your microSD card and insert it into your Keystone.  
-![](/assets/img/setup-keystone-insert-sd.png){:width="25%" class="border_image"}
+![](/assets/img/setup-keystone-insert-sd.png){:width="20%" class="border_image"}
 
 1. Turn on your Keystone.
 You will be prompted to update the firmware, click the button to accept the upgrade.
@@ -27,17 +27,17 @@ Follow [the instructions on Keystone's website](https://support.keyst.one/gettin
 
 ## Export Public Key Info to Computer via QR Code / Webcam
 1. On Keystone: `Menu` > `Multisig Wallet` > `•••` button in the top right > `Show/Export XPUB`.  
-![](/assets/img/setup-keystone-export-pubkey.jpeg){:width="70%" class="border_image"}
+![](/assets/img/setup-keystone-export-pubkey.jpeg){:width="85%" class="border_image"}
 
 1. On Specter-Desktop: Click `+ Add new device` > `Scan`  
-![](/assets/img/setup-keystone-specter-scan-1.png){:width="70%" class="border_image"}
-![](/assets/img/setup-keystone-specter-scan-2.png){:width="70%" class="border_image"}
+![](/assets/img/setup-keystone-specter-scan-1.jpg){:width="85%" class="border_image"}
+![](/assets/img/setup-keystone-specter-scan-2.png){:width="85%" class="border_image"}
 
 1. Hold the QR code on your Keystone up to your webcam so your computer can scan it.
 
 1. Give your device a name (i.e. `Keystone`) and hit `Continue`.
-![](/assets/img/setup-keystone-specter-scaned-1.png){:width="70%" class="border_image"}
-![](/assets/img/setup-keystone-specter-scaned-2.png){:width="70%" class="border_image"}
+![](/assets/img/setup-keystone-specter-scaned-1.png){:width="85%" class="border_image"}
+![](/assets/img/setup-keystone-specter-scaned-2.png){:width="85%" class="border_image"}
 
 _You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_
 

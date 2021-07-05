@@ -8,7 +8,7 @@ Even if you have the correct `m-of-n` (e.g. `2-of-3`), you need to be sure that 
 
 #### Keystone (formerly Cobo Vault)
 You can verify this when [setting up your Keystone](../setup-wallets/keystone), or go to `Multisig Wallet` > `Wallet Name` > `Wallet Info` anytime:  
-![](/assets/img/coordinate-multisig-view-policy-onsetup-keystone.jpeg){:width="35%" class="border_image"}
+![](/assets/img/coordinate-multisig-view-policy-onsetup-keystone.png){:width="35%" class="border_image"}
 
 #### Coldcard
 On your Coldcard, go to: `Settings` > `Multisig Wallets` > `Your Wallet Name` >  `View Details`:  
@@ -26,7 +26,7 @@ Confirm that your `Zpub...` from the [Setup Paper Wallet Step](../setup-wallets/
 
 #### Specter-Desktop:
 For safety we assume that the computer running Specter-Desktop is infected with malware, but it's still a useful sanity-check:  
-![](/assets/img/coordinate-multisig-view-policy-specter.png){:width="70%" class="border_image"}
+![](/assets/img/coordinate-multisig-view-policy-specter.png){:width="85%" class="border_image"}
 
 [TODO]: More explanation of what's being checked here (question from @janoside)
 
