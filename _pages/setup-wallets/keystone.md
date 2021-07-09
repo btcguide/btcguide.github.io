@@ -36,8 +36,8 @@ Follow [the instructions on Keystone's website](https://support.keyst.one/gettin
 1. Hold the QR code on your Keystone up to your webcam so your computer can scan it.
 
 1. Give your device a name (i.e. `Keystone`) and hit `Continue`.
-![](/assets/img/setup-keystone-specter-scaned-1.png){:width="85%" class="border_image"}
-![](/assets/img/setup-keystone-specter-scaned-2.png){:width="85%" class="border_image"}
+![](/assets/img/setup-keystone-specter-scanned-1.png){:width="85%" class="border_image"}
+![](/assets/img/setup-keystone-specter-scanned-2.png){:width="85%" class="border_image"}
 
 _You can perform these steps via SD card, but since it is harder to do and less secure you really shouldn't!_
 
