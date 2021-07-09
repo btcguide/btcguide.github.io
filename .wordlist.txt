@@ -45,6 +45,8 @@ JUNDUN
 Jameson
 KYC
 KeepKey
+Keystone
+Keystone's
 LTS
 LinkedIn
 Liu
@@ -107,6 +109,7 @@ altcoin
 altcoins
 aspell
 aws
+bace
 barcode
 bb
 bip
@@ -121,6 +124,7 @@ br
 btc
 btcguide
 casa
+cd
 certutil
 checkboxes
 cleartext
@@ -142,6 +146,7 @@ cryptoadvance
 cryptographic
 cryptographically
 da
+dcede
 disablewallet
 diy
 dmg
@@ -157,6 +162,7 @@ exe
 explainer
 faf
 faq
+fe
 filestystem
 forloop
 github
@@ -183,6 +189,7 @@ js
 json
 keepkey
 keyspace
+keystone
 li
 localhost
 lt

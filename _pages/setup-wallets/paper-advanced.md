@@ -52,7 +52,7 @@ This step is unfortunately complicated, as SeedPicker (see [basic section](./pap
 
 TODO: add instructions.
 
-![](/assets/img/setup-paper-calculate-seed.png){:width="70%" class="border_image"}
+![](/assets/img/setup-paper-calculate-seed.png){:width="85%" class="border_image"}
 
 ##### Use a Pure Command Line Interface (CLI) Script
 Expert users only: <https://github.com/mflaxman/human-rng-golang>
@@ -113,4 +113,4 @@ No setup is perfect and this one is no exception.
 Read more about known issues with SeedPicker [here](/known-issues/software/seedpicker).
 
 
-{% include next_steps.md next_url="cobo" next_name="Setup Cobo Vault" %}
+{% include next_steps.md next_url="keystone" next_name="Setup Keystone" %}

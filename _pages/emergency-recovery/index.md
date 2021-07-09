@@ -2,13 +2,13 @@
 title: Emergency Recovery
 ---
 
-By default, you sign your `2-of-3` transactions on your `2` hardware wallets (Cobo Vault and Coldcard) that [you previously configured](/setup-wallets/).
+By default, you sign your `2-of-3` transactions on your `2` hardware wallets (Keystone (formerly Cobo Vault) and Coldcard) that [you previously configured](/setup-wallets/).
 If either device is damaged/destroyed, you should replace it with a new one and load the replacement device with the same seed phrase that [you previously backed up](/backup-wallet/seeds).
-This means that if seed phrase A was on your Cobo Vault and your Cobo Vault was destroyed in a fire, you would do the following:
+This means that if seed phrase A was on your Keystone and your Keystone was destroyed in a fire, you would do the following:
 
-1. Buy a new Cobo Vault.
+1. Buy a new Keystone.
 1. Find the backup of seed phrase A that [you previously made](/backup-wallet/seeds).
-1. Load seed phrase A onto your new (replacement) Cobo Vault.
+1. Load seed phrase A onto your new (replacement) Keystone.
 1. Follow [the previous hardware wallet setup steps](/setup-wallets/) to add the new device into your multisig.
 
 ---
@@ -34,13 +34,13 @@ TODO: add screenshots.
 
 1. Download and install Electrum from [electrum.org](https://electrum.org/).
 1. Create a new multisignature wallet using the wizard, and select "2 of 3" as your quorum.
-1. Using your Specter-Desktop wallet backup file, identify your `zpub`s from the JSON file.
-1. For the first two keys (Coldcard and Cobo), import the `zpub` master public keys into the Electrum multisignature wizard as keys in the multisignature quorum, ensuring the pathway matches the one Specter-Desktop wallet used e.g. `m/48'/0'/0'/2'`.
+1. Using your Specter-Desktop wallet backup file, identify your `Zpub`s from the JSON file.
+1. For the first two keys (Coldcard and Keystone), import the `Zpub` master public keys into the Electrum multisignature wizard as keys in the multisignature quorum, ensuring the pathway matches the one Specter-Desktop wallet used e.g. `m/48'/0'/0'/2'`.
 Electrum will display these as `xpub` master keys.
 1. For the seedpicker paper wallet, select private keys, and Electrum will present a box to type in your seedpicker seed.
 Ensure you use the drop-down menu to select that this is a BIP39 seed or otherwise Electrum will not correctly recognise and recover this seed.
 Notice from this point, you should now consider this private key as 'hot' assuming your Electrum machine is online.
-1. You can generate a PSBT (Partially Signed Bitcoin Transaction) from Specter-Desktop, sign it with one of your keys (e.g. the Coldcard or Cobo), and then load that PSBT into Electrum via `Tools` > `Load from file`.
+1. You can generate a PSBT (Partially Signed Bitcoin Transaction) from Specter-Desktop, sign it with one of your keys (e.g. the Coldcard or Keystone), and then load that PSBT into Electrum via `Tools` > `Load from file`.
 If correctly imported, Electrum will then detect that this transaction has been signed by 1 of 2 required signatures, and present you the opportunity to sign it with the seedpicker paper wallet key. 
 1. You can then save this PSBT file and broadcast it via Specter-Desktop. 
 

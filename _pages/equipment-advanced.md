@@ -5,8 +5,7 @@ title: Equipment
 ## Recommended Additions
 
 #### Tweezers
-It is very hard to remove the SD card from the Cobo Vault, and can occasionally be challenging to do so from the Coldcard.
-Any cheap pair of tweezers (the kind you might use to remove a splinter) will make this easy.
+Occasionally, it can be kind of challenging to remove the MicroSD card from the Keystone (formerly Cobo Vault) and the Coldcard. Thus, a pair of tweezers can help you. Any cheap pair of tweezers (the kind you might use to remove a splinter) will make this easy.
 
 #### Physical Bitcoin Seed Storage
 The best choice is to etch your seed words into metal.

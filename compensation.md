@@ -6,7 +6,7 @@ While I do not accept any compensation from bitcoin companies in connection with
 
 * Trezor
 * Coldcard
-* Cobo Vault
+* Keystone (formerly Cobo Vault)
 * Specter DIY (parts)
 
 Note that I have written bitcoin wallet software for a number of companies in the space since 2013, though none of them are involved in the hardware wallet space.
