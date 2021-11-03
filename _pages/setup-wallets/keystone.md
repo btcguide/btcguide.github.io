@@ -3,7 +3,7 @@ title: Setup Keystone (Formerly Cobo Vault)
 ---
 
 ## Upgrade Firmware
-Follow the instructions [here](https://support.keyst.one/basic-features/firmware-upgrading) to update your firmware:
+Follow the instructions [here](https://support.keyst.one/getting-started/firmware-upgrading) to update your firmware:
 
 1. Download the latest BTC-Only firmware from Keystone:  
 [https://keyst.one/firmware](https://keyst.one/firmware)  
