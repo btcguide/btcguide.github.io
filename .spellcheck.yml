@@ -9,13 +9,13 @@ matrix:
   pipeline:
   - pyspelling.filters.url:
   - pyspelling.filters.html:
-     comments: false
-     attributes:
-     - title
-     - alt
-    ignores:
-    - code
-    - pre
+      comments: false
+      attributes:
+      - title
+      - alt
+      ignores:
+      - code
+      - pre
   - pyspelling.filters.markdown:
       markdown_extensions:
       - markdown.extensions.fenced_code:
