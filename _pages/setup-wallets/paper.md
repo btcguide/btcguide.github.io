@@ -40,29 +40,29 @@ define rifle cliff summer priority ability chimney cotton tennis crash husband t
 
 ## Calculate the 24th Word and Other Seed Data using SeedPicker
 The 24th word cannot be calculated on paper or in your head, so you will need a secure computer
-for this step. This guide recommends the open source tool `SeedPicker`, which was designed for this purpose.
+for this step. This guide recommends the open source tool `SeedPicker`, which was designed for this purpose.    
 
 #### Practice First with a Dry Run
 Let's start with a dry run. As this is just for testing, you don't have to worry about security at all.
 Use the following *insecure* seed phrase (the word `zoo` repeated 23 times):
 ```
-zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo
+zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo 
 ```
 (an unbiased monkey would not pull the same word out of a hat 23 times in a row)
 
 #### Calculate the 24th Word
 1. Visit [seedpicker.net](https://seedpicker.net)
 1. Enter the practice phrase (`zoo zoo zoo...`) and hit `Calculate!`
-1. You will see that the 24th word calculation result is `buddy`:
-![](/assets/img/setup-paper-seedpicker-example-output.png){:width="70%" class="border_image"}
+1. You will see that the 24th word calculation result is `buddy`:  
+![](/assets/img/setup-paper-seedpicker-example-output.png){:width="70%" class="border_image"}  
 
 #### Save the Output
 1. Write down the whole 24 word phrase (`zoo` repeated 23 times + `buddy` as the 24th word) *offline* on paper only.
 **Do not save this to any computer.**
-1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button.
+1. Scroll down to `Export Public Key Info To Specter Desktop` and click on the `Download` button. 
 This will download a `json` file to your computer, containing the extended public key info.
-Save the file to a DVD-R or USB drive to later share with Specter-Desktop.
-![](/assets/img/setup-paper-seedpicker-save-json.png){:width="70%" class="border_image"}
+Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
+![](/assets/img/setup-paper-seedpicker-save-json.png){:width="70%" class="border_image"}  
 
 > Note: You do not need to record the xpub, root key fingerprint, or derivation path on your paper wallet.
 
@@ -78,9 +78,9 @@ See [advanced section](paper-advanced) for more info.
 In the previous step, you saved your extended public key information (`seedpickerxp-foo.json`) to a DVD-R or USB drive.
 
 1. On Specter-Desktop: Click `+ Add new device`, enter a `Name` (like `Paper Wallet`), click `Choose files` and select your file (`seedpickerxp-foo.json`), and hit `continue`.
-Your file will be automatically parsed into something like this:
-![](/assets/img/setup-paper-specter-input.png){:class="border_image"}
-1. Your public key is now added to Specter-Desktop:
-![](/assets/img/setup-paper-display-pubkey.png){:width="70%" class="border_image"}
+Your file will be automatically parsed into something like this:  
+![](/assets/img/setup-paper-specter-input.png){:class="border_image"}  
+1. Your public key is now added to Specter-Desktop:  
+![](/assets/img/setup-paper-display-pubkey.png){:width="70%" class="border_image"}  
 
 {% include next_steps.md next_url="keystone" next_name="Setup Keystone" %}
