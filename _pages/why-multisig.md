@@ -2,8 +2,10 @@
 title: Why Multisig?
 ---
 
+
 > "Your keys, your bitcoin. Not your keys, not your bitcoin."
-> -- [Andreas Antonopolous](https://www.youtube.com/watch?v=vt-zXEsJ61U)
+-- [Andreas Antonopolous](https://www.youtube.com/watch?v=vt-zXEsJ61U)
+
 
 This is true, but managing your own keys is **really** hard.
 The math behind the bitcoin protocol is bulletproof, but being your own bank requires you to be near perfect in your execution.
@@ -21,18 +23,18 @@ Therefore, your level of caution/paranoia/effort (vs a traditional single-key sc
 **If you follow these instructions, you can suffer at least one catastrophic failure and not lose any bitcoin.**
 This could include things like:
 
-- An exploitable software/firmware bug on your hardware wallet
-- A pwned (or fake) hardware wallet
-- An unscrupulous trusted third party (lawyer/accountant/custodian/etc.) with access to a key for recovery
-- A lost/stolen hardware wallet / seed
-- An upstream supply-channel attack
-- A forgotten PIN / passphrase
-- A lost seed
-- A compromised random-number generator
-- An [evil-maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack)
-- Malware on your computer
-- A rogue bank employee snooping in your safe deposit box
-- An eager heir
+* An exploitable software/firmware bug on your hardware wallet
+* A pwned (or fake) hardware wallet
+* An unscrupulous trusted third party (lawyer/accountant/custodian/etc.) with access to a key for recovery
+* A lost/stolen hardware wallet / seed
+* An upstream supply-channel attack
+* A forgotten PIN / passphrase
+* A lost seed
+* A compromised random-number generator
+* An [evil-maid attack](https://en.wikipedia.org/wiki/Evil_maid_attack)
+* Malware on your computer
+* A rogue bank employee snooping in your safe deposit box
+* An eager heir
 
 **While this setup is far more secure than a traditional single-key signature scheme (which has little/no fault tolerance), be mindful that the wrong combination of 2+ major mistakes could be enough to lose all of your bitcoin!**
 
@@ -47,5 +49,6 @@ This guide is free, and there are no refunds.
 [There are no bailouts in Bitcoin](https://twitter.com/stephanlivera/status/1207802135791845376).
 We **highly** recommend you practice all of this first.
 See disclaimer [here](/disclaimer).
+
 
 {% include next_steps.md next_url="/how-it-works" next_name="How it Works" %}
