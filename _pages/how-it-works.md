@@ -5,9 +5,11 @@ no_advanced_link: true
 
 This guide walks you through the creation of a multisig "wallet" with a recommended 2-of-3 quorum. The below outline pertains to this recommended 2-of-3 setup. One of the wallets is a "paper wallet," and only used as a "watch only" wallet and for emergency backup.
 
-Functionally, once your multisig is set up, you will need access to 2 of the 3 wallets (the two hardware wallets) in order to spend funds through the software (here we recommend Specter Desktop) that orchestrates the multisig setup. You will not need any of the hardware wallets to _receive_ funds, as Specter keeps the extended public keys (xpubs) associated with each wallet, allowing it to generate unique receive addresses without the ability to send funds unilaterally.
+Functionally, once your multisig is set up, you will need access to 2 of the 3 wallets (the two hardware wallets) in order to spend funds through the coordination software (here we recommend Specter Desktop) that orchestrates the multisig setup. You will not need any of the hardware wallets to _receive_ funds, as Specter keeps the extended public keys (xpubs) associated with each wallet, allowing it to generate unique receive addresses without the ability to send funds unilaterally.
 
-The receive flow does not require the presence of any hardware device apart from the computer running Specter Desktop.
+The receive flow does not require the presence of any hardware device apart from the computer running Specter Desktop, and because the _private keys_ are only on the hardware device, loss or theft of the computer would only compromise the privacy of your receive addresses -- not give the ability to send your coins.
+
+Sending coins, instead, requires signing by 2 of the 3 devices in the quorum -- the two "hardware" wallets, at least so long as the paper wallet remains on paper.
 
 The spending flow works as follows. You will:
 
