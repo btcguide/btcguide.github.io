@@ -1,11 +1,14 @@
 ---
 title: Equipment
+published: true
 ---
 
 TODO: add diagram showing how all these pieces interact.
 
 This guide will assume your computer is running the free and open source [Ubuntu](https://ubuntu.com/) operating system, because it offers a good mix of security, bitcoin software compatibility, and end-user configurability.
 Advanced users should be able to get other operating systems to work, but you will be on your own to figure that out for now.
+
+If you need help setting up Ubuntu, check out K3tan's guide's [here](https://www.youtube.com/watch?v=siCQvYD6pro&list=PLCRbH-IWlcW2A_kpx2XwAMgT0rcZEZ2Cg&index=2) and [here](https://www.youtube.com/watch?v=YpRuP_X1D2s&list=PLCRbH-IWlcW2A_kpx2XwAMgT0rcZEZ2Cg&index=3).
 
 The purpose of the computer will be to run [Specter-Desktop](https://github.com/cryptoadvance/specter-desktop), which will communicate blockchain information between [Bitcoin Core](https://bitcoin.org/en/full-node) and your hardware wallets for verification and signing.
 You will need an up-to-date Bitcoin Core Full Node, which can be running on this same computer or another.
@@ -15,7 +18,7 @@ Bitcoin Core's initial block download takes a few days to sync, so we recommend 
 #### Minimum Equipment to Buy:
 
 * 1 low-end computer with webcam - see below for more information about system requirements
-* 1 [Coldcard Mark3 Hardware Wallet](https://coldcardwallet.com/) with 1 microSD card - must be <= 32 GB for `FAT` formatting, but *much* smaller is fine. (The previous Mark2 version may work, but since this is a security product it is always recommended to buy the latest version.)
+* 1 [Coldcard Mark4 Hardware Wallet](https://coldcardwallet.com/) with 1 microSD card - must be <= 32 GB for `FAT` formatting, but *much* smaller is fine. (The previous Mark2 version may work, but since this is a security product it is always recommended to buy the latest version.)
 * 1 [Keystone (formerly Cobo Vault)](https://keyst.one/) - Essential or Pro model
 * 1 DVD-R (if your computer has a DVD drive) or USB stick for installing [Ubuntu](https://ubuntu.com/)
 * 1 pen + 3 pieces of paper (or notecards) to write down your BIP39 seed phrases
@@ -44,6 +47,8 @@ For regular users, we recommend using
 (more [here](/setup-computer/)).
 
 For advanced users, you can [run your own Bitcoin Core node](setup-computer/bitcoin-node) for more details.
+
+K3tan has a video that shows you how to set up Bitcoin Core [here](https://www.youtube.com/watch?v=fx_mLXISrfM&list=PLCRbH-IWlcW2A_kpx2XwAMgT0rcZEZ2Cg&index=4)
 
 
 {% include next_steps.md next_url="/setup-computer" next_name="Configure Your Computer" %}
