@@ -19,6 +19,13 @@ Follow [the official Tails installation instructions](https://tails.boum.org/ins
 Then perform [the regular steps in the Setup Paper Wallet section](./paper) using that machine.
 Your computer will automatically wipe itself completely (including RAM) on shutdown.
 
+**Watc The Video On How to Install Tails**
+
+[![How To Install Tails On Ubuntu](https://nostr.build/i/nostr.build_9bb869c04cd908ab12e40a392cc8de370a301be94da7668833cdca81ca925acf.png)](https://youtu.be/SHUM7ie-FyI)
+
+
+
+
 If you are truly paranoid, remove the hard drive from the machine (before booting up Tails) so there is no possibility that any private key material can be written to disk.
 
 #### Option B (less secure): Wipe Your Machine
