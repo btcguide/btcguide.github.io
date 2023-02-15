@@ -10,6 +10,7 @@ Introducing the possibility of a single point of failure would mean we're now su
 That is why it is essential that you
 **turn off (and unplug) your internet access before performing these steps.**
 
+
 #### Option A (preferred): Tails Operating System
 For our one-time offline key generation, it is preferable to use a live operating system that cannot store information on the file system.
 [Tails](https://tails.boum.org/) is a live OS that is designed to wipe itself completely on shutdown.
@@ -19,7 +20,16 @@ Follow [the official Tails installation instructions](https://tails.boum.org/ins
 Then perform [the regular steps in the Setup Paper Wallet section](./paper) using that machine.
 Your computer will automatically wipe itself completely (including RAM) on shutdown.
 
+
+[Watch A Video On How to Install Tails](https://youtu.be/bew6uWb2Mr4)
+
 If you are truly paranoid, remove the hard drive from the machine (before booting up Tails) so there is no possibility that any private key material can be written to disk.
+
+
+[Watch A Video On How To Remove The Hard Drive and Wi-Fi Card](https://youtu.be/AQuSs2LdARo)
+
+
+
 
 #### Option B (less secure): Wipe Your Machine
 While [Tails](https://tails.boum.org/) is preferred for self-destruction, you can get a similar effect by wiping the hard drive after generating your seed.
