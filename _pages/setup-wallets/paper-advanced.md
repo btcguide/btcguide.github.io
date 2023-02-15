@@ -21,16 +21,15 @@ Then perform [the regular steps in the Setup Paper Wallet section](./paper) usin
 Your computer will automatically wipe itself completely (including RAM) on shutdown.
 
 
+[Watch A Video On How to Install Tails](https://youtu.be/bew6uWb2Mr4)
+
 If you are truly paranoid, remove the hard drive from the machine (before booting up Tails) so there is no possibility that any private key material can be written to disk.
 
 
-**Watch A Video On How To Remove The Hard Drive and Wifi Card**
+[Watch A Video On How To Remove The Hard Drive and Wi-Fi Card](https://youtu.be/AQuSs2LdARo)
 
-[![AirGapComp](https://nostr.build/i/nostr.build_228a690dc06893b18976af8242284169329274d544ff0e1d22ea79015b338ee0.png)](https://youtu.be/AQuSs2LdARo)
 
-**Watch The Video On How to Install Tails**
 
-[![How To Install Tails On Ubuntu](https://nostr.build/i/nostr.build_808c533300812b8a970e3e47aeb42eaee1095f58447dd055c91d5cbe224d99f4.png)](https://youtu.be/bew6uWb2Mr4)
 
 #### Option B (less secure): Wipe Your Machine
 While [Tails](https://tails.boum.org/) is preferred for self-destruction, you can get a similar effect by wiping the hard drive after generating your seed.
