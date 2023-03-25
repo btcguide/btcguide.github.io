@@ -22,7 +22,7 @@ your selected address is included in that file, and you are confident that the f
 1. **When performing a `3-of-5` multisig transaction where you verified the address on 2 trusted devices in the quorum**
 but not the full 3 required.
 1. **When your hardware wallets you use to verify the address previously saved/registered the public keys info from the rest of your seeds**,
-so that tampering with any seed would be caught by this wallet. TODO: add more on this.
+so that tampering with any seed would be caught by this wallet. This is safe because the address shown on screen comes from a multisig wallet policy that contains n xpubs you already verified belong to all n of your other devices. Therefore you know that any m of your n seeds will be able to spend from that address.
 
 You might consider it safe to send to an address that you've previously received funds on and been able to spend, but this has two serious issues:
 
