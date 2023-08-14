@@ -2,10 +2,9 @@
 title: Hardware Wallet Vendors
 ---
 
-Unfortunately, there are few hardware wallets with good multisig capabilities.
+While more and more hardware wallets are suppoorting BIP174 {% include hw/psbt.md %} everyday, unfortunately only a few of them support it well.
 
-Currently, only 2 hardware wallets (Coldcard & Keystone (formerly Cobo Vault) even offer BIP174 support.
-{% include hw/psbt.md %}
+Currently, there are only a handful such as the COLDCARD Mk4, Keystone (formerly Cobo Vault), BitBox02, Foundation Passpoort, [Blockstream Jade](https://www.athena-alpha.com/blockstream-jade-review/) and Trezor. For an up to date list of harware wallets that support PSBT and thus, Multisig, you can click on the "Multisig" filter on this list of [Hardware Wallets](https://www.athena-alpha.com/hardware-wallets/)
 
 Large transactions can also be [slower to sign](https://blog.keys.casa/bitcoin-multisig-hardware-signing-performance/).
 
