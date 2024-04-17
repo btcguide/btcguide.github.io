@@ -59,7 +59,7 @@ Alternatively, you can use Tails, which you might already have used when [settin
 ##### Caravan
 
 1. Reboot and run Tails
-1. Turn on WiFi inside Tails, and visit:  <https://unchained-capital.github.io/caravan/>
+1. Turn on WiFi inside Tails, and visit:  <https://www.caravanmultisig.com>
 1. Turn off WiFi
 1. Click "WALLET"
 1. On the right side of the page, set 2 of 3 quorum, and set P2WSH address type
