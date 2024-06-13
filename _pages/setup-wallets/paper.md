@@ -6,6 +6,8 @@ For a video demo, check out [this example on Bitcoin Magazine](https://www.pscp.
 
 By using a paper wallet generated in software, we eliminate the need to buy a third hardware wallet (you may later have to buy a hardware wallet if you need to use this key for emergency recovery).
 
+This paper wallet is _watch only_ by default. In the following-instructions, you will generate a full 24-word seed phrase, but only share the extended public key ("xpub") with Specter, reserving the seed phrase alone on paper. This means that in order to sign a transaction in your 2-of-3 quorum, you will need to use the two other devices. It also means that if one of those wallets becomes lost or damaged, you can use your "paper wallet" to set up a hardware wallet that can be used to sign transactions in its stead.
+
 **Warning: this is the highest risk step in our multisig setup**.
 **Follow the instructions closely, and seriously consider hardening your security** by using techniques described in [the advanced section](paper-advanced).
 
@@ -62,6 +64,7 @@ This will download a `json` file to your computer, containing the extended publi
 Save the file to a DVD-R or USB drive to later share with Specter-Desktop.  
 ![](/assets/img/setup-paper-seedpicker-save-json.png){:width="70%" class="border_image"}  
 
+> Note: You do not need to record the xpub, root key fingerprint, or derivation path on your paper wallet.
 
 #### Do it Live
 **Quit all applications, remove any removable media, and turn off your internet access before continuing.**
